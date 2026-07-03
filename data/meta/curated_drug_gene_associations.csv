@@ -1,0 +1,156 @@
+drug,gene,direction,mechanism,category,in_paccmann,evidence_level,source
+Afatinib,EGFR,sensitive,target_overexpression,target,yes,"Phase III",Sequist et al. JCO 2013
+Afatinib,ERBB2,sensitive,target_amplification,target,yes,"Phase III",Solca et al. JPET 2012
+Afatinib,ERBB3,sensitive,pathway_activation,pathway,no,"Preclinical",Janjigian et al. Cancer Discov 2013
+Erlotinib,EGFR,sensitive,target_overexpression,target,yes,"Phase III",Shepherd et al. NEJM 2005
+Gefitinib,EGFR,sensitive,target_overexpression,target,yes,"Phase III",Mok et al. NEJM 2009
+Lapatinib,ERBB2,sensitive,target_amplification,target,yes,"Phase III",Geyer et al. NEJM 2006
+Lapatinib,EGFR,sensitive,target_overexpression,target,yes,"Phase III",Geyer et al. NEJM 2006
+CP724714,ERBB2,sensitive,target_amplification,target,yes,"Preclinical",Jani et al. Cancer Res 2007
+AST-1306,EGFR,sensitive,target_overexpression,target,yes,"Preclinical",Song et al. Cancer Sci 2013
+Tamoxifen,ESR1,sensitive,target_overexpression,target,yes,"Phase III",EBCTCG Lancet 2011
+Fulvestrant,ESR1,sensitive,target_degradation,target,yes,"Phase III",Robertson et al. Cancer Res 2001
+I-BET-762,BRD4,sensitive,target_inhibition,target,yes,"Preclinical",Nicodeme et al. Nature 2010
+Venetoclax,BCL2,sensitive,target_dependence,target,yes,"Phase III",Roberts et al. NEJM 2016
+Navitoclax,BCL2,sensitive,target_dependence,target,yes,"Phase II",Tse et al. Cancer Res 2008
+Navitoclax,BCL2L1,sensitive,target_dependence,target,no,"Phase II",Tse et al. Cancer Res 2008
+AZD4547,FGFR1,sensitive,target_amplification,target,yes,"Phase II",Paik et al. Clin Cancer Res 2017
+AZD4547,FGFR2,sensitive,target_amplification,target,yes,"Phase II",Paik et al. Clin Cancer Res 2017
+AZD4547,FGFR3,sensitive,target_overexpression,target,yes,"Phase II",Paik et al. Clin Cancer Res 2017
+Crizotinib,ALK,sensitive,target_rearrangement,target,yes,"Phase III",Shaw et al. NEJM 2013
+Crizotinib,MET,sensitive,target_amplification,target,yes,"Phase II",Drilon et al. NEJM 2020
+Crizotinib,ROS1,sensitive,target_rearrangement,target,yes,"Phase II",Shaw et al. NEJM 2014
+Alectinib,ALK,sensitive,target_rearrangement,target,yes,"Phase III",Peters et al. NEJM 2017
+Ceritinib,ALK,sensitive,target_rearrangement,target,yes,"Phase III",Soria et al. Lancet 2017
+Imatinib,ABL1,sensitive,target_fusion,target,yes,"Phase III",Druker et al. NEJM 2006
+Imatinib,KIT,sensitive,target_overexpression,target,yes,"Phase III",Demetri et al. NEJM 2002
+Imatinib,PDGFRA,sensitive,target_overexpression,target,yes,"Phase II",Heinrich et al. JCO 2003
+Dasatinib,ABL1,sensitive,target_fusion,target,yes,"Phase III",Kantarjian et al. NEJM 2010
+Dasatinib,SRC,sensitive,target_inhibition,target,yes,"Preclinical",Montero et al. Clin Cancer Res 2011
+Bosutinib,ABL1,sensitive,target_fusion,target,yes,"Phase III",Cortes et al. Blood 2012
+Nilotinib,ABL1,sensitive,target_fusion,target,yes,"Phase III",Saglio et al. NEJM 2010
+Sorafenib,RAF1,sensitive,target_inhibition,target,no,"Phase III",Llovet et al. NEJM 2008
+Sorafenib,KDR,sensitive,target_inhibition,target,yes,"Phase III",Llovet et al. NEJM 2008
+AZ628,BRAF,sensitive,target_inhibition,target,yes,"Preclinical",Hatzivassiliou et al. Nature 2010
+Dabrafenib,BRAF,sensitive,target_inhibition,target,yes,"Phase III",Hauschild et al. Lancet 2012
+SB590885,BRAF,sensitive,target_inhibition,target,yes,"Preclinical",King et al. Cancer Res 2006
+PLX-4720,BRAF,sensitive,target_inhibition,target,yes,"Preclinical",Tsai et al. PNAS 2008
+Trametinib,MAP2K1,sensitive,target_inhibition,target,yes,"Phase III",Flaherty et al. NEJM 2012
+Trametinib,MAP2K2,sensitive,target_inhibition,target,yes,"Phase III",Flaherty et al. NEJM 2012
+CI-1040,MAP2K1,sensitive,target_inhibition,target,yes,"Phase II",Rinehart et al. JCO 2004
+PD0325901,MAP2K1,sensitive,target_inhibition,target,yes,"Preclinical",Barrett et al. Mol Cancer Ther 2008
+Selumetinib,MAP2K1,sensitive,target_inhibition,target,yes,"Phase III",Dombi et al. NEJM 2016
+AZD8055,MTOR,sensitive,target_inhibition,target,yes,"Preclinical",Chresta et al. Cancer Res 2010
+AZD2014,MTOR,sensitive,target_inhibition,target,yes,"Phase I",Basu et al. JCO 2015
+Rapamycin,MTOR,sensitive,target_inhibition,target,yes,"Phase III",Motzer et al. Lancet 2008
+Temsirolimus,MTOR,sensitive,target_inhibition,target,yes,"Phase III",Hudes et al. NEJM 2007
+Pictilisib,PIK3CA,sensitive,target_inhibition,target,yes,"Phase II",Krop et al. Clin Cancer Res 2017
+Alpelisib,PIK3CA,sensitive,target_inhibition,target,yes,"Phase III",Andre et al. NEJM 2019
+Taselisib,PIK3CA,sensitive,target_inhibition,target,yes,"Phase III",Baselga et al. Ann Oncol 2018
+AZD8186,PIK3CB,sensitive,target_inhibition,target,yes,"Preclinical",Hancox et al. Mol Cancer Ther 2015
+AZD8835,PIK3CA,sensitive,target_inhibition,target,yes,"Preclinical",Hudson et al. Mol Cancer Ther 2016
+Olaparib,PARP1,sensitive,synthetic_lethality,target,yes,"Phase III",Moore et al. NEJM 2018
+Talazoparib,PARP1,sensitive,synthetic_lethality,target,yes,"Phase III",Litton et al. NEJM 2018
+Rucaparib,PARP1,sensitive,synthetic_lethality,target,yes,"Phase III",Coleman et al. Lancet 2017
+MK-2206,AKT1,sensitive,target_inhibition,target,yes,"Phase II",Ahn et al. Clin Cancer Res 2015
+MK-2206,AKT2,sensitive,target_inhibition,target,yes,"Phase II",Ahn et al. Clin Cancer Res 2015
+A-443654,AKT1,sensitive,target_inhibition,target,yes,"Preclinical",Luo et al. Mol Cancer Ther 2005
+Bortezomib,PSMB5,sensitive,target_inhibition,target,yes,"Phase III",Richardson et al. NEJM 2005
+Idelalisib,PIK3CD,sensitive,target_inhibition,target,yes,"Phase III",Furman et al. NEJM 2014
+Ibrutinib,BTK,sensitive,target_inhibition,target,no,"Phase III",Byrd et al. NEJM 2014
+Axitinib,KDR,sensitive,target_inhibition,target,yes,"Phase III",Rini et al. Lancet 2011
+Sunitinib,KDR,sensitive,target_inhibition,target,yes,"Phase III",Motzer et al. NEJM 2007
+Sunitinib,KIT,sensitive,target_overexpression,target,yes,"Phase III",Demetri et al. Lancet 2006
+Pazopanib,KDR,sensitive,target_inhibition,target,yes,"Phase III",Sternberg et al. JCO 2010
+Cabozantinib,MET,sensitive,target_inhibition,target,yes,"Phase III",Choueiri et al. NEJM 2019
+Savolitinib,MET,sensitive,target_inhibition,target,yes,"Phase II",Lu et al. Lancet Respir Med 2021
+Savolitinib,MET,sensitive,target_amplification,target,yes,"Phase II",Lu et al. Lancet Respir Med 2021
+Doxorubicin,TOP2A,sensitive,target_poisoning,target,yes,"Established",Tewey et al. Science 1984
+Etoposide,TOP2A,sensitive,target_poisoning,target,yes,"Established",Hande Eur J Cancer 1998
+Camptothecin,TOP1,sensitive,target_poisoning,target,yes,"Established",Hsiang et al. JBC 1985
+SN-38,TOP1,sensitive,target_poisoning,target,yes,"Established",Kawato et al. Cancer Res 1991
+Topotecan,TOP1,sensitive,target_poisoning,target,yes,"Phase III",von Pawel et al. JCO 1999
+Alisertib,AURKA,sensitive,target_overexpression,target,yes,"Phase II",Melichar et al. Cancer Res 2015
+BI-2536,PLK1,sensitive,target_overexpression,target,yes,"Phase II",Mross et al. JCO 2008
+Nutlin-3a(-),MDM2,sensitive,target_inhibition,target,yes,"Preclinical",Vassilev et al. Science 2004
+Nutlin-3a(-),TP53,sensitive,wildtype_required,biomarker,no,"Preclinical",Vassilev et al. Science 2004
+Vorinostat,HDAC1,sensitive,target_inhibition,target,yes,"Phase III",Duvic et al. Blood 2007
+Panobinostat,HDAC1,sensitive,target_inhibition,target,yes,"Phase III",San-Miguel et al. Lancet Oncol 2014
+Belinostat,HDAC1,sensitive,target_inhibition,target,yes,"Phase II",Foss et al. JCO 2015
+Tanespimycin,HSP90AA1,sensitive,target_inhibition,target,yes,"Phase II",Modi et al. Clin Cancer Res 2011
+Luminespib,HSP90AA1,sensitive,target_inhibition,target,yes,"Phase II",Do et al. JCO 2015
+WZ-1-84,BMX,sensitive,target_inhibition,target,no,"Preclinical",Zhao et al. Clin Cancer Res 2014
+THZ-2-49,CDK7,sensitive,target_inhibition,target,yes,"Preclinical",Kwiatkowski et al. Nature 2014
+AT-7519,CDK2,sensitive,target_inhibition,target,yes,"Phase II",Chen et al. Invest New Drugs 2014
+CGP-60474,CDK1,sensitive,target_inhibition,target,yes,"Preclinical",Legraverend et al. Bioorg Med Chem 2000
+Palbociclib,CDK4,sensitive,target_inhibition,target,yes,"Phase III",Finn et al. NEJM 2016
+Palbociclib,CDK6,sensitive,target_inhibition,target,yes,"Phase III",Finn et al. NEJM 2016
+Ribociclib,CDK4,sensitive,target_inhibition,target,yes,"Phase III",Hortobagyi et al. NEJM 2016
+Ribociclib,CDK6,sensitive,target_inhibition,target,yes,"Phase III",Hortobagyi et al. NEJM 2016
+Dinaciclib,CDK1,sensitive,target_inhibition,target,yes,"Phase II",Mita et al. Lancet Oncol 2014
+Dinaciclib,CDK2,sensitive,target_inhibition,target,yes,"Phase II",Mita et al. Lancet Oncol 2014
+AZD7762,CHEK1,sensitive,target_inhibition,target,yes,"Preclinical",Zabludoff et al. Mol Cancer Ther 2008
+MK-8776,CHEK1,sensitive,target_inhibition,target,yes,"Phase I",Daud et al. JCO 2015
+Wee1 Inhibitor,WEE1,sensitive,target_inhibition,target,yes,"Phase II",Leijen et al. Lancet Oncol 2016
+BX-795,TBK1,sensitive,target_inhibition,target,yes,"Preclinical",Clark et al. JBC 2009
+JQ1,BRD4,sensitive,target_inhibition,target,yes,"Preclinical",Filippakopoulos et al. Nature 2010
+OTX015,BRD4,sensitive,target_inhibition,target,yes,"Phase I",Amorim et al. Int J Cancer 2016
+CHIR-99021,GSK3B,sensitive,target_inhibition,target,yes,"Preclinical",Ring et al. Diabetes 2003
+Gemcitabine,RRM1,resistant,target_overexpression,target,no,"Phase III",Bepler et al. JCO 2006
+Gemcitabine,RRM2,resistant,target_overexpression,target,no,"Preclinical",Jordheim et al. Clin Cancer Res 2011
+Paclitaxel,TUBB3,resistant,target_alteration,target,no,"Meta-analysis",Karimi et al. Oncotarget 2017
+Docetaxel,TUBB3,resistant,target_alteration,target,no,"Meta-analysis",Karimi et al. Oncotarget 2017
+Vincristine,TUBB3,resistant,target_alteration,target,no,"Preclinical",Kavallaris Nat Rev Cancer 2010
+Venetoclax,MCL1,resistant,anti_apoptotic,resistance_biomarker,yes,"Phase III",Kotschy et al. Nature 2016
+Navitoclax,MCL1,resistant,anti_apoptotic,resistance_biomarker,yes,"Phase II",Kotschy et al. Nature 2016
+Pictilisib,PTEN,sensitive,pathway_loss,biomarker,yes,"Phase II",Juric et al. Nature 2015
+AZD8186,PTEN,sensitive,pathway_loss,biomarker,yes,"Preclinical",Hancox et al. Mol Cancer Ther 2015
+MK-2206,PTEN,sensitive,pathway_loss,biomarker,yes,"Phase II",Sangai et al. Clin Cancer Res 2012
+Olaparib,ATM,sensitive,dna_repair_deficiency,biomarker,yes,"Phase II",Mateo et al. NEJM 2015
+Talazoparib,ATM,sensitive,dna_repair_deficiency,biomarker,yes,"Phase II",de Bono et al. Lancet Oncol 2017
+Rucaparib,ATM,sensitive,dna_repair_deficiency,biomarker,yes,"Phase II",Mateo et al. NEJM 2015
+Palbociclib,CCND1,sensitive,biomarker_amplification,biomarker,yes,"Phase III",Finn et al. Breast Cancer Res 2009
+Palbociclib,CCNE1,resistant,bypass_mechanism,resistance_biomarker,yes,"Phase III",Turner et al. Ann Oncol 2019
+Gemcitabine,DCK,sensitive,drug_activation,biomarker,yes,"Phase II",Sebastiani et al. Clin Cancer Res 2006
+Docetaxel,CYP1B1,resistant,drug_metabolism,biomarker,yes,"Preclinical",Martinez et al. Cancer Res 2008
+Paclitaxel,CYP1B1,resistant,drug_metabolism,biomarker,yes,"Preclinical",McFadyen et al. Biochem Pharmacol 2001
+Trametinib,STK11,resistant,pathway_loss,resistance_biomarker,yes,"Phase II",Skoulidis et al. Cancer Discov 2015
+Selumetinib,STK11,resistant,pathway_loss,resistance_biomarker,yes,"Preclinical",Skoulidis et al. Cancer Discov 2015
+Doxorubicin,MCL1,resistant,anti_apoptotic,resistance_biomarker,yes,"Preclinical",Wei et al. Cancer Cell 2012
+Etoposide,MCL1,resistant,anti_apoptotic,resistance_biomarker,yes,"Preclinical",Wei et al. Cancer Cell 2012
+Doxorubicin,ABCB1,resistant,efflux_pump,efflux,no,"Phase III",Gottesman et al. Nat Rev Cancer 2002
+Paclitaxel,ABCB1,resistant,efflux_pump,efflux,no,"Phase III",Gottesman et al. Nat Rev Cancer 2002
+Vincristine,ABCB1,resistant,efflux_pump,efflux,no,"Phase III",Gottesman et al. Nat Rev Cancer 2002
+Etoposide,ABCB1,resistant,efflux_pump,efflux,no,"Phase III",Gottesman et al. Nat Rev Cancer 2002
+Docetaxel,ABCB1,resistant,efflux_pump,efflux,no,"Phase III",Gottesman et al. Nat Rev Cancer 2002
+Camptothecin,ABCG2,resistant,efflux_pump,efflux,no,"Phase III",Doyle et al. PNAS 1998
+SN-38,ABCG2,resistant,efflux_pump,efflux,no,"Phase III",Kawabata et al. Biochem Biophys Res Commun 2001
+Topotecan,ABCG2,resistant,efflux_pump,efflux,no,"Phase III",Maliepaard et al. Cancer Res 1999
+Doxorubicin,ABCC1,resistant,efflux_pump,efflux,no,"Phase II",Cole et al. Science 1992
+Etoposide,ABCC1,resistant,efflux_pump,efflux,no,"Phase II",Cole et al. Science 1992
+Vincristine,ABCC1,resistant,efflux_pump,efflux,no,"Phase II",Cole et al. Science 1992
+Olaparib,BRCA1,sensitive,hr_deficiency,dna_repair,no,"Phase III",Moore et al. NEJM 2018
+Olaparib,BRCA2,sensitive,hr_deficiency,dna_repair,no,"Phase III",Moore et al. NEJM 2018
+Talazoparib,BRCA1,sensitive,hr_deficiency,dna_repair,no,"Phase III",Litton et al. NEJM 2018
+Talazoparib,BRCA2,sensitive,hr_deficiency,dna_repair,no,"Phase III",Litton et al. NEJM 2018
+Rucaparib,BRCA1,sensitive,hr_deficiency,dna_repair,no,"Phase III",Coleman et al. Lancet 2017
+Rucaparib,BRCA2,sensitive,hr_deficiency,dna_repair,no,"Phase III",Coleman et al. Lancet 2017
+Cisplatin,ERCC1,resistant,nucleotide_excision_repair,dna_repair,no,"Phase III",Lord and Ashworth Nat Rev Cancer 2012
+Carboplatin,ERCC1,resistant,nucleotide_excision_repair,dna_repair,no,"Phase III",Lord and Ashworth Nat Rev Cancer 2012
+Temozolomide,MGMT,resistant,direct_repair,dna_repair,no,"Phase III",Hegi et al. NEJM 2005
+Gemcitabine,SLC29A1,sensitive,drug_uptake,transport,no,"Phase III",Spratlin et al. Clin Cancer Res 2004
+Gemcitabine,DCK,sensitive,drug_activation,drug_metabolism,yes,"Phase II",Sebastiani et al. Clin Cancer Res 2006
+5-Fluorouracil,DPYD,resistant,drug_catabolism,drug_metabolism,no,"Phase III",Diasio and Harris Clin Pharmacokinet 1989
+5-Fluorouracil,TYMS,resistant,target_overexpression,target,no,"Phase III",Longley et al. Nat Rev Cancer 2003
+SN-38,UGT1A1,resistant,drug_glucuronidation,drug_metabolism,no,"Phase III",Innocenti et al. JCO 2004
+Cisplatin,GSTP1,resistant,drug_detoxification,drug_metabolism,no,"Meta-analysis",Townsend and Tew Oncogene 2003
+Doxorubicin,SLFN11,sensitive,replication_stress,dna_repair,no,"Phase II",Zoppoli et al. PNAS 2012
+Etoposide,SLFN11,sensitive,replication_stress,dna_repair,no,"Phase II",Zoppoli et al. PNAS 2012
+Camptothecin,SLFN11,sensitive,replication_stress,dna_repair,no,"Phase II",Zoppoli et al. PNAS 2012
+Cisplatin,SLFN11,sensitive,replication_stress,dna_repair,no,"Phase II",Zoppoli et al. PNAS 2012
+Palbociclib,RB1,sensitive,pathway_dependence,biomarker,no,"Phase III",Finn et al. Breast Cancer Res 2009
+Palbociclib,CDKN2A,sensitive,pathway_loss,biomarker,no,"Phase III",Finn et al. Breast Cancer Res 2009
+Erlotinib,KRAS,resistant,bypass_mutation,resistance_biomarker,no,"Phase III",Pao et al. PLoS Med 2005
+Gefitinib,KRAS,resistant,bypass_mutation,resistance_biomarker,no,"Phase III",Pao et al. PLoS Med 2005
+Cetuximab,KRAS,resistant,bypass_mutation,resistance_biomarker,no,"Phase III",Karapetis et al. NEJM 2008
+Vemurafenib,NRAS,resistant,bypass_mutation,resistance_biomarker,no,"Phase III",Nazarian et al. Nature 2010

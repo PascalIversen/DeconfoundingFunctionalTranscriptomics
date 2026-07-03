@@ -1,0 +1,449 @@
+(1S,3R)-Rsl3
+16beta-Bromoandrosterone
+3-Cl-AHPC
+5-Fluorouracil
+A-804598
+ABT-737
+AGK-2
+AM-580
+AT13387
+AT7867
+AZ-3146
+AZD-7545
+AZD1480
+AZD4547
+AZD6482
+AZD7762
+AZD8055
+Aacocf3
+Afatinib
+Alisertib
+Alpelisib
+Axitinib
+Azacitidine
+B02
+BI-2536
+BIBR-1532
+BIX-01294
+BMS-195614
+BMS-270394
+BMS-345541
+BMS-536924
+BMS-754807
+BRD-A02303741-carboplatin (1-1 mol-mol)
+BRD-A02303741-navitoclax (2-1 mol-mol)
+BRD-A71883111
+BRD-A94377914
+BRD-K02251932
+BRD-K11533227
+BRD-K13999467
+BRD-K14844214
+BRD-K19103580
+BRD-K24690302
+BRD-K26531177
+BRD-K27188169-navitoclax (2-1 mol-mol)
+BRD-K28456706
+BRD-K33514849
+BRD-K34222889
+BRD-K41597374
+BRD-K42260513
+BRD-K45681478
+BRD-K50799972
+BRD-K51490254
+BRD-K52037352
+BRD-K55116708
+BRD-K55473186
+BRD-K58306044-001-01-3
+BRD-K61166597
+BRD-K66453893
+BRD-K66532283
+BRD-K71781559
+BRD-K71935468
+BRD-K80183349
+BRD-K85133207
+BRD-K92856060
+BRD-K94991378
+BRD-K97651142
+BRD-M00053801
+BRD1240
+BRD1835
+BRD3308
+BRD4132
+BRD6340
+BRD9647
+BRD9876
+Bax channel blocker
+Belinostat
+Bexarotene
+Bml-281
+Bortezomib
+Bosutinib
+CAY10594
+CAY10618
+CCT036477
+CD-1530
+CD-437
+CHEMBL4788167
+CHIR-99021
+CHM-1
+CI-976
+CIL41
+CIL55
+CIL55A
+CIL56
+CIL70
+COL-3
+CR-1-31B
+Cabozantinib
+Canertinib
+Cediranib
+Ch-55
+Compound 23 citrate
+Compound 7d-cis
+Crizotinib
+DBeQ
+Dabrafenib
+Dacarbazine
+Dactolisib
+Daporinad
+Dasatinib
+Dinaciclib
+Dnmdp
+Docetaxel
+Doramapimod
+Doxorubicin
+ELCPK
+ETP-46464
+Entinostat
+Erlotinib
+Etoposide
+FQI-1
+FQI-2
+Fedratinib
+Flavopiridol
+Foretinib
+GANT-61
+GDC-0879
+GMX-1778
+GSK-3 inhibitor IX
+GSK-J4
+GSK1059615
+GSK2636771
+GSK4112
+GSK461364
+GW-405833
+GW-843682X
+Gefitinib
+Gemcitabine
+HBX-41108
+HC-067047
+HLI 373
+HMS3654N14
+I-BET-151
+I-BET-762
+IC-87114
+ICG-001
+IPR-456
+ISOX-bortezomib (250-1 mol-mol)
+IU1
+Ibrutinib
+Idelalisib
+Imatinib
+JQ-1
+JQ-1-MK-0752 (1-1 mol-mol)
+JQ-1-UNC0638 (2-1 mol-mol)
+JQ-1-carboplatin (1-1 mol-mol)
+JQ-1-navitoclax (2-1 mol-mol)
+JQ-1-vorinostat (2-1 mol-mol)
+JQ12
+JW-480
+JW-74
+KHS101
+KPT185
+KU 0060648
+KU-0063794
+KU-55933
+KU-60019
+KW-2449
+KX2-391
+Ki8751
+Ko-143
+L-685458
+LE-135
+LRRK2-IN-1
+LY-2183240
+Lapatinib
+Linifanib
+Linsitinib
+MG-132
+MGCD-265
+MI-2
+MIRA-1
+MK-0752
+MK-1775
+MK-2206
+ML-031
+ML006
+ML029
+ML050
+ML162
+ML203
+ML210
+ML239
+ML311
+ML320
+MLN2238
+MLN2480
+MLS003179190
+Masitinib
+Mdivi-1
+Methotrexate
+Mitomycin-C
+N9-isopropylolomoucine
+NPC-26
+NSC 74859
+NSC23766
+NSC30930
+NSC48300
+NSC632839
+NSC95397
+NVP-231
+NVP-ADW742
+NVP-BSK805
+Navitoclax
+Neuronal differentiation inducer III
+Nilotinib
+Nintedanib
+Nutlin-3
+O-6-benzylguanine
+OSI-027
+OSI-930
+Olaparib
+Oxaliplatin
+PAC-1
+PCI-34051
+PD 153035
+PD318088
+PDMP
+PF-184
+PF-3758309
+PF-4800567 hydrochloride
+PF-573228
+PF-750
+PHA-793887
+PI-103
+PIK-93
+PL-DI
+PLX-4032
+PLX-4720
+PRIMA-1
+PRIMA-1-Met
+PRL-3 Inhibitor I
+PX-12
+PYR-41
+Paclitaxel
+Panobinostat
+Parthenolide
+Pazopanib
+Pevonedistat
+Pictilisib
+Piperlongumine
+Quizartinib
+R428
+RAF265
+RG-108
+RITA
+RO4929097
+Rapamycin
+Repligen 136
+Rohinitib
+Ruxolitinib
+SB-225002
+SB-431542
+SB-525334
+SB-743921
+SCH-529074
+SCH-79797
+SCHEMBL16273428
+SGX-523
+SID 26681509
+SKI-II
+SMER-3
+SN-38
+SNS-032
+SNX-2112
+SNX-2112-bortezomib (250-1 mol-mol)
+SR1001
+SRT-1720
+STF-31
+SU11274
+Saracatinib
+Selisistat
+Selumetinib
+Sepantronium bromide
+Serdemetan
+Sonidegib
+Sorafenib
+Sphingosine Kinase 1 Inhibitor II
+StemRegenin 1
+Sunitinib
+TAE684
+TCMDC-125552
+TG-100-115
+TGX-221
+TPCA-1
+TW-37
+Tamoxifen
+Tanespimycin
+Telomerase Inhibitor IX
+Temsirolimus
+Teniposide
+Tipifarnib
+Tipifarnib S enantiomer
+Tivozanib
+Topotecan
+Tozasertib
+Trametinib
+Tretinoin
+Tubastatin A
+UNC0638
+UNC0638-navitoclax (1-1 mol-mol)
+VER-155008
+VU0155056
+Vandetanib
+Vorinostat
+WP1130
+WZ4002
+WZ8040
+XL765
+YK-4-279
+ZSTK474
+alisertib-navitoclax (2-1 mol-mol)
+apicidin
+austocystin D
+avicin D
+avrainvillamide
+barasertib
+bardoxolone methyl
+bendamustine
+birinapant
+bleomycin A2
+brefeldin A
+brivanib
+carboplatin
+carboplatin-UNC0638 (2-1 mol-mol)
+carboplatin-etoposide (40-17 mol-mol)
+cerulenin
+chlorambucil
+ciclopirox
+ciclosporin
+clofarabine
+crizotinib-PLX-4032 (2-1 mol-mol)
+cucurbitacin I
+curcumin
+cyanoquinoline 11
+cytarabine hydrochloride
+cytochalasin B
+decitabine
+decitabine-carboplatin (1-1 mol-mol)
+decitabine-navitoclax (2-1 mol-mol)
+docetaxel-tanespimycin (2-1 mol-mol)
+doxorubicin-navitoclax (2-1 mol-mol)
+elocalcitol
+epigallocatechin-3-monogallate
+erastin
+erlotinib-PLX-4032 (2-1 mol-mol)
+etomoxir
+fingolimod
+fluvastatin
+fumonisin B1
+gossypol
+hyperforin
+importazole
+indisulam
+isoevodiamine
+isoliquiritigenin
+itraconazole
+lenvatinib
+leptomycin B
+lomeguatrib
+lovastatin
+manumycin A
+marinopyrrole A
+methylstat
+mim1
+momelotinib
+myricetin
+nakiterpiosin
+narciclasine
+navitoclax-MST-312 (1-1 mol-mol)
+navitoclax-PLX-4032 (1-1 mol-mol)
+navitoclax-birinapant (1-1 mol-mol)
+navitoclax-gemcitabine (1-1 mol-mol)
+navitoclax-piperlongumine (1-1 mol-mol)
+navitoclax-pluripotin (1-1 mol-mol)
+navitoclax-sorafenib (1-1 mol-mol)
+necrostatin-1
+necrostatin-7
+necrosulfonamide
+neopeltolide
+neratinib
+niclosamide
+obatoclax
+oligomycin A
+omacetaxine mepesuccinate
+ouabain
+pandacostat
+parbendazole
+phloretin
+pifithrin-alpha
+pifithrin-mu
+piperlongumine-MST-312 (1-1 mol-mol)
+pitstop2
+pluripotin
+prochlorperazine
+purmorphamine
+pyrazolanthrone
+regorafenib
+rigosertib
+salermide
+salermide-PLX-4032 (12-1 mol-mol)
+selumetinib-BRD-A02303741 (4-1 mol-mol)
+selumetinib-GDC-0941 (4-1 mol-mol)
+selumetinib-JQ-1 (4-1 mol-mol)
+selumetinib-MK-2206 (8-1 mol-mol)
+selumetinib-PLX-4032 (8-1 mol-mol)
+selumetinib-UNC0638 (4-1 mol-mol)
+selumetinib-decitabine (4-1 mol-mol)
+selumetinib-navitoclax (8-1 mol-mol)
+selumetinib-piperlongumine (8-1 mol-mol)
+selumetinib-tretinoin (2-1 mol-mol)
+selumetinib-vorinostat (8-1 mol-mol)
+serdemetan-SCH-529074 (1-1 mol-mol)
+sildenafil
+silmitasertib
+simvastatin
+sirolimus-bortezomib (250-1 mol-mol)
+skepinone-L
+sotrastaurin
+spautin-1
+staurosporine
+tacedinaline
+tacrolimus
+tamatinib
+tandutinib
+tanespimycin-bortezomib (250-1 mol-mol)
+tanespimycin-gemcitabine (1-1 mol-mol)
+tigecycline
+tivantinib
+tosedostat
+tretinoin-carboplatin (2-1 mol-mol)
+tretinoin-navitoclax (4-1 mol-mol)
+triazolothiadiazine
+trifluoperazine
+triptolide
+valdecoxib
+vincristine
+vorinostat-carboplatin (1-1 mol-mol)
+vorinostat-navitoclax (4-1 mol-mol)
+zebularine

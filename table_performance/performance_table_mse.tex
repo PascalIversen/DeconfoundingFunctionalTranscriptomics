@@ -1,0 +1,17 @@
+\begin{table}[t]
+  \centering
+  \small
+  \begin{tabular}{l c c}
+    \toprule
+    Method & DepMap (essentiality) & CTRPv2 (drug response) \\
+    \midrule
+    Tissue-mean baseline & 0.213\,$\pm$\,0.005 & 1.887\,$\pm$\,0.106 \\
+    \midrule
+    Marginal / Within-tissue SHAP & 0.254\,$\pm$\,0.008 & 1.998\,$\pm$\,0.096 \\
+    Residualized & 0.205\,$\pm$\,0.005 & 1.824\,$\pm$\,0.105 \\
+    IRM & 0.382\,$\pm$\,0.012 & 2.352\,$\pm$\,0.100 \\
+    \bottomrule
+  \end{tabular}
+  \caption{\textbf{Predictive accuracy: out-of-fold mean squared error.} Companion to Table~\ref{tab:performance}; the same models, items and folds, scored by MSE between the measured response and the prediction (mean\,$\pm$\,SEM across items, $n=200$ knockout targets for DepMap, $n=440$ drugs for CTRPv2; seeds averaged within item first, all methods paired). MSE is on the raw response scale, so units are squared and dataset-specific (Chronos gene-effect$^2$ for DepMap, $\ln$IC$_{50}^{2}$ for CTRPv2) -- compare down a column, not across datasets. The residualized prediction is reconstructed on the raw scale as $\hat y_{\mathrm{res}}=f(X_{\mathrm{res}})+\hat y_{\mathrm{baseline}}$; the tissue-mean term is added back so every method is compared on the same scale (without it the residual output is tissue-centred and its raw-scale MSE is meaningless). Within-tissue SHAP re-uses the marginal model, so its MSE equals Marginal. Residualization is the only trained predictor that beats the tissue-mean baseline on MSE; marginal and IRM sit above the baseline -- they correlate with the response (Table~\ref{tab:performance}) but predict the raw scale less accurately than the per-tissue mean, a calibration effect -- and IRM is the weakest on both datasets. Per-item SD, within-tissue MSE and the no-add-back diagnostic are in \texttt{performance\_table\_mse.csv}.}
+  \label{tab:performance_mse}
+\end{table}

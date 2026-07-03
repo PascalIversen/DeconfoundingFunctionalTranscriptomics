@@ -1,0 +1,415 @@
+drug_name,hugo_targets,mechanism
+"1,9-Pyrazoloanthrone",MAPK10;MAPK8;MAPK9,inhibitor of Jun N-terminal kinase (JNK) 1/2/3
+"1S,3R-RSL-3",GPX4,synthetic lethal with HRAS in engineered cells; inhibitor of GPX4
+3-Cl-AHPC,NR0B2,binder of nuclear receptor SHP
+5-Fluorouracil,TYMS,pyrimidine analog; inhibitor of thymidylate synthase
+968,GLS,inhibitor of glutaminase
+A-804598,P2RX7,inhibitor of purinergic receptor P2X
+AA-COCF3,FAAH;PLA2G4A;PLA2G4B;PLA2G4C;PLA2G4D,inhibitor of cytosolic phospholipase A2; inhibitor of fatty acid amide hydrolase
+Abiraterone,CYP17A1,"inhibitor of 17 alpha-hydroxylase and C17,20 lyase"
+Abt-737,BCL2;BCL2L1;BCL2L2,"inhibitor of BCL2, BCL-xL, and BCL-W"
+AC55649,RARB,agonist of retinoic acid receptor beta
+Adavosertib,WEE1,inhibitor of WEE1
+Afatinib,EGFR;ERBB2,inhibitor of EGFR and HER2
+AGK-2,SIRT2,inhibitor of sirtuin 2
+Alisertib,AURKA;AURKB,inhibitor of aurora kinases A and B
+alisertib:navitoclax (2:1 mol/mol),AURKA;AURKB;BCL2;BCL2L1;BCL2L2,"inhibitor of aurora kinases A and B;inhibitor of BCL2, BCL-xL, and BCL-W"
+Alpelisib,PIK3CA,inhibitor of PI3K catalytic subunit alpha
+Alvocidib,CDK1;CDK2;CDK4;CDK6,inhibitor of cyclin-dependent kinases
+AM-580,RARA,agonist of retinoic acid receptor alpha
+apicidin,HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"inhibitor of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+AT-406,XIAP,SMAC mimetic; inhibitor of inhibitor of apoptosis proteins (IAPs)
+AT7867,AKT1;AKT2;AKT3;RPS6KB2,inhibitor of AKT1/2/3 and S6K
+Avrainvillamide,NPM1,natural product; inhibitor of nucleophosmin
+Axitinib,FLT1;FLT3;KDR;KIT;PDGFRA;PDGFRB,"inhibitor of VEGFRs, c-KIT, and PDGFR alpha and beta"
+AZ-3146,TTK,inhibitor of TTK protein kinase
+Azacitidine,DNMT1,inhibitor of DNA methyltransferase
+Azd-1480,JAK1;JAK2,inhibitor of Janus kinases 1 and 2
+AZD-7545,PDK2,inhibitor of pyruvate dehydrogenase kinase 2
+Azd4547,FGFR1;FGFR2;FGFR3,inhibitor of fibroblast growth factor receptors
+AZD6482,PIK3CB;PIK3CD,inhibitor of PI3K catalytic subunits beta and delta
+AZD7762,CHEK1;CHEK2,inhibitor of checkpoint kinases 1 and 2
+AZD8055,MTOR,inhibitor of mTOR
+Bafilomycin A1,ATP6V0A1,inhibitor of the vacuolar-type H+-ATPase
+Barasertib,AURKB,inhibitor of aurora kinase B
+Bax Channel Blocker,BAX,inhibitor of BAX-mediated mitochondrial cytochrome c release
+BEC,ARG1;ARG2,inhibitor of arginase I and II
+Belinostat,HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"inhibitor of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+Bemcentinib,AXL,inhibitor of the tyrosine-protein kinase receptor UFO
+Bexarotene,RXRA;RXRB;RXRG,inhibitor of retinoid X receptors
+BI-2536,PLK1,inhibitor of polo-like kinase 1 (PLK1)
+BIBR-1532,TERT,inhibitor of telomerase reverse transcriptase
+Birinapant,DIABLO;XIAP,SMAC mimetic; inhibitor of inhibitor of apoptosis proteins (IAPs)
+BIX-01294,EHMT2,inhibitor of G9a histone methyltransferase
+Blebbistatin,MYH1;MYH2,inhibitor of myosin II ATPases
+BMS-195614,RARA;RARB;RARG,antagonist of retinoic acid receptors
+BMS-270394,RARG,antagonist of retinoic acid receptor gamma
+BMS-345541 free base,IKBKB,inhibitor of IKK-2
+Bms-754807,IGF1R,inhibitor of insulin-like growth factor 1 receptor and insulin receptor
+Bortezomib,PSMB1;PSMB2;PSMB5;PSMD1;PSMD2,inhibitor of 26S proteasome
+Bosutinib,ABL1;SRC,inhibitor of SRC and ABL1
+BRD-A02303741,DOT1L,inhibitor of histone methyltransferases
+BRD-A02303741:carboplatin (1:1 mol/mol),DOT1L,inhibitor of histone methyltransferases;inducer of DNA damage
+BRD-A02303741:navitoclax (2:1 mol/mol),DOT1L;BCL2;BCL2L1;BCL2L2,"inhibitor of histone methyltransferases;inhibitor of BCL2, BCL-xL, and BCL-W"
+BRD-A05715709,IDH1,putative inhibitor of IDH1 R132H
+BRD-A71883111,IDH1,putative inhibitor of IDH1 R132H
+BRD-A94377914,HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"inhibitor of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+BRD-K03536150,BAX,activator of BAX
+BRD-K07442505,BAX,stapled helical peptide activating BAX
+BRD-K11533227,HDAC1;HDAC2,inhibitor of HDAC1 and HDAC2
+BRD-K13185470,MCL1,stapled helical peptide targeting MCL1
+BRD-K24690302,HDAC1,inhibitor of HDAC1
+BRD-K27188169:navitoclax (2:1 mol/mol),BCL2;BCL2L1;BCL2L2,"stapled helical peptide;inhibitor of BCL2, BCL-xL, and BCL-W"
+BRD-K28456706,HNF4A,inhibitor of hepatocyte nuclear factor 4 alpha
+BRD-K29313308,HDAC3,inhibitor of HDAC3
+BRD-K30748066,CDK9,inhibitor of CDK9
+BRD-K35604418,MCL1,inhibitor of MCL1
+BRD-K42260513,EZH2,inhibitor of enhancer of zeste polycomb repressive complex 2 subunit
+BRD-K51490254,HDAC6;HDAC8,inhibitor of HDAC6 and HDAC8
+BRD-K51831558,EZH2,inhibitor of enhancer of zeste polycomb repressive complex 2 subunit
+BRD-K55473186,NOTCH1,stapled helical peptide targeting NOTCH1
+BRD-K66532283,HDAC1;HDAC2,inhibitor of HDAC1 and HDAC2
+BRD-K70511574,PLK1,inhibitor of polo-like kinase 1 (PLK1)
+BRD-K79669418,MDM2;MDM4,inhibitor of MDM4-p53 interaction
+BRD-K80183349,HDAC1;HDAC2,inhibitor of HDAC1 and HDAC2
+BRD-K85133207,HDAC1,inhibitor of HDAC1
+BRD-K88742110,HDAC8,inhibitor of HDAC8
+BRD-M00053801,BCL2,inhibitor of BCL2
+BRD1835,EZH2,product of diversity oriented synthesis; screening hit
+BRD8899,STK33,inhibitor of serine/threonine kinasase STK33
+BRD8958,EP300,inhibitor of E1A binding protein p300
+BRD9876:MK-1775 (4:1 mol/mol),WEE1,screening hit;inhibitor of WEE1
+Brefeldin A,ARF1,modulator of ADP-ribosylation factor 1; inhibitor of protein translocation from ER to Golgi
+Brivanib,FLT1;KDR,inhibitor of VEGFR 1/2
+Cabozantinib,FLT3;KDR;MET;RET,"inhibitor of c-MET, VEGFR2/3, and RET"
+Canertinib,EGFR;ERBB2,inhibitor of EGFR and HER2
+carboplatin:etoposide (40:17 mol/mol),TOP2A,inducer of DNA damage;inhibitor of topoisomerase II
+carboplatin:UNC0638 (2:1 mol/mol),EHMT1;EHMT2,inducer of DNA damage;inhibitor of EHMT2 and GLP methyltransferase
+CAY10594,PLD2,inhibitor of phospholipase D2
+CAY10618,NAMPT,inhibitor of nicotinamide phosphoribosyltransferase
+CBB-1007,KDM1A,inhibitor of lysine-specific demethylase 1A (LSD1)
+CD-1530,RARG,agonist of retinoic acid receptor gamma
+CD-437,RARG,agonist of retinoic acid receptor gamma
+Cediranib,FLT1;FLT4;KDR,inhibitor of VEGFRs
+ceranib-2,ACER1;ACER2;ACER3;ASAH1;ASAH2;ASAH2B,inhibitor of ceramidase activity
+Cerulenin,FASN;HMGCS1,inhibitor of fatty acid synthase; inhibitor of HMG-CoA synthase
+Ch-55,RARA;RARB;RARG,agonist of retinoid acid receptors
+Chir-99021,GSK3B,inhibitor of GSK3 beta
+CI-976,ACAT1,inhibitor of acetyl-CoA acetyltransferase I
+Ciclopirox,RRM1,substituted pyridone antimycotic; inhibitor of the iron-dependent enzyme ribonucleotide reductase
+CID-5951923,KLF5,modulator of KLF5 expression
+Cimetidine,HRH2,inhibitor of histidine receptor H2
+Compound 1541A,CASP3;CASP6;CASP7,"activators of executioner procaspases 3, 6, and 7"
+Compound 7d-cis,XPO1,inhibitor of CRM1-mediated nucleocytoplasmic transport
+CR-1-31B,EIF4A2;EIF4E;EIF4G1,silvestrol analog; inhibits translation by modulating the eIF4F complex
+Crizotinib,ALK;MET,inhibitor of c-MET and ALK
+crizotinib:PLX-4032 (2:1 mol/mol),ALK;MET;BRAF,inhibitor of c-MET and ALK;inhibitor of BRAF
+cyanoquinoline 11,MAP3K8,inhibitor of MAP3K8; inhibitor of phosphorylated EGFR in cells
+Cyclosporin A,PPID,inhibitor of calcineurin by binding to cyclophilin D
+Dabrafenib,BRAF,inhibitor of BRAF
+Dactolisib,MTOR;PIK3CA;PIK3CB;PIK3CD;PIK3CG,inhibitor of PI3K and mTOR kinase activity
+Daporinad,NAMPT,inhibitor of nicotinamide phosphoribosyltransferase
+Dasatinib,EPHA2;KIT;LCK;SRC;YES1,"inhibitor of SRC, YES1, EPHA2, c-KIT, and LCK"
+DBeQ,VCP,inhibitor of p97 in cells
+Decitabine,DNMT1,inhibitor of DNA methyltransferase
+decitabine:carboplatin (1:1 mol/mol),DNMT1,inhibitor of DNA methyltransferase;inducer of DNA damage
+decitabine:navitoclax (2:1 mol/mol),DNMT1;BCL2;BCL2L1;BCL2L2,"inhibitor of DNA methyltransferase;inhibitor of BCL2, BCL-xL, and BCL-W"
+Degrasyn,UCHL5;USP14;USP5;USP9X,"inhibitor of the deubiquitinase activity of USP9X, USP5, USP14, and UCH37"
+Dexamethasone,NR3C1,agonist of glucocorticoid receptor
+Dinaciclib,CDK1;CDK2;CDK5;CDK9,inhibitor of cyclin-dependent kinases
+docetaxel:tanespimycin (2:1 mol/mol),HSP90AA1,inhibitor of microtubule assembly;inhibitor of HSP90
+Doramapimod,MAPK11;MAPK11;MAPK14,inhibitor of p38 MAPK
+Doxorubicin,TOP2A,inhibitor of topoisomerase II
+doxorubicin:navitoclax (2:1 mol/mol),TOP2A;BCL2;BCL2L1;BCL2L2,"inhibitor of topoisomerase II;inhibitor of BCL2, BCL-xL, and BCL-W"
+Elocalcitol,VDR,agonist of vitamin D receptor
+Entinostat,HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"inhibitor of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+Erastin,SLC7A11;VDAC1;VDAC2,modulator of voltage-dependent anion channels; inhibitor of solute carrier SLC7A11
+Erlotinib,EGFR;ERBB2,inhibitor of EGFR and HER2
+erlotinib:PLX-4032 (2:1 mol/mol),EGFR;ERBB2;BRAF,inhibitor of EGFR and HER2;inhibitor of BRAF
+Etomoxir,CPT1A,inhibitor of carnitine palmitoyltransferase
+Etoposide,TOP2A,inhibitor of topoisomerase II
+ETP-46464,ATM;ATR,inhibitor of serine/threonine-protein kinase ATR
+EX-527,SIRT1,inhibitor of sirtuin 1
+Fedratinib,JAK2,inhibitor of Janus kinase 2
+FGIN-1-27,TSPO,activator of peripheral benzodiazepine receptor/translocator protein
+Fingolimod,S1PR1,inhibitor of sphingosine 1-phosphate receptor
+Fluvastatin,HMGCR,inhibitor of HMG-CoA reductase
+Foretinib,KDR;MET,inhibitor of MET and VEGFR2
+FSC231,PICK1,inhibitor of PDZ domain of protein interacting with PRKCA 1 (PICK1)
+Fulvestrant,ESR1;GPER1,antagonist of the estrogen receptor
+Fumonisin B(1),CERS1;CERS2;CERS3;CERS4;CERS5;CERS6,inhibitor of ceramide synthase
+Galunisertib,TGFBR1,inhibitor of the transforming growth factor beta type 1 receptor
+GDC-0879,BRAF,inhibitor of BRAF
+Gefitinib,AKT1;EGFR,inhibitor of EGFR and AKT1
+Gemcitabine,CMPK1;RRM1;TYMS,"inhibitor of DNA replication; inhibitor of ribonucleotide reductase, thymidylate synthetase, and cytidine monophosphate (UMP-CMP) kinase "
+GMX-1778,NAMPT,inhibitor of nicotinamide phosphoribosyltransferase
+Gossypol,BCL2;BCL2L1;LDHA;LDHB;LDHC,inhibitor of lactate dehydrogenase; inhibitor of BCL2 family members
+Gsk-461364,PLK1,inhibitor of polo-like kinase 1 (PLK1)
+GSK-J4,KDM6A;KDM6B,inhibitor of lysine-specific demethylases
+GSK1059615,MTOR;PIK3CA;PIK3CB;PIK3CD;PIK3CG,inhibitor of PI3K and mTOR kinase activity
+GSK2636771,PIK3CB,inhibitor of PI3K catalytic subunit beta
+GSK4112,NR1D1,antagonist of Rev-ErbAalpha
+GW-405833,CNR2,partial agonist of cannabinoid receptor 2
+GW843682X,PLK1;PLK3,inhibitor of PLK1 and PLK3
+HBX-41108,USP7,inhibitor of the deubiquitinase activity of USP7
+HC-067047,TRPV4,inhibitor of cation channel TRPV4
+HLI 373,MDM2,inhibitor of MDM2
+Hyperforin,TRPC6,agonist of calcium-permeable ion channels
+I-Bet151 (gsk1210151A),BRD2;BRD3;BRD4,inhibitor of bromodomain (BRD) and extra-C terminal domain (BET) proteins
+Ibrutinib,BTK,inhibitor of Bruton's tyrosine kinase
+IC-87114,PIK3CD,inhibitor of PI3K catalytic subunit delta
+Idelalisib,PIK3CD,inhibitor of PI3K catalytic subunit delta
+Imatinib,ABL1;BCR;KIT,inhibitor of BCR-ABL1 and c-KIT
+Importazole,KPNB1,inhibitor of importin
+Indisulam,CA9,inhibitor of carbonic anhydrase isoform IX
+IPR-456,PLAUR,inhibitor of the interaction of urokinase receptor with binding partners
+Isonicotinohydroxamic acid,HDAC6,inhibitor of HDAC6
+ISOX,HDAC6,inhibitor of HDAC6
+ISOX:bortezomib (250:1 mol/mol),HDAC6;PSMB1;PSMB2;PSMB5;PSMD1;PSMD2,inhibitor of HDAC6;inhibitor of 26S proteasome
+Istradefylline,ADORA2A,antagonist of the adenosine A2A receptor
+IU1,USP14,inhibitor of the deubiquitinase activity of USP14
+Ixazomib,PSMB5,inhibitor of 20S proteasome at the chymotrypsin-like proteolytic (beta-5) site
+JQ-1:carboplatin (1:1 mol/mol),BRDT,inhibitor of bromodomain (BRD) and extra-C terminal domain (BET) proteins;inducer of DNA damage
+JQ-1:MK-0752 (1:1 mol/mol),BRDT;APH1A;NCSTN;PSEN1;PSENEN,inhibitor of bromodomain (BRD) and extra-C terminal domain (BET) proteins;inhibitor of gamma-secretase
+JQ-1:navitoclax (2:1 mol/mol),BRDT;BCL2;BCL2L1;BCL2L2,"inhibitor of bromodomain (BRD) and extra-C terminal domain (BET) proteins;inhibitor of BCL2, BCL-xL, and BCL-W"
+JQ-1:UNC0638 (2:1 mol/mol),BRDT;EHMT1;EHMT2,inhibitor of bromodomain (BRD) and extra-C terminal domain (BET) proteins;inhibitor of EHMT2 and GLP methyltransferase
+JQ-1:vorinostat (2:1 mol/mol),BRDT;HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"inhibitor of bromodomain (BRD) and extra-C terminal domain (BET) proteins;inhibitor of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+JQ1 compound,BRDT,inhibitor of bromodomain (BRD) and extra-C terminal domain (BET) proteins
+JW-480,NCEH1,inhibitor of serine hydrolase enzyme NCEH
+JW-55,TNKS,inhibitor of tankyrase
+KH-CB19,CLK1;CLK4,inhibitor of CDC2-like kinases 1 and 4
+KHS101,TACC3,"binder of TACC3, a component of the centrosome and mitotic spindle"
+Ki8751,KDR;KIT;PDGFRA,"inhibitor of VEGFR2, c-KIT, and PDGFRA"
+KIN001-135,IKBKE,inhibitor of IKK-epsilon
+Ko-143,ABCG2,inhibitor of breast cancer resistance protein multidrug transporter (BCRP)
+KPT185,XPO1,inhibitor of exportin 1
+KU 0060648,PRKDC,inhibitor of DNA-dependent protein kinase
+Ku-0063794,MTOR,inhibitor of mTOR
+KU-55933,ATM,inhibitor of ataxia telangiectasia mutated (ATM)
+KU-60019,ATM,inhibitor of ataxia telangiectasia mutated (ATM)
+KW-2449,AURKA;FLT3,inhibitor of FLT3 and AURKA
+KX2-391,SRC,peptide mimetic; inhibitor of SRC activity in cells
+L-685458,APH1A;NCSTN;PSEN1;PSENEN,inhibitor of gamma-secretase
+Lapatinib,EGFR;ERBB2,inhibitor of EGFR and HER2
+LE-135,RARB,antagonist of retinoic acid receptor beta
+Lenvatinib,FLT1;FLT3;KDR;KIT;PDGFRA;PDGFRB,"inhibitor of VEGFRs, c-KIT, and PDGFR alpha and beta"
+Leptomycin B,XPO1,inhibitor of exportin 1
+Linifanib,FLT1;FLT3;KDR,inhibitor of VEGFRs
+Linsitinib,IGF1R;INSR,inhibitor of insulin-like growth factor 1 receptor and insulin receptor
+Lomeguatrib,MGMT,inhibitor of methylguanine-DNA methyltransferase
+Lovastatin,HMGCR,inhibitor of HMG-CoA reductase
+LRRK2-IN-1,DCLK1;LRRK2,inhibitor of leucine-rich repeat kinase 2; inhibitor of doublecortin-like kinase
+LY-2183240,FAAH,inhibitor of fatty acid amide hydrolase; inhibitor of anandamide uptake
+Manumycin,FNTA;FNTB,inhibitor of RAS farnesyltransferase
+Marinopyrrole A,MCL1,natural product; putative inhibitor of MCL1
+Masitinib,KIT;PDGFRA;PDGFRB,"inhibitor of c-KIT, PDGFRA, and PDGFRB"
+Mdivi-1,DNM1,inhibitor of dynamin 1; inhibitor of mitrochondrial division inhibitor
+Merck60,HDAC1;HDAC2,inhibitor of HDAC1 and HDAC2
+Met Kinase Inhibitor,MET,inhibitor of MET
+Methotrexate,DHFR,inhibitor of dihydrofolate reductase
+Methylstat,KDM3A;KDM4A;KDM4B;KDM4C;KDM4D,inhibitor of lysine specific demethylases
+MGCD-265 analog,FLT1;FLT3;KDR;MET,inhibitor of c-MET and VEGFRs
+MI-1,MEN1,binder of menin; inhibitor of menin-MLL fusion protein
+MI-2,MEN1,binder of menin; inhibitor of menin-MLL fusion protein
+MK-0752,APH1A;NCSTN;PSEN1;PSENEN,inhibitor of gamma-secretase
+MK-2206,AKT1,inhibitor of AKT1
+ML006,S1PR3,agonist of sphingosine 1-phosphate receptor 3
+ML031,S1PR2,inhibitor of sphingosine 1-phosphate receptor 2
+ML050,GPER1,antagonist of GPR30
+ML083,PKM,activator of muscle pyruvate kinase
+ML203,PKM,activator of muscle pyruvate kinase (PKM2)
+ML258,BCL2L10,inhibitor of BIM-BCL-B interaction
+ML311,MCL1,inhibitor of MCL1
+ML312,SCARB1,"inhibitor of scavenger receptor class B, member 1 (SCARB1)-mediated lipid uptake"
+ML320,GSK3B,inhibitor of GSK3 beta
+ML334 diastereomer,KEAP1;NFE2L2,inhibitor of KEAP1-NFE2L2 protein-protein interaction
+MLN2480,ARAF;BRAF;RAF1,inhibitor of RAF kinases
+Molibresib,BRD2;BRD3;BRD4,inhibitor of bromodomain (BRD) and extra-C terminal domain (BET) proteins
+Momelotinib,JAK1;JAK2,inhibitor of Janus kinases 1 and 2
+Myriocin,SPTLC1;SPTLC2;SPTLC3,inhibitor of serine palmitoyltransferase
+N-Hexanoylsphingosine,MAPK1;PPP2CA;UGCG,inhibitor of glucosylceramide synthase; activator of MAP kinase (ERK); stimulator of protein phosphatase 2A
+N-Phthalyl-L-tryptophan,DNMT1,inhibitor of DNA methyltransferase
+N9-Isopropyl-olomoucine,CCNB1;CDK1;CDK5;CDK5R1,inhibitor of CDK1/cyclin B and CDK5/p35 complexes
+Narciclasine,RHOA,activates cellular activity of RhoA; modulator of Rho/Rho kinase/LIM kinase/cofilin signaling
+Navitoclax,BCL2;BCL2L1;BCL2L2,"inhibitor of BCL2, BCL-xL, and BCL-W"
+navitoclax:birinapant (1:1 mol/mol),BCL2;BCL2L1;BCL2L2;DIABLO;XIAP,"inhibitor of BCL2, BCL-xL, and BCL-W;SMAC mimetic; inhibitor of inhibitor of apoptosis proteins (IAPs)"
+navitoclax:gemcitabine (1:1 mol/mol),BCL2;BCL2L1;BCL2L2;CMPK1;RRM1;TYMS,"inhibitor of BCL2, BCL-xL, and BCL-W;inhibitor of DNA replication; inhibitor of ribonucleotide reductase, thymidylate synthetase, and cytidine monophosphate (UMP-CMP) kinase "
+navitoclax:MST-312 (1:1 mol/mol),BCL2;BCL2L1;BCL2L2;TERT,"inhibitor of BCL2, BCL-xL, and BCL-W;inhibitor of telomerase reverse transcriptase"
+navitoclax:piperlongumine (1:1 mol/mol),BCL2;BCL2L1;BCL2L2,"inhibitor of BCL2, BCL-xL, and BCL-W;natural product; modulator of ROS levels"
+navitoclax:pluripotin (1:1 mol/mol),BCL2;BCL2L1;BCL2L2;MAPK1;RASAL1,"inhibitor of BCL2, BCL-xL, and BCL-W;promoter of embryonic stem cell self-renewal; inhibitor of Ras-GAP and ERK"
+navitoclax:PLX-4032 (1:1 mol/mol),BCL2;BCL2L1;BCL2L2;BRAF,"inhibitor of BCL2, BCL-xL, and BCL-W;inhibitor of BRAF"
+navitoclax:sorafenib (1:1 mol/mol),BCL2;BCL2L1;BCL2L2;BRAF;FLT3;KDR;RAF1,"inhibitor of BCL2, BCL-xL, and BCL-W;inhibitor of BRAF, CRAF, and VEGFR2"
+necrostatin-1,RIPK1,inhibitor of receptor-interacting protein kinase 1; inhibitor of the necroptosis cell death pathway
+Nelarabine,POLA1,deoxyguanosine analog; inhibitor of DNA synthesis
+Neratinib,EGFR;ERBB2,inhibitor of EGFR and HER2
+Niclosamide,STAT3,inhibitor of STAT3 signaling
+Nilotinib,ABL1;BCR;KIT,"inhibitor of ABL1, BCR, and c-KIT"
+Nintedanib,FGFR1;FGFR2;FGFR3;FLT1;FLT3;KDR;PDGFRA;PDGFRB,"inhibitor of c-KIT, VEGFRs, PDGFRs, and FGFRs"
+NSC 74859,STAT3,inhibitor of STAT3
+NSC19630,WRN,inhibitor of Werner syndrome helicase activity
+NSC23766,RAC1;TIAM1;TRIO,inhibitor of RAC1-GEF interaction; prevents Rac1 activation by Rac-specific guanine nucleotide exchange factors (GEFs) TrioN and Tiam1
+NSC30930,SRD5A2,inhibitor of steroid 5-alpha reductase
+NSC48300,TASP1,inhibitor of threonine endopeptidase taspase 1
+NSC632839,USP13;USP5,inhibitor of ubiquitin isopeptidase
+NSC95397,CDC25A;CDC25B;CDC25C,inhibitor of cell division cycle 25 phosphatase (CDC25)
+Nutlin-3,MDM2,inhibitor of p53-MDM2 interaction
+NVP-231,CERK,inhibitor of ceramide kinase
+NVP-ADW742,IGF1R,inhibitor of insulin-like growth factor 1 receptor
+NVP-BSK805,JAK2,inhibitor of Janus kinase 2
+Nvp-tae 684,ALK,inhibitor of ALK and ALK-NPM fusion protein
+o6-Benzylguanine,MGMT,inhibitor of O(6)-alkylguanine DNA alkyltransferases
+Obatoclax,BCL2;BCL2L1;MCL1,"inhibitor of MCL1, BCL2, and BCL-xL"
+Olaparib,PARP1;PARP2,inhibitor of poly (ADP-ribose) polymerase 1 and 2
+Oligomycin A,ATP5L2,inhibitor of mitochondrial ATP synthase
+Onalespib,HSP90AA1,inhibitor of HSP90
+Osi-027,MTOR,inhibitor of mTORC1 and mTORC2
+Osi-930,KDR;KIT,inhibitor of c-KIT and VEGFR2
+Ouabain,ATP1A1;ATP1A2;ATP1A3;ATP1A4;ATP1B1;ATP1B2;ATP1B3;ATP1B4,cardiac glycoside; inhibitor of the Na+/K+-ATPase
+Pac-1,CASP3,activator of procaspase-3
+Palmostatin B,LYPLA1,inhibitor of acyl-protein thioesterase 1
+Pandacostat,HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"inhibitor of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+Panobinostat,HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"inhibitor of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+Pazopanib,FLT1;FLT3;KDR;KIT;PDGFRB,"inhibitor of VEGFRs, c-KIT, and PDGFRB"
+PD 153035,EGFR,inhibitor of EGFR
+PD318088,MAP2K1;MAP2K2,inhibitor of MEK1 and MEK2
+PDMP,UGCG,inhibitor of ceramide glucosyltransferase
+Pevonedistat,NAE1,inhibitor of Nedd-8 activating enzyme
+PF 4800567 Hydrochloride,CSNK1D;CSNK1E,inhibitor of casein kinase isoforms delta and epsilon
+PF-03758309,PAK4,inhibitor of serine/threonine p21-activating kinase 4
+PF-184,IKBKB,inhibitor of IKK-2
+PF-543,SPHK1,inhibitor of sphingosine kinase-1
+PF-573228,PTK2,inhibitor of focal adhesion kinase
+PF-750,FAAH,inhibitor of fatty acid amide hydrolase
+Pha-793887,CDK1;CDK2;CDK4;CDK5;CDK7;CDK9,inhibitor of cyclin-dependent kinases
+Phloretin,SLC5A1,natural product; inhibitor of glucose uptake
+PI-103,MTOR;PIK3CA;PIK3CB;PIK3CD;PIK3CG;PRKDC,"inhibitor of DNA-PK, PI3K p110 delta, mTORC1, and catalytic subunits of PI3K"
+Pictilisib,PIK3CA;PIK3CB;PIK3CD;PIK3CG,inhibitor of PI3K kinase activity
+pifithrin-mu,HSPA1A;HSPA1B;HSPA1L;TP53,inhibitor of p53 binding to mitochondria; inhibitor of HSP70
+PIK-93,PIK3CG,inhibitor of PI3K catalytic subunit gamma
+piperlongumine:MST-312 (1:1 mol/mol),TERT,natural product; modulator of ROS levels;inhibitor of telomerase reverse transcriptase
+pitstop2,CLTA;CLTB;CLTC;CLTCL1,inhibitor of clathrin and clathrin-independent endocytosis
+Pluripotin,MAPK1;RASAL1,promoter of embryonic stem cell self-renewal; inhibitor of Ras-GAP and ERK
+PLX4720,BRAF,inhibitor of BRAF
+Prima-1,TP53,re-activator of the pro-apoptotic activity of mutant p53
+PRIMA-1-Met,TP53,re-activator of the pro-apoptotic activity of mutant p53
+PRL-3 Inhibitor I,PTP4A3,inhibitor of phosphatase of regenerating liver-3 (PRL3)
+Prochlorperazine,DRD2,inhibitor of dopamine receptor D2
+Purmorphamine,SMO,activator of smoothened receptor
+PX-12,TXN,inhibitor of thioredoxin-1
+Pyr-41,UBA1,inhibitor of ubiquitin-activating enzyme in cells
+QS11,ARFGAP1,inhibitor of GTPase activating protein of ARF 1 (ARFGAP1)
+Quizartinib,FLT3,inhibtor of VEGFR3
+QW-BI-011,EHMT2,inhibitor of G9a histone methyltransferase
+R406 (Free base),SYK,inhibitor of spleen tyrosine kinase
+RAD51 inhibitor B02,RAD51,inhibitor of RAD51
+Raf265(chir-265),BRAF;KDR,ihibitor of VEGFR2 and BRAF
+Regorafenib,BRAF;KDR;KIT;RET,"inhibitor of BRAF, RET, KIT, and VEGFR2"
+Repligen 136,HDAC3,inhibitor of HDAC3
+Rigosertib,PIK3CA;PIK3CB;PLK1,inhibitor of polo-like kinase 1; inhibitor of PI3K catalytic subunits alpha and beta
+Rita,MDM2;TP53,inhibitor of p53-MDM2 interaction
+RO4929097,APH1A;NCSTN;PSEN1;PSENEN,inhibitor of gamma-secretase
+Ruxolitinib,JAK1;JAK2,inhibitor of Janus kinases 1 and 2
+salermide,SIRT1;SIRT2,inhibitor of sirtuin 1 and sirtuin 2
+salermide:PLX-4032 (12:1 mol/mol),SIRT1;SIRT2;BRAF,inhibitor of sirtuin 1 and sirtuin 2;inhibitor of BRAF
+Saracatinib,ABL1;SRC,inhibitor of SRC and ABL1
+SB-225002,CXCR2,inhibitor of chemokine receptor 2
+SB-431542,TGFBR1,inhibitor of the transforming growth factor beta type 1 receptor
+SB-525334,TGFBR1,inhibitor of the transforming growth factor beta type 1 receptor
+SB-743921,KIF11,inhibitor of kinesin 11
+SCH-529074,TP53,activator of mutant p53
+SCH-79797,F2R,antagonist of proteinase-activated receptor 1 (PAR1)
+Selumetinib,MAP2K1;MAP2K2,inhibitor of MEK1 and MEK2
+selumetinib:BRD-A02303741 (4:1 mol/mol),MAP2K1;MAP2K2;DOT1L,inhibitor of MEK1 and MEK2;inhibitor of histone methyltransferases
+selumetinib:decitabine (4:1 mol/mol),MAP2K1;MAP2K2;DNMT1,inhibitor of MEK1 and MEK2;inhibitor of DNA methyltransferase
+selumetinib:GDC-0941 (4:1 mol/mol),MAP2K1;MAP2K2;PIK3CA;PIK3CB;PIK3CD;PIK3CG,inhibitor of MEK1 and MEK2;inhibitor of PI3K kinase activity
+selumetinib:JQ-1 (4:1 mol/mol),MAP2K1;MAP2K2;BRDT,inhibitor of MEK1 and MEK2;inhibitor of bromodomain (BRD) and extra-C terminal domain (BET) proteins
+selumetinib:MK-2206 (8:1 mol/mol),MAP2K1;MAP2K2;AKT1,inhibitor of MEK1 and MEK2;inhibitor of AKT1
+selumetinib:navitoclax (8:1 mol/mol),MAP2K1;MAP2K2;BCL2;BCL2L1;BCL2L2,"inhibitor of MEK1 and MEK2;inhibitor of BCL2, BCL-xL, and BCL-W"
+selumetinib:piperlongumine (8:1 mol/mol),MAP2K1;MAP2K2,inhibitor of MEK1 and MEK2;natural product; modulator of ROS levels
+selumetinib:PLX-4032 (8:1 mol/mol),MAP2K1;MAP2K2;BRAF,inhibitor of MEK1 and MEK2;inhibitor of BRAF
+selumetinib:tretinoin (2:1 mol/mol),MAP2K1;MAP2K2;RARA;RARB;RARG,inhibitor of MEK1 and MEK2;agonist of retinoid acid receptors
+selumetinib:UNC0638 (4:1 mol/mol),MAP2K1;MAP2K2;EHMT1;EHMT2,inhibitor of MEK1 and MEK2;inhibitor of EHMT2 and GLP methyltransferase
+selumetinib:vorinostat (8:1 mol/mol),MAP2K1;MAP2K2;HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"inhibitor of MEK1 and MEK2;inhibitor of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+Semagacestat,APH1A;NCSTN;PSEN1;PSENEN,inhibitor of gamma-secretase
+Sepantronium bromide,BIRC5,inhibitor of survivin expression
+Serdemetan,MDM2,inhibitor of MDM2
+serdemetan:SCH-529074 (1:1 mol/mol),MDM2;TP53,inhibitor of MDM2;activator of mutant p53
+Sgx-523,MET,inhibitor of MET
+SID 26681509,CTSL1,inhibitor of cathepsin L
+Sildenafil,PDE5A,inhibitor of phosphodiesterase 5A
+Silmitasertib,CSNK2A1;CSNK2A2,inhibitor of casein kinase 2
+Simvastatin,HMGCR,inhibitor of HMG-CoA reductase
+Sirolimus,MTOR,inhibitor of mTOR
+sirolimus:bortezomib (250:1 mol/mol),MTOR;PSMB1;PSMB2;PSMB5;PSMD1;PSMD2,inhibitor of mTOR;inhibitor of 26S proteasome
+Sitagliptin,DPP4,inhibitor of dipetidyl peptidase-4
+SJ-172550,MDM2;TP53,inhibitor of p53-MDM2 interaction
+Skepinone-L,MAPK14,inhibitor of p38 MAPK
+SKI-II,SPHK1,inhibitor of sphingosine kinase 1
+SMER-3,CUL1;SKP1,inhibitor of E3-ubiquitin ligase
+SN-38,TOP1,metabolite of irinotecan; inhibitor of topoisomerase I
+SNS-032,CDK16;CDK17;CDK2;CDK7;CDK9;CDKL5,inhibitor of cyclin-dependent kinases
+Snx-2112,HSP90AA1;HSP90B1,inhibitor of HSP90alpha and HSP90beta
+SNX-2112:bortezomib (250:1 mol/mol),HSP90AA1;HSP90B1;PSMB1;PSMB2;PSMB5;PSMD1;PSMD2,inhibitor of HSP90alpha and HSP90beta;inhibitor of 26S proteasome
+Sorafenib,BRAF;FLT3;KDR;RAF1,"inhibitor of BRAF, CRAF, and VEGFR2"
+Sotrastaurin,PRKCB,inhibitor of protein kinase C beta
+spautin-1,USP10;USP13,inhibitor of the deubiquitinase activity of USP13 and USP10
+SR-II-138A,EIF4A2;EIF4E;EIF4G1,silvestrol analog; inhibits translation by modulating the eIF4F complex
+SR1001,RORA;RORC,synthetic ROR ligand; suppressor of TH17 differentiation
+SR8278,NR1D1,antagonist of Rev-ErbAalpha
+SRT-1720,SIRT1,activator of sirtuin-1
+StemRegenin 1,AHR,inhibitor of aryl hydrocarbon receptor
+STF-31,NAMPT,inhibitor of nicotinamide phosphoribosyltransferase
+Sunitinib,FLT1;FLT3;KDR;KIT;PDGFRA;PDGFRB,"inhibitor of VEGFRs, c-KIT, and PDGFR alpha and beta"
+SZ4TA2,BCL2L1,inhibitor of BCL-xL
+Tacedinaline,HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"inhibitor of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+Tacrolimus,PPP3CA;PPP3CB;PPP3CC;PPP3R1;PPP3R2,inhibitor of calcineurin
+Tamoxifen,ESR1;ESR2,modulator of estrogen receptors
+Tandutinib,FLT3;KIT,inhibitor of c-KIT and VEGFR3
+Tanespimycin,HSP90AA1,inhibitor of HSP90
+tanespimycin:bortezomib (250:1 mol/mol),HSP90AA1;PSMB1;PSMB2;PSMB5;PSMD1;PSMD2,inhibitor of HSP90;inhibitor of 26S proteasome
+tanespimycin:gemcitabine (1:1 mol/mol),HSP90AA1;CMPK1;RRM1;TYMS,"inhibitor of HSP90;inhibitor of DNA replication; inhibitor of ribonucleotide reductase, thymidylate synthetase, and cytidine monophosphate (UMP-CMP) kinase "
+Telomerase Inhibitor IX,TERT,inhibitor of telomerase reverse transcriptase
+Temsirolimus,MTOR,inhibitor of mTOR
+Teniposide,TOP2A;TOP2B,inhibitor of topoisomerase II
+TG-100-115,PIK3CD;PIK3CG,inhibitor of PI3K catalytic subunits delta and gamma
+TGX221,PIK3CB,inhibitor of PI3K catalytic subunit beta
+Thalidomide,CRBN,immunomodulatory drug; binder of cereblon
+Tipifarnib,FNTA,inhibitor of farnesyltransferase
+Tivantinib,MET,inhibitor of MET; inhibitor of microtubule assembly
+Tivozanib,FLT1;FLT3;KDR,inhibitor of VEGFRs
+Topotecan,TOP1,inhibitor of topoisomerase I
+Tosedostat,ANPEP;LAP3;NPEPPS,"inhibitor of leucine aminopeptidase 3 (LAP), puromycin-sensitive aminopeptidase (PuSA), and aminopeptidase N"
+Tozasertib,AURKA;AURKB;AURKC,inhibitor of aurora kinases
+TPCA-1,IKBKB,inhibitor of IKK-2
+Trametinib,MAP2K1;MAP2K2,inhibitor of MEK1 and MEK2
+Tretinoin,RARA;RARB;RARG,agonist of retinoid acid receptors
+tretinoin:carboplatin (2:1 mol/mol),RARA;RARB;RARG,agonist of retinoid acid receptors;inducer of DNA damage
+tretinoin:navitoclax (4:1 mol/mol),RARA;RARB;RARG;BCL2;BCL2L1;BCL2L2,"agonist of retinoid acid receptors;inhibitor of BCL2, BCL-xL, and BCL-W"
+Triazolothiadiazine,PDE4A;PDE4B;PDE4D,inhibitor of phosphdiesterase 4A/B/D
+Trifluoperazine,DRD2,antagonist of dopamine receptor D2
+Tubastatin A,HDAC6,inhibitor of tubulin deacetylase activity of HDAC6
+Turofexorate isopropyl,NR1H4,agonist of farnesoid X receptor
+TW 37,BCL2;BCL2L1,inhibitor of BCL2 and BCL-xL
+UNC0321,EHMT2,inhibitor of G9a histone methyltransferase
+UNC0638,EHMT1;EHMT2,inhibitor of EHMT2 and GLP methyltransferase
+UNC0638:navitoclax (1:1 mol/mol),EHMT1;EHMT2;BCL2;BCL2L1;BCL2L2,"inhibitor of EHMT2 and GLP methyltransferase;inhibitor of BCL2, BCL-xL, and BCL-W"
+Unii-40E3azg1MX,IGF1R;INSR,inhibitor of insulin-like growth factor 1 receptor (IGF1R) and insulin receptor (INSR)
+VAF-347,AHR,inhibitor of aryl hydrocarbon receptor
+Valdecoxib,PTGS2,inhibitor of cyclooxygenase-2 (COX2)
+Vandetanib,EGFR;KDR,inhibitor of VEGFR2 and EGFR
+Veliparib dihydrochloride,PARP1;PARP2,inhibitor of poly (ADP-ribose) polymerase 1 (PARP1) and 2 (PARP2)
+Vemurafenib,BRAF,inhibitor of BRAF
+Venetoclax,BCL2,inhibitor of BCL2
+VER-155008,HSPA1A;HSPA1B;HSPA1L,inhibitor of HSP70
+Vorapaxar,F2R,antagonist of proteinase-activated receptor 1 (PAR1)
+Vorinostat,HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"inhibitor of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8"
+vorinostat:carboplatin (1:1 mol/mol),HDAC1;HDAC2;HDAC3;HDAC6;HDAC8,"inhibitor of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8;inducer of DNA damage"
+vorinostat:navitoclax (4:1 mol/mol),HDAC1;HDAC2;HDAC3;HDAC6;HDAC8;BCL2;BCL2L1;BCL2L2,"inhibitor of HDAC1, HDAC2, HDAC3, HDAC6, and HDAC8;inhibitor of BCL2, BCL-xL, and BCL-W"
+VU0155056,PLD1;PLD2,inhibitor of phospholipase D1/D2
+WZ4002,EGFR,inhibitor of EGFR targeting T790M resistance
+WZ8040,EGFR,inhibitor of EGFR targeting T790M resistance
+XL765,MTOR;PIK3CA;PIK3CB;PIK3CD;PIK3CG;PRKDC,inhibitor of mTOR and PI3K kinase acitivities
+YK 4-279,DHX9;ERG;ETV1,inhibitor of RNA helicase A (RHA) binding to EWS-FLI1; inhibitor of ERG and ETV1 activity
+Z-Leu-leu-leu-al,PSMB1;PSMB2;PSMB5;PSMD1;PSMD2,inhibitor of the proteosome
+Zebularine,DNMT1,inhibitor of DNA methyltransferases
+ZSTK474,PIK3CB;PIK3CD;PIK3CG,"inhibitor of PI3K catalytic subunits beta, delta, and gamma"

@@ -1,0 +1,19 @@
+\begin{table}[t]
+  \centering
+  \small
+  \begin{tabular}{l cc cc}
+    \toprule
+    & \multicolumn{2}{c}{DepMap (essentiality)} & \multicolumn{2}{c}{CTRPv2 (drug response)} \\
+    \cmidrule(lr){2-3}\cmidrule(lr){4-5}
+    Method & Overall $r$ & Within-tissue $r_{\mathrm{wt}}$ & Overall $r$ & Within-tissue $r_{\mathrm{wt}}$ \\
+    \midrule
+    Tissue-mean baseline & 0.243\,$\pm$\,0.009 & -0.280\,$\pm$\,0.002 & 0.346\,$\pm$\,0.007 & -0.378\,$\pm$\,0.004 \\
+    \midrule
+    Marginal / Within-tissue SHAP & 0.302\,$\pm$\,0.012 & 0.204\,$\pm$\,0.009 & 0.364\,$\pm$\,0.008 & 0.175\,$\pm$\,0.006 \\
+    Residualized & 0.329\,$\pm$\,0.011 & 0.228\,$\pm$\,0.009 & 0.401\,$\pm$\,0.007 & 0.217\,$\pm$\,0.005 \\
+    IRM & 0.205\,$\pm$\,0.009 & 0.126\,$\pm$\,0.006 & 0.308\,$\pm$\,0.007 & 0.132\,$\pm$\,0.005 \\
+    \bottomrule
+  \end{tabular}
+  \caption{\textbf{Predictive accuracy: overall vs.\ within-tissue Pearson correlation.} Out-of-fold $r$ between the measured response and the model prediction, as mean\,$\pm$\,SEM across items ($n=200$ knockout targets for DepMap, $n=440$ drugs for CTRPv2); each item's value is first averaged over the five seeds, and all methods are evaluated on the same items and folds (paired). The within-tissue $r_{\mathrm{wt}}$ centres $y$ and the prediction within each tissue before correlating, removing the between-tissue (lineage) component. Overall $r$ is inflated by tissue structure: the tissue-mean baseline reaches substantial overall $r$ while carrying no within-tissue signal (its negative $r_{\mathrm{wt}}$ is the leave-one-fold-out anti-correlation of held-out tissue means). Every trained predictor sits far above the baseline in $r_{\mathrm{wt}}$, learning genuine within-tissue signal rather than collapsing to lineage. Residualization attains the highest overall \emph{and} within-tissue $r$ -- consistent with its model being trained directly on the within-tissue (residual) signal -- so deconfounding the data costs no predictive accuracy here; IRM is the weaker predictor on both axes. The tissue-mean baseline predicts the per-tissue mean response only. Within-tissue SHAP re-uses the marginal model ($\hat y_{\mathrm{within}}\equiv\hat y_{\mathrm{marginal}}$), so its predictive $r$ is identical to Marginal. For residualization the within-tissue $r_{\mathrm{wt}}$ is evaluated on the deconfounded model output $f(X_{\mathrm{res}})=\hat y_{\mathrm{res}}-\hat y_{\mathrm{baseline}}$; the raw reconstructed prediction adds the leave-out tissue mean back (needed only for overall $r$), whose negative within-tissue correlation would otherwise contaminate $r_{\mathrm{wt}}$ (giving a misleading 0.06 on CTRPv2, 0.16 on DepMap). Within-tissue $r_{\mathrm{wt}}$ is heterogeneous across items (SD $\approx$ 0.1; some items predict well, others near zero), but because all methods are compared on the same items, the small SEM reflects the consistent paired difference rather than low heterogeneity. Full per-item SD and the contaminated value (\texttt{wt\_pearson\_recon}) are in \texttt{performance\_table.csv}.}
+  \label{tab:performance}
+\end{table}

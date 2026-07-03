@@ -1,0 +1,73 @@
+dataset,item,method,lam,n_cells,n_tissues,contam_50,attr_eta2,within_r,global_r
+ctrpv2,CIL55,irm,0.0,230,21,0.26,0.1413,0.007,0.06
+ctrpv2,CIL55,marginal,,230,21,0.36,0.1399,-0.0498,0.0141
+ctrpv2,CIL55,residualized,,230,21,0.14,0.0994,-0.056,0.0872
+ctrpv2,CIL55,within_tissue,,230,21,0.22,0.0586,-0.0498,0.0141
+ctrpv2,CIL55,irm,0.1,230,21,0.32,0.1344,-0.0073,0.041
+ctrpv2,CIL55,irm,1.0,230,21,0.26,0.1308,0.0053,0.0529
+ctrpv2,CIL55,irm,10.0,230,21,0.24,0.1307,0.0068,0.0545
+ctrpv2,CIL55,irm,100.0,230,21,0.26,0.1307,0.0073,0.0549
+ctrpv2,CIL55,irm,1000.0,230,21,0.26,0.1307,0.0074,0.055
+ctrpv2,BMS-536924,irm,0.0,708,23,0.26,0.1188,0.1654,0.3485
+ctrpv2,BMS-536924,marginal,,708,23,0.32,0.1179,0.1708,0.3544
+ctrpv2,BMS-536924,residualized,,708,23,0.1,0.0327,0.1509,0.3887
+ctrpv2,BMS-536924,within_tissue,,708,23,0.22,0.021,0.1708,0.3544
+ctrpv2,BMS-536924,irm,0.1,708,23,0.28,0.106,0.1027,0.2689
+ctrpv2,BMS-536924,irm,1.0,708,23,0.28,0.1072,0.1033,0.292
+ctrpv2,BMS-536924,irm,10.0,708,23,0.28,0.1069,0.1003,0.2878
+ctrpv2,BMS-536924,irm,100.0,708,23,0.28,0.1069,0.1008,0.288
+ctrpv2,BMS-536924,irm,1000.0,708,23,0.28,0.1069,0.1007,0.2879
+ctrpv2,Idelalisib,irm,0.0,570,23,0.38,0.1264,0.0875,0.3131
+ctrpv2,Idelalisib,marginal,,570,23,0.36,0.1202,0.08,0.305
+ctrpv2,Idelalisib,residualized,,570,23,0.18,0.0344,0.0668,0.3419
+ctrpv2,Idelalisib,within_tissue,,570,23,0.2,0.0253,0.08,0.305
+ctrpv2,Idelalisib,irm,0.1,570,23,0.36,0.1191,0.0658,0.2455
+ctrpv2,Idelalisib,irm,1.0,570,23,0.42,0.1195,0.0959,0.284
+ctrpv2,Idelalisib,irm,10.0,570,23,0.4,0.1209,0.0825,0.2855
+ctrpv2,Idelalisib,irm,100.0,570,23,0.42,0.1194,0.095,0.2845
+ctrpv2,Idelalisib,irm,1000.0,570,23,0.4,0.1207,0.0809,0.2851
+ctrpv2,SKI-II,irm,0.0,372,22,0.36,0.1498,0.1873,0.4186
+ctrpv2,SKI-II,marginal,,372,22,0.44,0.1532,0.1928,0.4335
+ctrpv2,SKI-II,residualized,,372,22,0.08,0.0628,0.3048,0.5635
+ctrpv2,SKI-II,within_tissue,,372,22,0.38,0.0262,0.1928,0.4335
+ctrpv2,SKI-II,irm,0.1,372,22,0.34,0.1391,0.1084,0.3038
+ctrpv2,SKI-II,irm,1.0,372,22,0.32,0.141,0.1057,0.2919
+ctrpv2,SKI-II,irm,10.0,372,22,0.32,0.141,0.1072,0.2916
+ctrpv2,SKI-II,irm,100.0,372,22,0.32,0.141,0.1072,0.2915
+ctrpv2,SKI-II,irm,1000.0,372,22,0.32,0.141,0.1071,0.2914
+ctrpv2,NVP-231,irm,0.0,554,23,0.26,0.12,0.2432,0.4757
+ctrpv2,NVP-231,marginal,,554,23,0.32,0.12,0.2573,0.4897
+ctrpv2,NVP-231,residualized,,554,23,0.14,0.0384,0.2668,0.4711
+ctrpv2,NVP-231,within_tissue,,554,23,0.2,0.0296,0.2573,0.4897
+ctrpv2,NVP-231,irm,0.1,554,23,0.32,0.1116,0.1949,0.4225
+ctrpv2,NVP-231,irm,1.0,554,23,0.3,0.1058,0.166,0.3999
+ctrpv2,NVP-231,irm,10.0,554,23,0.36,0.1122,0.1949,0.4152
+ctrpv2,NVP-231,irm,100.0,554,23,0.36,0.1122,0.1936,0.4147
+ctrpv2,NVP-231,irm,1000.0,554,23,0.36,0.1123,0.1935,0.4151
+ctrpv2,neopeltolide,irm,0.0,102,18,0.28,0.2105,-0.0322,0.0407
+ctrpv2,neopeltolide,marginal,,102,18,0.48,0.206,-0.0542,0.0677
+ctrpv2,neopeltolide,residualized,,102,18,0.12,0.1835,0.0043,0.2411
+ctrpv2,neopeltolide,within_tissue,,102,18,0.2,0.102,-0.0542,0.0677
+ctrpv2,neopeltolide,irm,0.1,102,18,0.32,0.2128,0.0232,0.2165
+ctrpv2,neopeltolide,irm,1.0,102,18,0.32,0.2158,0.0254,0.1797
+ctrpv2,neopeltolide,irm,10.0,102,18,0.32,0.2158,0.0248,0.1791
+ctrpv2,neopeltolide,irm,100.0,102,18,0.32,0.2159,0.0248,0.1791
+ctrpv2,neopeltolide,irm,1000.0,102,18,0.32,0.2159,0.0248,0.1791
+ctrpv2,bleomycin A2,irm,0.0,517,23,0.12,0.1296,0.3457,0.4354
+ctrpv2,bleomycin A2,marginal,,517,23,0.12,0.1322,0.3486,0.44
+ctrpv2,bleomycin A2,residualized,,517,23,0.06,0.0365,0.3645,0.43
+ctrpv2,bleomycin A2,within_tissue,,517,23,0.06,0.0294,0.3486,0.44
+ctrpv2,bleomycin A2,irm,0.1,517,23,0.1,0.1207,0.2513,0.3426
+ctrpv2,bleomycin A2,irm,1.0,517,23,0.1,0.1269,0.277,0.372
+ctrpv2,bleomycin A2,irm,10.0,517,23,0.1,0.1269,0.2765,0.3716
+ctrpv2,bleomycin A2,irm,100.0,517,23,0.1,0.1269,0.2767,0.3716
+ctrpv2,bleomycin A2,irm,1000.0,517,23,0.1,0.1269,0.2767,0.3716
+ctrpv2,zebularine,irm,0.0,475,23,0.4,0.1308,0.1493,0.3443
+ctrpv2,zebularine,marginal,,475,23,0.44,0.1322,0.1597,0.3948
+ctrpv2,zebularine,residualized,,475,23,0.1,0.0436,0.2101,0.5094
+ctrpv2,zebularine,within_tissue,,475,23,0.4,0.0292,0.1597,0.3948
+ctrpv2,zebularine,irm,0.1,475,23,0.46,0.13,0.1244,0.3559
+ctrpv2,zebularine,irm,1.0,475,23,0.42,0.127,0.1163,0.3541
+ctrpv2,zebularine,irm,10.0,475,23,0.5,0.1268,0.1043,0.3322
+ctrpv2,zebularine,irm,100.0,475,23,0.5,0.1268,0.1044,0.3322
+ctrpv2,zebularine,irm,1000.0,475,23,0.5,0.1268,0.1045,0.3323

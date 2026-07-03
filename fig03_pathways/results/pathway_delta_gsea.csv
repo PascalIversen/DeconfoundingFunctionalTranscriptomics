@@ -1,0 +1,1276 @@
+dataset,method,library,set,NES,nom_p,fdr_q
+depmap,residualized,functional,Epithelial Mesenchymal Transition,-2.4756796228914024,0.0001,0.0001
+depmap,residualized,lineage,BronchialEpithelialCells,-2.145810904118994,0.0001,0.0009953850330286851
+depmap,residualized,functional,Apical Junction,-2.0477756162018714,0.0001481042654028436,0.0046451301541338644
+depmap,residualized,lineage,small intestine,-2.0426530217760677,0.00032,0.003677394705355976
+depmap,residualized,functional,TNF-alpha Signaling via NF-kB,-2.0197979743238905,0.00014330753797649757,0.0040257794669160156
+depmap,residualized,functional,Myc Targets V1,2.007350152375028,0.0001,0.030715680880524676
+depmap,residualized,functional,Transcriptional misregulation in cancer,-1.975661952595712,0.00015229972586049346,0.0074653877477151385
+depmap,residualized,functional,Estrogen Response Early,-1.9603900768907994,0.00029197080291970805,0.008231676225522936
+depmap,residualized,lineage,colon,-1.9245266122989098,0.0006344171292624901,0.01187549643571723
+depmap,residualized,functional,UV Response Dn,-1.9229852454852334,0.00045864546705396726,0.010801770913977953
+depmap,residualized,functional,E2F Targets,1.9004419519671365,0.000791765637371338,0.05211991519490604
+depmap,residualized,functional,Estrogen Response Late,-1.8846900862607419,0.0010235414534288639,0.01611417770136438
+depmap,residualized,functional,RNA transport,1.8596436743610172,0.002160410477990818,0.052805173167306194
+depmap,residualized,functional,Focal adhesion,-1.8550054390250286,0.0011469534050179211,0.020983520847786524
+depmap,residualized,lineage,Placenta,-1.8283073398317,0.001898641740908427,0.026267105038256966
+depmap,residualized,functional,KRAS Signaling Up,-1.8099469008968123,0.0041713460612867,0.030040209842942624
+depmap,residualized,functional,Proteoglycans in cancer,-1.801488434645632,0.00127750177430802,0.03080953673660216
+depmap,residualized,functional,Calcium signaling pathway,-1.7917056732512036,0.0030921459492888066,0.03205877128599054
+depmap,residualized,lineage,SmoothMuscle,-1.7854290200415632,0.0014112334180073384,0.03228088961280527
+depmap,residualized,functional,Bladder cancer,-1.780582629442904,0.0037538762852945976,0.03195641360939151
+depmap,residualized,functional,Pyrimidine metabolism,1.779991391091044,0.01125748502994012,0.08323868900037198
+depmap,residualized,functional,Coagulation,-1.7687521401539565,0.0077930691427623945,0.03416874178192912
+depmap,residualized,functional,Th1 and Th2 cell differentiation,-1.7377014525849888,0.006269592476489028,0.04432082831275093
+depmap,residualized,functional,Cytokine-cytokine receptor interaction,-1.7306961150332458,0.008816547982366904,0.04532319850390613
+depmap,residualized,lineage,Liver,-1.7215065321147158,0.004836582148614979,0.04706222568859435
+depmap,residualized,functional,PI3K-Akt signaling pathway,-1.7097576405433341,0.0017696705690171523,0.05047808644768196
+depmap,residualized,lineage,Adipocyte,-1.7083231115017978,0.01074743527112848,0.04899506329241195
+depmap,residualized,functional,Hypoxia,-1.7016684914520497,0.00463768115942029,0.05010104666244382
+depmap,residualized,functional,Ribosome,-1.6622012005383715,0.014939759036144579,0.06917704782875356
+depmap,residualized,functional,DNA Repair,1.6600835314746825,0.010344827586206896,0.1730074833847925
+depmap,residualized,functional,Th17 cell differentiation,-1.6550492271682382,0.013191763191763193,0.07089353401904303
+depmap,residualized,functional,"Parathyroid hormone synthesis, secretion and action",-1.6243968236715034,0.024446267432321575,0.08903575752226957
+depmap,residualized,functional,Adherens junction,-1.620461443075961,0.021896660365469438,0.08883811419781015
+depmap,residualized,functional,Myogenesis,-1.6060702453196911,0.01877346683354193,0.0964951421674015
+depmap,residualized,functional,G2-M Checkpoint,1.6038182107168761,0.01225854383358098,0.21409608886713916
+depmap,residualized,functional,p53 signaling pathway,-1.5930927352047848,0.01946690625935909,0.10377810622132402
+depmap,residualized,functional,Leukocyte transendothelial migration,-1.5825813205427937,0.028014812429560457,0.10909634023291816
+depmap,residualized,functional,MAPK signaling pathway,-1.567911649354072,0.014827248566233039,0.11836787017766115
+depmap,residualized,functional,Nucleotide excision repair,1.551637379217457,0.04454611124488322,0.2598336994171418
+depmap,residualized,lineage,CD14+ Monocytes,-1.5428858608529172,0.024251497005988023,0.1385227413641132
+depmap,residualized,lineage,Thyroid,-1.5355901834659205,0.034605283485246406,0.14174478043864364
+depmap,residualized,lineage,CD105+ Endothelial,1.5108313828525026,0.02262443438914027,0.29498340247202043
+depmap,residualized,lineage,CD34+,1.5093925934520682,0.017203513909224012,0.2645095773464605
+depmap,residualized,functional,Apoptosis,-1.4973571611299905,0.03376251788268956,0.18008253221356108
+depmap,residualized,functional,Ribosome biogenesis in eukaryotes,1.493096510586516,0.06182081622796426,0.26184110218334933
+depmap,residualized,functional,Allograft Rejection,-1.4890314079481894,0.050938750384733764,0.1853628128173418
+depmap,residualized,functional,p53 Pathway,-1.4746935977461297,0.040621792051620476,0.19841939487220456
+depmap,residualized,lineage,CardiacMyocytes,-1.4711428841378447,0.05127810286418232,0.19796520227059974
+depmap,residualized,functional,Inflammatory Response,-1.4704583999286234,0.06530408773678963,0.19373425617204462
+depmap,residualized,functional,Regulation of actin cytoskeleton,-1.4614229258516878,0.046246158349187765,0.20048437044410258
+depmap,residualized,lineage,CD71+ EarlyErythroid,1.4609333821373425,0.015116279069767442,0.287287992086778
+depmap,residualized,functional,Small cell lung cancer,-1.4506991553092927,0.05282167042889391,0.20961621886601636
+depmap,residualized,functional,Osteoclast differentiation,-1.4478982562247704,0.06256843422493352,0.2083620003265284
+depmap,residualized,functional,PD-L1 expression and PD-1 checkpoint pathway in cancer,-1.4326972511265337,0.06940112289457268,0.22349609059430123
+depmap,residualized,lineage,Uterus,-1.4316519160810002,0.08316430020283976,0.21978654520958382
+depmap,residualized,functional,Relaxin signaling pathway,-1.426432655192065,0.06587735276259866,0.22181848243441463
+depmap,residualized,lineage,retina,-1.4183194754570245,0.08984635938543754,0.22797683292700466
+depmap,residualized,functional,Pathways in cancer,-1.4097115583801076,0.028567864271457084,0.2348826299214923
+depmap,residualized,functional,GnRH signaling pathway,-1.4093936069888244,0.08172620929497312,0.23040859382593162
+depmap,residualized,functional,IL-17 signaling pathway,-1.400683086091688,0.09396960287628697,0.2378293096263028
+depmap,residualized,functional,Thyroid cancer,-1.3966240530148688,0.10796036897847626,0.23872208648789955
+depmap,residualized,lineage,Heart,-1.3871515447307627,0.07717472118959108,0.2468945228982915
+depmap,residualized,functional,Estrogen signaling pathway,-1.3822435722680797,0.08725033788857185,0.2492376062188749
+depmap,residualized,functional,ErbB signaling pathway,-1.3812636809788854,0.08761101911786844,0.24597070149508846
+depmap,residualized,functional,PI3K/AKT/mTOR  Signaling,-1.3806557593557898,0.08754716981132075,0.24230252331781604
+depmap,residualized,functional,Hippo signaling pathway,-1.379725385431883,0.09876543209876543,0.2391538221779829
+depmap,residualized,functional,Gap junction,-1.3745222885668809,0.10673624288425047,0.24233675613641228
+depmap,residualized,functional,Purine metabolism,1.372196562049255,0.11781678288050013,0.4271911636373409
+depmap,residualized,functional,Phagosome,-1.3692410876004062,0.10673422687152664,0.24535367919391277
+depmap,residualized,functional,JAK-STAT signaling pathway,-1.3528989469526613,0.11243531441116512,0.26387619088232855
+depmap,residualized,functional,Tight junction,-1.3516514715135324,0.11761045426260112,0.2611395445972883
+depmap,residualized,lineage,Prostate,-1.3500312663514442,0.10034038774604115,0.25905817137379894
+depmap,residualized,functional,Rap1 signaling pathway,-1.347572147546745,0.0979381443298969,0.2580295464034195
+depmap,residualized,functional,Spliceosome,1.34492840509284,0.11624203821656051,0.4543663449937981
+depmap,residualized,lineage,PrefrontalCortex,-1.3417270069846299,0.09455792029710042,0.262169790177765
+depmap,residualized,functional,Lysosome,1.3402101173048537,0.11638709677419355,0.4319543783670635
+depmap,residualized,functional,Melanoma,-1.3184550203771022,0.1301830699421061,0.2918426784140294
+depmap,residualized,functional,Adrenergic signaling in cardiomyocytes,-1.3097062076398627,0.14407582938388624,0.30034706512231174
+depmap,residualized,functional,Androgen Response,-1.305078598176566,0.1368119630925867,0.30278251494431024
+depmap,residualized,functional,Prostate cancer,-1.29016507061023,0.1473846153846154,0.32135352255703353
+depmap,residualized,lineage,Lung,-1.2822882897614614,0.15357792601576714,0.32879565013889317
+depmap,residualized,functional,Pperoxisome,1.2723564475214748,0.15870898906375033,0.560782877178293
+depmap,residualized,functional,Oxytocin signaling pathway,-1.2611607561555498,0.17092187738877848,0.35843457221213826
+depmap,residualized,functional,NOD-like receptor signaling pathway,-1.2489486754687134,0.18048318332543817,0.3739297716588775
+depmap,residualized,functional,MicroRNAs in cancer,-1.2474713239009667,0.153141730064807,0.37122489812744086
+depmap,residualized,functional,Ubiquitin mediated proteolysis,1.2407725195423325,0.1789280084077772,0.6092296080946716
+depmap,residualized,functional,TNF signaling pathway,-1.2389291089600203,0.18879148403256105,0.38060158981215136
+depmap,residualized,functional,Chemical carcinogenesis,-1.2279750004284786,0.19121105232216343,0.3943137931766411
+depmap,residualized,functional,Glycolysis,-1.2236432987867045,0.18361664712778428,0.39645716201361697
+depmap,residualized,functional,Breast cancer,-1.2040661484109012,0.20620064346300088,0.4260711258720488
+depmap,residualized,functional,mRNA surveillance pathway,1.1898579261681794,0.2352191641182467,0.7182783963574044
+depmap,residualized,functional,Gastric cancer,-1.1839740388048834,0.2393418100224383,0.4576780381865894
+depmap,residualized,functional,Central carbon metabolism in cancer,-1.1756249163765022,0.26260955845873984,0.46746861044566895
+depmap,residualized,functional,NF-kappa B signaling pathway,-1.1658184452105618,0.26084233599498985,0.47987038449440045
+depmap,residualized,functional,T cell receptor signaling pathway,-1.1565344632112924,0.2592925659472422,0.4916110259065648
+depmap,residualized,functional,Cellular senescence,-1.1553650261369877,0.24622761246650685,0.4876182679944067
+depmap,residualized,functional,Glioma,-1.1437619327793704,0.27995053331272224,0.5040477734543882
+depmap,residualized,functional,Phosphatidylinositol signaling system,1.1238082731744667,0.30515759312320917,0.8912115841834822
+depmap,residualized,functional,Non-small cell lung cancer,-1.1053252807090437,0.32683451028553884,0.5756370358702307
+depmap,residualized,functional,Neurotrophin signaling pathway,1.0929942460806257,0.3001193317422434,0.9533826568208273
+depmap,residualized,functional,FoxO signaling pathway,-1.0812077448379651,0.35139135583185316,0.6196838309890654
+depmap,residualized,functional,Endocytosis,-1.0774513847441636,0.35268721155277655,0.620171513429824
+depmap,residualized,functional,Wnt signaling pathway,-1.0555273216427807,0.38367975365665896,0.6596769475242011
+depmap,residualized,functional,mTOR signaling pathway,1.0529582119511818,0.36680972818311874,1.0
+depmap,residualized,lineage,CD4+ Tcells,-1.0507424144748805,0.3948876156897312,0.6622277107386254
+depmap,residualized,functional,Glucagon signaling pathway,1.0505017767092675,0.384710846363862,1.0
+depmap,residualized,lineage,pineal night,-1.029221288505157,0.41394889171255117,0.701489242850332
+depmap,residualized,functional,IL-2/STAT5 Signaling,-1.02803304347555,0.41670449387199276,0.6960779657024964
+depmap,residualized,functional,Chronic myeloid leukemia,-1.0270846078257057,0.4300916346438073,0.6902278828461978
+depmap,residualized,functional,Insulin signaling pathway,1.0268798238824213,0.407029137879243,1.0
+depmap,residualized,functional,Endometrial cancer,-1.0244792655187434,0.42477312529851935,0.687987518090849
+depmap,residualized,functional,Signaling pathways regulating pluripotency of stem cells,-1.0175176263635966,0.43454661558109836,0.6953059384604041
+depmap,residualized,lineage,WholeBlood,-0.9985746292763935,0.4630338733431517,0.7283799862751994
+depmap,residualized,functional,Myc Targets V2,0.9934257638274793,0.45781099324975894,1.0
+depmap,residualized,functional,Natural killer cell mediated cytotoxicity,-0.9896685479203589,0.4735483870967742,0.7399377370705954
+depmap,residualized,functional,Chemokine signaling pathway,-0.9882060241007404,0.4784146161779873,0.7349663831868041
+depmap,residualized,lineage,CD33+ Myeloid,-0.9877284833423791,0.4766267007948269,0.7281135624580043
+depmap,residualized,functional,Viral carcinogenesis,0.9845570525243513,0.48741672834937083,1.0
+depmap,residualized,functional,Pancreatic cancer,-0.983961011456447,0.4831242532855436,0.7284472152238346
+depmap,residualized,functional,HIF-1 signaling pathway,-0.980854273338935,0.4927936215884698,0.7273027285950324
+depmap,residualized,lineage,SuperiorCervicalGanglion,0.9777009935496788,0.4858504617217754,1.0
+depmap,residualized,functional,Neutrophil extracellular trap formation,0.9766542561564482,0.48388800845219226,1.0
+depmap,residualized,functional,AMPK signaling pathway,0.9619788561309475,0.5113473139902327,1.0
+depmap,residualized,functional,Colorectal cancer,-0.9588649802693983,0.5180072028811524,0.7655856327059288
+depmap,residualized,functional,Unfolded Protein Response,0.9566391638305972,0.5142028985507247,1.0
+depmap,residualized,functional,UV Response Up,-0.9566380252478851,0.5246432249521847,0.7625292629041482
+depmap,residualized,lineage,AdrenalCortex,-0.9516089607515769,0.5153342522398346,0.7651863246832028
+depmap,residualized,functional,Renal cell carcinoma,0.9238916914467458,0.5676100628930818,1.0
+depmap,residualized,lineage,TestisGermCell,0.9213063606932935,0.551278928136419,1.0
+depmap,residualized,lineage,Amygdala,0.9126542693408908,0.577876337072789,1.0
+depmap,residualized,functional,Necroptosis,0.9068831412782031,0.6056773468240585,1.0
+depmap,residualized,functional,Apelin signaling pathway,-0.906284301056761,0.5954258675078864,0.8523847012336743
+depmap,residualized,functional,Prolactin signaling pathway,-0.8923086964268727,0.6072639225181599,0.8731486848802518
+depmap,residualized,lineage,Testis,-0.890926579795124,0.6170146463072609,0.8674054083572519
+depmap,residualized,functional,Mitotic Spindle,-0.8788943300415513,0.6383422778771616,0.8836667536420578
+depmap,residualized,functional,B cell receptor signaling pathway,-0.8670016250279269,0.6416786801217363,0.8994026916386884
+depmap,residualized,functional,Hepatocellular carcinoma,-0.8669297512877887,0.666128795657914,0.8909917893901244
+depmap,residualized,functional,Spermatogenesis,-0.8540578818524602,0.6577137242056993,0.9084703908522465
+depmap,residualized,functional,Dopaminergic synapse,-0.8499932396300431,0.6701244813278008,0.9080671291500101
+depmap,residualized,functional,Axon guidance,-0.845617805433342,0.688514641177363,0.9082908907560272
+depmap,residualized,functional,Long-term depression,-0.844323956562145,0.6614922383575363,0.9024844592732923
+depmap,residualized,functional,Progesterone-mediated oocyte maturation,-0.8409828203954708,0.6831775700934579,0.9007450306156305
+depmap,residualized,lineage,CD8+ Tcells,0.8387264856776979,0.7702186740715029,1.0
+depmap,residualized,functional,Reactive Oxygen Species Pathway,0.8287644083829012,0.6752336448598131,1.0
+depmap,residualized,functional,Adipocytokine signaling pathway,0.827943193459722,0.6782259966973343,1.0
+depmap,residualized,functional,Cell cycle,-0.8254374406969358,0.738914155770324,0.9218969218064322
+depmap,residualized,functional,Protein processing in endoplasmic reticulum,0.8148675363702659,0.745819397993311,1.0
+depmap,residualized,functional,Fc gamma R-mediated phagocytosis,-0.8095509550577672,0.7220083413538659,0.9428932848136993
+depmap,residualized,functional,Longevity regulating pathway,0.8093008197453723,0.7585147962032384,1.0
+depmap,residualized,lineage,TestisIntersitial,0.8031857054933188,0.7956627978008552,1.0
+depmap,residualized,lineage,pineal day,0.7996039327494526,0.8287599861062869,1.0
+depmap,residualized,functional,VEGF signaling pathway,0.7990013457009332,0.7505744191983661,1.0
+depmap,residualized,lineage,Fetalbrain,-0.7913912342304079,0.7576873798846893,0.9670405388728242
+depmap,residualized,functional,Vascular smooth muscle contraction,0.7874197057747423,0.7603412616339194,1.0
+depmap,residualized,functional,Endocrine and other factor-regulated calcium reabsorption,-0.7854766898177498,0.7390185312285518,0.9688482232738765
+depmap,residualized,functional,Serotonergic synapse,-0.7812298854037661,0.7467248908296943,0.9677162142844965
+depmap,residualized,functional,Toll-like receptor signaling pathway,-0.7797114244914699,0.765415986949429,0.9619156880100656
+depmap,residualized,functional,Thyroid hormone signaling pathway,-0.774424277530393,0.790626902008521,0.9625675760565513
+depmap,residualized,functional,Complement,-0.7741344170886121,0.8009861048857014,0.9548779234642466
+depmap,residualized,functional,IL-6/JAK/STAT3 Signaling,-0.7683288353178177,0.7647058823529411,0.9561783872599503
+depmap,residualized,functional,Oocyte meiosis,-0.7668275824424785,0.7918906465980649,0.9505963931536278
+depmap,residualized,functional,Melanogenesis,0.7650941831340073,0.7851260294484652,1.0
+depmap,residualized,functional,Adipogenesis,-0.764046338990484,0.8015885138231251,0.9472062037440737
+depmap,residualized,functional,heme Metabolism,0.7557722688504314,0.8385772913816689,1.0
+depmap,residualized,functional,Interferon Gamma Response,-0.753400404737741,0.8236007887153041,0.9555297437827169
+depmap,residualized,functional,Acute myeloid leukemia,0.7525597918542233,0.8171277997364954,1.0
+depmap,residualized,functional,Gastric acid secretion,0.751002079294713,0.7815428983417447,1.0
+depmap,residualized,functional,Xenobiotic Metabolism,-0.7504560956619009,0.8211950737418275,0.9521275956583655
+depmap,residualized,functional,Mitophagy,-0.7440295634921755,0.7925442995653628,0.9536395123424176
+depmap,residualized,functional,Choline metabolism in cancer,-0.7412338446481607,0.8118717089516515,0.9498813380387898
+depmap,residualized,lineage,TrigeminalGanglion,0.7408969486764616,0.800536454523287,1.0
+depmap,residualized,functional,Phospholipase D signaling pathway,-0.7389243433783408,0.8381316998468606,0.9456157813772509
+depmap,residualized,functional,Autophagy,0.7388252298159861,0.8669853768278966,1.0
+depmap,residualized,functional,Sphingolipid signaling pathway,-0.724225132337187,0.8518346493265211,0.9580698508062476
+depmap,residualized,lineage,CD56+ NKCells,-0.7223032393269233,0.893785929373118,0.9530301902040036
+depmap,residualized,functional,cGMP-PKG signaling pathway,-0.72132152608624,0.846732487070992,0.9469258143922964
+depmap,residualized,functional,Fc epsilon RI signaling pathway,0.7149455632928496,0.8410115172759138,1.0
+depmap,residualized,functional,Protein Secretion,-0.6987678143736328,0.8539435248296008,0.966845557543232
+depmap,residualized,functional,Cholesterol Homeostasis,0.6956186164452427,0.8769308685743226,1.0
+depmap,residualized,lineage,BDCA4+ DendriticCells,0.6837062058311719,0.9496747689147552,1.0
+depmap,residualized,functional,TGF-beta signaling pathway,-0.6808146488341061,0.8659481306837319,0.9789438726103641
+depmap,residualized,lineage,CD19+ BCells(neg. sel.),-0.6802795136389731,0.9121845710165826,0.9720563247167173
+depmap,residualized,functional,Basal cell carcinoma,-0.6786642426089656,0.86368330464716,0.9663708482438866
+depmap,residualized,functional,Aldosterone synthesis and secretion,0.6774145215480688,0.8748487049140644,1.0
+depmap,residualized,functional,"Growth hormone synthesis, secretion and action",-0.6564881623178843,0.9211956521739131,0.9800861466503936
+depmap,residualized,functional,cAMP signaling pathway,0.6561227553292832,0.9379113018597998,1.0
+depmap,residualized,lineage,SkeletalMuscle,0.646218130778975,0.933111225012814,1.0
+depmap,residualized,functional,C-type lectin receptor signaling pathway,-0.6396178142386526,0.9349184575522024,0.9868386489426315
+depmap,residualized,functional,Platelet activation,-0.6232214479983537,0.9387086712414223,0.9916539656009601
+depmap,residualized,functional,Synaptic vesicle cycle,0.6166907273581838,0.9452020828167618,1.0
+depmap,residualized,functional,Wnt-beta Catenin Signaling,0.613003398408801,0.927710843373494,0.9963313786433782
+depmap,residualized,functional,Thermogenesis,-0.6117732200952374,0.9413253202593705,0.9918224749177723
+depmap,residualized,functional,Ras signaling pathway,-0.6019124099919853,0.964596548163446,0.9905667924340247
+depmap,residualized,functional,Glycolysis / Gluconeogenesis,0.5957801627697774,0.943248995034287,0.9865641753233988
+depmap,residualized,functional,mTORC1 Signaling,-0.5894270400797151,0.9863767717077199,0.9901900938754924
+depmap,residualized,functional,Inflammatory mediator regulation of TRP channels,-0.5697621673216691,0.9548872180451128,0.9921089522890265
+depmap,residualized,functional,Oxidative Phosphorylation,0.5534657127409099,0.9849088838268792,0.9838239516401639
+depmap,residualized,functional,Cholinergic synapse,-0.5382208212115803,0.9742718446601941,0.9960486230507043
+depmap,residualized,lineage,Wholebrain,-0.5359538710670928,0.9749754661432777,0.9897273828879024
+depmap,residualized,functional,Fatty Acid Metabolism,-0.5294161302414739,0.9810870947234583,0.984597441388682
+depmap,irm,functional,Unfolded Protein Response,2.1772469549682327,0.0001,0.0018006514121285053
+depmap,irm,functional,Ribosome,2.1555553606900495,0.0001,0.0012504523695336842
+depmap,irm,functional,Nucleotide excision repair,2.0861054995987147,0.0001,0.0026009409286300634
+depmap,irm,functional,Spliceosome,-1.9225523721311877,0.0025809013301568394,0.09336484527764546
+depmap,irm,functional,Progesterone-mediated oocyte maturation,1.7781962260124284,0.0029475338966398115,0.10796405758553831
+depmap,irm,functional,Oocyte meiosis,1.6241686153086774,0.012111425111021397,0.34082329784010096
+depmap,irm,functional,Spermatogenesis,1.5989104123392475,0.030988111479243814,0.34502481780173416
+depmap,irm,lineage,Uterus,-1.5824420947059161,0.0298989898989899,1.0
+depmap,irm,functional,Ribosome biogenesis in eukaryotes,1.51717513113126,0.05508557938225457,0.5335787442431904
+depmap,irm,functional,Coagulation,-1.4559530475951905,0.07230142566191446,1.0
+depmap,irm,functional,"Growth hormone synthesis, secretion and action",1.4407545223412614,0.05287444722168814,0.7599999411551827
+depmap,irm,functional,Estrogen Response Early,-1.4342122530526515,0.05057096247960848,1.0
+depmap,irm,lineage,Wholebrain,1.4210954072367206,0.08569182389937106,0.7607196459634253
+depmap,irm,lineage,Heart,1.4190252757716721,0.0595859934223254,0.6934008479538186
+depmap,irm,functional,PI3K/AKT/mTOR  Signaling,-1.4104326725534844,0.06640625,1.0
+depmap,irm,lineage,retina,-1.4017947401901352,0.09662421669698808,1.0
+depmap,irm,functional,Gastric acid secretion,1.395361464142925,0.1007223113964687,0.7241346936471937
+depmap,irm,functional,E2F Targets,1.3864313119268883,0.04351174432036966,0.6984776845741254
+depmap,irm,lineage,CardiacMyocytes,-1.3812535108987154,0.09036640592836558,1.0
+depmap,irm,functional,Prolactin signaling pathway,1.3803611897710082,0.0977532518722901,0.6671413481936114
+depmap,irm,functional,Oxidative Phosphorylation,1.3775885287098733,0.08496210610291184,0.6294562864969218
+depmap,irm,functional,Wnt-beta Catenin Signaling,-1.3631099731087233,0.1210022407822367,1.0
+depmap,irm,functional,Autophagy,-1.3598708767438763,0.09302325581395349,1.0
+depmap,irm,functional,Bladder cancer,-1.3563917735260655,0.1078974358974359,0.9560500179014229
+depmap,irm,functional,UV Response Dn,-1.3526773143625292,0.09630390143737166,0.8873658795820758
+depmap,irm,functional,p53 signaling pathway,-1.2963425461266345,0.12671443193449336,1.0
+depmap,irm,lineage,PrefrontalCortex,-1.2758694416601053,0.1225071225071225,1.0
+depmap,irm,lineage,TrigeminalGanglion,-1.275139978483017,0.17669172932330826,1.0
+depmap,irm,functional,Thermogenesis,1.2552212742077191,0.17454757734967893,1.0
+depmap,irm,lineage,Testis,1.2452044518185623,0.1700587084148728,1.0
+depmap,irm,lineage,CD19+ BCells(neg. sel.),-1.238369260550333,0.1621125611745514,1.0
+depmap,irm,lineage,WholeBlood,-1.2367399595925375,0.15822151011415983,1.0
+depmap,irm,functional,Estrogen signaling pathway,1.2341365167208467,0.16990668740279938,1.0
+depmap,irm,functional,Adipocytokine signaling pathway,1.227724446262519,0.21550719005052468,1.0
+depmap,irm,functional,Apoptosis,-1.224671831292734,0.1620795107033639,1.0
+depmap,irm,functional,Relaxin signaling pathway,1.2193856199361983,0.18167518678725914,1.0
+depmap,irm,lineage,BronchialEpithelialCells,-1.2145771978475755,0.17814096016343206,1.0
+depmap,irm,functional,Estrogen Response Late,-1.2133580904777153,0.17429685896119892,1.0
+depmap,irm,functional,Dopaminergic synapse,1.211569499279922,0.22059984214680348,1.0
+depmap,irm,functional,Colorectal cancer,-1.2071645671264244,0.19254530477759474,0.994005726415258
+depmap,irm,functional,Inflammatory Response,-1.2031476272121986,0.22772478181449157,0.9634753172869943
+depmap,irm,functional,Chronic myeloid leukemia,-1.196872011315055,0.19921875,0.944748818603459
+depmap,irm,functional,Ubiquitin mediated proteolysis,-1.1968052470279131,0.22190553745928338,0.9039509391472696
+depmap,irm,lineage,Amygdala,1.1956483447581916,0.2295689487029452,1.0
+depmap,irm,functional,Mitophagy,1.1901232803229045,0.2436399217221135,1.0
+depmap,irm,functional,Osteoclast differentiation,1.1900162709508941,0.21986499517839922,0.9723474131498466
+depmap,irm,functional,Cytokine-cytokine receptor interaction,-1.1867385993502775,0.24598715890850723,0.9049384296457083
+depmap,irm,functional,Myc Targets V2,1.1853787211176399,0.25291444378581307,0.9505897231449416
+depmap,irm,functional,mRNA surveillance pathway,-1.1710659624938984,0.26077190116397797,0.9292661028653496
+depmap,irm,functional,Neutrophil extracellular trap formation,1.1647454999020879,0.25757575757575757,0.997324796911824
+depmap,irm,functional,VEGF signaling pathway,1.1598408566827403,0.26601941747572816,0.9788733525997302
+depmap,irm,functional,Complement,-1.1551653469875958,0.24781991482457918,0.9549442803992877
+depmap,irm,functional,Melanogenesis,1.1548077553161735,0.2754783287778212,0.9623666688134128
+depmap,irm,functional,TNF-alpha Signaling via NF-kB,-1.1473352302238558,0.24050632911392406,0.9495091474060618
+depmap,irm,functional,Protein Secretion,1.146254556433715,0.2777445706315999,0.9610583912919758
+depmap,irm,functional,Axon guidance,-1.1442160161239212,0.2587878787878788,0.9274329359659476
+depmap,irm,lineage,CD33+ Myeloid,-1.1384848013417161,0.22576736672051698,0.9169512914929533
+depmap,irm,functional,B cell receptor signaling pathway,1.1373769587686267,0.2818342845896477,0.9619445493110947
+depmap,irm,functional,Pancreatic cancer,-1.1321398577611057,0.2707566462167689,0.9096408257163034
+depmap,irm,functional,Hippo signaling pathway,-1.1293231539214506,0.2809934318555008,0.8902454405005304
+depmap,irm,functional,PD-L1 expression and PD-1 checkpoint pathway in cancer,1.1288684354349154,0.2881030174899097,0.9620813804209561
+depmap,irm,functional,Toll-like receptor signaling pathway,1.1174299753418815,0.3054953712822533,0.9740943284320979
+depmap,irm,lineage,Liver,1.1081759324497118,0.2881589299763965,0.9787603309432531
+depmap,irm,functional,Glucagon signaling pathway,1.1018534870279417,0.32849008442960925,0.9724214847421183
+depmap,irm,functional,UV Response Up,1.1013738890066542,0.30418476115278326,0.9456597533813703
+depmap,irm,functional,Glycolysis / Gluconeogenesis,-1.094438779941053,0.349025974025974,0.9889620005324526
+depmap,irm,functional,Phosphatidylinositol signaling system,-1.0926746940041423,0.33481421647819065,0.9654183086349954
+depmap,irm,functional,mTOR signaling pathway,-1.0922882038159132,0.32449520701611256,0.9384319457625588
+depmap,irm,functional,Thyroid cancer,1.0860139723679743,0.35218408736349455,0.973489316933563
+depmap,irm,functional,Serotonergic synapse,1.0860079015662571,0.34877221002196046,0.9464701772830889
+depmap,irm,functional,Non-small cell lung cancer,-1.0811120150999116,0.33612074240261064,0.9509904943954776
+depmap,irm,functional,Endometrial cancer,-1.0796991568807013,0.3460591133004926,0.9293944989647321
+depmap,irm,functional,Small cell lung cancer,-1.074394272559631,0.34593379648549244,0.9220717306856302
+depmap,irm,functional,Signaling pathways regulating pluripotency of stem cells,1.0653262316199175,0.3608804788569222,0.994576018717105
+depmap,irm,functional,RNA transport,1.0633012852490387,0.36717827626918537,0.975458149488445
+depmap,irm,functional,DNA Repair,-1.051243803563161,0.3838795033584368,0.9763060750863357
+depmap,irm,functional,Synaptic vesicle cycle,-1.0486073051175062,0.38482922954725973,0.9603230243682972
+depmap,irm,lineage,BDCA4+ DendriticCells,-1.043881709147795,0.3735432426906563,0.9521889717035116
+depmap,irm,functional,Cell cycle,1.0433463781979675,0.3815970178536394,1.0
+depmap,irm,functional,Basal cell carcinoma,-1.0275493417412667,0.4238782051282051,0.9839075774579551
+depmap,irm,functional,Lysosome,1.0148289851127568,0.432921974522293,1.0
+depmap,irm,functional,Ras signaling pathway,1.0006441715953813,0.4475332811276429,1.0
+depmap,irm,functional,Long-term depression,1.0001193790384155,0.45091715379963715,1.0
+depmap,irm,functional,Transcriptional misregulation in cancer,0.9940058995930857,0.45644195480007727,1.0
+depmap,irm,functional,Epithelial Mesenchymal Transition,-0.9928456152180999,0.4624417898359992,1.0
+depmap,irm,lineage,CD4+ Tcells,-0.9844421727509168,0.4743091095189355,1.0
+depmap,irm,functional,TGF-beta signaling pathway,-0.9808246937387608,0.4853742182771838,1.0
+depmap,irm,functional,Glycolysis,-0.9789572757773648,0.4859404290772756,1.0
+depmap,irm,lineage,Lung,-0.974682955080668,0.48890258939580766,1.0
+depmap,irm,functional,Melanoma,-0.9744325656415628,0.488929889298893,1.0
+depmap,irm,functional,G2-M Checkpoint,-0.9725390022453758,0.5042681657297522,1.0
+depmap,irm,functional,AMPK signaling pathway,0.9721700265160299,0.4921435499515034,1.0
+depmap,irm,lineage,small intestine,0.9610243324348118,0.5108353033884949,1.0
+depmap,irm,functional,Vascular smooth muscle contraction,-0.9527057675191201,0.512799838742189,1.0
+depmap,irm,functional,Chemical carcinogenesis,0.9498445742285881,0.5502208565392741,1.0
+depmap,irm,functional,Rap1 signaling pathway,0.9473209980351436,0.5309734513274337,1.0
+depmap,irm,functional,Inflammatory mediator regulation of TRP channels,0.9464009582700864,0.5279824736108345,1.0
+depmap,irm,functional,Protein processing in endoplasmic reticulum,-0.9461835764618383,0.5337743034676288,1.0
+depmap,irm,functional,Pperoxisome,0.9376663400733847,0.5348883178493773,1.0
+depmap,irm,functional,MAPK signaling pathway,-0.9369097217849135,0.5739348370927319,1.0
+depmap,irm,lineage,SkeletalMuscle,0.9344138345193058,0.5433116136450747,1.0
+depmap,irm,functional,Cholinergic synapse,0.9292901274056045,0.5534441805225653,1.0
+depmap,irm,functional,Adrenergic signaling in cardiomyocytes,-0.928726073363951,0.5618203785743052,1.0
+depmap,irm,functional,HIF-1 signaling pathway,-0.928147500975525,0.5632255389718076,1.0
+depmap,irm,functional,Focal adhesion,-0.9218157611272655,0.5857585139318885,1.0
+depmap,irm,lineage,Adipocyte,0.9191895127395514,0.5763419483101392,1.0
+depmap,irm,functional,Gastric cancer,-0.909083831081766,0.6073341573959621,1.0
+depmap,irm,functional,Aldosterone synthesis and secretion,-0.908743635592831,0.5770008084074374,1.0
+depmap,irm,functional,cGMP-PKG signaling pathway,0.9062482128620065,0.599476439790576,1.0
+depmap,irm,functional,Fc epsilon RI signaling pathway,0.9046307527085417,0.581527045498926,1.0
+depmap,irm,functional,Endocytosis,-0.8960711048849593,0.6313213703099511,1.0
+depmap,irm,lineage,TestisIntersitial,0.8940306859549698,0.6310372129849564,1.0
+depmap,irm,functional,Acute myeloid leukemia,0.8895426943580663,0.6138227254978524,1.0
+depmap,irm,functional,Pathways in cancer,0.8894931141764578,0.7097518753606463,1.0
+depmap,irm,functional,IL-6/JAK/STAT3 Signaling,-0.885102479385728,0.6057340382269215,1.0
+depmap,irm,functional,IL-2/STAT5 Signaling,-0.8850539621567226,0.6413416851889271,1.0
+depmap,irm,functional,KRAS Signaling Up,0.878447947882144,0.6400156770527141,1.0
+depmap,irm,lineage,Prostate,-0.8769819231763305,0.6602040816326531,1.0
+depmap,irm,functional,Hepatocellular carcinoma,-0.871948854990692,0.6839495971906631,1.0
+depmap,irm,functional,NF-kappa B signaling pathway,-0.8715979732896586,0.6488735538867465,1.0
+depmap,irm,lineage,CD56+ NKCells,-0.8707431625123789,0.7101743007701662,1.0
+depmap,irm,lineage,CD105+ Endothelial,-0.8686641460119181,0.7051602163961714,1.0
+depmap,irm,functional,Pyrimidine metabolism,0.861998666670177,0.6364899741909867,1.0
+depmap,irm,functional,"Parathyroid hormone synthesis, secretion and action",-0.8581488622645221,0.6592044773136119,1.0
+depmap,irm,functional,Breast cancer,-0.8553584936242423,0.7072361600663487,1.0
+depmap,irm,functional,Interferon Gamma Response,0.8538818495339422,0.6957640538400633,1.0
+depmap,irm,lineage,colon,0.8527697179153806,0.685497961560862,1.0
+depmap,irm,functional,Thyroid hormone signaling pathway,0.8517423705379006,0.6927234124686354,1.0
+depmap,irm,functional,Fatty Acid Metabolism,0.8507961816710494,0.6799607072691553,1.0
+depmap,irm,functional,Longevity regulating pathway,-0.8489778181889015,0.6841356896201504,1.0
+depmap,irm,functional,Xenobiotic Metabolism,0.8451073703769467,0.7095501183898973,1.0
+depmap,irm,functional,Phospholipase D signaling pathway,-0.8450658309043059,0.7128958807700269,1.0
+depmap,irm,functional,Platelet activation,-0.8393674246039674,0.7079107505070994,1.0
+depmap,irm,functional,TNF signaling pathway,0.8318405313491751,0.7107583774250441,1.0
+depmap,irm,functional,Myogenesis,0.8277610538262916,0.7224497756972889,1.0
+depmap,irm,functional,Phagosome,-0.8276631575659211,0.7169888934594817,1.0
+depmap,irm,functional,Mitotic Spindle,0.8259739361364449,0.7372633222721062,1.0
+depmap,irm,functional,Sphingolipid signaling pathway,-0.8224770864376137,0.7315628192032686,1.0
+depmap,irm,functional,heme Metabolism,-0.8224340791894322,0.7283849918433931,1.0
+depmap,irm,functional,FoxO signaling pathway,-0.8209122384360592,0.7618949958982772,0.9920743988246974
+depmap,irm,functional,p53 Pathway,0.8177432441575471,0.7730844793713163,1.0
+depmap,irm,functional,Cholesterol Homeostasis,0.8172570105622675,0.7119905956112853,1.0
+depmap,irm,functional,Th17 cell differentiation,-0.8154510011171394,0.7269215128100854,0.9899948042178163
+depmap,irm,functional,Th1 and Th2 cell differentiation,0.8056413770612036,0.7364613880742913,1.0
+depmap,irm,functional,Adherens junction,-0.8053262760373214,0.7431527693244065,0.9971791981726609
+depmap,irm,functional,Myc Targets V1,0.8019935631150792,0.8008987885892926,1.0
+depmap,irm,functional,Leukocyte transendothelial migration,-0.7943029705708927,0.7557782777664144,1.0
+depmap,irm,functional,Regulation of actin cytoskeleton,0.7819985340260177,0.8296153846153846,1.0
+depmap,irm,lineage,AdrenalCortex,0.7740209400392406,0.7603892154875329,1.0
+depmap,irm,functional,Wnt signaling pathway,-0.7720326580987223,0.8273894436519258,1.0
+depmap,irm,functional,Glioma,-0.7700132825653994,0.8119991781384837,1.0
+depmap,irm,lineage,SmoothMuscle,0.7699591422617222,0.8621568627450981,1.0
+depmap,irm,functional,IL-17 signaling pathway,0.7688294310957814,0.7851647267705661,1.0
+depmap,irm,functional,Gap junction,0.7675810053978476,0.7997655792146904,1.0
+depmap,irm,functional,T cell receptor signaling pathway,0.7660936656052186,0.8285602196939976,1.0
+depmap,irm,functional,Proteoglycans in cancer,0.7597849821150328,0.8677095403630746,1.0
+depmap,irm,functional,Calcium signaling pathway,0.7508592792738186,0.836762161122861,1.0
+depmap,irm,functional,PI3K-Akt signaling pathway,0.7472180389484182,0.9092143549951504,1.0
+depmap,irm,functional,mTORC1 Signaling,0.7468738547150197,0.9077563975401706,1.0
+depmap,irm,functional,Reactive Oxygen Species Pathway,0.7447369946698348,0.79585326953748,1.0
+depmap,irm,lineage,Placenta,-0.738221228744494,0.8889795918367347,1.0
+depmap,irm,lineage,SuperiorCervicalGanglion,-0.736780537500592,0.8836972046521118,1.0
+depmap,irm,lineage,CD8+ Tcells,-0.7317944839689295,0.9087374667485165,1.0
+depmap,irm,functional,Purine metabolism,-0.731689430221527,0.8245363766048502,1.0
+depmap,irm,functional,Apical Junction,-0.7311898758506387,0.8818126148193509,1.0
+depmap,irm,lineage,pineal night,-0.7266977812423498,0.9093711467324291,1.0
+depmap,irm,functional,Choline metabolism in cancer,0.7188496635511208,0.8619093539054966,1.0
+depmap,irm,functional,Tight junction,-0.7172739136495143,0.8742331288343558,1.0
+depmap,irm,functional,Necroptosis,0.7158973237518768,0.8758415841584158,1.0
+depmap,irm,functional,Prostate cancer,0.7137365972234477,0.884886452623336,1.0
+depmap,irm,functional,Natural killer cell mediated cytotoxicity,0.7091995590711885,0.8678500986193294,1.0
+depmap,irm,functional,Cellular senescence,-0.7043358912215006,0.9453917986195697,1.0
+depmap,irm,functional,MicroRNAs in cancer,-0.6998643549795832,0.9407008086253369,1.0
+depmap,irm,functional,Fc gamma R-mediated phagocytosis,-0.6998372495858195,0.8832630098452883,0.9987125905004786
+depmap,irm,functional,Adipogenesis,0.6801187618489423,0.9257108530236283,1.0
+depmap,irm,lineage,CD71+ EarlyErythroid,-0.6766784547336347,0.9742541888026155,1.0
+depmap,irm,functional,GnRH signaling pathway,0.6739331243152088,0.9100726487335559,1.0
+depmap,irm,functional,Oxytocin signaling pathway,0.6731192407952721,0.9318629381646317,1.0
+depmap,irm,functional,Apelin signaling pathway,-0.6706368716491643,0.9171514543630893,1.0
+depmap,irm,lineage,Fetalbrain,0.6685015957213875,0.9136094674556213,1.0
+depmap,irm,functional,Neurotrophin signaling pathway,0.6574100354983806,0.9424684159378037,1.0
+depmap,irm,functional,Endocrine and other factor-regulated calcium reabsorption,-0.653756684803374,0.8862540192926045,1.0
+depmap,irm,functional,Viral carcinogenesis,-0.6534400377150191,0.9765561843168957,0.9972006104001567
+depmap,irm,functional,Hypoxia,-0.6501810072606242,0.9657841140529532,0.9888061788277503
+depmap,irm,lineage,CD14+ Monocytes,0.6388347828796247,0.9639286414428544,1.0
+depmap,irm,functional,Allograft Rejection,-0.6343562934991457,0.9526009238802973,0.9890244105438111
+depmap,irm,functional,NOD-like receptor signaling pathway,-0.6238509323653164,0.9555329949238579,0.9848912635526977
+depmap,irm,functional,Insulin signaling pathway,0.6188038620679208,0.9657375145180023,1.0
+depmap,irm,functional,cAMP signaling pathway,0.6111502212420798,0.9591360186806772,1.0
+depmap,irm,lineage,Thyroid,0.6054847276573456,0.9632034632034632,1.0
+depmap,irm,lineage,CD34+,0.602805084469955,0.993843786071566,1.0
+depmap,irm,functional,JAK-STAT signaling pathway,-0.5945912233336524,0.964879467996675,0.9895315777358662
+depmap,irm,lineage,TestisGermCell,0.5646666157772837,0.9626448262085497,1.0
+depmap,irm,functional,Androgen Response,0.5549899298900887,0.9815182829888712,1.0
+depmap,irm,functional,Chemokine signaling pathway,0.5305227826803893,0.9940570522979397,1.0
+depmap,irm,lineage,pineal day,0.515157601987076,0.9974629195940672,1.0
+depmap,irm,functional,Central carbon metabolism in cancer,0.5048202637196908,0.9871319945408462,1.0
+depmap,irm,functional,C-type lectin receptor signaling pathway,-0.47031723032316164,0.9979478760517135,1.0
+depmap,irm,functional,Renal cell carcinoma,-0.43231146318569497,0.9989775051124744,0.9989004140277793
+depmap,irm,functional,ErbB signaling pathway,0.32914299607227404,1.0,0.9999911732773915
+depmap,within_tissue,functional,Epithelial Mesenchymal Transition,-2.277625505700496,0.0001,0.0001
+depmap,within_tissue,functional,Apical Junction,-2.2427196212411,0.0001,0.0001
+depmap,within_tissue,lineage,SmoothMuscle,-2.135028694796715,0.0001,0.00010489110611393339
+depmap,within_tissue,functional,RNA transport,2.0277685416263678,0.0007034822370735139,0.023177356077330614
+depmap,within_tissue,lineage,BronchialEpithelialCells,-2.018268889994186,0.0001,0.0018880399100508012
+depmap,within_tissue,functional,Proteoglycans in cancer,-1.9413320996258863,0.00023869196801527628,0.00797172406465894
+depmap,within_tissue,functional,Adherens junction,-1.928658969980462,0.000141622999575131,0.008181506276886803
+depmap,within_tissue,functional,Calcium signaling pathway,-1.9197576346994696,0.0001362954886193267,0.00822645960807849
+depmap,within_tissue,functional,KRAS Signaling Up,-1.8960363991039106,0.0011302627860977678,0.011105345859812698
+depmap,within_tissue,lineage,small intestine,-1.893316263654668,0.0004324012683770539,0.010442492342009368
+depmap,within_tissue,functional,Coagulation,-1.8911423025150358,0.000591016548463357,0.00973389464737302
+depmap,within_tissue,lineage,colon,-1.86803978644518,0.0009647188533627343,0.012815786056102407
+depmap,within_tissue,lineage,Placenta,-1.8632899682378794,0.0003713330857779428,0.012560709957143524
+depmap,within_tissue,functional,UV Response Dn,-1.8552956713553448,0.0014858841010401188,0.01300649715812774
+depmap,within_tissue,functional,Focal adhesion,-1.839230086033428,0.0008616445100935499,0.015329085936364839
+depmap,within_tissue,functional,"Parathyroid hormone synthesis, secretion and action",-1.8153639377426558,0.0036507453605111044,0.020229997999173955
+depmap,within_tissue,functional,DNA Repair,1.8139175802622207,0.005014625992478061,0.10981241754854225
+depmap,within_tissue,functional,Estrogen Response Late,-1.7980003037271306,0.0018766420618040785,0.02420362273579013
+depmap,within_tissue,lineage,PrefrontalCortex,-1.7418170603298453,0.0038008827856792545,0.04599166499842703
+depmap,within_tissue,functional,Relaxin signaling pathway,-1.7332247066673014,0.0057553956834532375,0.04796437191243254
+depmap,within_tissue,functional,Leukocyte transendothelial migration,-1.6935220425960456,0.010560281607509533,0.07083462013409891
+depmap,within_tissue,functional,Myogenesis,-1.682802337177208,0.011051250172675784,0.07565795483998015
+depmap,within_tissue,lineage,Adipocyte,-1.6748195511646595,0.012219380505825519,0.07804397776334329
+depmap,within_tissue,functional,GnRH signaling pathway,-1.6672211519393274,0.013264451270594805,0.08022739284450715
+depmap,within_tissue,functional,Estrogen signaling pathway,-1.6662183064208198,0.010077519379844961,0.07757381369556554
+depmap,within_tissue,functional,Allograft Rejection,-1.6625962007660264,0.014516129032258065,0.0769988128131366
+depmap,within_tissue,lineage,Prostate,-1.6556085034978834,0.009391483339765857,0.07959137131925266
+depmap,within_tissue,functional,Ubiquitin mediated proteolysis,1.6445070400262247,0.024525833878351864,0.2879219264872855
+depmap,within_tissue,functional,Estrogen Response Early,-1.639174753724324,0.014309024726998871,0.08963751872098023
+depmap,within_tissue,lineage,Uterus,-1.624009344208151,0.020284917931248064,0.09940180489397088
+depmap,within_tissue,functional,PI3K-Akt signaling pathway,-1.610580356933725,0.009800530381644183,0.10854356427325787
+depmap,within_tissue,lineage,retina,-1.6104314498771648,0.025115562403697996,0.10493089239556282
+depmap,within_tissue,functional,Oxidative Phosphorylation,1.608476745082386,0.024031007751937984,0.2780205714592065
+depmap,within_tissue,functional,Cytokine-cytokine receptor interaction,-1.6073664360025048,0.022598870056497175,0.10430021954949156
+depmap,within_tissue,lineage,CardiacMyocytes,-1.6025476080847667,0.020508070918232337,0.10537495863568476
+depmap,within_tissue,functional,mRNA surveillance pathway,1.5894845177997536,0.03779963122311002,0.2524522427753855
+depmap,within_tissue,functional,Adrenergic signaling in cardiomyocytes,-1.5889189193921258,0.024975024975024976,0.11497048584206919
+depmap,within_tissue,functional,Inflammatory Response,-1.5564442749236094,0.037870881168927985,0.14621502340445608
+depmap,within_tissue,lineage,Thyroid,-1.555574011123868,0.02948913193963727,0.14289562188503765
+depmap,within_tissue,functional,Myc Targets V1,1.5524339624514725,0.021763392857142856,0.26893774759370986
+depmap,within_tissue,functional,Hypoxia,-1.5395575707395666,0.028769841269841268,0.1573396560596462
+depmap,within_tissue,functional,Gap junction,-1.5307159207425327,0.046402055968018274,0.16396810799076988
+depmap,within_tissue,functional,PD-L1 expression and PD-1 checkpoint pathway in cancer,-1.5259882853413556,0.044818688034768434,0.16565140550149918
+depmap,within_tissue,functional,cGMP-PKG signaling pathway,-1.5177324942057249,0.04725950782997763,0.17153560258800732
+depmap,within_tissue,functional,Androgen Response,-1.5112902142094577,0.050048389326697085,0.17528917540963102
+depmap,within_tissue,functional,Regulation of actin cytoskeleton,-1.5081941411234978,0.03718492637883704,0.1750501447158906
+depmap,within_tissue,functional,Bladder cancer,-1.5016120249342144,0.056861038584276186,0.17945333264297214
+depmap,within_tissue,functional,MAPK signaling pathway,-1.5005416112652759,0.028409090909090908,0.1765042601095772
+depmap,within_tissue,functional,Vascular smooth muscle contraction,-1.4974617010164626,0.06093612010597586,0.17612436380553997
+depmap,within_tissue,functional,ErbB signaling pathway,-1.4810315874595341,0.05879265091863517,0.19335721856593494
+depmap,within_tissue,functional,Natural killer cell mediated cytotoxicity,-1.4628360705819758,0.06622611693722166,0.21426922065607393
+depmap,within_tissue,functional,Nucleotide excision repair,1.4554821184635742,0.0752540510848668,0.4130812904701091
+depmap,within_tissue,functional,Viral carcinogenesis,1.439479852768269,0.028655400440852314,0.39442431889591156
+depmap,within_tissue,functional,Apoptosis,-1.4351082916829396,0.060062969241947206,0.25129856807604906
+depmap,within_tissue,lineage,Heart,-1.422281191018009,0.07253285235763979,0.2662939694409949
+depmap,within_tissue,functional,Transcriptional misregulation in cancer,-1.4197235750318073,0.07745559038662488,0.26498552728307895
+depmap,within_tissue,functional,T cell receptor signaling pathway,-1.4109861423215122,0.08804051421893261,0.27376364632254757
+depmap,within_tissue,functional,Oxytocin signaling pathway,-1.4075871673904696,0.0856610800744879,0.27406577552085204
+depmap,within_tissue,functional,IL-17 signaling pathway,-1.4031671464482787,0.10992700729927007,0.2761289218774624
+depmap,within_tissue,lineage,Lung,-1.397654587929621,0.09495239337420112,0.2798817452984709
+depmap,within_tissue,functional,Pathways in cancer,-1.3876595317963438,0.04272959183673469,0.2914884257356732
+depmap,within_tissue,functional,Phagosome,-1.3821019649930049,0.1096553688407861,0.2954316276535664
+depmap,within_tissue,functional,JAK-STAT signaling pathway,-1.3818483948544715,0.10914166085136077,0.2905102217151904
+depmap,within_tissue,functional,B cell receptor signaling pathway,-1.3715998394750548,0.1168277430358158,0.30229991393128874
+depmap,within_tissue,functional,Th1 and Th2 cell differentiation,-1.3660647568467448,0.1201105133052203,0.3062709886836209
+depmap,within_tissue,functional,Osteoclast differentiation,-1.3624233105801602,0.11598574170551137,0.3071537111138392
+depmap,within_tissue,functional,Rap1 signaling pathway,-1.3575305067596355,0.11106879918761108,0.31015944514818533
+depmap,within_tissue,functional,Chemical carcinogenesis,-1.3549379677981255,0.10914786967418547,0.30929590096835924
+depmap,within_tissue,functional,MicroRNAs in cancer,-1.3457257916996175,0.11163013534555037,0.3195258216443169
+depmap,within_tissue,lineage,CD4+ Tcells,-1.3434551840702647,0.11243202225875806,0.31803998448965065
+depmap,within_tissue,functional,Platelet activation,-1.3404476892809014,0.13104203751882787,0.3179882102826389
+depmap,within_tissue,functional,Spliceosome,1.3303450501056806,0.1288487282463186,0.6078000754388955
+depmap,within_tissue,functional,Small cell lung cancer,-1.3277850392066017,0.13925028983640345,0.3345305158679942
+depmap,within_tissue,functional,Pperoxisome,1.3227748691445833,0.13438464175522796,0.566492493446964
+depmap,within_tissue,functional,Th17 cell differentiation,-1.3219485891448866,0.14536270520555633,0.33946634840848433
+depmap,within_tissue,functional,Inflammatory mediator regulation of TRP channels,-1.320503806732812,0.16398176291793312,0.33685460876653006
+depmap,within_tissue,functional,E2F Targets,1.32016267073381,0.07603305785123966,0.5213926013137926
+depmap,within_tissue,lineage,Fetalbrain,-1.310671734785822,0.16623674405273717,0.3487613622899313
+depmap,within_tissue,functional,Ribosome,1.3101480394216434,0.1416114405301709,0.5002948626878074
+depmap,within_tissue,functional,Phospholipase D signaling pathway,-1.3068452383894553,0.1525713534131264,0.3501990104728296
+depmap,within_tissue,functional,Tight junction,-1.2896455775284892,0.17270005443658137,0.37518332528187437
+depmap,within_tissue,functional,p53 signaling pathway,-1.2550651781586077,0.1896462018730489,0.43358237156567425
+depmap,within_tissue,functional,Aldosterone synthesis and secretion,-1.253238038661315,0.21344129554655872,0.4309931230035841
+depmap,within_tissue,functional,Ribosome biogenesis in eukaryotes,1.2504919469607705,0.20883534136546184,0.6019683630893775
+depmap,within_tissue,functional,Apelin signaling pathway,-1.2440280061476698,0.20781379883624274,0.4423680422890864
+depmap,within_tissue,functional,Axon guidance,-1.238358431779425,0.2119374831581784,0.44707463154693045
+depmap,within_tissue,functional,TNF-alpha Signaling via NF-kB,-1.2345089360593156,0.19697156223070295,0.44839955650540586
+depmap,within_tissue,functional,Central carbon metabolism in cancer,-1.2289437955124358,0.23258928571428572,0.45299112215212184
+depmap,within_tissue,functional,Unfolded Protein Response,1.2255929513906614,0.194990366088632,0.6212651523999717
+depmap,within_tissue,functional,Glycolysis,-1.2090411073221372,0.22740235585864849,0.4853946347112914
+depmap,within_tissue,functional,PI3K/AKT/mTOR  Signaling,-1.208720835683064,0.2393016539774219,0.4797296904782543
+depmap,within_tissue,functional,Endocytosis,-1.2079673648474574,0.2271419637273296,0.47496575509268013
+depmap,within_tissue,functional,Prostate cancer,-1.2067496885591964,0.24260119442601194,0.4712159916714835
+depmap,within_tissue,lineage,CD19+ BCells(neg. sel.),1.2056736395578946,0.18340611353711792,0.6297922366866625
+depmap,within_tissue,functional,Endocrine and other factor-regulated calcium reabsorption,-1.199247954343374,0.265983015542381,0.4795096915998465
+depmap,within_tissue,functional,NOD-like receptor signaling pathway,-1.1930812527254528,0.25721677559912853,0.48551244125899645
+depmap,within_tissue,functional,Complement,-1.1928866187616933,0.2517836295239331,0.4799778640978672
+depmap,within_tissue,functional,Fc epsilon RI signaling pathway,-1.1898464630330217,0.2771176112126752,0.47988692045737674
+depmap,within_tissue,lineage,TestisIntersitial,1.1895385909840754,0.20317460317460317,0.6303713115836999
+depmap,within_tissue,functional,Chemokine signaling pathway,-1.1792120841738243,0.2581132075471698,0.4939546953561082
+depmap,within_tissue,functional,G2-M Checkpoint,1.168169396999319,0.19338959212376933,0.6465686621782514
+depmap,within_tissue,functional,"Growth hormone synthesis, secretion and action",-1.1613801934418595,0.2886694247964767,0.5217098516155081
+depmap,within_tissue,lineage,Liver,-1.15393364907873,0.2868689380751057,0.5298598618625838
+depmap,within_tissue,functional,Gastric cancer,-1.152800265876073,0.2870606214977076,0.5257974133409866
+depmap,within_tissue,functional,HIF-1 signaling pathway,-1.1525223881490356,0.28955143701316144,0.5203325949327567
+depmap,within_tissue,functional,VEGF signaling pathway,-1.1438828892561261,0.30420192588269623,0.5307973175584205
+depmap,within_tissue,functional,Gastric acid secretion,-1.1339581591295909,0.3283558124598587,0.5438102705611568
+depmap,within_tissue,functional,Thyroid hormone signaling pathway,-1.1330255570836065,0.3114371024276256,0.539665893605705
+depmap,within_tissue,functional,Endometrial cancer,-1.1154528851421928,0.34278134599273946,0.5670629819455779
+depmap,within_tissue,functional,Cholinergic synapse,-1.1039876810073403,0.3580597014925373,0.5827682184008776
+depmap,within_tissue,lineage,CD105+ Endothelial,1.0997610056501683,0.271034039820167,0.7914430465059727
+depmap,within_tissue,functional,NF-kappa B signaling pathway,-1.0900444622932268,0.3681497558328812,0.603106006349821
+depmap,within_tissue,functional,Wnt signaling pathway,-1.08530626151441,0.3669397463002114,0.6056003943763123
+depmap,within_tissue,functional,Thyroid cancer,-1.075256364160455,0.39337311557788945,0.6185362970597331
+depmap,within_tissue,functional,Fc gamma R-mediated phagocytosis,-1.0657346320003394,0.3958333333333333,0.630252809332296
+depmap,within_tissue,functional,Dopaminergic synapse,-1.0630020865073277,0.39462660696229956,0.629075846379041
+depmap,within_tissue,functional,Non-small cell lung cancer,-1.055669272125372,0.40422099744589324,0.6367515249727951
+depmap,within_tissue,lineage,CD14+ Monocytes,-1.0499254403930165,0.41324435318275154,0.6412349946505536
+depmap,within_tissue,functional,Adipogenesis,1.045973948653061,0.36628155755241765,0.9063430043121905
+depmap,within_tissue,functional,TNF signaling pathway,-1.0459191446881944,0.41822874218962236,0.6423666346771685
+depmap,within_tissue,functional,Thermogenesis,-1.0371985147202138,0.4303726534043149,0.6520843547942393
+depmap,within_tissue,functional,Cholesterol Homeostasis,1.036864562306872,0.4059987631416203,0.8881924725768127
+depmap,within_tissue,functional,Breast cancer,-1.0347200451946874,0.42719298245614035,0.6504450244163039
+depmap,within_tissue,functional,Signaling pathways regulating pluripotency of stem cells,-1.0337143420664008,0.4349604966139955,0.6460626481521805
+depmap,within_tissue,functional,heme Metabolism,-1.0311662111352398,0.44012988770125827,0.6444529538898376
+depmap,within_tissue,functional,mTORC1 Signaling,1.0130324068872871,0.4344978165938865,0.9159425252992459
+depmap,within_tissue,functional,Phosphatidylinositol signaling system,-1.0128446621358254,0.4688,0.6717612355643695
+depmap,within_tissue,functional,Hippo signaling pathway,-1.0015040053615378,0.47299329960344594,0.6860564543349186
+depmap,within_tissue,functional,Protein Secretion,-0.9844724789351023,0.49071070480684165,0.7106081075035338
+depmap,within_tissue,functional,p53 Pathway,-0.982566699360145,0.4998134096280632,0.7075116814204487
+depmap,within_tissue,lineage,Testis,-0.9806381518365488,0.4950360397116823,0.7045897948766755
+depmap,within_tissue,lineage,CD34+,0.9730481957176437,0.5115562403697997,0.9945036132863665
+depmap,within_tissue,lineage,TestisGermCell,0.9612030366409441,0.5099211742321283,0.9865529461252903
+depmap,within_tissue,functional,Myc Targets V2,0.9570203211237333,0.519205298013245,0.9579363536973674
+depmap,within_tissue,functional,Ras signaling pathway,-0.9513926908734862,0.5407182599898837,0.7501500070844934
+depmap,within_tissue,functional,Colorectal cancer,-0.9454502983550349,0.5426267281105991,0.7540106528277435
+depmap,within_tissue,functional,Purine metabolism,0.9444878598160232,0.5231788079470199,0.9550552676070361
+depmap,within_tissue,lineage,CD71+ EarlyErythroid,0.9352042897131729,0.594979079497908,0.9435245163891074
+depmap,within_tissue,functional,C-type lectin receptor signaling pathway,-0.9182862051777534,0.5805867907457671,0.795146058814153
+depmap,within_tissue,functional,Wnt-beta Catenin Signaling,0.9174515814639341,0.5688768606224628,0.9563890425961702
+depmap,within_tissue,functional,Interferon Gamma Response,-0.9138936376642464,0.5880681818181818,0.7958474661781388
+depmap,within_tissue,lineage,SuperiorCervicalGanglion,0.9067148556455661,0.6089538602101416,0.9501392802232204
+depmap,within_tissue,functional,Neutrophil extracellular trap formation,-0.9004448636920983,0.5930553537701584,0.8121490322258136
+depmap,within_tissue,functional,TGF-beta signaling pathway,-0.8894081667508097,0.6120134845234447,0.8241619731494169
+depmap,within_tissue,functional,Synaptic vesicle cycle,-0.888241015761911,0.608779190067987,0.8191896771928346
+depmap,within_tissue,functional,Longevity regulating pathway,0.881432856071508,0.6326295585412668,0.9809836014486433
+depmap,within_tissue,functional,Prolactin signaling pathway,-0.8813816399365768,0.6158693784016042,0.8238671929718899
+depmap,within_tissue,lineage,pineal night,-0.8787710253692425,0.6418341557347454,0.8214621897531348
+depmap,within_tissue,functional,Melanogenesis,-0.877921315000596,0.6224611708482676,0.8160056045686506
+depmap,within_tissue,functional,FoxO signaling pathway,-0.8761877878536322,0.6410483666751077,0.8121727015088319
+depmap,within_tissue,lineage,BDCA4+ DendriticCells,-0.8699301826072687,0.6569704284852143,0.8157733825378196
+depmap,within_tissue,functional,Glycolysis / Gluconeogenesis,-0.8627946416722432,0.6360424028268551,0.8206901863391463
+depmap,within_tissue,functional,Lysosome,0.8614685751536031,0.6444444444444445,0.996643543560218
+depmap,within_tissue,functional,Pancreatic cancer,-0.859783256057026,0.6578432650932325,0.8189584583849611
+depmap,within_tissue,functional,IL-2/STAT5 Signaling,-0.8589018161827486,0.6637065637065637,0.8137913533185854
+depmap,within_tissue,functional,Toll-like receptor signaling pathway,-0.8583886158130867,0.6430854154561302,0.8080919035999927
+depmap,within_tissue,functional,Choline metabolism in cancer,-0.8530403431704491,0.6558940774487472,0.8099856396962211
+depmap,within_tissue,functional,Necroptosis,0.8414701132741289,0.7001588562351072,1.0
+depmap,within_tissue,lineage,pineal day,0.8273474183887073,0.772567409144197,1.0
+depmap,within_tissue,functional,Mitophagy,0.8264362622149164,0.6925418569254186,0.9815324400305168
+depmap,within_tissue,lineage,CD56+ NKCells,-0.8206252170659172,0.7326445321569538,0.8530465875539598
+depmap,within_tissue,functional,Fatty Acid Metabolism,0.8084560840519701,0.7431127012522362,0.9891606989259363
+depmap,within_tissue,functional,Renal cell carcinoma,-0.7858572765201032,0.7341032221271743,0.8979638152385369
+depmap,within_tissue,functional,Melanoma,-0.7828857637192954,0.7390885309100923,0.8953641983177965
+depmap,within_tissue,functional,Spermatogenesis,-0.7701170299649315,0.7534630120837017,0.9066002530931214
+depmap,within_tissue,functional,AMPK signaling pathway,0.7672633585379665,0.8234827449424832,1.0
+depmap,within_tissue,functional,Sphingolipid signaling pathway,-0.766821897209349,0.7649857278782112,0.9043210552500521
+depmap,within_tissue,functional,Long-term depression,-0.7526341686425466,0.7669557138432951,0.9169249261408119
+depmap,within_tissue,functional,Hepatocellular carcinoma,-0.7500464532696327,0.808885579548275,0.913633627799753
+depmap,within_tissue,lineage,CD8+ Tcells,-0.7487155719941695,0.8161196911196911,0.9086871916881331
+depmap,within_tissue,functional,Cellular senescence,-0.737890032349402,0.8321603244661816,0.9160973255713649
+depmap,within_tissue,lineage,AdrenalCortex,-0.7330105505253335,0.7903979378121476,0.9155424025297235
+depmap,within_tissue,functional,Serotonergic synapse,-0.7252633868978325,0.8048404501310313,0.9186674706454712
+depmap,within_tissue,functional,Glioma,-0.7181847640361588,0.8204148471615721,0.9207688416327207
+depmap,within_tissue,functional,Neurotrophin signaling pathway,-0.704826886338744,0.8501692267638635,0.9303429040103303
+depmap,within_tissue,functional,Mitotic Spindle,0.7045978902813327,0.9077407740774077,1.0
+depmap,within_tissue,functional,Insulin signaling pathway,0.7038047806705637,0.9149386373254338,1.0
+depmap,within_tissue,functional,cAMP signaling pathway,-0.6954804948865396,0.8437289505590732,0.9345261940592586
+depmap,within_tissue,functional,Cell cycle,-0.6824690798058309,0.888465204957102,0.9422966384721343
+depmap,within_tissue,lineage,Amygdala,0.6804180540075304,0.8807667316439246,1.0
+depmap,within_tissue,lineage,CD33+ Myeloid,-0.6794067578925544,0.905908835115363,0.9390181896226669
+depmap,within_tissue,functional,Chronic myeloid leukemia,0.6728484991335427,0.9418764302059497,1.0
+depmap,within_tissue,functional,Oocyte meiosis,-0.6419485062416046,0.9047104872452423,0.9695507416177156
+depmap,within_tissue,functional,Protein processing in endoplasmic reticulum,-0.6355181383650736,0.8988562766983602,0.9686368125499327
+depmap,within_tissue,lineage,WholeBlood,-0.6176194390249314,0.9346746150024838,0.9772258928650307
+depmap,within_tissue,functional,Adipocytokine signaling pathway,0.6006570025686235,0.9357085454058398,1.0
+depmap,within_tissue,functional,Progesterone-mediated oocyte maturation,-0.5991201440151253,0.9311141304347826,0.9847783555174686
+depmap,within_tissue,functional,IL-6/JAK/STAT3 Signaling,0.597166528236945,0.9370412196499153,1.0
+depmap,within_tissue,functional,Xenobiotic Metabolism,0.5935060924443506,0.9756959787892179,1.0
+depmap,within_tissue,functional,Basal cell carcinoma,-0.5883838733734565,0.9178736272481298,0.9855908517836361
+depmap,within_tissue,lineage,SkeletalMuscle,-0.5825959706889194,0.9323254139668826,0.9827796826195419
+depmap,within_tissue,functional,Glucagon signaling pathway,-0.5823318184541291,0.9274919859563425,0.976396343112568
+depmap,within_tissue,functional,Pyrimidine metabolism,0.5509017250847197,0.959718309859155,1.0
+depmap,within_tissue,functional,Autophagy,-0.5398752237968577,0.9662306460224239,0.9929165765516647
+depmap,within_tissue,functional,Acute myeloid leukemia,-0.5385575900526643,0.9598296664300923,0.9869804537827883
+depmap,within_tissue,lineage,Wholebrain,0.5330276983090911,0.9758214507129572,1.0
+depmap,within_tissue,functional,mTOR signaling pathway,-0.499156556075732,0.9815036593479707,0.9949613833319492
+depmap,within_tissue,lineage,TrigeminalGanglion,-0.47628721327640655,0.9821791464749101,0.9942587081875027
+depmap,within_tissue,functional,Reactive Oxygen Species Pathway,-0.4621040954871122,0.9841141189820068,0.9906768724585054
+depmap,within_tissue,functional,UV Response Up,0.4418773244696444,0.9994921279837481,0.9980278664386906
+ctrpv2,residualized,functional,RNA transport,2.3167500896305535,0.0001,0.0007343605677749528
+ctrpv2,residualized,functional,E2F Targets,2.238963703201033,0.0001,0.0012851309936061672
+ctrpv2,residualized,functional,Myc Targets V1,2.1692156897731216,0.0001,0.002080688275362366
+ctrpv2,residualized,functional,G2-M Checkpoint,2.115557079140821,0.0001,0.0028823652285166895
+ctrpv2,residualized,lineage,CD34+,2.0845251704797887,0.0001,0.003378058611764783
+ctrpv2,residualized,functional,Apical Junction,-1.9873281663097433,0.00013190871916633689,0.03858975752830098
+ctrpv2,residualized,functional,Adherens junction,-1.9626559110688673,0.0001,0.027650495778825352
+ctrpv2,residualized,functional,Calcium signaling pathway,-1.9524453976704048,0.0001287001287001287,0.021512049068483075
+ctrpv2,residualized,lineage,Placenta,-1.9332566522971946,0.00012968486577616392,0.021081441612682945
+ctrpv2,residualized,lineage,BronchialEpithelialCells,-1.9280377091989687,0.0001,0.01829440356897232
+ctrpv2,residualized,lineage,small intestine,-1.9146109314797524,0.0008661758336942399,0.01815880802969909
+ctrpv2,residualized,functional,Focal adhesion,-1.9005023031201507,0.00012357884330202668,0.01905143503533948
+ctrpv2,residualized,functional,Estrogen Response Late,-1.8983427007091807,0.00038814853150472245,0.017109774972483876
+ctrpv2,residualized,functional,Epithelial Mesenchymal Transition,-1.8883933034993838,0.0010793308148947653,0.017493046147681865
+ctrpv2,residualized,lineage,PrefrontalCortex,-1.8839067607365951,0.00037936267071320183,0.016711234029349716
+ctrpv2,residualized,functional,Estrogen Response Early,-1.8698701214810318,0.0005192782032974166,0.01855026935315375
+ctrpv2,residualized,functional,Phagosome,-1.8647580977004126,0.0022443090734209684,0.01820461733350761
+ctrpv2,residualized,lineage,Prostate,-1.8059483904034561,0.0025486250838363516,0.03569742856168277
+ctrpv2,residualized,functional,Proteoglycans in cancer,-1.7914539118670656,0.0013251415492109384,0.03946929616142466
+ctrpv2,residualized,functional,DNA Repair,1.7902314719328218,0.006910167818361303,0.04753760742063194
+ctrpv2,residualized,lineage,Thyroid,-1.7825453482570006,0.003984611156911239,0.04068599127057907
+ctrpv2,residualized,functional,"Parathyroid hormone synthesis, secretion and action",-1.7765965407291717,0.0036885245901639345,0.04081608969339527
+ctrpv2,residualized,lineage,Liver,-1.7694187942155715,0.0024062816616008107,0.04137065173597141
+ctrpv2,residualized,functional,Leukocyte transendothelial migration,-1.7647439063933026,0.004549978671974975,0.041075675748310246
+ctrpv2,residualized,functional,Glycolysis,-1.7642031302646604,0.002765705254839984,0.039179974242633975
+ctrpv2,residualized,lineage,colon,-1.7562079508878132,0.008186126669538992,0.040750124295910996
+ctrpv2,residualized,functional,Nucleotide excision repair,1.7555633615560118,0.012296177492649024,0.05303132385860552
+ctrpv2,residualized,lineage,Heart,-1.739588761957435,0.005571769700185725,0.04680402011979526
+ctrpv2,residualized,functional,Tight junction,-1.7275672761060588,0.00902737332556785,0.050308610338954424
+ctrpv2,residualized,lineage,retina,-1.6790999167909244,0.012925790754257907,0.07827893834800656
+ctrpv2,residualized,functional,PI3K-Akt signaling pathway,-1.6469696148329673,0.003230272265805261,0.10038650836600047
+ctrpv2,residualized,lineage,SmoothMuscle,-1.6363526959127748,0.010534236267870579,0.10604157530255517
+ctrpv2,residualized,functional,Regulation of actin cytoskeleton,-1.627690781811331,0.011879186149374447,0.11027638467900083
+ctrpv2,residualized,functional,Proteasome,1.6272309888746392,0.023061497326203207,0.11545984026841695
+ctrpv2,residualized,functional,Allograft Rejection,-1.6257213144497527,0.018357487922705314,0.1080529498544893
+ctrpv2,residualized,lineage,TestisIntersitial,1.6198984034795292,0.012210526315789474,0.1077470144163139
+ctrpv2,residualized,lineage,Adipocyte,-1.6180641673988123,0.02653180885370859,0.11124593104312408
+ctrpv2,residualized,functional,Axon guidance,-1.6114798028053632,0.01257128045619492,0.11354388819850815
+ctrpv2,residualized,functional,Coagulation,-1.6062502677029487,0.02600896860986547,0.1145635717086626
+ctrpv2,residualized,functional,KRAS Signaling Up,-1.6058736522328958,0.024508406953548018,0.11121907876918656
+ctrpv2,residualized,functional,Inositol phosphate metabolism,-1.5981102262897173,0.02941641625810533,0.11497219069863462
+ctrpv2,residualized,lineage,CD71+ EarlyErythroid,1.593069866381453,0.008731082654249126,0.11502289573059087
+ctrpv2,residualized,functional,Oxytocin signaling pathway,-1.5821397743145391,0.021852918084271134,0.12708000614344409
+ctrpv2,residualized,functional,Rap1 signaling pathway,-1.5734151889870498,0.017287886218734675,0.13242876904759834
+ctrpv2,residualized,functional,Chemokine signaling pathway,-1.530035207060617,0.02629601803155522,0.1796174949308733
+ctrpv2,residualized,functional,UV Response Dn,-1.5200417845941994,0.03660834454912517,0.18803192236605665
+ctrpv2,residualized,lineage,CD4+ Tcells,-1.5068619822253848,0.03420843277645187,0.20122714788435137
+ctrpv2,residualized,functional,Cholinergic synapse,-1.4965164673689437,0.04835479256080114,0.21085492119546018
+ctrpv2,residualized,functional,MicroRNAs in cancer,-1.4916511515162874,0.028194800439399488,0.21236629438815827
+ctrpv2,residualized,functional,Hypoxia,-1.4770825039391753,0.04220821001158152,0.22935893849459635
+ctrpv2,residualized,functional,Gap junction,-1.463745615044416,0.058335716328281384,0.24536982647972022
+ctrpv2,residualized,functional,Wnt signaling pathway,-1.4197425140186983,0.06859016393442623,0.31687211630432527
+ctrpv2,residualized,functional,GnRH signaling pathway,-1.4146165749042208,0.07296487884563027,0.3195256468607502
+ctrpv2,residualized,lineage,CD105+ Endothelial,1.4110957994578692,0.05205348615090735,0.30217602162906987
+ctrpv2,residualized,functional,JAK-STAT signaling pathway,-1.4081982783013902,0.07602656186475132,0.32487958261005534
+ctrpv2,residualized,functional,MAPK signaling pathway,-1.4073701964749845,0.04770684489513713,0.31920900158927745
+ctrpv2,residualized,lineage,Testis,1.3922711569255768,0.07265119817421073,0.304986063468336
+ctrpv2,residualized,functional,PI3K/AKT/mTOR  Signaling,-1.3778090712921442,0.09306691699074694,0.3722264856594572
+ctrpv2,residualized,functional,Neutrophil extracellular trap formation,1.3764591570414308,0.07160292921074043,0.3055617833237134
+ctrpv2,residualized,functional,ErbB signaling pathway,-1.3756513691226464,0.08501607717041801,0.36896411739688684
+ctrpv2,residualized,functional,Aldosterone-regulated sodium reabsorption,-1.3734621890303844,0.11274142835753856,0.3658605857971613
+ctrpv2,residualized,functional,Protein digestion and absorption,-1.3536574477019998,0.13337577590323094,0.4009484557702384
+ctrpv2,residualized,functional,TNF-alpha Signaling via NF-kB,-1.349696429639324,0.10153061224489796,0.40166110643516884
+ctrpv2,residualized,functional,Cell cycle,1.3168501044660499,0.07799304520615996,0.3814006517391756
+ctrpv2,residualized,functional,Pathways in cancer,-1.3156643625231759,0.05884251290877797,0.47289429361227164
+ctrpv2,residualized,functional,Thyroid hormone synthesis,-1.3107856893698162,0.15885731559854896,0.47557457317709745
+ctrpv2,residualized,lineage,Lung,-1.3083571279866935,0.14295580110497239,0.4724719735221994
+ctrpv2,residualized,functional,Ras signaling pathway,-1.308131145713388,0.11073377804730139,0.4642986717745059
+ctrpv2,residualized,functional,Breast cancer,-1.3051735092935814,0.12398551629416905,0.46288119309859793
+ctrpv2,residualized,functional,Endocytosis,-1.3001863974996086,0.13596776290133888,0.46626345462880764
+ctrpv2,residualized,functional,Cytokine-cytokine receptor interaction,-1.2935361936729948,0.17141994869473368,0.4737781437092831
+ctrpv2,residualized,lineage,Fetalbrain,-1.2782069637605546,0.17224339968939714,0.5021066171844747
+ctrpv2,residualized,functional,Apoptosis,-1.2718253835592481,0.14852225963337073,0.5092696394423717
+ctrpv2,residualized,functional,Relaxin signaling pathway,-1.270256567661081,0.15932914046121593,0.5045400074027835
+ctrpv2,residualized,functional,Insulin secretion,-1.2509516245115904,0.20346124905944318,0.5434719679402561
+ctrpv2,residualized,functional,Androgen Response,-1.240259467247239,0.20417156286721505,0.561434689862738
+ctrpv2,residualized,functional,Notch Signaling,-1.2315772838526462,0.22149837133550487,0.5749163609368274
+ctrpv2,residualized,functional,Myogenesis,-1.229733292020737,0.21200345423143352,0.5705938168434092
+ctrpv2,residualized,functional,Lysosome,1.2283701791493247,0.2,0.5361027974241895
+ctrpv2,residualized,functional,Aldosterone synthesis and secretion,-1.2196316892907662,0.2297942141365941,0.587423556017919
+ctrpv2,residualized,functional,Natural killer cell mediated cytotoxicity,-1.210167031108512,0.22038939967550028,0.6026788614550079
+ctrpv2,residualized,functional,Hedgehog signaling pathway,-1.207308135007,0.2486124714332354,0.6010694817834585
+ctrpv2,residualized,functional,Pancreatic secretion,-1.1985633115941083,0.24812967581047382,0.6146018718795331
+ctrpv2,residualized,functional,Gastric acid secretion,-1.1942182585342878,0.24880810488676997,0.6169262429843383
+ctrpv2,residualized,functional,"Growth hormone synthesis, secretion and action",-1.1879104338024342,0.23603297134632997,0.6242839569535643
+ctrpv2,residualized,functional,Myc Targets V2,1.1859847538129853,0.25398484452573816,0.6041400800942592
+ctrpv2,residualized,functional,Complement,-1.1810324557194274,0.2453955213992315,0.6334969914083769
+ctrpv2,residualized,functional,Phospholipase D signaling pathway,-1.1780564683657964,0.2449290060851927,0.6321271641842094
+ctrpv2,residualized,functional,Adrenergic signaling in cardiomyocytes,-1.1671769733346238,0.2668845315904139,0.6513691426153319
+ctrpv2,residualized,functional,Renal cell carcinoma,-1.1658867994886222,0.26587025975829975,0.6457967842496025
+ctrpv2,residualized,functional,Estrogen signaling pathway,-1.1605349339961804,0.2640930589287997,0.6508366000456871
+ctrpv2,residualized,functional,Mitotic Spindle,1.1486810597382124,0.23609958506224066,0.666034796595562
+ctrpv2,residualized,functional,Gastric cancer,-1.1240507009082825,0.3029735132433783,0.7380732343213721
+ctrpv2,residualized,functional,Phosphatidylinositol signaling system,-1.1233832884312958,0.32444512946979037,0.7302912074042686
+ctrpv2,residualized,functional,Antigen processing and presentation,-1.1220994791511374,0.32759445241511237,0.7242873787239792
+ctrpv2,residualized,functional,Longevity regulating pathway,1.120997087579123,0.2692768677586896,0.7057776225647788
+ctrpv2,residualized,functional,Carbohydrate digestion and absorption,-1.1115458177169057,0.33136690647482014,0.7431837031635048
+ctrpv2,residualized,functional,Endometrial cancer,-1.110885938641563,0.3264107118458806,0.7356433641864084
+ctrpv2,residualized,functional,Small cell lung cancer,-1.1086409771099752,0.32744867268209754,0.7325267366849999
+ctrpv2,residualized,functional,Spermatogenesis,1.1013369189862667,0.305744888023369,0.7232678581459311
+ctrpv2,residualized,functional,Apelin signaling pathway,-1.0981216774558982,0.3437246963562753,0.7512614094588719
+ctrpv2,residualized,functional,Bladder cancer,-1.096702393159001,0.3488840892728582,0.7458686299844992
+ctrpv2,residualized,functional,Basal cell carcinoma,-1.0890611940724508,0.3574468085106383,0.756984348226098
+ctrpv2,residualized,lineage,CD14+ Monocytes,-1.0870221311489778,0.35348278622898316,0.7533442408579181
+ctrpv2,residualized,lineage,TestisGermCell,-1.0730624190590565,0.3687816016962975,0.780801472761305
+ctrpv2,residualized,functional,Fatty Acid Metabolism,-1.0691837098882233,0.3749467405198125,0.781978084913305
+ctrpv2,residualized,functional,Spliceosome,1.06878965290206,0.3685768092547754,0.7803645855432148
+ctrpv2,residualized,functional,Neuroactive ligand-receptor interaction,-1.0674165397761448,0.394833384286151,0.7776071018746722
+ctrpv2,residualized,functional,Osteoclast differentiation,-1.0636519055190299,0.38571058762619725,0.7783484545670325
+ctrpv2,residualized,functional,Melanoma,-1.0615697062769127,0.3846664013794933,0.7749395011794369
+ctrpv2,residualized,functional,Acute myeloid leukemia,1.0601104539746908,0.35824345146379044,0.7685293159069959
+ctrpv2,residualized,functional,Fc gamma R-mediated phagocytosis,-1.0592224438020952,0.38300146999866364,0.7721926343713738
+ctrpv2,residualized,functional,Circadian entrainment,-1.0580297370371528,0.39958756345177665,0.766829820374948
+ctrpv2,residualized,functional,B cell receptor signaling pathway,-1.0553078498764399,0.38868126001067804,0.7653936697886479
+ctrpv2,residualized,functional,cGMP-PKG signaling pathway,-1.0519971215734827,0.3947334617854849,0.7651588444432222
+ctrpv2,residualized,functional,Non-small cell lung cancer,-1.0497686848017995,0.406910778751934,0.7624593108904821
+ctrpv2,residualized,functional,Adipocytokine signaling pathway,1.0480746432040153,0.3849170437405732,0.7680743938409847
+ctrpv2,residualized,functional,Salivary secretion,-1.0470975593282486,0.40878274268104775,0.7608215318386878
+ctrpv2,residualized,lineage,CD8+ Tcells,-1.0437573265444695,0.40480732544830217,0.761011734901666
+ctrpv2,residualized,functional,Glutamatergic synapse,-1.0385371247776742,0.41634015382382816,0.7657460787422917
+ctrpv2,residualized,functional,T cell receptor signaling pathway,-1.0258636675156763,0.44085063033235705,0.7884741792666313
+ctrpv2,residualized,functional,Inflammatory Response,-1.0231573972771635,0.4409771251059023,0.7869880810299397
+ctrpv2,residualized,lineage,BDCA4+ DendriticCells,-1.0224023846061432,0.43595505617977526,0.7810226864484323
+ctrpv2,residualized,functional,IL-17 signaling pathway,-1.020021078760705,0.4386839481555334,0.7790039181865236
+ctrpv2,residualized,functional,Central carbon metabolism in cancer,-1.004304054164453,0.46469338996548976,0.8081209500350304
+ctrpv2,residualized,functional,Prostate cancer,-1.0035771132560931,0.4711340206185567,0.8020250625285252
+ctrpv2,residualized,functional,Notch signaling pathway,1.0014760690104767,0.44841269841269843,0.8708271113717757
+ctrpv2,residualized,functional,Signaling pathways regulating pluripotency of stem cells,-0.9978132352855855,0.4671610169491525,0.8077148801009096
+ctrpv2,residualized,functional,Choline metabolism in cancer,-0.9949513689499704,0.47911122937732836,0.8065929349307592
+ctrpv2,residualized,functional,Protein processing in endoplasmic reticulum,-0.9890335913561975,0.4852859522487507,0.8124296299166527
+ctrpv2,residualized,functional,Chemical carcinogenesis,-0.9884502108632586,0.4895027624309392,0.8061602722986457
+ctrpv2,residualized,functional,Pancreatic cancer,-0.9827561612097255,0.4959042218021424,0.8116295762976173
+ctrpv2,residualized,functional,Transcriptional misregulation in cancer,-0.9813846224425693,0.4990293775074414,0.8073534982372024
+ctrpv2,residualized,functional,heme Metabolism,-0.9805349942611734,0.4942938659058488,0.8020134435367067
+ctrpv2,residualized,functional,Xenobiotic Metabolism,-0.9745140338962871,0.502127659574468,0.8080309642971883
+ctrpv2,residualized,functional,Hippo signaling pathway,-0.9711895324024558,0.5077660037741327,0.808296003840652
+ctrpv2,residualized,functional,TGF-beta signaling pathway,0.9646682631153796,0.4913344887348354,0.945550427724233
+ctrpv2,residualized,functional,Colorectal cancer,-0.9631767785871904,0.5217834394904458,0.8186566217525464
+ctrpv2,residualized,functional,Th1 and Th2 cell differentiation,-0.9613541241152535,0.5217152281473337,0.8154317390119945
+ctrpv2,residualized,lineage,CD56+ NKCells,-0.9571219406616445,0.536350505536832,0.8175918173252176
+ctrpv2,residualized,functional,Mineral absorption,-0.9509757948081878,0.5310982296725678,0.8236935679884773
+ctrpv2,residualized,functional,GnRH secretion,-0.9479074175046669,0.5351018613513118,0.8232686583261365
+ctrpv2,residualized,functional,mTORC1 Signaling,-0.9437262450139976,0.559667765970441,0.8250848442199833
+ctrpv2,residualized,functional,Unfolded Protein Response,-0.941547769047369,0.5460736622654622,0.8228111398454211
+ctrpv2,residualized,functional,Insulin signaling pathway,0.9377803602414672,0.5755944369672499,0.9886079461077256
+ctrpv2,residualized,functional,Thyroid cancer,-0.9330872365310553,0.5553905553905554,0.8338916684016993
+ctrpv2,residualized,functional,p53 Pathway,-0.9309567932814672,0.5702122251874444,0.8314776142899073
+ctrpv2,residualized,functional,Platelet activation,-0.9269237545871469,0.5739731490097035,0.8328229754797917
+ctrpv2,residualized,functional,cAMP signaling pathway,-0.9119917913549236,0.600407228302367,0.8565642328600599
+ctrpv2,residualized,functional,Glucagon signaling pathway,0.904466398276991,0.5981735159817352,1.0
+ctrpv2,residualized,functional,Inflammatory mediator regulation of TRP channels,-0.9024546653062155,0.5923173980092528,0.869189102027703
+ctrpv2,residualized,functional,Pperoxisome,0.899683535468281,0.6036680136773391,1.0
+ctrpv2,residualized,functional,p53 signaling pathway,-0.8952574244825505,0.609824655333958,0.8767220153580708
+ctrpv2,residualized,functional,Sphingolipid signaling pathway,-0.8862407135717862,0.6372561684536882,0.8882673615073168
+ctrpv2,residualized,lineage,Wholebrain,-0.8838354662138578,0.614233907524932,0.8862502687479157
+ctrpv2,residualized,functional,Hepatocellular carcinoma,-0.8817011053078136,0.650955097990573,0.8834880343115521
+ctrpv2,residualized,functional,PD-L1 expression and PD-1 checkpoint pathway in cancer,-0.8799799309487959,0.6522697795071336,0.880009693718525
+ctrpv2,residualized,functional,Oocyte meiosis,0.8774597826342382,0.6616858237547892,1.0
+ctrpv2,residualized,functional,Wnt-beta Catenin Signaling,0.8772614060978893,0.6096256684491979,1.0
+ctrpv2,residualized,functional,Melanogenesis,-0.8757804491359246,0.6359570661896243,0.8813631722347484
+ctrpv2,residualized,functional,Pyruvate metabolism,-0.8655365628859735,0.6295061140225504,0.8941268141456021
+ctrpv2,residualized,functional,Necroptosis,0.8592371269513517,0.6993890020366599,1.0
+ctrpv2,residualized,functional,TGF-beta Signaling,-0.8539301987048172,0.6450141553947782,0.9094388134796055
+ctrpv2,residualized,lineage,pineal night,-0.8454073409264588,0.7000875109388673,0.9184984204313906
+ctrpv2,residualized,lineage,AdrenalCortex,-0.8359207020486373,0.6740893908064259,0.9289605604289868
+ctrpv2,residualized,functional,mTOR signaling pathway,0.835368214521445,0.7344249201277955,1.0
+ctrpv2,residualized,functional,Prolactin signaling pathway,-0.8272422232040382,0.7054168372219948,0.9379382198842272
+ctrpv2,residualized,functional,HIF-1 signaling pathway,-0.8264837181832371,0.7186604117800365,0.932484290841705
+ctrpv2,residualized,functional,Endocrine and other factor-regulated calcium reabsorption,-0.8233207814484218,0.6925325149788104,0.9313628976931391
+ctrpv2,residualized,functional,IL-6/JAK/STAT3 Signaling,-0.8223166037054178,0.6839968774395004,0.9264650248184482
+ctrpv2,residualized,functional,Serotonergic synapse,-0.8222442069234114,0.6967058482078072,0.9199872013167949
+ctrpv2,residualized,functional,Glioma,-0.8218328409418735,0.7243556023145713,0.914161889741775
+ctrpv2,residualized,functional,Ovarian steroidogenesis,0.8190071577970889,0.6973861492859068,1.0
+ctrpv2,residualized,functional,Bile Acid Metabolism,-0.8144187736979318,0.6913120854230707,0.9205084098053348
+ctrpv2,residualized,lineage,CardiacMyocytes,-0.8103018344584656,0.7309868875086266,0.9211445008423061
+ctrpv2,residualized,functional,UV Response Up,-0.8097568464574161,0.733102253032929,0.9156844642937854
+ctrpv2,residualized,functional,Retrograde endocannabinoid signaling,-0.8048282831688391,0.7093040962387696,0.917731840044105
+ctrpv2,residualized,functional,Chronic myeloid leukemia,0.8030222116443939,0.8289655172413793,1.0
+ctrpv2,residualized,functional,NOD-like receptor signaling pathway,-0.7847215278105265,0.772288997490424,0.9439490243772934
+ctrpv2,residualized,functional,Fc epsilon RI signaling pathway,0.7834037999697709,0.7958889289578074,1.0
+ctrpv2,residualized,functional,Cellular senescence,0.7800563768982055,0.9028776978417267,1.0
+ctrpv2,residualized,functional,Th17 cell differentiation,-0.7564943791324273,0.8196255648805681,0.9818066885273236
+ctrpv2,residualized,functional,Neurotrophin signaling pathway,-0.7514084427422292,0.8225395206527282,0.9828472798369368
+ctrpv2,residualized,functional,Long-term depression,-0.7502800333008592,0.787324355971897,0.9779510371960151
+ctrpv2,residualized,functional,Glycolysis / Gluconeogenesis,-0.7442050294419242,0.785603954278653,0.9802802552127934
+ctrpv2,residualized,functional,Mitophagy,-0.7415926900169416,0.78420331760767,0.9775103540959273
+ctrpv2,residualized,functional,Thyroid hormone signaling pathway,-0.7295018874905059,0.8477844464308517,0.9879887844679649
+ctrpv2,residualized,lineage,WholeBlood,-0.7266071128599074,0.8587204874333587,0.9854698636937878
+ctrpv2,residualized,functional,VEGF signaling pathway,-0.7186323705434544,0.8604712041884817,0.9897593876431201
+ctrpv2,residualized,functional,FoxO signaling pathway,-0.6909593756440278,0.904558045832284,1.0
+ctrpv2,residualized,lineage,CD19+ BCells(neg. sel.),-0.6844907117135907,0.8995498392282958,1.0
+ctrpv2,residualized,lineage,Uterus,0.6839719189993346,0.8607494020728143,1.0
+ctrpv2,residualized,functional,Viral carcinogenesis,-0.6836275768625442,0.9159786304031083,1.0
+ctrpv2,residualized,functional,Autophagy,0.6749420992847107,0.929080824088748,1.0
+ctrpv2,residualized,lineage,CD33+ Myeloid,-0.6747655596090216,0.9254104211277658,1.0
+ctrpv2,residualized,functional,Ubiquitin mediated proteolysis,0.668518799758949,0.9038231780167264,1.0
+ctrpv2,residualized,functional,Toll-like receptor signaling pathway,-0.6637394131902894,0.8995668651867894,1.0
+ctrpv2,residualized,functional,Bile secretion,-0.6509683492403565,0.8933373170002987,1.0
+ctrpv2,residualized,functional,Renin secretion,-0.6506606902263519,0.8987380732533087,1.0
+ctrpv2,residualized,lineage,pineal day,-0.6483965508132356,0.9381275100401606,1.0
+ctrpv2,residualized,functional,RIG-I-like receptor signaling pathway,0.6458283452898163,0.8948497854077253,1.0
+ctrpv2,residualized,functional,Interferon Gamma Response,-0.6338817908779746,0.9375823018172241,1.0
+ctrpv2,residualized,functional,IL-2/STAT5 Signaling,-0.6268595039210063,0.9348148148148148,1.0
+ctrpv2,residualized,functional,Cholesterol Homeostasis,0.6264963486593218,0.9386092522548735,1.0
+ctrpv2,residualized,functional,Purine metabolism,-0.6210742799147588,0.9139719341061623,1.0
+ctrpv2,residualized,lineage,SkeletalMuscle,-0.6164952156881252,0.9286739380022963,1.0
+ctrpv2,residualized,functional,Protein Secretion,-0.6161541925916634,0.9232045866022933,1.0
+ctrpv2,residualized,functional,Regulation of lipolysis in adipocytes,0.6038721345379887,0.93997113997114,1.0
+ctrpv2,residualized,functional,Progesterone-mediated oocyte maturation,0.5904014916497191,0.9813972715998347,1.0
+ctrpv2,residualized,lineage,TrigeminalGanglion,0.5881381142954584,0.943695479777954,1.0
+ctrpv2,residualized,functional,Synaptic vesicle cycle,0.5703451735432682,0.9553291536050157,0.9998452650359214
+ctrpv2,residualized,functional,Long-term potentiation,-0.5658392494419927,0.9560997461549948,1.0
+ctrpv2,residualized,functional,AMPK signaling pathway,-0.5582985241661965,0.9723421478683216,1.0
+ctrpv2,residualized,lineage,Amygdala,-0.551751147639424,0.9648721976295873,1.0
+ctrpv2,residualized,functional,Circadian rhythm,0.5482804795218572,0.9674198633736206,0.9843793347672404
+ctrpv2,residualized,functional,Oxidative Phosphorylation,-0.5470520040585666,0.9718130311614731,1.0
+ctrpv2,residualized,functional,TNF signaling pathway,-0.5466722044020618,0.9790884718498659,1.0
+ctrpv2,residualized,functional,Dopaminergic synapse,-0.5165090302985677,0.9824682495858642,1.0
+ctrpv2,residualized,functional,Vascular smooth muscle contraction,-0.5150535924149942,0.983246515556807,1.0
+ctrpv2,residualized,functional,C-type lectin receptor signaling pathway,-0.5063199046362326,0.9917600102999872,1.0
+ctrpv2,residualized,functional,Adipogenesis,-0.5006186477426752,0.9889630739882818,1.0
+ctrpv2,residualized,functional,Thermogenesis,-0.49108689885415824,0.9873997709049256,1.0
+ctrpv2,residualized,lineage,SuperiorCervicalGanglion,-0.4269113799219467,0.9988110964332892,1.0
+ctrpv2,residualized,functional,PPAR signaling pathway,-0.39353548742086936,0.9985804416403785,1.0
+ctrpv2,residualized,functional,NF-kappa B signaling pathway,-0.3903839407386928,0.999314411079117,0.999188259136513
+ctrpv2,irm,functional,Oocyte meiosis,1.66969440733304,0.00963159162051529,0.5344343539096246
+ctrpv2,irm,functional,Hypoxia,-1.638264608635633,0.008271298593879239,1.0
+ctrpv2,irm,lineage,Testis,1.6362063928798294,0.015625,0.35072416010028074
+ctrpv2,irm,functional,Chemokine signaling pathway,-1.6287767247833889,0.008466297622924128,1.0
+ctrpv2,irm,lineage,CD105+ Endothelial,1.6249161343637757,0.009097998440343124,0.25585374862830107
+ctrpv2,irm,functional,Androgen Response,-1.6222162645567004,0.021324549237170597,0.939110357369077
+ctrpv2,irm,functional,RNA transport,1.6203616758182053,0.02202247191011236,0.19881691979155564
+ctrpv2,irm,functional,IL-6/JAK/STAT3 Signaling,-1.6052763622800106,0.030308563081979184,0.8080755966935244
+ctrpv2,irm,functional,"Parathyroid hormone synthesis, secretion and action",-1.597720328332231,0.01698620921627985,0.6851446980377734
+ctrpv2,irm,functional,Cholinergic synapse,-1.59182669653797,0.022245037645448322,0.5978551649870176
+ctrpv2,irm,lineage,CD4+ Tcells,-1.5685895766310916,0.01685114819097968,0.6142861359142187
+ctrpv2,irm,functional,Progesterone-mediated oocyte maturation,1.5660883994388128,0.01974821031843989,0.23613531439500407
+ctrpv2,irm,functional,Tight junction,-1.5505792412465553,0.034767339771729584,0.6154079515243979
+ctrpv2,irm,functional,Leukocyte transendothelial migration,-1.5425910961338118,0.03408292340126493,0.5796084527073541
+ctrpv2,irm,functional,Pancreatic cancer,-1.537892418863326,0.01983739837398374,0.5389537061632034
+ctrpv2,irm,functional,Allograft Rejection,-1.5341283290982974,0.03260869565217391,0.5033649050526515
+ctrpv2,irm,functional,Adherens junction,-1.5305972335249138,0.0378839590443686,0.473439674528741
+ctrpv2,irm,lineage,TestisGermCell,1.5196875745934069,0.0559019565684799,0.2716539969609937
+ctrpv2,irm,functional,Neuroactive ligand-receptor interaction,-1.5173207683659975,0.04570383912248629,0.48032769965300964
+ctrpv2,irm,functional,Cholesterol Homeostasis,-1.5108715420423655,0.04988336623003768,0.4676224984861915
+ctrpv2,irm,functional,Inositol phosphate metabolism,-1.4980060438868736,0.05653128430296377,0.4780519552265124
+ctrpv2,irm,functional,Proteoglycans in cancer,-1.4846647915104236,0.026465028355387523,0.4908529317613725
+ctrpv2,irm,functional,Acute myeloid leukemia,-1.4614809169667995,0.051915322580645164,0.5380223726768245
+ctrpv2,irm,functional,Apelin signaling pathway,-1.4609669499739701,0.05028305028305028,0.5099033328363882
+ctrpv2,irm,functional,Wnt signaling pathway,-1.4562241519979575,0.05054759898904802,0.4986818476143432
+ctrpv2,irm,functional,GnRH signaling pathway,-1.4494868976048965,0.05177389237820404,0.49475082241883084
+ctrpv2,irm,functional,TNF-alpha Signaling via NF-kB,-1.4465023696211226,0.04275184275184275,0.48014664888043035
+ctrpv2,irm,functional,JAK-STAT signaling pathway,-1.4299726775060064,0.06404109589041096,0.5088993983479179
+ctrpv2,irm,functional,Oxytocin signaling pathway,-1.4144415475967935,0.06063109202048571,0.5352975045275358
+ctrpv2,irm,functional,Circadian entrainment,-1.4071797602181635,0.09946484591252999,0.5360325206389855
+ctrpv2,irm,functional,Osteoclast differentiation,-1.3966804793839374,0.06579165974414354,0.5477996408373802
+ctrpv2,irm,functional,Spermatogenesis,1.3939800979710626,0.0841789667896679,0.5085592627002049
+ctrpv2,irm,functional,Myc Targets V1,1.3919142995921825,0.06713426853707415,0.45061076273458883
+ctrpv2,irm,functional,Phospholipase D signaling pathway,-1.384966798621244,0.06620265458077047,0.5643183306185696
+ctrpv2,irm,functional,Phagosome,-1.3758282435522784,0.12019320081738807,0.5735659036163725
+ctrpv2,irm,functional,Apical Junction,-1.366779872296012,0.08564658090724442,0.5829709760667444
+ctrpv2,irm,functional,Spliceosome,1.3662961912454492,0.11503067484662577,0.46383004538407385
+ctrpv2,irm,functional,UV Response Up,1.3620457392214533,0.08010204081632653,0.427454439135337
+ctrpv2,irm,functional,Pancreatic secretion,-1.3571688770240253,0.11989150090415913,0.5940276355899954
+ctrpv2,irm,functional,Proteasome,1.3568530959484026,0.10765997197571228,0.39960045123986704
+ctrpv2,irm,functional,mTORC1 Signaling,-1.3512514893814167,0.07586866432897672,0.5936983079399458
+ctrpv2,irm,functional,Glutamatergic synapse,-1.346772671019828,0.12433487052146151,0.5891298124381936
+ctrpv2,irm,functional,cGMP-PKG signaling pathway,-1.3389701974190449,0.08903225806451613,0.595751063071408
+ctrpv2,irm,lineage,BDCA4+ DendriticCells,-1.3321048560454425,0.08579465541490858,0.5995599594014012
+ctrpv2,irm,functional,Colorectal cancer,-1.3295632895483616,0.09434268114767386,0.5899548516000257
+ctrpv2,irm,functional,Gap junction,-1.3286537655543016,0.11486137420354744,0.5759119094809007
+ctrpv2,irm,lineage,CD56+ NKCells,-1.3133727378668816,0.08299531981279251,0.606807365179691
+ctrpv2,irm,functional,NF-kappa B signaling pathway,-1.3081485303518436,0.1239193083573487,0.6070058738986632
+ctrpv2,irm,lineage,TestisIntersitial,1.3055146921537581,0.10530155642023346,0.4811106695829066
+ctrpv2,irm,functional,Carbohydrate digestion and absorption,-1.3026691134823014,0.14509394572025053,0.6082091206370818
+ctrpv2,irm,functional,Glycolysis / Gluconeogenesis,-1.29841453864688,0.16443074691805656,0.6059367023180595
+ctrpv2,irm,lineage,small intestine,-1.297454204819376,0.14729894042035782,0.5937652820062251
+ctrpv2,irm,functional,Hippo signaling pathway,-1.2963171213322806,0.14941320721667542,0.582687444740858
+ctrpv2,irm,functional,Epithelial Mesenchymal Transition,-1.291979226584206,0.1357167062012877,0.5816793333599284
+ctrpv2,irm,functional,Adrenergic signaling in cardiomyocytes,-1.2815567310696068,0.14355683161628102,0.5987045415175061
+ctrpv2,irm,functional,Central carbon metabolism in cancer,-1.2794105495755108,0.13997330663997332,0.5917737168171364
+ctrpv2,irm,functional,Apoptosis,-1.2779957217053277,0.12425655039382735,0.5826892597562043
+ctrpv2,irm,functional,Protein digestion and absorption,-1.277143073216682,0.17748368382886148,0.5723661942551946
+ctrpv2,irm,functional,Cytokine-cytokine receptor interaction,-1.2760991192193187,0.18017857142857144,0.5630865997138543
+ctrpv2,irm,functional,Cell cycle,1.2665833852796309,0.112317880794702,0.5414524157267211
+ctrpv2,irm,functional,heme Metabolism,-1.2630160890830402,0.1712495649147233,0.5876555728098912
+ctrpv2,irm,functional,Gastric acid secretion,-1.2624443021033902,0.17806267806267806,0.5772289749965493
+ctrpv2,irm,lineage,CD33+ Myeloid,-1.2563387938123847,0.12739641311069883,0.582682413518318
+ctrpv2,irm,functional,Myogenesis,-1.2389111821023253,0.18464766567581745,0.6211568871842887
+ctrpv2,irm,lineage,colon,-1.2337041840390357,0.19270833333333334,0.6242549680873376
+ctrpv2,irm,functional,Ras signaling pathway,-1.2323713590796728,0.15201262825572218,0.616328213104925
+ctrpv2,irm,functional,"Growth hormone synthesis, secretion and action",-1.227490058909854,0.1740710156895128,0.6187758788759086
+ctrpv2,irm,functional,Renin secretion,-1.226547928406429,0.20965364775239498,0.6103042232463372
+ctrpv2,irm,lineage,BronchialEpithelialCells,-1.213161390774308,0.1812778603268945,0.6370501426563828
+ctrpv2,irm,lineage,CD8+ Tcells,-1.2031313218287127,0.19315442712518077,0.6543154778441306
+ctrpv2,irm,functional,Complement,-1.2003266150702891,0.2111334002006018,0.6511195629173011
+ctrpv2,irm,functional,PI3K-Akt signaling pathway,-1.192523936411446,0.1784251251706873,0.6626232493092591
+ctrpv2,irm,lineage,SmoothMuscle,-1.1871821215051714,0.20584944861754834,0.6667871064706029
+ctrpv2,irm,functional,Calcium signaling pathway,-1.1837291233388143,0.21021707197649747,0.665458714293695
+ctrpv2,irm,functional,GnRH secretion,-1.1790035578373876,0.2597334268677657,0.6682391474366143
+ctrpv2,irm,lineage,Adipocyte,-1.1669683621988562,0.26457479051524335,0.6920355853016268
+ctrpv2,irm,functional,Pathways in cancer,-1.1651532018675614,0.16974221721369206,0.6864339488136509
+ctrpv2,irm,functional,B cell receptor signaling pathway,-1.156969720433078,0.25858278369693893,0.6996708578286396
+ctrpv2,irm,functional,Salivary secretion,-1.1514588456433004,0.2816546762589928,0.7052145932328192
+ctrpv2,irm,functional,Sphingolipid signaling pathway,-1.1464621337644498,0.25618607720224346,0.7091294106692178
+ctrpv2,irm,functional,Platelet activation,-1.1412566042936103,0.2619737514913925,0.713850964740391
+ctrpv2,irm,functional,Relaxin signaling pathway,-1.1398377766417944,0.2641478303910246,0.7074266786973213
+ctrpv2,irm,functional,cAMP signaling pathway,-1.1349490079172713,0.26546809199870425,0.7110158230691117
+ctrpv2,irm,functional,Notch signaling pathway,1.133190315034842,0.3017559072187297,0.9238050008376727
+ctrpv2,irm,functional,Focal adhesion,-1.1318775872856952,0.26582077716098335,0.7096779588235957
+ctrpv2,irm,functional,PI3K/AKT/mTOR  Signaling,-1.1304194441582738,0.28358458961474037,0.7039216216754818
+ctrpv2,irm,functional,Melanogenesis,-1.126547606077217,0.3028044018459354,0.7050772811060639
+ctrpv2,irm,functional,Insulin secretion,-1.1246496167185749,0.3072935287808366,0.7007243139422703
+ctrpv2,irm,functional,Rap1 signaling pathway,-1.1243838213621953,0.2738359201773836,0.6920957131300198
+ctrpv2,irm,lineage,pineal day,-1.1225215981734369,0.27956989247311825,0.687961133772363
+ctrpv2,irm,functional,Hedgehog signaling pathway,-1.121249349502528,0.3261834319526627,0.6823022142897094
+ctrpv2,irm,functional,Xenobiotic Metabolism,1.1172081019367548,0.2790413303986305,0.9217420333773785
+ctrpv2,irm,functional,Chemical carcinogenesis,-1.1141102389217195,0.28486884197056944,0.6927385267836015
+ctrpv2,irm,functional,Aldosterone synthesis and secretion,-1.1121655559656216,0.31759275696786793,0.688964763134669
+ctrpv2,irm,functional,Toll-like receptor signaling pathway,-1.1110719813384782,0.3118954692007466,0.6831589169725906
+ctrpv2,irm,lineage,SuperiorCervicalGanglion,1.1097448871129942,0.2896764252696456,0.8909059189548058
+ctrpv2,irm,lineage,Amygdala,1.1087535308342538,0.31269131151400986,0.8419721145482529
+ctrpv2,irm,functional,Th1 and Th2 cell differentiation,-1.1076031046957302,0.3146708138932089,0.6836530780924901
+ctrpv2,irm,functional,Thyroid hormone signaling pathway,-1.1063914131341928,0.3021500082061382,0.6784783281722603
+ctrpv2,irm,functional,Endocrine and other factor-regulated calcium reabsorption,-1.1002252088955424,0.32834243438435795,0.686232421427467
+ctrpv2,irm,functional,Coagulation,-1.0993058985101722,0.3358288770053476,0.6803943231938164
+ctrpv2,irm,functional,AMPK signaling pathway,1.0962868744244576,0.3027431421446384,0.8365947191072945
+ctrpv2,irm,functional,Renal cell carcinoma,-1.0924128169200964,0.3335617611786877,0.6902552132599837
+ctrpv2,irm,functional,Protein processing in endoplasmic reticulum,1.0901946645400895,0.3201241346383385,0.8117190540731487
+ctrpv2,irm,lineage,CD14+ Monocytes,-1.0891061338295212,0.3299073294018534,0.690525986386498
+ctrpv2,irm,functional,Phosphatidylinositol signaling system,-1.0876819556550519,0.3560592213489307,0.6860961916690523
+ctrpv2,irm,functional,Basal cell carcinoma,1.0765028617985646,0.36268526591107236,0.814059981068132
+ctrpv2,irm,functional,Chronic myeloid leukemia,-1.071794895001776,0.35128921005091146,0.7192634183934933
+ctrpv2,irm,functional,Natural killer cell mediated cytotoxicity,-1.0701974545064705,0.359798149705635,0.715310118497033
+ctrpv2,irm,functional,NOD-like receptor signaling pathway,-1.0699641325639286,0.35276073619631904,0.7080200624536321
+ctrpv2,irm,functional,Glycolysis,-1.0660092091708635,0.35284391534391535,0.7100413872036846
+ctrpv2,irm,functional,Retrograde endocannabinoid signaling,-1.0585866581592134,0.38800801895389103,0.7213267093662121
+ctrpv2,irm,functional,Prolactin signaling pathway,-1.051588944588996,0.3806085611139763,0.7313899307280409
+ctrpv2,irm,functional,Pyruvate metabolism,-1.051516300766602,0.3987786824574389,0.7238072590226965
+ctrpv2,irm,functional,MicroRNAs in cancer,-1.0507914206907474,0.3709728363866077,0.7180733789617311
+ctrpv2,irm,functional,Unfolded Protein Response,1.0473160688565972,0.38553639846743293,0.8675663073057842
+ctrpv2,irm,functional,Fc gamma R-mediated phagocytosis,-1.0394344036147178,0.39514088071537035,0.7389374308975206
+ctrpv2,irm,lineage,CD34+,1.038461349062344,0.3696236559139785,0.8562631852706192
+ctrpv2,irm,functional,Long-term depression,-1.0257629842582094,0.4236727589208007,0.7660369419259832
+ctrpv2,irm,functional,Prostate cancer,1.0257582432586068,0.4055168857953081,0.8579982085098451
+ctrpv2,irm,functional,HIF-1 signaling pathway,-1.0187111496017054,0.4209647805040895,0.7760052700783084
+ctrpv2,irm,lineage,Lung,-1.0150043988337307,0.43379073756432246,0.7776893275214384
+ctrpv2,irm,functional,Serotonergic synapse,-1.014372134767955,0.4348894348894349,0.7714809668784863
+ctrpv2,irm,functional,Notch Signaling,-1.0131039854104698,0.4451901565995526,0.7670599490835253
+ctrpv2,irm,functional,UV Response Dn,-1.0086777637738777,0.4476558561586288,0.770390865458516
+ctrpv2,irm,lineage,PrefrontalCortex,-1.0054945362622205,0.45189171559034574,0.7707726673600582
+ctrpv2,irm,lineage,Prostate,-1.0048299932565645,0.4522209473856745,0.765034455406536
+ctrpv2,irm,functional,Necroptosis,-1.0027819821110968,0.4476938502673797,0.7628346149218219
+ctrpv2,irm,functional,Autophagy,-1.00272310326104,0.44646397884996697,0.755787174022955
+ctrpv2,irm,lineage,Heart,-0.9953002522499368,0.46212751789578826,0.7667854589064507
+ctrpv2,irm,lineage,CD71+ EarlyErythroid,-0.9900244457929054,0.47082683307332296,0.7724391921304757
+ctrpv2,irm,functional,IL-17 signaling pathway,-0.9857295377856448,0.4722560445294834,0.7755818073900004
+ctrpv2,irm,functional,Ubiquitin mediated proteolysis,-0.983749083358472,0.4794986571172784,0.7733032703364326
+ctrpv2,irm,functional,Regulation of lipolysis in adipocytes,-0.9810050013696695,0.4856468023255814,0.7731160391506523
+ctrpv2,irm,functional,Protein Secretion,-0.9797274185953283,0.4775043936731107,0.7692198745622766
+ctrpv2,irm,functional,Endometrial cancer,-0.9771757407552343,0.4866926597728429,0.7684355434735023
+ctrpv2,irm,functional,Breast cancer,-0.9771727901393008,0.49313962873284906,0.7617019307131677
+ctrpv2,irm,functional,Nucleotide excision repair,0.9753920166659887,0.4808538732394366,0.9804855302592201
+ctrpv2,irm,functional,Thyroid hormone synthesis,-0.9723589650297928,0.4943019943019943,0.7663172663683482
+ctrpv2,irm,functional,KRAS Signaling Up,0.9685598182909683,0.49169978957213,0.9627096478220274
+ctrpv2,irm,functional,Endocytosis,-0.9683287967543657,0.5048913944619466,0.7691671283610628
+ctrpv2,irm,functional,Melanoma,-0.96688945695381,0.5100334448160535,0.7658925248539954
+ctrpv2,irm,functional,Thyroid cancer,-0.9668357365207153,0.5033195765296967,0.7595301826008186
+ctrpv2,irm,functional,Inflammatory Response,-0.9645339400017585,0.5098445595854922,0.7583636738922155
+ctrpv2,irm,functional,Estrogen signaling pathway,-0.9622368880438755,0.5143979057591623,0.7572701862484458
+ctrpv2,irm,lineage,Placenta,-0.9573617430807648,0.5263157894736842,0.7620331401451896
+ctrpv2,irm,functional,mTOR signaling pathway,-0.9567414613860608,0.5249080575058509,0.75710339154513
+ctrpv2,irm,functional,Estrogen Response Late,0.9548554703195923,0.5425101214574899,0.9686297110044652
+ctrpv2,irm,functional,IL-2/STAT5 Signaling,-0.951648434433495,0.5280533698255218,0.7622868432903014
+ctrpv2,irm,functional,Th17 cell differentiation,-0.9490176406676593,0.5326550705612078,0.762040648168349
+ctrpv2,irm,functional,Bladder cancer,-0.9461064229240722,0.5341933203746245,0.7622120240016892
+ctrpv2,irm,functional,Choline metabolism in cancer,-0.934924014599176,0.5560818812383691,0.7805657331991761
+ctrpv2,irm,lineage,Liver,0.9323216254917861,0.5785864978902954,1.0
+ctrpv2,irm,functional,Hepatocellular carcinoma,-0.930893772831935,0.5729554655870446,0.7832263723619005
+ctrpv2,irm,functional,Non-small cell lung cancer,-0.92952681821179,0.5659693625432384,0.7800302064390456
+ctrpv2,irm,lineage,CardiacMyocytes,-0.9294007032888741,0.5568821422479959,0.7742669322820649
+ctrpv2,irm,functional,Glucagon signaling pathway,-0.9269749066016248,0.5596392717372809,0.7734793699792372
+ctrpv2,irm,functional,Small cell lung cancer,0.9237380614813793,0.5846953937592868,0.9905123742509981
+ctrpv2,irm,functional,Neurotrophin signaling pathway,-0.9197107986205243,0.58862108542384,0.7831476958486252
+ctrpv2,irm,functional,Long-term potentiation,-0.9171521144600521,0.5784801136363636,0.7826396581274905
+ctrpv2,irm,lineage,retina,-0.9131995498942963,0.577769692559578,0.7852089887032069
+ctrpv2,irm,functional,MAPK signaling pathway,-0.9080436812939142,0.6412669953682952,0.7903249700971723
+ctrpv2,irm,lineage,AdrenalCortex,-0.9038286094254401,0.5787740164684355,0.7931971838435177
+ctrpv2,irm,functional,Transcriptional misregulation in cancer,-0.900251177630896,0.6225099601593626,0.794781244537073
+ctrpv2,irm,functional,Viral carcinogenesis,0.8981830072221829,0.6622282608695652,1.0
+ctrpv2,irm,functional,Myc Targets V2,-0.8968251770506188,0.5961826347305389,0.7960244200885211
+ctrpv2,irm,functional,Gastric cancer,0.8914947046819025,0.6769433465085639,1.0
+ctrpv2,irm,lineage,WholeBlood,-0.8860043922195832,0.6436856722757719,0.8125245189078926
+ctrpv2,irm,functional,Signaling pathways regulating pluripotency of stem cells,0.8853752620593122,0.6402349486049926,0.9968413190361568
+ctrpv2,irm,functional,TGF-beta signaling pathway,0.8852712199442794,0.6185383244206774,0.9659420219622591
+ctrpv2,irm,functional,VEGF signaling pathway,0.874682729753783,0.6821208384710234,0.9630319497053361
+ctrpv2,irm,functional,Axon guidance,-0.8740683811545336,0.6675945636155232,0.8309457948444784
+ctrpv2,irm,functional,Cellular senescence,-0.871941462120869,0.6975881261595547,0.8292489693615538
+ctrpv2,irm,functional,PPAR signaling pathway,0.8686406483859881,0.6288727752142387,0.9494409663804461
+ctrpv2,irm,functional,Longevity regulating pathway,0.8584698467057436,0.7002475247524752,0.9457700290347102
+ctrpv2,irm,functional,Insulin signaling pathway,-0.8564904970578482,0.6936350317434479,0.8541036424923537
+ctrpv2,irm,lineage,Uterus,-0.8552512744180677,0.6446975354742345,0.8504989511979533
+ctrpv2,irm,functional,DNA Repair,0.8380919539568563,0.7094815506772536,0.9649135843151951
+ctrpv2,irm,functional,Aldosterone-regulated sodium reabsorption,-0.8303699839397529,0.6897894178021589,0.8926303553712067
+ctrpv2,irm,functional,Lysosome,-0.8264804240531302,0.6944444444444444,0.8939521629848588
+ctrpv2,irm,lineage,Thyroid,0.8169944973714426,0.7554520950747365,0.982674485645109
+ctrpv2,irm,functional,Estrogen Response Early,-0.8099285615120998,0.7680969538159188,0.9180906621398304
+ctrpv2,irm,functional,Neutrophil extracellular trap formation,-0.8095377240828103,0.7600202942668696,0.9125418370213543
+ctrpv2,irm,lineage,TrigeminalGanglion,0.8092372749458742,0.7084975908891809,0.9720240588095164
+ctrpv2,irm,functional,Regulation of actin cytoskeleton,-0.8082020754415822,0.7765454248899037,0.908757892773632
+ctrpv2,irm,functional,TNF signaling pathway,-0.798647533000377,0.7816418659087109,0.9196109484773386
+ctrpv2,irm,lineage,pineal night,-0.7979528887094264,0.8050779366864856,0.9146338083410512
+ctrpv2,irm,lineage,Wholebrain,-0.7925582384868115,0.7551785714285715,0.9176911579853899
+ctrpv2,irm,lineage,CD19+ BCells(neg. sel.),-0.7893635059943707,0.8050293925538864,0.9168953700600198
+ctrpv2,irm,functional,E2F Targets,0.7886134256541038,0.8531058384430819,0.9849077707224387
+ctrpv2,irm,functional,Thermogenesis,-0.7853729821097123,0.7735418130709768,0.9175958198145494
+ctrpv2,irm,functional,Glioma,-0.782332256256695,0.7972859775506785,0.9166219542250545
+ctrpv2,irm,functional,PD-L1 expression and PD-1 checkpoint pathway in cancer,-0.7778322950342765,0.8157377049180328,0.9178656616694255
+ctrpv2,irm,functional,TGF-beta Signaling,-0.7734428135398352,0.7597641857037583,0.918839251914693
+ctrpv2,irm,functional,FoxO signaling pathway,-0.7672576598269528,0.8454956409428479,0.9225943808962138
+ctrpv2,irm,functional,Adipocytokine signaling pathway,-0.7658610374938936,0.789362822538178,0.9188867488711692
+ctrpv2,irm,functional,Antigen processing and presentation,0.7650845208441467,0.7788018433179723,0.9994152443535542
+ctrpv2,irm,functional,G2-M Checkpoint,-0.7608965133035266,0.8679974243399872,0.9205534543717513
+ctrpv2,irm,functional,T cell receptor signaling pathway,-0.7549652037136003,0.8527207559465624,0.9232134940899401
+ctrpv2,irm,lineage,Fetalbrain,-0.7485619535672723,0.8181341719077568,0.9264572818972504
+ctrpv2,irm,functional,Mitotic Spindle,-0.7388440554148032,0.8600774541168547,0.9338913720551594
+ctrpv2,irm,functional,C-type lectin receptor signaling pathway,-0.7379728612817794,0.8769001982815599,0.9292684769873101
+ctrpv2,irm,functional,Dopaminergic synapse,0.735570019947863,0.864929476452307,1.0
+ctrpv2,irm,functional,Purine metabolism,0.7294262688596406,0.8362981310515649,1.0
+ctrpv2,irm,functional,Fc epsilon RI signaling pathway,0.725336491656421,0.8727186537094098,0.98271285597648
+ctrpv2,irm,functional,RIG-I-like receptor signaling pathway,-0.7178310504499585,0.8218848361414552,0.948803107206684
+ctrpv2,irm,functional,Inflammatory mediator regulation of TRP channels,-0.7164446860184652,0.8576998050682261,0.9446896237929094
+ctrpv2,irm,functional,p53 signaling pathway,-0.704380558633108,0.8903389830508475,0.9526383069506422
+ctrpv2,irm,functional,Circadian rhythm,-0.7040916307934125,0.8423772609819121,0.9472351992168698
+ctrpv2,irm,functional,Wnt-beta Catenin Signaling,-0.6922350919859106,0.8528146624275295,0.954192756678262
+ctrpv2,irm,functional,Oxidative Phosphorylation,0.6905893119921976,0.9118068833652008,0.9970509636132789
+ctrpv2,irm,functional,ErbB signaling pathway,-0.6542285372695273,0.9448884448884449,0.9825231065934157
+ctrpv2,irm,functional,Bile secretion,-0.6483850647364076,0.9103715442859658,0.9811732413625116
+ctrpv2,irm,functional,Ovarian steroidogenesis,0.64589160479142,0.9105988797931925,1.0
+ctrpv2,irm,functional,Mineral absorption,-0.6400323409560412,0.9076195671940352,0.9813560225177094
+ctrpv2,irm,functional,p53 Pathway,-0.6311181605972022,0.9702970297029703,0.9815037663402881
+ctrpv2,irm,functional,Fatty Acid Metabolism,-0.625255771320337,0.9471861471861471,0.9794770288984253
+ctrpv2,irm,functional,Mitophagy,-0.6060848753210335,0.9351400180668473,0.9843468871074719
+ctrpv2,irm,functional,Synaptic vesicle cycle,0.601534872078668,0.9355048859934854,1.0
+ctrpv2,irm,functional,Interferon Gamma Response,-0.6001649854659951,0.9744567921711726,0.9815580586868181
+ctrpv2,irm,lineage,SkeletalMuscle,-0.5992684245109077,0.9592657342657342,0.9763548269814999
+ctrpv2,irm,functional,Pperoxisome,0.5893558709311084,0.9625451263537906,0.995101099075286
+ctrpv2,irm,functional,Bile Acid Metabolism,0.5799141870709524,0.9472875027454426,0.9775628289250511
+ctrpv2,irm,functional,Adipogenesis,-0.5735482510582655,0.976006855184233,0.9813283733309887
+ctrpv2,irm,functional,Vascular smooth muscle contraction,-0.5562345259483426,0.9765135699373695,0.9812540723637759
+ctrpv2,within_tissue,functional,Epithelial Mesenchymal Transition,-2.328845900198735,0.0001,0.0001
+ctrpv2,within_tissue,functional,Apical Junction,-2.1867020645342135,0.0001,0.0001
+ctrpv2,within_tissue,functional,Calcium signaling pathway,-2.1834221823765505,0.0001,0.0001
+ctrpv2,within_tissue,lineage,BronchialEpithelialCells,-2.057065591460201,0.0001,0.0009326509726029952
+ctrpv2,within_tissue,lineage,SmoothMuscle,-2.0381617927805253,0.0001,0.0012905872918181987
+ctrpv2,within_tissue,functional,PI3K-Akt signaling pathway,-1.9835698745809722,0.0001,0.00324327275157438
+ctrpv2,within_tissue,functional,KRAS Signaling Up,-1.9235046911954816,0.0001,0.007994151193739958
+ctrpv2,within_tissue,functional,Focal adhesion,-1.9114674099637232,0.0001,0.008582909626251889
+ctrpv2,within_tissue,functional,Coagulation,-1.887671169381203,0.0010192195690157252,0.011135796597806332
+ctrpv2,within_tissue,functional,UV Response Dn,-1.8758622138039143,0.0009036922282468371,0.01217991756653425
+ctrpv2,within_tissue,functional,Neuroactive ligand-receptor interaction,-1.8592026219433555,0.001044620205939412,0.01439994769493175
+ctrpv2,within_tissue,lineage,Placenta,-1.8469104154422469,0.0009775171065493646,0.015829859751207598
+ctrpv2,within_tissue,functional,Leukocyte transendothelial migration,-1.8296686652037506,0.0016205266711681297,0.018916721182359295
+ctrpv2,within_tissue,functional,Estrogen Response Late,-1.8267603074720025,0.0006100536847242558,0.01837934580758953
+ctrpv2,within_tissue,functional,Adherens junction,-1.8230827927507123,0.0021353263045509143,0.01812871836475876
+ctrpv2,within_tissue,functional,Inflammatory Response,-1.802673684408768,0.002733734281027884,0.022276494514537757
+ctrpv2,within_tissue,functional,Proteoglycans in cancer,-1.795531576063596,0.000455736584254301,0.023243619469832357
+ctrpv2,within_tissue,lineage,colon,-1.7931786615387892,0.003835091083413231,0.02254606705541775
+ctrpv2,within_tissue,functional,Rap1 signaling pathway,-1.7761177021817172,0.0012718233321771303,0.02669265657008857
+ctrpv2,within_tissue,lineage,Prostate,-1.7642260197264734,0.0039325130026639605,0.029375984958690014
+ctrpv2,within_tissue,functional,RNA transport,1.7518240793009108,0.01068804275217101,0.40387725761523946
+ctrpv2,within_tissue,functional,Gap junction,-1.7418830322962902,0.006701514542286556,0.03668187094304702
+ctrpv2,within_tissue,functional,Nucleotide excision repair,1.7406781029192737,0.011832691249312053,0.22057986641507174
+ctrpv2,within_tissue,functional,Ras signaling pathway,-1.7126818113184825,0.0019515555045344966,0.04953362020586326
+ctrpv2,within_tissue,functional,Allograft Rejection,-1.6951173031984217,0.006665777896280496,0.05741885987851484
+ctrpv2,within_tissue,lineage,CardiacMyocytes,-1.6852565764372747,0.010503112033195022,0.06126928731730669
+ctrpv2,within_tissue,lineage,PrefrontalCortex,-1.6782791013229832,0.007278367736546951,0.06344446464872526
+ctrpv2,within_tissue,lineage,small intestine,-1.6752758405834656,0.011169332597904027,0.06302471354155459
+ctrpv2,within_tissue,functional,Protein digestion and absorption,-1.6720159044173228,0.012560841576385618,0.0627891629763634
+ctrpv2,within_tissue,lineage,Adipocyte,-1.6714807268379868,0.011968459588848212,0.06085277523559079
+ctrpv2,within_tissue,functional,Central carbon metabolism in cancer,-1.6678084277586935,0.010373181530676788,0.060983030976538816
+ctrpv2,within_tissue,functional,Relaxin signaling pathway,-1.6673315811118046,0.009298289114802877,0.059235940151811856
+ctrpv2,within_tissue,functional,Ubiquitin mediated proteolysis,1.662373815337694,0.02037351443123939,0.2740213256656782
+ctrpv2,within_tissue,lineage,retina,-1.6612160408633612,0.014936301068970566,0.06095162764282522
+ctrpv2,within_tissue,functional,Estrogen Response Early,-1.6543389277386187,0.009108813392417528,0.06319025424173334
+ctrpv2,within_tissue,functional,JAK-STAT signaling pathway,-1.6480419726543072,0.012040393578456758,0.06518321326621557
+ctrpv2,within_tissue,functional,Regulation of actin cytoskeleton,-1.645698071266414,0.008888888888888889,0.06479032893300553
+ctrpv2,within_tissue,functional,DNA Repair,1.636022589584667,0.02235695339143615,0.24829836463294094
+ctrpv2,within_tissue,functional,MicroRNAs in cancer,-1.628938956909186,0.008119853613906679,0.07407337284491372
+ctrpv2,within_tissue,functional,Myc Targets V1,1.6235932779381281,0.018962075848303395,0.2164135741456255
+ctrpv2,within_tissue,lineage,Heart,-1.6222005729918278,0.014744801512287334,0.07679106416465141
+ctrpv2,within_tissue,functional,Hypoxia,-1.6202551353469072,0.012093818714879061,0.07602365765866577
+ctrpv2,within_tissue,functional,Pathways in cancer,-1.6152618734102469,0.0008279002380213184,0.07770853210419323
+ctrpv2,within_tissue,functional,E2F Targets,1.604478527818272,0.01239067055393586,0.20709782250576572
+ctrpv2,within_tissue,functional,Cytokine-cytokine receptor interaction,-1.5804078880174224,0.03366161987358518,0.10353136756440623
+ctrpv2,within_tissue,functional,Platelet activation,-1.5774204946807646,0.01916243654822335,0.1035570267768888
+ctrpv2,within_tissue,functional,"Parathyroid hormone synthesis, secretion and action",-1.5735056708442898,0.025565262076053443,0.10444953133649838
+ctrpv2,within_tissue,functional,Phagosome,-1.557583202664229,0.03602464844367199,0.11654656220831458
+ctrpv2,within_tissue,lineage,CD105+ Endothelial,1.5557660795768586,0.022054556006964595,0.2461116174387807
+ctrpv2,within_tissue,functional,GnRH signaling pathway,-1.5547019617294016,0.025313186103577426,0.1166523022904498
+ctrpv2,within_tissue,functional,Aldosterone-regulated sodium reabsorption,-1.5521350491799755,0.03739130434782609,0.11646450376308264
+ctrpv2,within_tissue,functional,Proteasome,1.548884484381713,0.04508912967493883,0.2249481459849642
+ctrpv2,within_tissue,functional,Myogenesis,-1.545481724559902,0.03909691629955947,0.12044585149128316
+ctrpv2,within_tissue,functional,Axon guidance,-1.5349481577105233,0.028627355028138,0.1284647258596685
+ctrpv2,within_tissue,functional,Tight junction,-1.5343670364097772,0.04359405663022147,0.12630850825743337
+ctrpv2,within_tissue,functional,G2-M Checkpoint,1.5284068811095086,0.01649175412293853,0.22762103014147225
+ctrpv2,within_tissue,functional,Phospholipase D signaling pathway,-1.5218394508782798,0.029163653892504218,0.13638970191692001
+ctrpv2,within_tissue,lineage,TestisIntersitial,1.5157936202430373,0.03009027081243731,0.2212223320454069
+ctrpv2,within_tissue,lineage,Thyroid,-1.4986500447986852,0.04897852278679937,0.1593130419235338
+ctrpv2,within_tissue,functional,Adrenergic signaling in cardiomyocytes,-1.4972488969562865,0.05133841975947239,0.15776018062627054
+ctrpv2,within_tissue,lineage,Testis,1.4831407452096221,0.04145077720207254,0.24399534930579947
+ctrpv2,within_tissue,functional,Complement,-1.4645877103503542,0.052170649318153385,0.19532587905077545
+ctrpv2,within_tissue,functional,Oxytocin signaling pathway,-1.4623897463421927,0.05220833848818508,0.1944354294796477
+ctrpv2,within_tissue,lineage,Lung,-1.4468433076256322,0.07534786033079549,0.21199950858731786
+ctrpv2,within_tissue,functional,MAPK signaling pathway,-1.4329370428061667,0.03420479302832244,0.22805790279219706
+ctrpv2,within_tissue,functional,Inositol phosphate metabolism,-1.4273983217232757,0.09346670834635824,0.23178324466055958
+ctrpv2,within_tissue,functional,Transcriptional misregulation in cancer,-1.4187309012290155,0.07326052276352926,0.24067796546666562
+ctrpv2,within_tissue,functional,Insulin secretion,-1.4114494002159155,0.09898255813953488,0.24789677117596767
+ctrpv2,within_tissue,functional,Gastric acid secretion,-1.4091560055054733,0.09211666185388391,0.24712208576025868
+ctrpv2,within_tissue,functional,Cholinergic synapse,-1.4040907542913261,0.09722785665990534,0.25059814681173287
+ctrpv2,within_tissue,functional,Non-small cell lung cancer,-1.3992746598960129,0.07669616519174041,0.25374828263613025
+ctrpv2,within_tissue,functional,Glycolysis,-1.398663358567043,0.07566235366605052,0.2505438531239997
+ctrpv2,within_tissue,functional,Androgen Response,-1.3899863665148733,0.10338055828306915,0.2596591377394508
+ctrpv2,within_tissue,functional,cGMP-PKG signaling pathway,-1.3810794589865616,0.09388593523441276,0.26929806702018977
+ctrpv2,within_tissue,functional,Bladder cancer,-1.3793955746846456,0.10781486059607197,0.2677811088128742
+ctrpv2,within_tissue,functional,Choline metabolism in cancer,-1.3655288575936475,0.10775427995971802,0.2858511244578917
+ctrpv2,within_tissue,lineage,Liver,-1.3610121778763766,0.09436230316143768,0.2889995868012639
+ctrpv2,within_tissue,functional,Apoptosis,-1.3325999609336188,0.11033503018823251,0.33301696874270176
+ctrpv2,within_tissue,functional,Necroptosis,1.3284223524459036,0.1045346062052506,0.5063391689380098
+ctrpv2,within_tissue,lineage,CD4+ Tcells,-1.3227357590217554,0.12706208286110063,0.3458874769204946
+ctrpv2,within_tissue,functional,Retrograde endocannabinoid signaling,-1.3222865758731686,0.1563513115237253,0.3417177635631539
+ctrpv2,within_tissue,functional,Pancreatic secretion,-1.32218053373607,0.1573201734709137,0.3370060469636296
+ctrpv2,within_tissue,functional,Apelin signaling pathway,-1.3189951075247408,0.14022988505747128,0.33788734101770207
+ctrpv2,within_tissue,functional,HIF-1 signaling pathway,-1.300275519168581,0.14654103644929334,0.366968749805728
+ctrpv2,within_tissue,functional,Unfolded Protein Response,1.2973582684492826,0.1290187891440501,0.542082247581394
+ctrpv2,within_tissue,functional,Melanoma,-1.29398052533709,0.1592364686675876,0.3737136936099374
+ctrpv2,within_tissue,lineage,Uterus,-1.2906627406396016,0.18851674641148325,0.37468997350172867
+ctrpv2,within_tissue,functional,PI3K/AKT/mTOR  Signaling,-1.2878446409068407,0.1610797237915882,0.3749236744437606
+ctrpv2,within_tissue,functional,Endocytosis,-1.279124058213792,0.16110499938882777,0.38596095526821306
+ctrpv2,within_tissue,functional,Viral carcinogenesis,1.2727341229157796,0.09839650145772595,0.5637357782541537
+ctrpv2,within_tissue,lineage,WholeBlood,1.2717541050314942,0.1157649796393252,0.5285155899002606
+ctrpv2,within_tissue,functional,p53 signaling pathway,-1.2688236669091957,0.17501927525057825,0.4005207239607592
+ctrpv2,within_tissue,lineage,CD34+,1.2613122387945266,0.10606060606060606,0.5197765971785425
+ctrpv2,within_tissue,functional,Xenobiotic Metabolism,-1.2545202268301405,0.19596879063719116,0.4226854352480297
+ctrpv2,within_tissue,functional,Carbohydrate digestion and absorption,-1.254059975842456,0.20633812648331704,0.41819903693452704
+ctrpv2,within_tissue,functional,Prostate cancer,-1.2501941589833792,0.1834817616201049,0.4203949465791044
+ctrpv2,within_tissue,functional,Small cell lung cancer,-1.247769412088012,0.1889055472263868,0.4198616052813415
+ctrpv2,within_tissue,functional,Estrogen signaling pathway,-1.2464756836607318,0.18479307025986524,0.4172829232925715
+ctrpv2,within_tissue,functional,Lysosome,1.2444936849495951,0.20169918187539332,0.5277036324458798
+ctrpv2,within_tissue,functional,Thyroid hormone synthesis,-1.2334665743329887,0.23024404416037186,0.4372714800341634
+ctrpv2,within_tissue,functional,ErbB signaling pathway,-1.2329504276662246,0.2021237641889418,0.43299491718021066
+ctrpv2,within_tissue,functional,Cell cycle,1.2233742246039259,0.15691489361702127,0.5457659002339567
+ctrpv2,within_tissue,functional,Hippo signaling pathway,-1.2164023278274603,0.2369720241360395,0.45944433108105887
+ctrpv2,within_tissue,functional,Chemokine signaling pathway,-1.212150491509665,0.21079478054567022,0.46240377982336184
+ctrpv2,within_tissue,functional,TGF-beta Signaling,-1.2062044875755107,0.25626233490207984,0.4686085834323182
+ctrpv2,within_tissue,lineage,Fetalbrain,-1.1925025933718638,0.2585352422907489,0.4900255911765504
+ctrpv2,within_tissue,functional,TNF-alpha Signaling via NF-kB,-1.1896445912616336,0.239314175319971,0.490184131285426
+ctrpv2,within_tissue,functional,Salivary secretion,-1.1886018845142992,0.26953298739807263,0.4867452211695274
+ctrpv2,within_tissue,lineage,pineal night,-1.1771512260597283,0.2491141034727144,0.5040038100013342
+ctrpv2,within_tissue,functional,Wnt signaling pathway,-1.1728491006370423,0.269,0.5070892382709082
+ctrpv2,within_tissue,functional,Gastric cancer,-1.1691341836240143,0.2619500594530321,0.5089146500989559
+ctrpv2,within_tissue,functional,Thyroid cancer,-1.1529834485340906,0.30551586167476424,0.5355014800049047
+ctrpv2,within_tissue,functional,Aldosterone synthesis and secretion,-1.143295659291324,0.3184086696135748,0.5493157681242216
+ctrpv2,within_tissue,functional,Oocyte meiosis,1.1329223969705648,0.26298549368273283,0.7516335541882831
+ctrpv2,within_tissue,functional,Natural killer cell mediated cytotoxicity,-1.128816729801038,0.3133239472673749,0.5725899316337648
+ctrpv2,within_tissue,lineage,CD71+ EarlyErythroid,1.124598770036748,0.24025974025974026,0.7378328391290023
+ctrpv2,within_tissue,functional,B cell receptor signaling pathway,-1.123602219063279,0.31832139201637666,0.5771459385646301
+ctrpv2,within_tissue,functional,Glioma,-1.1052966127487904,0.3407647278615021,0.608758214372304
+ctrpv2,within_tissue,functional,Mineral absorption,-1.0968429759875935,0.36551724137931035,0.6201367672039215
+ctrpv2,within_tissue,functional,Spermatogenesis,1.089864748551097,0.32454212454212455,0.8030171424007347
+ctrpv2,within_tissue,functional,Signaling pathways regulating pluripotency of stem cells,-1.0816796123923038,0.369463129838812,0.6455568047240716
+ctrpv2,within_tissue,functional,Chronic myeloid leukemia,1.0778688243163863,0.3060640732265446,0.8017502048973879
+ctrpv2,within_tissue,functional,Circadian rhythm,1.0769979408014676,0.38411316648531013,0.7695197688243668
+ctrpv2,within_tissue,functional,Regulation of lipolysis in adipocytes,-1.0768761714580721,0.38744075829383884,0.6491959554107372
+ctrpv2,within_tissue,lineage,CD14+ Monocytes,-1.0694730575300917,0.3840552416823603,0.6581332892404615
+ctrpv2,within_tissue,functional,Endocrine and other factor-regulated calcium reabsorption,-1.0616717730872591,0.3978328173374613,0.667782012000528
+ctrpv2,within_tissue,lineage,Amygdala,1.0602907659719485,0.36305251227805063,0.7834430317189325
+ctrpv2,within_tissue,functional,Fc gamma R-mediated phagocytosis,-1.0577736235483237,0.39923566878980893,0.6693738796487181
+ctrpv2,within_tissue,functional,Spliceosome,1.0550927361163567,0.3885491939966648,0.7666328211579356
+ctrpv2,within_tissue,functional,Neurotrophin signaling pathway,1.0526911615495036,0.34985754985754985,0.7435828316410579
+ctrpv2,within_tissue,functional,Thyroid hormone signaling pathway,-1.0502837570370775,0.40958025886052984,0.678194019266447
+ctrpv2,within_tissue,functional,Fatty Acid Metabolism,1.0495367352895904,0.36516634050880625,0.7243818008561771
+ctrpv2,within_tissue,functional,Pperoxisome,1.044567596941953,0.3893181054753107,0.7114159595907732
+ctrpv2,within_tissue,functional,Endometrial cancer,-1.043040921938507,0.4188644926594777,0.6866622572803149
+ctrpv2,within_tissue,functional,Progesterone-mediated oocyte maturation,1.0407179483109306,0.3678391959798995,0.6963166026834727
+ctrpv2,within_tissue,functional,cAMP signaling pathway,-1.0401689780664913,0.42682194741265456,0.6860381727132226
+ctrpv2,within_tissue,functional,heme Metabolism,-1.038040381720274,0.4316633266533066,0.68410835745759
+ctrpv2,within_tissue,functional,Inflammatory mediator regulation of TRP channels,-1.0350632795644399,0.4354313619099295,0.6837818598124621
+ctrpv2,within_tissue,functional,Bile secretion,-1.0289784650286489,0.4402974402974403,0.6896924152564643
+ctrpv2,within_tissue,functional,Phosphatidylinositol signaling system,-1.0260777941370005,0.44447815533980584,0.6892697175298725
+ctrpv2,within_tissue,functional,"Growth hormone synthesis, secretion and action",-1.026037628585332,0.4435017828599533,0.6831920442147373
+ctrpv2,within_tissue,functional,Renal cell carcinoma,-1.0242391407626685,0.4393321940318128,0.6806473860061824
+ctrpv2,within_tissue,functional,Long-term depression,-1.017718978134275,0.4511425767559232,0.6874110848046466
+ctrpv2,within_tissue,functional,Notch signaling pathway,1.0166730170523675,0.4389403973509934,0.7321479917333095
+ctrpv2,within_tissue,functional,Sphingolipid signaling pathway,-1.013219731637888,0.45660191787558396,0.6901398007844397
+ctrpv2,within_tissue,functional,Hedgehog signaling pathway,-1.0110532974618949,0.45808096907873763,0.6882442658160932
+ctrpv2,within_tissue,functional,Vascular smooth muscle contraction,-1.006463218337921,0.46663071322637184,0.6913320038757149
+ctrpv2,within_tissue,functional,NF-kappa B signaling pathway,-1.0021665322335043,0.46878665450280205,0.6935855698839996
+ctrpv2,within_tissue,functional,p53 Pathway,-0.9979372566625169,0.47998070429329476,0.6959071716864443
+ctrpv2,within_tissue,functional,T cell receptor signaling pathway,-0.9899819917519459,0.4903694730466384,0.7050085149387344
+ctrpv2,within_tissue,functional,Chemical carcinogenesis,-0.9849131465610722,0.5,0.7085405893726151
+ctrpv2,within_tissue,functional,IL-2/STAT5 Signaling,0.9824645547151936,0.4760878931495045,0.7959006161370517
+ctrpv2,within_tissue,functional,Glucagon signaling pathway,0.9772068602867462,0.46594551282051283,0.7845989831371492
+ctrpv2,within_tissue,functional,Melanogenesis,-0.9768105674975003,0.5049088359046283,0.7176784358385928
+ctrpv2,within_tissue,functional,Osteoclast differentiation,-0.9763178818156113,0.512707182320442,0.7127879839721297
+ctrpv2,within_tissue,functional,Renin secretion,-0.9670595449946481,0.5108313817330211,0.7239461271025738
+ctrpv2,within_tissue,functional,PD-L1 expression and PD-1 checkpoint pathway in cancer,-0.9616932264292986,0.5316486453650833,0.7278960722878084
+ctrpv2,within_tissue,functional,mTORC1 Signaling,0.9472526273929728,0.5659955257270693,0.8366713681881263
+ctrpv2,within_tissue,lineage,CD56+ NKCells,-0.941994689687174,0.5711361310133061,0.7577535084030566
+ctrpv2,within_tissue,functional,Prolactin signaling pathway,0.9347272737812521,0.5550737207285342,0.8431359335000062
+ctrpv2,within_tissue,functional,Breast cancer,-0.934447156323483,0.5708392267798208,0.7652469705326865
+ctrpv2,within_tissue,functional,Circadian entrainment,-0.9286899748591575,0.5587826355631083,0.7695788405520898
+ctrpv2,within_tissue,lineage,TestisGermCell,-0.9282081293215365,0.558874664137822,0.7644384886995541
+ctrpv2,within_tissue,functional,Fc epsilon RI signaling pathway,-0.9264457846798612,0.5583034170987901,0.7616427272838131
+ctrpv2,within_tissue,lineage,CD19+ BCells(neg. sel.),0.925021061719352,0.5829519450800915,0.8429037820537506
+ctrpv2,within_tissue,functional,Protein processing in endoplasmic reticulum,0.9225281497134701,0.5657839428331232,0.825327680767298
+ctrpv2,within_tissue,functional,GnRH secretion,-0.9133433710730225,0.5779531998872286,0.7785624851137278
+ctrpv2,within_tissue,functional,mTOR signaling pathway,-0.912941898508353,0.5870496346686823,0.7733616721331256
+ctrpv2,within_tissue,functional,TGF-beta signaling pathway,-0.9103853507521582,0.5871981034227293,0.7720136404837415
+ctrpv2,within_tissue,functional,Cholesterol Homeostasis,0.8948438747297218,0.6008230452674898,0.8677206049611477
+ctrpv2,within_tissue,functional,Dopaminergic synapse,-0.8908030645944635,0.616211962224554,0.7996238680847427
+ctrpv2,within_tissue,functional,Synaptic vesicle cycle,-0.889304551483311,0.6138062668999523,0.7962400783166276
+ctrpv2,within_tissue,functional,Protein Secretion,-0.8836271655496338,0.6120877524335319,0.7997348642395748
+ctrpv2,within_tissue,functional,Glutamatergic synapse,-0.8821719194096994,0.6268923754472887,0.7963481451585347
+ctrpv2,within_tissue,functional,PPAR signaling pathway,-0.8819820730591024,0.6135706678837669,0.7908909472929101
+ctrpv2,within_tissue,functional,AMPK signaling pathway,-0.8798591282856791,0.6320040383644624,0.7887162518628302
+ctrpv2,within_tissue,functional,Bile Acid Metabolism,-0.8736883606932653,0.616598937167865,0.7931386303962081
+ctrpv2,within_tissue,lineage,SuperiorCervicalGanglion,-0.8692452476294854,0.6505155919990061,0.7946458019274157
+ctrpv2,within_tissue,functional,Insulin signaling pathway,0.868191237771844,0.6906432748538012,0.9057074688698564
+ctrpv2,within_tissue,functional,Hepatocellular carcinoma,-0.8671322468246804,0.6676501829340258,0.7924366443114945
+ctrpv2,within_tissue,functional,Serotonergic synapse,-0.8538814026711128,0.6600055509297807,0.8077515388945339
+ctrpv2,within_tissue,functional,Pyruvate metabolism,-0.8403590154333607,0.6649921507064365,0.8232626366444005
+ctrpv2,within_tissue,functional,Long-term potentiation,0.8357166508047562,0.6926977687626775,0.9526886712393048
+ctrpv2,within_tissue,functional,Th17 cell differentiation,0.8323732809316626,0.7598468271334792,0.9356952181987
+ctrpv2,within_tissue,functional,Th1 and Th2 cell differentiation,0.8290675365047064,0.7286919831223628,0.9194998491453151
+ctrpv2,within_tissue,functional,Myc Targets V2,0.8276433581048729,0.6807537012113055,0.9004345860307762
+ctrpv2,within_tissue,functional,Basal cell carcinoma,-0.8089130797427817,0.6974969474969475,0.8654931489802573
+ctrpv2,within_tissue,functional,Oxidative Phosphorylation,0.8053009827402484,0.7529555646147574,0.9207361032458673
+ctrpv2,within_tissue,functional,Colorectal cancer,-0.8014064184817368,0.752230528092597,0.8706326179612777
+ctrpv2,within_tissue,functional,RIG-I-like receptor signaling pathway,-0.7993408194739469,0.7155091871691062,0.8676888058324843
+ctrpv2,within_tissue,functional,Notch Signaling,-0.7945531041837007,0.7231567363622072,0.8687081766661474
+ctrpv2,within_tissue,lineage,Wholebrain,0.7887265705815557,0.7599082869308876,0.9282500061265
+ctrpv2,within_tissue,functional,TNF signaling pathway,-0.7882700900496195,0.747853939782191,0.8719841668741334
+ctrpv2,within_tissue,lineage,BDCA4+ DendriticCells,-0.7763555623579202,0.7895534569196688,0.8830258746899421
+ctrpv2,within_tissue,functional,Mitotic Spindle,0.7758132129747382,0.8490471414242728,0.9283931204094741
+ctrpv2,within_tissue,functional,Pancreatic cancer,-0.7715054258606503,0.7908347365888863,0.8838179218928647
+ctrpv2,within_tissue,functional,Cellular senescence,-0.7693462745277215,0.8136604028356026,0.8809790573733682
+ctrpv2,within_tissue,functional,Wnt-beta Catenin Signaling,-0.7637762059069868,0.7630678282514001,0.8826940941150141
+ctrpv2,within_tissue,functional,Toll-like receptor signaling pathway,-0.7623834810214929,0.7764460656591975,0.8788151765171921
+ctrpv2,within_tissue,functional,FoxO signaling pathway,-0.7614484062585328,0.8012134189864383,0.8744060655858028
+ctrpv2,within_tissue,functional,Mitophagy,0.7553752256199818,0.791349375571124,0.9386494808575585
+ctrpv2,within_tissue,functional,Purine metabolism,0.7469986257920924,0.8054054054054054,0.930003173613886
+ctrpv2,within_tissue,lineage,pineal day,-0.7305154551787284,0.844386853575215,0.9085578123079697
+ctrpv2,within_tissue,functional,Thermogenesis,-0.7243614465958182,0.807036683485613,0.9102795512701494
+ctrpv2,within_tissue,functional,Glycolysis / Gluconeogenesis,-0.7015431431700919,0.8299924642049736,0.9314633821411312
+ctrpv2,within_tissue,functional,Adipogenesis,-0.699275459239971,0.8544467425025853,0.9281492630979749
+ctrpv2,within_tissue,functional,NOD-like receptor signaling pathway,-0.6931910331317702,0.8657692791546107,0.9291075290766799
+ctrpv2,within_tissue,functional,VEGF signaling pathway,-0.6721326635484544,0.8861484803188839,0.9454723010314666
+ctrpv2,within_tissue,functional,Autophagy,0.6692746348690773,0.9389628269848554,0.9961380926708
+ctrpv2,within_tissue,lineage,AdrenalCortex,-0.6649107657351258,0.8617822403514277,0.9469285924304979
+ctrpv2,within_tissue,functional,IL-17 signaling pathway,-0.6647709748626124,0.8696126568466994,0.941259630262233
+ctrpv2,within_tissue,functional,Interferon Gamma Response,-0.6627162678584072,0.8935414287526964,0.9375398589142273
+ctrpv2,within_tissue,lineage,CD33+ Myeloid,-0.6544275576602203,0.9258712680213418,0.9396605970463885
+ctrpv2,within_tissue,lineage,SkeletalMuscle,-0.6430614704452654,0.8937603078614623,0.9442205823236998
+ctrpv2,within_tissue,lineage,CD8+ Tcells,-0.6223902173592752,0.9370679380214542,0.955672765279043
+ctrpv2,within_tissue,functional,C-type lectin receptor signaling pathway,0.6107924978866242,0.9842342342342343,1.0
+ctrpv2,within_tissue,functional,Ovarian steroidogenesis,0.6074849905130214,0.9242587601078167,0.997429837960883
+ctrpv2,within_tissue,functional,Neutrophil extracellular trap formation,-0.5848948006273398,0.9517935808684708,0.9762527056529358
+ctrpv2,within_tissue,functional,Antigen processing and presentation,-0.5765917178020813,0.9283961974854339,0.9754165919007117
+ctrpv2,within_tissue,functional,UV Response Up,-0.5589683037246024,0.9672630376855729,0.979017218984052
+ctrpv2,within_tissue,functional,Acute myeloid leukemia,-0.5346554184745446,0.9709025363718295,0.9840197430997064
+ctrpv2,within_tissue,functional,Adipocytokine signaling pathway,0.5328722122292219,0.9841323430114788,1.0
+ctrpv2,within_tissue,functional,IL-6/JAK/STAT3 Signaling,0.507768073655498,0.9819769079132639,0.9911904334022225
+ctrpv2,within_tissue,functional,Longevity regulating pathway,-0.48808307037001486,0.9886205588569984,0.9925364270713652
+ctrpv2,within_tissue,lineage,TrigeminalGanglion,-0.46918254830544415,0.9802683504340963,0.9906219110762976

@@ -1,0 +1,456 @@
+set	source	official_category	class
+	HGA	tissue signature	lineage
+721 B lymphoblasts	HGA	tissue signature	lineage
+ABC transporters	KEGG	Environmental Information Processing / Membrane transport	intrinsic
+AGE-RAGE signaling pathway in diabetic complications	KEGG	Human Diseases / Endocrine and metabolic disease	context
+AMPK signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Acute myeloid leukemia	KEGG	Human Diseases / Cancer: specific types	context
+Adherens junction	KEGG	Cellular Processes / Cellular community - eukaryotes	context
+Adipocyte	HGA	tissue signature	lineage
+Adipocytokine signaling pathway	KEGG	Organismal Systems / Endocrine system	context
+Adipogenesis	Hallmark	Hallmark:development	context
+AdrenalCortex	HGA	tissue signature	lineage
+Adrenalgland	HGA	tissue signature	lineage
+Adrenergic signaling in cardiomyocytes	KEGG	Organismal Systems / Circulatory system	context
+African trypanosomiasis	KEGG	Human Diseases / Infectious disease: parasitic	context
+Alanine, aspartate and glutamate metabolism	KEGG	Metabolism / Amino acid metabolism	intrinsic
+Alcoholism	KEGG	Human Diseases / Substance dependence	context
+Aldosterone synthesis and secretion	KEGG	Organismal Systems / Endocrine system	context
+Aldosterone-regulated sodium reabsorption	KEGG	Organismal Systems / Excretory system	context
+Allograft Rejection	Hallmark	Hallmark:immune	context
+Allograft rejection	KEGG	Human Diseases / Immune disease	context
+Alzheimer disease	KEGG	Human Diseases / Neurodegenerative disease	context
+Amino sugar and nucleotide sugar metabolism	KEGG	Metabolism / Glycan biosynthesis and metabolism	intrinsic
+Aminoacyl-tRNA biosynthesis	KEGG	Genetic Information Processing / Translation	intrinsic
+Amoebiasis	KEGG	Human Diseases / Infectious disease: parasitic	context
+Amphetamine addiction	KEGG	Human Diseases / Substance dependence	context
+Amygdala	HGA	tissue signature	lineage
+Amyotrophic lateral sclerosis	KEGG	Human Diseases / Neurodegenerative disease	context
+Androgen Response	Hallmark	Hallmark:signaling	intrinsic
+Angiogenesis	Hallmark	Hallmark:development	context
+Antigen processing and presentation	KEGG	Organismal Systems / Immune system	context
+Apelin signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Apical Junction	Hallmark	Hallmark:cellular component	context
+Apical Surface	Hallmark	Hallmark:cellular component	context
+Apoptosis	Hallmark	Hallmark:pathway	intrinsic
+Apoptosis	KEGG	Cellular Processes / Cell growth and death	intrinsic
+Appendix	HGA	tissue signature	lineage
+Arachidonic acid metabolism	KEGG	Metabolism / Lipid metabolism	intrinsic
+Arginine and proline metabolism	KEGG	Metabolism / Amino acid metabolism	intrinsic
+Arginine biosynthesis	KEGG	Metabolism / Amino acid metabolism	intrinsic
+Arrhythmogenic right ventricular cardiomyopathy	KEGG	Human Diseases / Cardiovascular disease	context
+Ascorbate and aldarate metabolism	KEGG	Metabolism / Carbohydrate metabolism	intrinsic
+Asthma	KEGG	Human Diseases / Immune disease	context
+AtrioventricularNode	HGA	tissue signature	lineage
+Autoimmune thyroid disease	KEGG	Human Diseases / Immune disease	context
+Autophagy	KEGG	Cellular Processes / Transport and catabolism	intrinsic
+Axon guidance	KEGG	Organismal Systems / Development and regeneration	context
+B cell receptor signaling pathway	KEGG	Organismal Systems / Immune system	context
+BDCA4+ DendriticCells	HGA	tissue signature	lineage
+Bacterial invasion of epithelial cells	KEGG	Human Diseases / Infectious disease: bacterial	context
+Basal cell carcinoma	KEGG	Human Diseases / Cancer: specific types	context
+Basal transcription factors	KEGG	Genetic Information Processing / Transcription	intrinsic
+Base excision repair	KEGG	Genetic Information Processing / Replication and repair	intrinsic
+Bile Acid Metabolism	Hallmark	Hallmark:metabolic	intrinsic
+Bile secretion	KEGG	Organismal Systems / Digestive system	context
+Biosynthesis of unsaturated fatty acids	KEGG	Metabolism / Lipid metabolism	intrinsic
+Bladder cancer	KEGG	Human Diseases / Cancer: specific types	context
+Bonemarrow	HGA	tissue signature	lineage
+Breast cancer	KEGG	Human Diseases / Cancer: specific types	context
+BronchialEpithelialCells	HGA	tissue signature	lineage
+Butanoate metabolism	KEGG	Metabolism / Carbohydrate metabolism	intrinsic
+C-type lectin receptor signaling pathway	KEGG	Organismal Systems / Immune system	context
+CD105+ Endothelial	HGA	tissue signature	lineage
+CD14+ Monocytes	HGA	tissue signature	lineage
+CD19+ BCells(neg. sel.)	HGA	tissue signature	lineage
+CD33+ Myeloid	HGA	tissue signature	lineage
+CD34+	HGA	tissue signature	lineage
+CD4+ Tcells	HGA	tissue signature	lineage
+CD56+ NKCells	HGA	tissue signature	lineage
+CD71+ EarlyErythroid	HGA	tissue signature	lineage
+CD8+ Tcells	HGA	tissue signature	lineage
+Caffeine metabolism	KEGG	Metabolism / Biosynthesis of other secondary metabolites	intrinsic
+Calcium signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Carbohydrate digestion and absorption	KEGG	Organismal Systems / Digestive system	context
+Cardiac muscle contraction	KEGG	Organismal Systems / Circulatory system	context
+CardiacMyocytes	HGA	tissue signature	lineage
+Caudatenucleus	HGA	tissue signature	lineage
+Cell adhesion molecules	KEGG	UNMATCHED	context
+Cell cycle	KEGG	Cellular Processes / Cell growth and death	intrinsic
+Cellular senescence	KEGG	Cellular Processes / Cell growth and death	intrinsic
+Central carbon metabolism in cancer	KEGG	Human Diseases / Cancer: overview	context
+Cerebellum	HGA	tissue signature	lineage
+CerebellumPeduncles	HGA	tissue signature	lineage
+Chagas disease	KEGG	Human Diseases / Infectious disease: parasitic	context
+Chemical carcinogenesis	KEGG	Human Diseases / Cancer: overview	context
+Chemokine signaling pathway	KEGG	Organismal Systems / Immune system	context
+Cholesterol Homeostasis	Hallmark	Hallmark:metabolic	intrinsic
+Cholesterol metabolism	KEGG	Organismal Systems / Digestive system	context
+Choline metabolism in cancer	KEGG	Human Diseases / Cancer: overview	context
+Cholinergic synapse	KEGG	Organismal Systems / Nervous system	context
+Chronic myeloid leukemia	KEGG	Human Diseases / Cancer: specific types	context
+CiliaryGanglion	HGA	tissue signature	lineage
+CingulateCortex	HGA	tissue signature	lineage
+Circadian entrainment	KEGG	Organismal Systems / Environmental adaptation	context
+Circadian rhythm	KEGG	Organismal Systems / Environmental adaptation	context
+Citrate cycle (TCA cycle)	KEGG	Metabolism / Carbohydrate metabolism	intrinsic
+Coagulation	Hallmark	Hallmark:immune	context
+Cocaine addiction	KEGG	Human Diseases / Substance dependence	context
+Collecting duct acid secretion	KEGG	Organismal Systems / Excretory system	context
+Colorectal cancer	KEGG	Human Diseases / Cancer: specific types	context
+Colorectaladenocarcinoma	HGA	tissue signature	lineage
+Complement	Hallmark	Hallmark:immune	context
+Complement and coagulation cascades	KEGG	Organismal Systems / Immune system	context
+Coronavirus disease	KEGG	Human Diseases / Infectious disease: viral	context
+Cortisol synthesis and secretion	KEGG	Organismal Systems / Endocrine system	context
+Cushing syndrome	KEGG	Human Diseases / Endocrine and metabolic disease	context
+Cysteine and methionine metabolism	KEGG	Metabolism / Amino acid metabolism	intrinsic
+Cytokine-cytokine receptor interaction	KEGG	Environmental Information Processing / Signaling molecules and interaction	context
+Cytosolic DNA-sensing pathway	KEGG	Organismal Systems / Immune system	context
+D-Glutamine and D-glutamate metabolism	KEGG	UNMATCHED	context
+DNA Repair	Hallmark	Hallmark:DNA damage	intrinsic
+DNA replication	KEGG	Genetic Information Processing / Replication and repair	intrinsic
+Diabetic cardiomyopathy	KEGG	Human Diseases / Cardiovascular disease	context
+Dilated cardiomyopathy	KEGG	Human Diseases / Cardiovascular disease	context
+Dopaminergic synapse	KEGG	Organismal Systems / Nervous system	context
+DorsalRootGanglion	HGA	tissue signature	lineage
+Drug metabolism	KEGG	Metabolism / Xenobiotics biodegradation and metabolism	intrinsic
+E2F Targets	Hallmark	Hallmark:proliferation	intrinsic
+ECM-receptor interaction	KEGG	Environmental Information Processing / Signaling molecules and interaction	context
+Endocrine and other factor-regulated calcium reabsorption	KEGG	Organismal Systems / Excretory system	context
+Endocytosis	KEGG	Cellular Processes / Transport and catabolism	intrinsic
+Endometrial cancer	KEGG	Human Diseases / Cancer: specific types	context
+Epithelial Mesenchymal Transition	Hallmark	Hallmark:development	context
+Epithelial cell signaling in Helicobacter pylori infection	KEGG	Human Diseases / Infectious disease: bacterial	context
+Epstein-Barr virus infection	KEGG	Human Diseases / Infectious disease: viral	context
+ErbB signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Estrogen Response Early	Hallmark	Hallmark:signaling	intrinsic
+Estrogen Response Late	Hallmark	Hallmark:signaling	intrinsic
+Estrogen signaling pathway	KEGG	Organismal Systems / Endocrine system	context
+Ether lipid metabolism	KEGG	Metabolism / Lipid metabolism	intrinsic
+Fanconi anemia pathway	KEGG	Genetic Information Processing / Replication and repair	intrinsic
+Fat digestion and absorption	KEGG	Organismal Systems / Digestive system	context
+Fatty Acid Metabolism	Hallmark	Hallmark:metabolic	intrinsic
+Fatty acid biosynthesis	KEGG	Metabolism / Lipid metabolism	intrinsic
+Fatty acid degradation	KEGG	Metabolism / Lipid metabolism	intrinsic
+Fatty acid elongation	KEGG	Metabolism / Lipid metabolism	intrinsic
+Fc epsilon RI signaling pathway	KEGG	Organismal Systems / Immune system	context
+Fc gamma R-mediated phagocytosis	KEGG	UNMATCHED	context
+Ferroptosis	KEGG	Cellular Processes / Cell growth and death	intrinsic
+FetalThyroid	HGA	tissue signature	lineage
+Fetalbrain	HGA	tissue signature	lineage
+Fetalliver	HGA	tissue signature	lineage
+Fetallung	HGA	tissue signature	lineage
+Fluid shear stress and atherosclerosis	KEGG	Human Diseases / Cardiovascular disease	context
+Focal adhesion	KEGG	Cellular Processes / Cellular community - eukaryotes	context
+Folate biosynthesis	KEGG	Metabolism / Metabolism of cofactors and vitamins	intrinsic
+FoxO signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Fructose and mannose metabolism	KEGG	Metabolism / Carbohydrate metabolism	intrinsic
+G2-M Checkpoint	Hallmark	Hallmark:proliferation	intrinsic
+GABAergic synapse	KEGG	Organismal Systems / Nervous system	context
+Galactose metabolism	KEGG	Metabolism / Carbohydrate metabolism	intrinsic
+Gap junction	KEGG	Cellular Processes / Cellular community - eukaryotes	context
+Gastric acid secretion	KEGG	Organismal Systems / Digestive system	context
+Gastric cancer	KEGG	Human Diseases / Cancer: specific types	context
+Glioma	KEGG	Human Diseases / Cancer: specific types	context
+GlobusPallidus	HGA	tissue signature	lineage
+Glucagon signaling pathway	KEGG	Organismal Systems / Endocrine system	context
+Glutamatergic synapse	KEGG	Organismal Systems / Nervous system	context
+Glutathione metabolism	KEGG	Metabolism / Metabolism of other amino acids	intrinsic
+Glycerolipid metabolism	KEGG	Metabolism / Lipid metabolism	intrinsic
+Glycerophospholipid metabolism	KEGG	Metabolism / Lipid metabolism	intrinsic
+Glycine, serine and threonine metabolism	KEGG	Metabolism / Amino acid metabolism	intrinsic
+Glycolysis	Hallmark	Hallmark:metabolic	intrinsic
+Glycolysis / Gluconeogenesis	KEGG	Metabolism / Carbohydrate metabolism	intrinsic
+Glycosaminoglycan biosynthesis	KEGG	Metabolism / Glycan biosynthesis and metabolism	intrinsic
+Glycosaminoglycan degradation	KEGG	Metabolism / Glycan biosynthesis and metabolism	intrinsic
+Glycosphingolipid biosynthesis	KEGG	Metabolism / Glycan biosynthesis and metabolism	intrinsic
+Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	KEGG	Metabolism / Glycan biosynthesis and metabolism	intrinsic
+Glyoxylate and dicarboxylate metabolism	KEGG	Metabolism / Carbohydrate metabolism	intrinsic
+GnRH secretion	KEGG	Organismal Systems / Endocrine system	context
+GnRH signaling pathway	KEGG	Organismal Systems / Endocrine system	context
+Graft-versus-host disease	KEGG	Human Diseases / Immune disease	context
+Growth hormone synthesis, secretion and action	KEGG	Organismal Systems / Endocrine system	context
+HIF-1 signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Heart	HGA	tissue signature	lineage
+Hedgehog Signaling	Hallmark	Hallmark:signaling	intrinsic
+Hedgehog signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Hematopoietic cell lineage	KEGG	Organismal Systems / Immune system	context
+Hepatitis B	KEGG	Human Diseases / Infectious disease: viral	context
+Hepatitis C	KEGG	Human Diseases / Infectious disease: viral	context
+Hepatocellular carcinoma	KEGG	Human Diseases / Cancer: specific types	context
+Herpes simplex virus 1 infection	KEGG	Human Diseases / Infectious disease: viral	context
+Hippo signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Histidine metabolism	KEGG	Metabolism / Amino acid metabolism	intrinsic
+Homologous recombination	KEGG	Genetic Information Processing / Replication and repair	intrinsic
+Human T-cell leukemia virus 1 infection	KEGG	Human Diseases / Infectious disease: viral	context
+Human cytomegalovirus infection	KEGG	Human Diseases / Infectious disease: viral	context
+Human immunodeficiency virus 1 infection	KEGG	Human Diseases / Infectious disease: viral	context
+Human papillomavirus infection	KEGG	Human Diseases / Infectious disease: viral	context
+Huntington disease	KEGG	Human Diseases / Neurodegenerative disease	context
+Hypertrophic cardiomyopathy	KEGG	Human Diseases / Cardiovascular disease	context
+Hypothalamus	HGA	tissue signature	lineage
+Hypoxia	Hallmark	Hallmark:pathway	intrinsic
+IL-17 signaling pathway	KEGG	Organismal Systems / Immune system	context
+IL-2/STAT5 Signaling	Hallmark	Hallmark:signaling	intrinsic
+IL-6/JAK/STAT3 Signaling	Hallmark	Hallmark:immune	context
+Inflammatory Response	Hallmark	Hallmark:immune	context
+Inflammatory bowel disease	KEGG	Human Diseases / Immune disease	context
+Inflammatory mediator regulation of TRP channels	KEGG	Organismal Systems / Sensory system	context
+Influenza A	KEGG	Human Diseases / Infectious disease: viral	context
+Inositol phosphate metabolism	KEGG	Metabolism / Carbohydrate metabolism	intrinsic
+Insulin resistance	KEGG	Human Diseases / Endocrine and metabolic disease	context
+Insulin secretion	KEGG	Organismal Systems / Endocrine system	context
+Insulin signaling pathway	KEGG	Organismal Systems / Endocrine system	context
+Interferon Alpha Response	Hallmark	Hallmark:immune	context
+Interferon Gamma Response	Hallmark	Hallmark:immune	context
+Intestinal immune network for IgA production	KEGG	Organismal Systems / Immune system	context
+JAK-STAT signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+KRAS Signaling Dn	Hallmark	Hallmark:signaling	intrinsic
+KRAS Signaling Up	Hallmark	Hallmark:signaling	intrinsic
+Kaposi sarcoma-associated herpesvirus infection	KEGG	Human Diseases / Infectious disease: viral	context
+Kidney	HGA	tissue signature	lineage
+Legionellosis	KEGG	Human Diseases / Infectious disease: bacterial	context
+Leishmaniasis	KEGG	Human Diseases / Infectious disease: parasitic	context
+Leukemia chronicMyelogenousK-562	HGA	tissue signature	lineage
+Leukemia promyelocytic-HL-60	HGA	tissue signature	lineage
+Leukemialymphoblastic(MOLT-4)	HGA	tissue signature	lineage
+Leukocyte transendothelial migration	KEGG	Organismal Systems / Immune system	context
+Linoleic acid metabolism	KEGG	Metabolism / Lipid metabolism	intrinsic
+Lipid and atherosclerosis	KEGG	Human Diseases / Cardiovascular disease	context
+Liver	HGA	tissue signature	lineage
+Long-term depression	KEGG	Organismal Systems / Nervous system	context
+Long-term potentiation	KEGG	Organismal Systems / Nervous system	context
+Longevity regulating pathway	KEGG	Organismal Systems / Aging	context
+Lung	HGA	tissue signature	lineage
+Lymphnode	HGA	tissue signature	lineage
+Lymphoma burkitts(Daudi)	HGA	tissue signature	lineage
+Lymphoma burkitts(Raji)	HGA	tissue signature	lineage
+Lysine degradation	KEGG	Metabolism / Amino acid metabolism	intrinsic
+Lysosome	KEGG	Cellular Processes / Transport and catabolism	intrinsic
+MAPK signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Malaria	KEGG	Human Diseases / Infectious disease: parasitic	context
+Mannose type O-glycan biosynthesis	KEGG	Metabolism / Glycan biosynthesis and metabolism	intrinsic
+Maturity onset diabetes of the young	KEGG	Human Diseases / Endocrine and metabolic disease	context
+Measles	KEGG	Human Diseases / Infectious disease: viral	context
+MedullaOblongata	HGA	tissue signature	lineage
+Melanogenesis	KEGG	Organismal Systems / Endocrine system	context
+Melanoma	KEGG	Human Diseases / Cancer: specific types	context
+Metabolism of xenobiotics by cytochrome P450	KEGG	Metabolism / Xenobiotics biodegradation and metabolism	intrinsic
+MicroRNAs in cancer	KEGG	Human Diseases / Cancer: overview	context
+Mineral absorption	KEGG	Organismal Systems / Digestive system	context
+Mismatch repair	KEGG	Genetic Information Processing / Replication and repair	intrinsic
+Mitophagy	KEGG	Cellular Processes / Transport and catabolism	intrinsic
+Mitotic Spindle	Hallmark	Hallmark:proliferation	intrinsic
+Morphine addiction	KEGG	Human Diseases / Substance dependence	context
+Mucin type O-glycan biosynthesis	KEGG	Metabolism / Glycan biosynthesis and metabolism	intrinsic
+Myc Targets V1	Hallmark	Hallmark:proliferation	intrinsic
+Myc Targets V2	Hallmark	Hallmark:proliferation	intrinsic
+Myogenesis	Hallmark	Hallmark:development	context
+N-Glycan biosynthesis	KEGG	Metabolism / Glycan biosynthesis and metabolism	intrinsic
+NF-kappa B signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+NOD-like receptor signaling pathway	KEGG	Organismal Systems / Immune system	context
+Natural killer cell mediated cytotoxicity	KEGG	Organismal Systems / Immune system	context
+Necroptosis	KEGG	Cellular Processes / Cell growth and death	intrinsic
+Neomycin, kanamycin and gentamicin biosynthesis	KEGG	Metabolism / Biosynthesis of other secondary metabolites	intrinsic
+Neuroactive ligand-receptor interaction	KEGG	Environmental Information Processing / Signaling molecules and interaction	context
+Neurotrophin signaling pathway	KEGG	Organismal Systems / Nervous system	context
+Neutrophil extracellular trap formation	KEGG	Organismal Systems / Immune system	context
+Nicotinate and nicotinamide metabolism	KEGG	Metabolism / Metabolism of cofactors and vitamins	intrinsic
+Nicotine addiction	KEGG	Human Diseases / Substance dependence	context
+Nitrogen metabolism	KEGG	Metabolism / Energy metabolism	intrinsic
+Non-alcoholic fatty liver disease	KEGG	Human Diseases / Endocrine and metabolic disease	context
+Non-homologous end-joining	KEGG	Genetic Information Processing / Replication and repair	intrinsic
+Non-small cell lung cancer	KEGG	Human Diseases / Cancer: specific types	context
+Notch Signaling	Hallmark	Hallmark:signaling	intrinsic
+Notch signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Nucleotide excision repair	KEGG	Genetic Information Processing / Replication and repair	intrinsic
+OccipitalLobe	HGA	tissue signature	lineage
+Olfactory transduction	KEGG	Organismal Systems / Sensory system	context
+OlfactoryBulb	HGA	tissue signature	lineage
+One carbon pool by folate	KEGG	Metabolism / Metabolism of cofactors and vitamins	intrinsic
+Oocyte meiosis	KEGG	Cellular Processes / Cell growth and death	intrinsic
+Osteoclast differentiation	KEGG	Organismal Systems / Development and regeneration	context
+Other glycan degradation	KEGG	Metabolism / Glycan biosynthesis and metabolism	intrinsic
+Other types of O-glycan biosynthesis	KEGG	Metabolism / Glycan biosynthesis and metabolism	intrinsic
+Ovarian steroidogenesis	KEGG	Organismal Systems / Endocrine system	context
+Ovary	HGA	tissue signature	lineage
+Oxidative Phosphorylation	Hallmark	Hallmark:metabolic	intrinsic
+Oxidative phosphorylation	KEGG	Metabolism / Energy metabolism	intrinsic
+Oxytocin signaling pathway	KEGG	Organismal Systems / Endocrine system	context
+PD-L1 expression and PD-1 checkpoint pathway in cancer	KEGG	Human Diseases / Cancer: overview	context
+PI3K-Akt signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+PI3K/AKT/mTOR  Signaling	Hallmark	Hallmark:signaling	intrinsic
+PPAR signaling pathway	KEGG	Organismal Systems / Endocrine system	context
+Pancreas	HGA	tissue signature	lineage
+Pancreas Beta Cells	Hallmark	UNMATCHED(PANCREASBETACELLS,1.00)	intrinsic
+Pancreatic cancer	KEGG	Human Diseases / Cancer: specific types	context
+Pancreatic secretion	KEGG	Organismal Systems / Digestive system	context
+PancreaticIslet	HGA	tissue signature	lineage
+Pantothenate and CoA biosynthesis	KEGG	Metabolism / Metabolism of cofactors and vitamins	intrinsic
+Parathyroid hormone synthesis, secretion and action	KEGG	Organismal Systems / Endocrine system	context
+ParietalLobe	HGA	tissue signature	lineage
+Parkinson disease	KEGG	Human Diseases / Neurodegenerative disease	context
+Pathogenic Escherichia coli infection	KEGG	Human Diseases / Infectious disease: bacterial	context
+Pathways in cancer	KEGG	Human Diseases / Cancer: overview	context
+Pathways of neurodegeneration	KEGG	Human Diseases / Neurodegenerative disease	context
+Pentose and glucuronate interconversions	KEGG	Metabolism / Carbohydrate metabolism	intrinsic
+Pentose phosphate pathway	KEGG	Metabolism / Carbohydrate metabolism	intrinsic
+Peroxisome	KEGG	Cellular Processes / Transport and catabolism	intrinsic
+Pertussis	KEGG	Human Diseases / Infectious disease: bacterial	context
+Phagosome	KEGG	Cellular Processes / Transport and catabolism	intrinsic
+Phenylalanine metabolism	KEGG	Metabolism / Amino acid metabolism	intrinsic
+Phenylalanine, tyrosine and tryptophan biosynthesis	KEGG	Metabolism / Amino acid metabolism	intrinsic
+Phosphatidylinositol signaling system	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Phospholipase D signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Phosphonate and phosphinate metabolism	KEGG	Metabolism / Metabolism of other amino acids	intrinsic
+Phototransduction	KEGG	Organismal Systems / Sensory system	context
+Pituitary	HGA	tissue signature	lineage
+Placenta	HGA	tissue signature	lineage
+Platelet activation	KEGG	Organismal Systems / Immune system	context
+Pons	HGA	tissue signature	lineage
+Porphyrin and chlorophyll metabolism	KEGG	UNMATCHED	context
+Pperoxisome	Hallmark	Hallmark:cellular component	context
+PrefrontalCortex	HGA	tissue signature	lineage
+Primary bile acid biosynthesis	KEGG	Metabolism / Lipid metabolism	intrinsic
+Primary immunodeficiency	KEGG	Human Diseases / Immune disease	context
+Prion disease	KEGG	Human Diseases / Neurodegenerative disease	context
+Progesterone-mediated oocyte maturation	KEGG	Organismal Systems / Endocrine system	context
+Prolactin signaling pathway	KEGG	Organismal Systems / Endocrine system	context
+Propanoate metabolism	KEGG	Metabolism / Carbohydrate metabolism	intrinsic
+Prostate	HGA	tissue signature	lineage
+Prostate cancer	KEGG	Human Diseases / Cancer: specific types	context
+Proteasome	KEGG	Genetic Information Processing / Folding, sorting and degradation	intrinsic
+Protein Secretion	Hallmark	Hallmark:pathway	intrinsic
+Protein digestion and absorption	KEGG	Organismal Systems / Digestive system	context
+Protein export	KEGG	Genetic Information Processing / Folding, sorting and degradation	intrinsic
+Protein processing in endoplasmic reticulum	KEGG	Genetic Information Processing / Folding, sorting and degradation	intrinsic
+Proteoglycans in cancer	KEGG	Human Diseases / Cancer: overview	context
+Proximal tubule bicarbonate reclamation	KEGG	Organismal Systems / Excretory system	context
+Purine metabolism	KEGG	Metabolism / Nucleotide metabolism	intrinsic
+Pyrimidine metabolism	KEGG	Metabolism / Nucleotide metabolism	intrinsic
+Pyruvate metabolism	KEGG	Metabolism / Carbohydrate metabolism	intrinsic
+RIG-I-like receptor signaling pathway	KEGG	Organismal Systems / Immune system	context
+RNA degradation	KEGG	Genetic Information Processing / Folding, sorting and degradation	intrinsic
+RNA polymerase	KEGG	Genetic Information Processing / Transcription	intrinsic
+RNA transport	KEGG	Genetic Information Processing / Translation	intrinsic
+Rap1 signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Ras signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Reactive Oxygen Species Pathway	Hallmark	Hallmark:pathway	intrinsic
+Regulation of actin cytoskeleton	KEGG	Cellular Processes / Cell motility	context
+Regulation of lipolysis in adipocytes	KEGG	Organismal Systems / Endocrine system	context
+Relaxin signaling pathway	KEGG	Organismal Systems / Endocrine system	context
+Renal cell carcinoma	KEGG	Human Diseases / Cancer: specific types	context
+Renin secretion	KEGG	Organismal Systems / Endocrine system	context
+Renin-angiotensin system	KEGG	Organismal Systems / Endocrine system	context
+Retinol metabolism	KEGG	Metabolism / Metabolism of cofactors and vitamins	intrinsic
+Retrograde endocannabinoid signaling	KEGG	Organismal Systems / Nervous system	context
+Rheumatoid arthritis	KEGG	Human Diseases / Immune disease	context
+Riboflavin metabolism	KEGG	Metabolism / Metabolism of cofactors and vitamins	intrinsic
+Ribosome	KEGG	Genetic Information Processing / Translation	intrinsic
+Ribosome biogenesis in eukaryotes	KEGG	Genetic Information Processing / Translation	intrinsic
+SNARE interactions in vesicular transport	KEGG	Genetic Information Processing / Folding, sorting and degradation	intrinsic
+Salivary secretion	KEGG	Organismal Systems / Digestive system	context
+Salivarygland	HGA	tissue signature	lineage
+Salmonella infection	KEGG	Human Diseases / Infectious disease: bacterial	context
+Selenocompound metabolism	KEGG	Metabolism / Metabolism of other amino acids	intrinsic
+Serotonergic synapse	KEGG	Organismal Systems / Nervous system	context
+Shigellosis	KEGG	Human Diseases / Infectious disease: bacterial	context
+Signaling pathways regulating pluripotency of stem cells	KEGG	Cellular Processes / Cellular community - eukaryotes	context
+SkeletalMuscle	HGA	tissue signature	lineage
+Skin	HGA	tissue signature	lineage
+Small cell lung cancer	KEGG	Human Diseases / Cancer: specific types	context
+SmoothMuscle	HGA	tissue signature	lineage
+Spermatogenesis	Hallmark	Hallmark:development	context
+Sphingolipid metabolism	KEGG	Metabolism / Lipid metabolism	intrinsic
+Sphingolipid signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Spinalcord	HGA	tissue signature	lineage
+Spinocerebellar ataxia	KEGG	Human Diseases / Neurodegenerative disease	context
+Spliceosome	KEGG	Genetic Information Processing / Transcription	intrinsic
+Staphylococcus aureus infection	KEGG	Human Diseases / Infectious disease: bacterial	context
+Starch and sucrose metabolism	KEGG	Metabolism / Carbohydrate metabolism	intrinsic
+Steroid biosynthesis	KEGG	Metabolism / Lipid metabolism	intrinsic
+Steroid hormone biosynthesis	KEGG	Metabolism / Lipid metabolism	intrinsic
+SubthalamicNucleus	HGA	tissue signature	lineage
+Sulfur metabolism	KEGG	Metabolism / Energy metabolism	intrinsic
+Sulfur relay system	KEGG	Genetic Information Processing / Folding, sorting and degradation	intrinsic
+SuperiorCervicalGanglion	HGA	tissue signature	lineage
+Synaptic vesicle cycle	KEGG	Organismal Systems / Nervous system	context
+Synthesis and degradation of ketone bodies	KEGG	UNMATCHED	context
+Systemic lupus erythematosus	KEGG	Human Diseases / Immune disease	context
+T cell receptor signaling pathway	KEGG	Organismal Systems / Immune system	context
+TGF-beta Signaling	Hallmark	Hallmark:signaling	intrinsic
+TGF-beta signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+TNF signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+TNF-alpha Signaling via NF-kB	Hallmark	Hallmark:signaling	intrinsic
+Taste transduction	KEGG	Organismal Systems / Sensory system	context
+Taurine and hypotaurine metabolism	KEGG	Metabolism / Metabolism of other amino acids	intrinsic
+TemporalLobe	HGA	tissue signature	lineage
+Terpenoid backbone biosynthesis	KEGG	Metabolism / Metabolism of terpenoids and polyketides	intrinsic
+Testis	HGA	tissue signature	lineage
+TestisGermCell	HGA	tissue signature	lineage
+TestisIntersitial	HGA	tissue signature	lineage
+TestisLeydigCell	HGA	tissue signature	lineage
+TestisSeminiferousTubule	HGA	tissue signature	lineage
+Th1 and Th2 cell differentiation	KEGG	Organismal Systems / Immune system	context
+Th17 cell differentiation	KEGG	Organismal Systems / Immune system	context
+Thalamus	HGA	tissue signature	lineage
+Thermogenesis	KEGG	Organismal Systems / Environmental adaptation	context
+Thiamine metabolism	KEGG	Metabolism / Metabolism of cofactors and vitamins	intrinsic
+Thymus	HGA	tissue signature	lineage
+Thyroid	HGA	tissue signature	lineage
+Thyroid cancer	KEGG	Human Diseases / Cancer: specific types	context
+Thyroid hormone signaling pathway	KEGG	Organismal Systems / Endocrine system	context
+Thyroid hormone synthesis	KEGG	Organismal Systems / Endocrine system	context
+Tight junction	KEGG	Cellular Processes / Cellular community - eukaryotes	context
+Toll-like receptor signaling pathway	KEGG	Organismal Systems / Immune system	context
+Tongue	HGA	tissue signature	lineage
+Tonsil	HGA	tissue signature	lineage
+Toxoplasmosis	KEGG	Human Diseases / Infectious disease: parasitic	context
+Trachea	HGA	tissue signature	lineage
+Transcriptional misregulation in cancer	KEGG	Human Diseases / Cancer: overview	context
+TrigeminalGanglion	HGA	tissue signature	lineage
+Tryptophan metabolism	KEGG	Metabolism / Amino acid metabolism	intrinsic
+Tuberculosis	KEGG	Human Diseases / Infectious disease: bacterial	context
+Type I diabetes mellitus	KEGG	Human Diseases / Endocrine and metabolic disease	context
+Type II diabetes mellitus	KEGG	Human Diseases / Endocrine and metabolic disease	context
+Tyrosine metabolism	KEGG	Metabolism / Amino acid metabolism	intrinsic
+UV Response Dn	Hallmark	Hallmark:DNA damage	intrinsic
+UV Response Up	Hallmark	Hallmark:DNA damage	intrinsic
+Ubiquinone and other terpenoid-quinone biosynthesis	KEGG	Metabolism / Metabolism of cofactors and vitamins	intrinsic
+Ubiquitin mediated proteolysis	KEGG	Genetic Information Processing / Folding, sorting and degradation	intrinsic
+Unfolded Protein Response	Hallmark	Hallmark:pathway	intrinsic
+Uterus	HGA	tissue signature	lineage
+UterusCorpus	HGA	tissue signature	lineage
+VEGF signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Valine, leucine and isoleucine degradation	KEGG	Metabolism / Amino acid metabolism	intrinsic
+Various types of N-glycan biosynthesis	KEGG	Metabolism / Glycan biosynthesis and metabolism	intrinsic
+Vascular smooth muscle contraction	KEGG	Organismal Systems / Circulatory system	context
+Vasopressin-regulated water reabsorption	KEGG	Organismal Systems / Excretory system	context
+Vibrio cholerae infection	KEGG	Human Diseases / Infectious disease: bacterial	context
+Viral carcinogenesis	KEGG	Human Diseases / Cancer: overview	context
+Viral myocarditis	KEGG	Human Diseases / Cardiovascular disease	context
+Viral protein interaction with cytokine and cytokine receptor	KEGG	Environmental Information Processing / Signaling molecules and interaction	context
+Vitamin B6 metabolism	KEGG	Metabolism / Metabolism of cofactors and vitamins	intrinsic
+Vitamin digestion and absorption	KEGG	Organismal Systems / Digestive system	context
+WholeBlood	HGA	tissue signature	lineage
+Wholebrain	HGA	tissue signature	lineage
+Wnt signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+Wnt-beta Catenin Signaling	Hallmark	Hallmark:signaling	intrinsic
+Xenobiotic Metabolism	Hallmark	Hallmark:metabolic	intrinsic
+Yersinia infection	KEGG	Human Diseases / Infectious disease: bacterial	context
+alpha-Linolenic acid metabolism	KEGG	Metabolism / Lipid metabolism	intrinsic
+beta-Alanine metabolism	KEGG	Metabolism / Metabolism of other amino acids	intrinsic
+cAMP signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+cGMP-PKG signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+colon	HGA	tissue signature	lineage
+heme Metabolism	Hallmark	Hallmark:metabolic	intrinsic
+mRNA surveillance pathway	KEGG	Genetic Information Processing / Translation	intrinsic
+mTOR signaling pathway	KEGG	Environmental Information Processing / Signal transduction	intrinsic
+mTORC1 Signaling	Hallmark	Hallmark:signaling	intrinsic
+p53 Pathway	Hallmark	Hallmark:proliferation	intrinsic
+p53 signaling pathway	KEGG	Cellular Processes / Cell growth and death	intrinsic
+pineal day	HGA	tissue signature	lineage
+pineal night	HGA	tissue signature	lineage
+retina	HGA	tissue signature	lineage
+small intestine	HGA	tissue signature	lineage
