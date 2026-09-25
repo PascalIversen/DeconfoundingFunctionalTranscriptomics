@@ -25,26 +25,60 @@ import pandas as pd
 HERE = Path(__file__).resolve().parent
 SRC_BASE = HERE / "results" / "npower_mixed.csv"
 SRC_EXTRA = HERE / "results" / "npower_mixed_extra_n1000.csv"   # extra seeds, same DGP
+# The adversarial model-stage baselines were added later and written to
+# separate files, so the originally published CSVs stay byte-identical.
+SRC_ADV = sorted((HERE / "results").glob("npower_mixed_adv*.csv"))
+# The rebuilt panel (variant v2) carries all six methods in one set of files.
+SRC_V2 = sorted((HERE / "results").glob("npower_mixed_v2_s*.csv"))
 FIG = HERE / "figures"
 N_FOCUS = 1000
+DGP = "v1"
+FIG_SUFFIX = ""
 K_VALUES = [10, 15, 20, 30, 50]
 
 
-def load_merged() -> pd.DataFrame:
-    base = pd.read_csv(SRC_BASE)
-    base = base[base.n_cells == N_FOCUS]
+def load_merged(dgp: str = "v1", include_adv: bool = False) -> pd.DataFrame:
+    """v1 = the originally published panel (4 methods: marginal, residualized,
+    within_tissue, irm); v2 = the rebuilt panel in which mixed genes and
+    confounders carry the same tissue eta^2, so tissue statistics alone
+    cannot separate them. `include_adv` additionally merges in the DANN/AD-AE
+    arms added later (v1 only) -- off by default so the default invocation
+    reproduces the published fig_reliability_top*.pdf exactly."""
+    if dgp == "v2":
+        parts = [pd.read_csv(f).query("n_cells == @N_FOCUS")
+                 for f in SRC_V2 if "summary" not in f.name]
+        if not parts:
+            raise SystemExit("no v2 results; run compute_npower_mixed.py "
+                             "--dgp-variant v2")
+        df = pd.concat(parts, ignore_index=True)
+        return df.drop_duplicates(["seed", "n_cells", "method", "gene"])
+    parts = [pd.read_csv(SRC_BASE).query("n_cells == @N_FOCUS")]
     if SRC_EXTRA.exists():
-        extra = pd.read_csv(SRC_EXTRA)
-        df = pd.concat([base, extra], ignore_index=True)
-    else:
-        df = base
-    return df
+        parts.append(pd.read_csv(SRC_EXTRA))
+    if include_adv:
+        for f in SRC_ADV:
+            if "summary" in f.name:
+                continue
+            parts.append(pd.read_csv(f).query("n_cells == @N_FOCUS"))
+    df = pd.concat(parts, ignore_index=True)
+    return df.drop_duplicates(["seed", "n_cells", "method", "gene"])
 
-METHODS = ["marginal", "residualized", "within_tissue", "irm"]
+
+ALL_METHODS = ["marginal", "residualized", "within_tissue", "irm",
+               "dann", "adae"]
 LAB = {"marginal": "Marginal", "residualized": "Residualized (FWL)",
-       "within_tissue": "Within-tissue", "irm": "IRM"}
+       "within_tissue": "Within-tissue", "irm": "IRM",
+       "dann": "DANN", "adae": "AD-AE"}
+# Short forms for the panel-a axis, which has to fit six categories.
+SHORT = {"marginal": "Marginal", "residualized": "Residualized",
+         "within_tissue": "Within-\ntissue", "irm": "IRM",
+         "dann": "DANN", "adae": "AD-AE"}
 PALETTE = {"marginal": "#767676", "residualized": "#3775BA",
-           "within_tissue": "#42949E", "irm": "#9A4D8E"}
+           "within_tissue": "#42949E", "irm": "#9A4D8E",
+           "dann": "#B64342", "adae": "#5F9E5F"}
+# Filled in from the data at run time so the figure renders whatever is
+# present, rather than erroring on a partial set.
+METHODS = list(ALL_METHODS)
 
 CLASSES = ["causal", "mixed", "confounder", "noise"]
 CLASS_COL = {"causal": "#2E7D32", "mixed": "#F39C12",
@@ -85,7 +119,7 @@ def panel_a(ax, df: pd.DataFrame, k: int) -> None:
         df[(df.method == m) & (df.seed == s)], k)
         for s in seeds] for m in METHODS}
 
-    width = 0.18
+    width = min(0.18, 0.82 / len(CLASSES))
     centers = np.arange(len(METHODS))
     offsets = np.linspace(-(width * (len(CLASSES) - 1) / 2),
                            (width * (len(CLASSES) - 1) / 2), len(CLASSES))
@@ -100,7 +134,7 @@ def panel_a(ax, df: pd.DataFrame, k: int) -> None:
                error_kw={"elinewidth": 0.9, "ecolor": "#444"})
 
     ax.set_xticks(centers)
-    ax.set_xticklabels([LAB[m] for m in METHODS])
+    ax.set_xticklabels([SHORT.get(m, LAB[m]) for m in METHODS], fontsize=11)
     ax.set_ylabel(f"Genes in top-{k}  (mean ± SEM, n = {n_seeds} seeds)")
     ax.set_ylim(0, k + 1)
     ax.set_title(f"a   Class composition of top-{k}", loc="left",
@@ -147,8 +181,8 @@ def render(df: pd.DataFrame, k: int) -> Path:
     fig.subplots_adjust(top=0.94, bottom=0.14, left=0.07, right=0.985)
 
     FIG.mkdir(exist_ok=True)
-    out_png = FIG / f"fig_reliability_top{k}.png"
-    out_pdf = FIG / f"fig_reliability_top{k}.pdf"
+    out_png = FIG / f"fig_reliability_top{k}{FIG_SUFFIX}.png"
+    out_pdf = FIG / f"fig_reliability_top{k}{FIG_SUFFIX}.pdf"
     fig.savefig(out_pdf, bbox_inches="tight")
     fig.savefig(out_png, dpi=180, bbox_inches="tight")
     plt.close(fig)
@@ -156,9 +190,28 @@ def render(df: pd.DataFrame, k: int) -> Path:
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--dgp", default="v1", choices=["v1", "v2"],
+                    help="v1 = originally published panel; v2 = rebuilt panel "
+                         "in which mixed genes and confounders share the same "
+                         "tissue eta^2")
+    ap.add_argument("--include-adv", action="store_true",
+                    help="also plot the DANN/AD-AE arms (v1 only); off by "
+                         "default so this reproduces the published figure")
+    a = ap.parse_args()
+    global DGP, FIG_SUFFIX
+    DGP = a.dgp
+    FIG_SUFFIX = "" if DGP == "v1" else f"_{DGP}"
     style()
-    df = load_merged()
-    print(f"loaded {df.seed.nunique()} seeds at n={N_FOCUS}")
+    df = load_merged(DGP, include_adv=a.include_adv)
+    global METHODS
+    METHODS = [m for m in ALL_METHODS if m in set(df.method)]
+    print(f"loaded {df.seed.nunique()} seeds at n={N_FOCUS}; "
+          f"methods = {METHODS}")
+    per_method_seeds = df.groupby("method").seed.nunique().to_dict()
+    if len(set(per_method_seeds.values())) > 1:
+        print(f"  note: unequal seed counts per method -> {per_method_seeds}")
     for k in K_VALUES:
         print("wrote", render(df, k))
 

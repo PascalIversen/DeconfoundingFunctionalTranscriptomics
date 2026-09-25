@@ -1,0 +1,3 @@
+results/halfmeans_*.npz
+results/stability_curves.csv
+results/*.log

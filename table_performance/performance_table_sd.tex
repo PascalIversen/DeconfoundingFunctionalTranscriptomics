@@ -7,13 +7,13 @@
     \cmidrule(lr){2-3}\cmidrule(lr){4-5}
     Method & Overall $r$ & Within-tissue $r_{\mathrm{wt}}$ & Overall $r$ & Within-tissue $r_{\mathrm{wt}}$ \\
     \midrule
-    Tissue-mean baseline & 0.243\,$\pm$\,0.130 & -0.280\,$\pm$\,0.034 & 0.346\,$\pm$\,0.146 & -0.378\,$\pm$\,0.076 \\
+    Tissue-mean baseline & 0.243\,$\pm$\,0.130 & -- & 0.346\,$\pm$\,0.146 & -- \\
     \midrule
-    Marginal / Within-tissue SHAP & 0.302\,$\pm$\,0.168 & 0.204\,$\pm$\,0.132 & 0.364\,$\pm$\,0.166 & 0.175\,$\pm$\,0.118 \\
-    Residualized & 0.329\,$\pm$\,0.151 & 0.228\,$\pm$\,0.121 & 0.401\,$\pm$\,0.152 & 0.217\,$\pm$\,0.111 \\
-    IRM & 0.205\,$\pm$\,0.123 & 0.126\,$\pm$\,0.087 & 0.308\,$\pm$\,0.157 & 0.132\,$\pm$\,0.100 \\
+    Marginal / Within-tissue SHAP & 0.302\,$\pm$\,0.168 & 0.224\,$\pm$\,0.132 & 0.364\,$\pm$\,0.166 & 0.209\,$\pm$\,0.119 \\
+    Residualized & 0.329\,$\pm$\,0.151 & 0.230\,$\pm$\,0.121 & 0.401\,$\pm$\,0.152 & 0.219\,$\pm$\,0.115 \\
+    IRM & 0.205\,$\pm$\,0.123 & 0.154\,$\pm$\,0.095 & 0.308\,$\pm$\,0.157 & 0.170\,$\pm$\,0.108 \\
     \bottomrule
   \end{tabular}
-  \caption{\textbf{Predictive accuracy with across-item standard deviation.} Identical to Table~\ref{tab:performance}, but each cell reports mean\,$\pm$\,SD across items instead of the SEM ($n=200$ targets for DepMap, $n=440$ drugs for CTRPv2; seeds averaged within item first). The SD measures item-to-item heterogeneity in predictability and is much larger than the SEM. Because all methods are evaluated on the same items, differences between methods should be read from the paired SEM in Table~\ref{tab:performance}, not from the overlap of these SD ranges.}
+  \caption{\textbf{Predictive accuracy with across-item standard deviation (SD).} Identical to Table~\ref{tab:performance}, but each cell reports mean\,$\pm$\,SD across items (drugs/knockout targets) instead of the SEM ($n=200$ targets for DepMap, $n=440$ drugs for CTRPv2; seeds averaged within item first).}
   \label{tab:performance_sd}
 \end{table}

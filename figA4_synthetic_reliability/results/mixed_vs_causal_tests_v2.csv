@@ -1,0 +1,6 @@
+n_cells,method,n_seeds,median_dRank_causal,median_dRank_mixed,differential (mixed - causal),frac_seeds_mixed_worse,wilcoxon_p
+1000,adae,32,-4.5,15.0,21.5,0.65625,0.019448095466941595
+1000,dann,32,-4.5,10.0,19.0,0.6875,0.0016667949967086315
+1000,irm,32,-8.0,6.0,14.25,0.6875,0.0041310470551252365
+1000,residualized,32,-29.25,80.25,112.75,1.0,4.656612873077393e-10
+1000,within_tissue,32,-27.75,72.0,100.25,1.0,4.656612873077393e-10

@@ -28,12 +28,14 @@ import shared.data as D  # noqa: E402
 
 RESULTS = HERE.parent / "results"
 SEEDAVG = RESULTS / "depmap_seedavg_preds"
+from shared.preds_io import load_preds  # noqa: E402
 PREDS = RESULTS / "depmap_seed1_preds"
 STRING_DIR = HERE.parent / "data" / "partners" / "string"
 GS = HERE.parent / "data" / "partners"
 OUT = HERE / "data"
 OUT.mkdir(exist_ok=True)
-METHODS = ["marginal", "residualized", "within_tissue", "irm"]
+METHODS = ["marginal", "residualized", "within_tissue", "irm",
+           "dann", "adae"]
 
 
 def bh_intersection():

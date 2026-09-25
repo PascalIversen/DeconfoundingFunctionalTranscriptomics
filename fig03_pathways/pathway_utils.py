@@ -14,6 +14,11 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 
+# see shared/preds_io.py: merges the sibling *_extra bundle if present
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "training"))
+from shared.preds_io import load_preds  # noqa: E402
+
 
 def load_gmt(path: Path) -> Dict[str, Set[str]]:
     """Enrichr-flavoured GMT: <name>\\t\\t<gene1>\\t<gene2>\\t... Some libs use
@@ -40,8 +45,16 @@ def load_gmt(path: Path) -> Dict[str, Set[str]]:
 
 def top_k_genes(importance: np.ndarray, gene_cols: np.ndarray,
                 k: int) -> List[str]:
-    """Top-K gene symbols by |importance| (importance already absolute or signed)."""
-    idx = np.argsort(-np.abs(importance))[:k]
+    """Top-K gene symbols by |importance| (importance already absolute or signed).
+
+    Returns [] for a constant importance vector: `argsort` breaks a total tie
+    by position, so a degenerate model would otherwise report the first k
+    genes in panel order (i.e. alphabetically) as its top hits.
+    """
+    a = np.abs(np.asarray(importance, dtype=np.float64))
+    if not np.isfinite(a).any() or np.nanmax(a) <= 0.0:
+        return []
+    idx = np.argsort(-a)[:k]
     return [str(gene_cols[i]) for i in idx]
 
 
@@ -68,7 +81,7 @@ def hypergeometric_pvalue(top_k_set: Set[str], pathway_set: Set[str],
 def importance_from_npz(npz_path: Path,
                         methods: List[str]) -> Tuple[np.ndarray, Dict[str, np.ndarray]]:
     """Return (gene_cols, {method: mean_abs_shap_per_gene})."""
-    d = np.load(npz_path)
+    d = load_preds(npz_path)
     gene_cols = d["gene_cols"]
     out = {}
     for m in methods:

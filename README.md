@@ -20,12 +20,27 @@ Each paper figure/table maps to one top-level directory:
 | **Fig A2** AUROC vs τ | `fig02_ci_distribution/` | `python plot_auroc_tau.py` (compute: `compute_auroc_tau.py`) | predictions |
 | **Fig A3** other confounders | `fig01_confounding_evidence/` | `plot_confounding.py` (→ `fig05c`) | raw data + `DepMap/Model.csv` |
 | **Fig A4** synthetic reliability | `figA4_synthetic_reliability/` | `python plot_reliability.py` (compute: `compute_npower_mixed.py`) | self-contained (synthetic) |
+| **Fig A5** mixed-class breakdown | `figA4_synthetic_reliability/` | `python mixed_class.py --dgp v1` / `--dgp v2` | synthetic + `npower_mixed*.csv` |
 | **Table 1 / A1** predictive accuracy | `table_performance/` | `python make_table.py` (compute: `compute_per_item_pearson.py`) | predictions |
 | **Table A2** MSE | `table_performance/` | `python make_table_mse.py` | predictions |
-| **Table A3** IRM λ sweep | `table_irm_sweep/` | `python make_table_irm.py` (compute: `run_irm_sweep.py`) | retrains a subset |
+| **Table A4** model-stage penalty-weight sweep | `table_irm_sweep/` | `python make_table_adv.py` (compute: `run_irm_sweep.py`, `run_adv_sweep.py`) | retrains a subset |
+| **Table (adv. baselines)** | `scripts/` | `python summarize_adversarial.py` | predictions + extras diagnostics |
+| **Table (other explainers)** | `other_explainers/` | `python make_table_other_explainers.py` (compute: `compute_xai_comparison.py`) | predictions + trained models |
 
 `fig04a_selfrank_partner/` and `fig04b_breast_subtypes/` compute the two panels that
 `fig04_causal_eval/` assembles; they are not standalone paper figures.
+
+Three appendix subsections have their own directories, each self-documenting via its
+own README:
+
+- `well_predicted_subset/` — do the main results hold on the subset of items with
+  meaningful within-tissue predictive performance, and is the r_wt convention in
+  Table 1 neutral between methods?
+- `denoising/` — does averaging per-cell attributions denoise the global explanation,
+  and do the main diagnostics hold on the well-predicted subset for the two figures
+  `well_predicted_subset/` does not cover (Fig A2, Fig 4b)?
+- `other_explainers/` — is tissue confounding, and the fix for it, specific to Shapley
+  values?
 
 Shared library: `training/shared/` (data loaders, models, training, deconfounding,
 SHAP estimators). Retraining entry point: `training/gen_preds_v2.py`.

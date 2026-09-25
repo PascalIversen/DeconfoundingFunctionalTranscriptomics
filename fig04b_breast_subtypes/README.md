@@ -12,19 +12,19 @@ importance). A genuinely breast-specific signature should peak in breast
 
 ## Gene set choice
 
-The reference is the **PAM50 lineage-receptor subset (41 genes)**:
-the full PAM50 (Parker 2009, *J Clin Oncol* 27:1160) minus the canonical
-11-gene proliferation meta-gene (Nielsen 2010, *Clin Cancer Res*
-16:5222; Wallden 2015, *BMC Med Genomics*). The excluded proliferation
-genes, BIRC5, CCNB1, CDC20, CENPF, CEP55, KIF2C, MKI67, MYBL2, RRM2,
-UBE2C, ANLN, were selected by PAM50 to distinguish Luminal A vs B by
-proliferation index in patient tumors. In CCLE every immortalized line
-proliferates uniformly, so this arm decouples from breast-subtype
-membership and dilutes the AUROC signal in cell lines.
+The reference is the **PAM50 lineage-receptor subset (28 genes)**: the full
+PAM50 (Parker 2009, *J Clin Oncol* 27:1160; 50 genes, matching
+`../training/pam50_genes.txt`, the panel actually used as model input
+features) minus its 22-gene proliferation arm (the Hallmark G2M_CHECKPOINT /
+E2F_TARGETS cell-cycle programme, which includes the canonical Nielsen 2010 /
+Wallden 2015 proliferation meta-gene). In CCLE every immortalized line
+proliferates uniformly, so this arm decouples from breast-subtype membership
+and dilutes the AUROC signal in cell lines.
 
-The retained 41 genes (ER/PR receptors, FOXA1/C1 lineage TFs, ERBB2/GRB7
-HER2 amplicon, KRT5/14/17 basal cytokeratins, etc.) reflect cell-of-origin
-biology that survives immortalization.
+The retained 28 genes (ER/PR receptors, FOXA1/C1 lineage TFs, ERBB2/GRB7
+HER2 amplicon, KRT5/14/17 basal cytokeratins, CDH3, etc.) reflect
+cell-of-origin biology that survives immortalization. See
+`compute_subtype_specificity.py` for the exact gene lists.
 
 ## Layout
 

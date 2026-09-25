@@ -11,7 +11,11 @@ $r_{\mathrm{wt}}$ for each predictor, on both datasets.
    overall `pearson` and `wt_pearson`), reading the 5-seed per-cell preds from
    `../results/`.
 2. `make_table.py`: aggregates `results/per_item_pearson.csv` →
-   `results/performance_table.csv` (full stats) and `performance_table.tex`.
+   `results/performance_table.csv` (full stats) and `performance_table.tex` /
+   `performance_table_sd.tex`. Overall $r$ comes from `per_item_pearson.csv`;
+   within-tissue $r_{\mathrm{wt}}$ comes from the fold-symmetric convention in
+   `../well_predicted_subset/results/fold_symmetric_rwt.csv` (see below), not
+   from this file's `wt_pearson` column.
 
 ## Aggregation decisions
 
@@ -33,34 +37,32 @@ SHAP shares the marginal model** (`yhat_within ≡ yhat_marginal`, asserted in t
 compute script), so it is folded into the *Marginal* row, a separate predictive
 row would be a duplicate.
 
-## The residualized within-tissue measurement (important)
+## Within-tissue r: the fold-symmetric convention (important)
 
 `yhat_residualized = f(X_res) + yhat_baseline`, where `yhat_baseline` is the
 leave-one-fold-out per-tissue mean, added back only to put predictions on the
-raw scale (for **overall** r). That baseline term has within-tissue r ≈ **−0.38**
-(CTRPv2), the leave-out anti-correlation, worst in small tissues, and it varies
-*by fold within a tissue*, so per-tissue centring cannot remove it. Evaluating
-within-tissue r on the **reconstructed** vector therefore gives a misleadingly
-low **0.06** (CTRPv2) / 0.16 (DepMap), driven entirely by small tissues
-(`res_raw` on tissues ≥20 cells is already ~0.16; see `_diag_residualized.py`).
+raw scale (for **overall** r). That baseline term has a negative within-tissue r
+(the leave-out anti-correlation, worst in small tissues), and it varies
+*by fold within a tissue*, so per-tissue centring cannot remove it -- evaluating
+within-tissue r on the raw reconstructed vector gives a misleadingly low value
+for residualized specifically (`wt_pearson_recon` in the CSV keeps this
+contaminated value for transparency; Marginal/IRM have no added-back baseline,
+so for them `wt_pearson == wt_pearson_recon`).
 
-Since within-tissue r is *meant* to exclude the tissue-mean term, we evaluate it
-on the deconfounded model output `f(X_res) = yhat_residualized − yhat_baseline`.
-This is **0.228 (DepMap) / 0.217 (CTRPv2)** and is flat across tissue sizes, the
-model's real within-tissue skill. The contaminated value is kept as
-`wt_pearson_recon` in the CSV for transparency. Marginal/IRM have no added-back
-baseline, so for them `wt_pearson == wt_pearson_recon`.
+Centring per tissue alone cannot remove this artifact, and stripping the
+baseline back off before scoring residualized (but not the other methods)
+would be a method-specific convention. Instead, `wt_mean`/`wt_sem`/`wt_sd`
+here are the **fold-symmetric** within-tissue r
+(`../well_predicted_subset/fold_symmetric_rwt.py`): centring $y$ and $\hat y$
+within (tissue × fold) groups instead of within tissue removes the leave-out
+baseline term identically for every method, so no per-method handling is
+needed -- residualized's fold-symmetric r_wt already equals its
+baseline-stripped value. See `../well_predicted_subset/README.md` ("Fold-symmetric
+within-tissue r") for the full derivation and validity checks.
 
-## Key finding (read before citing)
+## Results
 
-- **Overall $r$ is inflated by tissue.** The tissue-mean baseline reaches
-  $r=0.24$ (DepMap) / $0.35$ (CTRPv2) with **no** within-tissue signal
-  ($r_{\mathrm{wt}}<0$, the leave-out artifact).
-- **Every trained model keeps positive $r_{\mathrm{wt}}$**, far above baseline -
-  genuine within-tissue signal, not lineage.
-- **Residualization is the best predictor on BOTH axes** (overall + within-tissue
-  r), consistent with its model being trained directly on the within-tissue
-  (residual) signal. So "no cost to predictive quality" holds, and then some -
-  for residualization. IRM is the weaker predictor on both. The draft's claim is
-  supported once the residualized within-tissue r is measured on the model
-  output rather than the baseline-contaminated reconstruction.
+See `results/performance_table.csv` (full stats, both conventions) and
+`performance_table.tex` / `performance_table_sd.tex` for the numbers, and
+`../well_predicted_subset/README.md` for the paired significance tests behind
+the fold-symmetric within-tissue comparison.

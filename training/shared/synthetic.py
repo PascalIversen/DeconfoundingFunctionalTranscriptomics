@@ -181,6 +181,7 @@ def make_synthetic_mixed(
     strong_amp_sd: float = 9.0,   # tissue amplitude of strong pure confounders
     conf_noise_sd: float = 1.0,
     strong_noise_sd: float = 0.1,
+    variant: str = "v1",
     seed: int = 0,
 ) -> MixedDataset:
     """Realistic mixed-gene DGP for the N-sweep (calibrated to DepMap/CTRPv2).
@@ -203,6 +204,33 @@ def make_synthetic_mixed(
     at n=1000; within-tissue predictive r rises with n from ~0.05 at n=1000 to
     ~0.25 at n=80000, reaching the real-cohort level (~0.17) near n=10-20k.
     """
+    # ------------------------------------------------------------------
+    # `variant` selects the confounding geometry.
+    #
+    # "v1" is the originally published setting. It does not instantiate the
+    # hard case it advertises: `amplify` gives eta^2 = amp^2/(amp^2+noise^2),
+    # so mixed genes at amp=1, noise=1 land on eta^2 = 0.5 -- identical to the
+    # untouched base process for plain causal genes (tissue_mu sd 1 +
+    # within_noise 1). Measured over seeds: mixed 0.444 vs causal 0.440. At the
+    # same time confounders sit at 6^2/37 = 0.97, so tissue-centring shrinks
+    # them ~5x more than every other class and demoting them is close to
+    # arithmetic rather than a finding.
+    #
+    # "v2" fixes both: mixed genes and confounders are given the SAME tissue
+    # amplitude and noise, hence the same eta^2 (~0.74, measured over 32 seeds)
+    # against ~0.44 for plain causal genes. Tissue statistics alone therefore
+    # cannot separate the genes that matter from the ones that don't -- only
+    # the causal effect can. That is the case where a deconfounder can
+    # actually fail.
+    if variant == "v2":
+        mixed_amp_sd = 2.0
+        conf_amp_sd = 2.0
+        strong_amp_sd = 2.0
+        conf_noise_sd = 1.0
+        strong_noise_sd = 1.0
+    elif variant != "v1":
+        raise ValueError(f"unknown variant {variant!r} (expected 'v1' or 'v2')")
+
     rng = np.random.RandomState(seed)
 
     sizes_raw = rng.gamma(2.0, 1.0, size=n_tissues)

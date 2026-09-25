@@ -20,9 +20,6 @@ Rows are coloured by **gene-set class**:
 | gold | **tissue / microenvironment / cancer context** | cell-extrinsic, lineage-associated programs (adhesion, ECM, junctions, immune, secreted, cancer-type pathways) |
 | grey | **cell-intrinsic** | proliferation / biosynthesis / DNA / core signaling |
 
-Headline: deconfounding **demotes lineage + tissue-context programs** and **promotes
-cell-intrinsic proliferation/biosynthesis**, consistently across DepMap and CTRPv2.
-
 ## Pipeline (3 steps, self-contained)
 
 ```bash
@@ -70,21 +67,8 @@ curl -s ".../release/2024.1.Hs/h.all.v2024.1.Hs.symbols.gmt" -o gene_sets/hallma
    from `set_classes.tsv` (category-based, a priori).
 
 2. **10000 permutations.** gseapy's gene-set-permutation FDR is Monte-Carlo noisy;
-   at 1000 permutations the significant-set membership is ~40% unstable, at 10000 it
+   at 1000 permutations the significant-set membership is unstable, at 10000 it
    is stable (and the disease exclusion then changes nothing but deleting the junk).
-
-## Interpretation caveat (for the caption)
-
-In cell lines the gold (surface / adhesion / secreted / immune) programs **likely**
-reflect *lineage-determined expression* rather than an active microenvironment (cell
-lines lack stroma, immune infiltrate, other cell types); deconfounding **likely**
-demotes them because their expression marks tissue identity, the confounder, rather
-than because of any microenvironmental function. Supported externally: tissue-specific
-genes skew cell-surface/secreted (Uhlén et al. 2015, Human Protein Atlas), and lineage
-of origin dominates cancer cell-line transcriptomes (Ross et al. 2000; CCLE, Barretina
-et al. 2012 / Ghandi et al. 2019), whereas proliferation/biosynthesis is broadly-
-expressed housekeeping (Eisenberg & Levanon 2013). Read the gold class as "lineage-
-associated expression programs," not a literal microenvironment.
 
 ## Layout
 

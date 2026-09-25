@@ -13,7 +13,7 @@ We express it on the same recovery-AUROC axis as the partner panels:
 which is exactly the AUROC of ranking the single target gene above the other
 N-1 panel genes by |SHAP| (1.0 = target is #1, 0.5 = median, chance).
 
-Paired Wilcoxon marginal vs {residualized, within_tissue, irm} on the
+Paired Wilcoxon marginal vs each deconfounding method (recovery_utils.METHODS) on the
 the BH-intersection (marg & res both pass within-tissue-r BH-FDR).
 
 Reads DepMap importances (../results/depmap_seedavg_preds by default).
@@ -30,7 +30,8 @@ from scipy import stats
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-from recovery_utils import OUT, SEEDAVG, METHODS, bh_intersection  # noqa: E402
+from recovery_utils import (OUT, SEEDAVG, METHODS, bh_intersection,  # noqa: E402
+                            load_preds)
 
 import argparse
 
@@ -67,7 +68,7 @@ def main():
     rows = []
     for p in sorted(preds.glob("*.npz")):
         target = p.stem
-        npz = np.load(p)
+        npz = load_preds(p)
         if not has_method(npz, "marginal"):
             continue
         gene_cols = np.array([str(g) for g in npz["gene_cols"]])
@@ -98,7 +99,7 @@ def main():
         marg_medrank = base["rank_marginal"].median()
         print(f"\n[{setname}] marginal self-AUROC={marg_self:.4f} "
               f"median rank={marg_medrank:.0f} (n={base['selfauroc_marginal'].notna().sum()})")
-        for m in ["residualized", "within_tissue", "irm"]:
+        for m in [x for x in METHODS if x != "marginal"]:
             if f"selfauroc_{m}" not in base:
                 continue
             sub = base[[f"selfauroc_marginal", f"selfauroc_{m}",

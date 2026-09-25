@@ -29,8 +29,9 @@ expression matrices; PAM50_ALIASES expands them so the union matches whichever
 symbol the matrix actually uses (extras absent from expression are dropped at
 intersection, so over-listing is safe).
 
-Previously PAM50 was hand-appended to targets_*.txt and absent from any code,
-so re-running the list builder silently dropped it. Defining it here fixes that.
+PAM50 is defined here, in the list-builder module itself, rather than
+hand-appended to targets_*.txt, so that re-running the list builder always
+includes it.
 """
 from __future__ import annotations
 

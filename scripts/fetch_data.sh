@@ -18,16 +18,19 @@ fetch() {  # url dest.tar.gz extract_dir
   local url="$1" tgz="$2" dest="$3"
   [ "$url" = TODO* ] && { echo "!! $url not set: edit scripts/fetch_data.sh or export ZENODO_*_URL"; return 1; }
   echo ">> downloading $url"
-  curl -L --fail -o "$tgz" "$url"
+  # -C - resumes a partial file; --retry rides out Zenodo's transient stalls
+  # (multi-GB bundles regularly die with "Recv failure" mid-transfer).
+  curl -L --fail -C - --retry 20 --retry-delay 5 --retry-all-errors \
+       --speed-limit 10240 --speed-time 120 -o "$tgz" "$url"
   echo ">> extracting into $dest"
   mkdir -p "$dest"; tar -xzf "$tgz" -C "$dest"; rm -f "$tgz"
 }
 
 what="${1:-all}"
 case "$what" in
-  raw)   fetch "$RAW_URL"   "$HERE/_raw.tar.gz"   "$HERE/data" ;;
+  raw)   fetch "$RAW_URL"   "$HERE/_raw.tar.gz"   "$HERE" ;;
   preds) fetch "$PREDS_URL" "$HERE/_preds.tar.gz" "$HERE" ;;
-  all)   fetch "$RAW_URL"   "$HERE/_raw.tar.gz"   "$HERE/data"
+  all)   fetch "$RAW_URL"   "$HERE/_raw.tar.gz"   "$HERE"
          fetch "$PREDS_URL" "$HERE/_preds.tar.gz" "$HERE" ;;
   *) echo "usage: $0 [raw|preds|all]"; exit 1 ;;
 esac

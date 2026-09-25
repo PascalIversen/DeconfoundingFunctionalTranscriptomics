@@ -26,8 +26,15 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-METHODS = ["marginal", "residualized", "irm", "within_tissue"]
+METHODS = ["marginal", "residualized", "irm", "within_tissue",
+           "dann", "adae"]
 HERE = Path(__file__).resolve().parent
+
+# Adversarial baselines (DANN / AD-AE) live in a sibling "*_extra" directory so
+# the published prediction bundle stays untouched; load_preds merges them in.
+import sys as _sys
+_sys.path.insert(0, str(HERE.parent / "training"))
+from shared.preds_io import load_preds  # noqa: E402
 
 
 def tissue_eta2(phi: np.ndarray, tissue: np.ndarray) -> np.ndarray:
@@ -49,7 +56,7 @@ def tissue_eta2(phi: np.ndarray, tissue: np.ndarray) -> np.ndarray:
 def per_item_eta2(preds_dir: Path, item_label: str) -> pd.DataFrame:
     rows = []
     for f in sorted(preds_dir.glob("*.npz")):
-        d = np.load(f, allow_pickle=True)
+        d = load_preds(f)
         tissue = d["tissue"]
         genes = d["gene_cols"]
         for m in METHODS:

@@ -1,0 +1,277 @@
+dataset,item,condition,xai,contam50,eta2,n_cell_lines
+ctrpv2,GSK4112,marginal,shap,0.5,0.2461506383295652,123
+ctrpv2,GSK4112,marginal,grad_x_input,0.88,0.24438241982610256,123
+ctrpv2,GSK4112,marginal,lrp_eps,0.92,0.25520305382583225,123
+ctrpv2,GSK4112,marginal,lrp_ab,0.68,0.2995172859927302,123
+ctrpv2,GSK4112,marginal,int_grad,0.88,0.2451528857434178,123
+ctrpv2,GSK4112,marginal,lime,0.2,0.1981070888519879,123
+ctrpv2,GSK4112,residualized,shap,0.18,0.1656496381032523,123
+ctrpv2,GSK4112,residualized,grad_x_input,0.16,0.1666075780159542,123
+ctrpv2,GSK4112,residualized,lrp_eps,0.14,0.16276966513043603,123
+ctrpv2,GSK4112,residualized,lrp_ab,0.18,0.15157605423304804,123
+ctrpv2,GSK4112,residualized,int_grad,0.18,0.1686236484747002,123
+ctrpv2,GSK4112,residualized,lime,0.14,0.17527316002871893,123
+ctrpv2,XL765,marginal,shap,0.32,0.19059004315737096,156
+ctrpv2,XL765,marginal,grad_x_input,0.64,0.18578838660376296,156
+ctrpv2,XL765,marginal,lrp_eps,0.68,0.19066122574070038,156
+ctrpv2,XL765,marginal,lrp_ab,0.3,0.27228324605300025,156
+ctrpv2,XL765,marginal,int_grad,0.62,0.18581918591848648,156
+ctrpv2,XL765,marginal,lime,0.3,0.1366908177957978,156
+ctrpv2,XL765,residualized,shap,0.12,0.1382035015359582,156
+ctrpv2,XL765,residualized,grad_x_input,0.08,0.13822309595002497,156
+ctrpv2,XL765,residualized,lrp_eps,0.14,0.14705156601276412,156
+ctrpv2,XL765,residualized,lrp_ab,0.38,0.07108597803127109,156
+ctrpv2,XL765,residualized,int_grad,0.12,0.13873868640656709,156
+ctrpv2,XL765,residualized,lime,0.3,0.13003612324642,156
+ctrpv2,Ki8751,marginal,shap,0.54,0.21170740203693306,194
+ctrpv2,Ki8751,marginal,grad_x_input,0.58,0.2002305845441197,194
+ctrpv2,Ki8751,marginal,lrp_eps,0.6,0.22071116470007682,194
+ctrpv2,Ki8751,marginal,lrp_ab,0.26,0.5955145323024195,194
+ctrpv2,Ki8751,marginal,int_grad,0.58,0.20090768950475216,194
+ctrpv2,Ki8751,marginal,lime,0.18,0.1390179773595704,194
+ctrpv2,Ki8751,residualized,shap,0.2,0.11062025883249615,194
+ctrpv2,Ki8751,residualized,grad_x_input,0.2,0.10832044362116929,194
+ctrpv2,Ki8751,residualized,lrp_eps,0.22,0.10455608248001798,194
+ctrpv2,Ki8751,residualized,lrp_ab,0.26,0.08046532697234446,194
+ctrpv2,Ki8751,residualized,int_grad,0.22,0.10784851624242314,194
+ctrpv2,Ki8751,residualized,lime,0.2,0.10482468510093569,194
+ctrpv2,Doramapimod,marginal,shap,0.28,0.18108443598901452,180
+ctrpv2,Doramapimod,marginal,grad_x_input,0.58,0.18045635489747733,180
+ctrpv2,Doramapimod,marginal,lrp_eps,0.64,0.18457134687680538,180
+ctrpv2,Doramapimod,marginal,lrp_ab,0.42,0.20693518200810937,180
+ctrpv2,Doramapimod,marginal,int_grad,0.58,0.18089422664143123,180
+ctrpv2,Doramapimod,marginal,lime,0.26,0.13188419034402524,180
+ctrpv2,Doramapimod,residualized,shap,0.1,0.10720148960357367,180
+ctrpv2,Doramapimod,residualized,grad_x_input,0.12,0.10843676027719933,180
+ctrpv2,Doramapimod,residualized,lrp_eps,0.08,0.107156464058892,180
+ctrpv2,Doramapimod,residualized,lrp_ab,0.16,0.0888935048698715,180
+ctrpv2,Doramapimod,residualized,int_grad,0.12,0.10784817101052953,180
+ctrpv2,Doramapimod,residualized,lime,0.18,0.10144916988787975,180
+ctrpv2,Selisistat,marginal,shap,0.4,0.17353765843468114,261
+ctrpv2,Selisistat,marginal,grad_x_input,0.64,0.16773833278402375,261
+ctrpv2,Selisistat,marginal,lrp_eps,0.76,0.16615137226645302,261
+ctrpv2,Selisistat,marginal,lrp_ab,0.56,0.15383193762916927,261
+ctrpv2,Selisistat,marginal,int_grad,0.64,0.1680094499839418,261
+ctrpv2,Selisistat,marginal,lime,0.22,0.08286048311999555,261
+ctrpv2,Selisistat,residualized,shap,0.18,0.08298641843783446,261
+ctrpv2,Selisistat,residualized,grad_x_input,0.14,0.08228124717612564,261
+ctrpv2,Selisistat,residualized,lrp_eps,0.16,0.08562040266610052,261
+ctrpv2,Selisistat,residualized,lrp_ab,0.38,0.08535982968991795,261
+ctrpv2,Selisistat,residualized,int_grad,0.16,0.08178848229552753,261
+ctrpv2,Selisistat,residualized,lime,0.1,0.08153064290155351,261
+ctrpv2,BRD-K61166597,marginal,shap,0.32,0.15293990588855713,319
+ctrpv2,BRD-K61166597,marginal,grad_x_input,0.42,0.14337677573775606,319
+ctrpv2,BRD-K61166597,marginal,lrp_eps,0.46,0.1594185204021346,319
+ctrpv2,BRD-K61166597,marginal,lrp_ab,0.24,0.5841827496878215,319
+ctrpv2,BRD-K61166597,marginal,int_grad,0.4,0.14535201142249626,319
+ctrpv2,BRD-K61166597,marginal,lime,0.24,0.08563519619601494,319
+ctrpv2,BRD-K61166597,residualized,shap,0.08,0.08493091674011975,319
+ctrpv2,BRD-K61166597,residualized,grad_x_input,0.06,0.08057440249583304,319
+ctrpv2,BRD-K61166597,residualized,lrp_eps,0.04,0.09132598444762657,319
+ctrpv2,BRD-K61166597,residualized,lrp_ab,0.22,0.10833666656910652,319
+ctrpv2,BRD-K61166597,residualized,int_grad,0.06,0.08096534044973433,319
+ctrpv2,BRD-K61166597,residualized,lime,0.2,0.06893718749918788,319
+ctrpv2,staurosporine,marginal,shap,0.16,0.15815078405772012,160
+ctrpv2,staurosporine,marginal,grad_x_input,0.16,0.14738230441987532,160
+ctrpv2,staurosporine,marginal,lrp_eps,0.14,0.14655433565571466,160
+ctrpv2,staurosporine,marginal,lrp_ab,0.24,0.33067576466821413,160
+ctrpv2,staurosporine,marginal,int_grad,0.14,0.148543180145454,160
+ctrpv2,staurosporine,marginal,lime,0.16,0.11908242216464199,160
+ctrpv2,staurosporine,residualized,shap,0.06,0.1278146926029206,160
+ctrpv2,staurosporine,residualized,grad_x_input,0.06,0.12818997228750406,160
+ctrpv2,staurosporine,residualized,lrp_eps,0.08,0.11625910755786613,160
+ctrpv2,staurosporine,residualized,lrp_ab,0.34,0.11220031697023528,160
+ctrpv2,staurosporine,residualized,int_grad,0.06,0.12767726100934246,160
+ctrpv2,staurosporine,residualized,lime,0.1,0.10719020908465458,160
+ctrpv2,BRD-K11533227,marginal,shap,0.3,0.1472187249009405,332
+ctrpv2,BRD-K11533227,marginal,grad_x_input,0.34,0.14401981228619148,332
+ctrpv2,BRD-K11533227,marginal,lrp_eps,0.38,0.14489162845925374,332
+ctrpv2,BRD-K11533227,marginal,lrp_ab,0.32,0.2140307906681461,332
+ctrpv2,BRD-K11533227,marginal,int_grad,0.34,0.14465174319851595,332
+ctrpv2,BRD-K11533227,marginal,lime,0.2,0.08116568296284263,332
+ctrpv2,BRD-K11533227,residualized,shap,0.08,0.06848544482834548,332
+ctrpv2,BRD-K11533227,residualized,grad_x_input,0.1,0.07019597288445713,332
+ctrpv2,BRD-K11533227,residualized,lrp_eps,0.1,0.0713597794677041,332
+ctrpv2,BRD-K11533227,residualized,lrp_ab,0.16,0.04089556322878612,332
+ctrpv2,BRD-K11533227,residualized,int_grad,0.1,0.07001775559503827,332
+ctrpv2,BRD-K11533227,residualized,lime,0.24,0.06637949001014067,332
+ctrpv2,Belinostat,marginal,shap,0.28,0.15482332579921826,384
+ctrpv2,Belinostat,marginal,grad_x_input,0.26,0.13452974412663504,384
+ctrpv2,Belinostat,marginal,lrp_eps,0.34,0.14962938783797194,384
+ctrpv2,Belinostat,marginal,lrp_ab,0.1,0.5796526841968369,384
+ctrpv2,Belinostat,marginal,int_grad,0.28,0.136892571747986,384
+ctrpv2,Belinostat,marginal,lime,0.24,0.0635621662075516,384
+ctrpv2,Belinostat,residualized,shap,0.2,0.05283424381930733,384
+ctrpv2,Belinostat,residualized,grad_x_input,0.2,0.055216013492814374,384
+ctrpv2,Belinostat,residualized,lrp_eps,0.18,0.05732377456180038,384
+ctrpv2,Belinostat,residualized,lrp_ab,0.22,0.018125464356284166,384
+ctrpv2,Belinostat,residualized,int_grad,0.2,0.05497833427604302,384
+ctrpv2,Belinostat,residualized,lime,0.16,0.05824496897235347,384
+ctrpv2,Teniposide,marginal,shap,0.42,0.17366019940674293,388
+ctrpv2,Teniposide,marginal,grad_x_input,0.42,0.15357783371179845,388
+ctrpv2,Teniposide,marginal,lrp_eps,0.64,0.17349715406046806,388
+ctrpv2,Teniposide,marginal,lrp_ab,0.18,0.51253464244867,388
+ctrpv2,Teniposide,marginal,int_grad,0.4,0.15535005105205468,388
+ctrpv2,Teniposide,marginal,lime,0.26,0.059255582154046776,388
+ctrpv2,Teniposide,residualized,shap,0.1,0.05879278959753684,388
+ctrpv2,Teniposide,residualized,grad_x_input,0.1,0.05939345658212967,388
+ctrpv2,Teniposide,residualized,lrp_eps,0.08,0.0693003197518681,388
+ctrpv2,Teniposide,residualized,lrp_ab,0.24,0.0888738161088714,388
+ctrpv2,Teniposide,residualized,int_grad,0.08,0.05881369289398578,388
+ctrpv2,Teniposide,residualized,lime,0.08,0.058255018746847964,388
+ctrpv2,CIL70,marginal,shap,0.38,0.14051031158582186,330
+ctrpv2,CIL70,marginal,grad_x_input,0.48,0.13293267430504332,330
+ctrpv2,CIL70,marginal,lrp_eps,0.54,0.13350557047421488,330
+ctrpv2,CIL70,marginal,lrp_ab,0.28,0.25579791806818414,330
+ctrpv2,CIL70,marginal,int_grad,0.46,0.13367261044604103,330
+ctrpv2,CIL70,marginal,lime,0.3,0.07237424321336466,330
+ctrpv2,CIL70,residualized,shap,0.16,0.0698194283017646,330
+ctrpv2,CIL70,residualized,grad_x_input,0.14,0.07095842275377338,330
+ctrpv2,CIL70,residualized,lrp_eps,0.16,0.06563137192909158,330
+ctrpv2,CIL70,residualized,lrp_ab,0.24,0.03082341835904063,330
+ctrpv2,CIL70,residualized,int_grad,0.16,0.07021169880690853,330
+ctrpv2,CIL70,residualized,lime,0.2,0.0643480554104656,330
+ctrpv2,PD 153035,marginal,shap,0.14,0.13916268059648254,383
+ctrpv2,PD 153035,marginal,grad_x_input,0.26,0.1343080496639994,383
+ctrpv2,PD 153035,marginal,lrp_eps,0.26,0.13610852593518324,383
+ctrpv2,PD 153035,marginal,lrp_ab,0.38,0.18009737090598293,383
+ctrpv2,PD 153035,marginal,int_grad,0.24,0.13462337495278648,383
+ctrpv2,PD 153035,marginal,lime,0.16,0.06226119824662437,383
+ctrpv2,PD 153035,residualized,shap,0.18,0.05405054516211959,383
+ctrpv2,PD 153035,residualized,grad_x_input,0.16,0.05387974463561095,383
+ctrpv2,PD 153035,residualized,lrp_eps,0.12,0.053461069507707765,383
+ctrpv2,PD 153035,residualized,lrp_ab,0.28,0.0259127264418074,383
+ctrpv2,PD 153035,residualized,int_grad,0.16,0.05401905316543778,383
+ctrpv2,PD 153035,residualized,lime,0.18,0.05509337733083167,383
+ctrpv2,ML050,marginal,shap,0.56,0.1417639248370748,395
+ctrpv2,ML050,marginal,grad_x_input,0.86,0.13671777028827428,395
+ctrpv2,ML050,marginal,lrp_eps,0.92,0.1381622199748198,395
+ctrpv2,ML050,marginal,lrp_ab,0.6,0.16869588780836117,395
+ctrpv2,ML050,marginal,int_grad,0.86,0.13712706568473,395
+ctrpv2,ML050,marginal,lime,0.3,0.06056998824507735,395
+ctrpv2,ML050,residualized,shap,0.14,0.06728087983596215,395
+ctrpv2,ML050,residualized,grad_x_input,0.12,0.06685909517275264,395
+ctrpv2,ML050,residualized,lrp_eps,0.1,0.07033242312683734,395
+ctrpv2,ML050,residualized,lrp_ab,0.14,0.07242442235034471,395
+ctrpv2,ML050,residualized,int_grad,0.12,0.0664307404164529,395
+ctrpv2,ML050,residualized,lime,0.12,0.055859744013607784,395
+ctrpv2,etomoxir,marginal,shap,0.38,0.13942953917752055,434
+ctrpv2,etomoxir,marginal,grad_x_input,0.58,0.1342263722604801,434
+ctrpv2,etomoxir,marginal,lrp_eps,0.7,0.13594793479300007,434
+ctrpv2,etomoxir,marginal,lrp_ab,0.54,0.16661299669840204,434
+ctrpv2,etomoxir,marginal,int_grad,0.6,0.134462471578917,434
+ctrpv2,etomoxir,marginal,lime,0.4,0.05521207454351813,434
+ctrpv2,etomoxir,residualized,shap,0.16,0.057592722566339474,434
+ctrpv2,etomoxir,residualized,grad_x_input,0.16,0.05564271041322197,434
+ctrpv2,etomoxir,residualized,lrp_eps,0.14,0.05643475161895336,434
+ctrpv2,etomoxir,residualized,lrp_ab,0.2,0.03715189972929121,434
+ctrpv2,etomoxir,residualized,int_grad,0.16,0.05557223917165169,434
+ctrpv2,etomoxir,residualized,lime,0.08,0.05496181236385403,434
+ctrpv2,oligomycin A,marginal,shap,0.24,0.13266789753865085,439
+ctrpv2,oligomycin A,marginal,grad_x_input,0.26,0.12267001261699514,439
+ctrpv2,oligomycin A,marginal,lrp_eps,0.26,0.12533346577714244,439
+ctrpv2,oligomycin A,marginal,lrp_ab,0.22,0.34278804961359943,439
+ctrpv2,oligomycin A,marginal,int_grad,0.26,0.12370865296079298,439
+ctrpv2,oligomycin A,marginal,lime,0.14,0.05151485244058538,439
+ctrpv2,oligomycin A,residualized,shap,0.12,0.04800932594344675,439
+ctrpv2,oligomycin A,residualized,grad_x_input,0.14,0.0486335063640102,439
+ctrpv2,oligomycin A,residualized,lrp_eps,0.14,0.046817753193332264,439
+ctrpv2,oligomycin A,residualized,lrp_ab,0.14,0.047235517743990096,439
+ctrpv2,oligomycin A,residualized,int_grad,0.14,0.04860600684334347,439
+ctrpv2,oligomycin A,residualized,lime,0.28,0.048103526658809646,439
+ctrpv2,Paclitaxel,marginal,shap,0.16,0.1009961245520196,434
+ctrpv2,Paclitaxel,marginal,grad_x_input,0.16,0.09041970235027395,434
+ctrpv2,Paclitaxel,marginal,lrp_eps,0.18,0.08647000238560293,434
+ctrpv2,Paclitaxel,marginal,lrp_ab,0.24,0.06254650731401716,434
+ctrpv2,Paclitaxel,marginal,int_grad,0.16,0.09248925845474801,434
+ctrpv2,Paclitaxel,marginal,lime,0.12,0.056274574663694954,434
+ctrpv2,Paclitaxel,residualized,shap,0.06,0.05264172240529236,434
+ctrpv2,Paclitaxel,residualized,grad_x_input,0.04,0.05176010208899298,434
+ctrpv2,Paclitaxel,residualized,lrp_eps,0.06,0.05031241405614592,434
+ctrpv2,Paclitaxel,residualized,lrp_ab,0.2,0.04452781270890327,434
+ctrpv2,Paclitaxel,residualized,int_grad,0.04,0.05217752693038645,434
+ctrpv2,Paclitaxel,residualized,lime,0.06,0.05016459449903794,434
+ctrpv2,SB-431542,marginal,shap,0.38,0.132176101453867,454
+ctrpv2,SB-431542,marginal,grad_x_input,0.54,0.12766421044354576,454
+ctrpv2,SB-431542,marginal,lrp_eps,0.6,0.1285374002295236,454
+ctrpv2,SB-431542,marginal,lrp_ab,0.44,0.1063059353208158,454
+ctrpv2,SB-431542,marginal,int_grad,0.54,0.12806908736268735,454
+ctrpv2,SB-431542,marginal,lime,0.32,0.051344183220597715,454
+ctrpv2,SB-431542,residualized,shap,0.06,0.04680977360151153,454
+ctrpv2,SB-431542,residualized,grad_x_input,0.06,0.04650154519733951,454
+ctrpv2,SB-431542,residualized,lrp_eps,0.06,0.04842044375246529,454
+ctrpv2,SB-431542,residualized,lrp_ab,0.2,0.027073732762322597,454
+ctrpv2,SB-431542,residualized,int_grad,0.06,0.046529210975973075,454
+ctrpv2,SB-431542,residualized,lime,0.12,0.04607066092519211,454
+ctrpv2,Alisertib,marginal,shap,0.22,0.14620496018393395,492
+ctrpv2,Alisertib,marginal,grad_x_input,0.22,0.13326915471486198,492
+ctrpv2,Alisertib,marginal,lrp_eps,0.24,0.1432521366532049,492
+ctrpv2,Alisertib,marginal,lrp_ab,0.2,0.6083623258063365,492
+ctrpv2,Alisertib,marginal,int_grad,0.22,0.1343108576979459,492
+ctrpv2,Alisertib,marginal,lime,0.26,0.04914918462810466,492
+ctrpv2,Alisertib,residualized,shap,0.18,0.039269730960398326,492
+ctrpv2,Alisertib,residualized,grad_x_input,0.16,0.03988401753447193,492
+ctrpv2,Alisertib,residualized,lrp_eps,0.16,0.04379961602510585,492
+ctrpv2,Alisertib,residualized,lrp_ab,0.3,0.023048483990299327,492
+ctrpv2,Alisertib,residualized,int_grad,0.16,0.03957433967440127,492
+ctrpv2,Alisertib,residualized,lime,0.18,0.04276987350556043,492
+ctrpv2,Idelalisib,marginal,shap,0.44,0.12572863004039656,570
+ctrpv2,Idelalisib,marginal,grad_x_input,0.66,0.12106069089027424,570
+ctrpv2,Idelalisib,marginal,lrp_eps,0.72,0.12386191131508308,570
+ctrpv2,Idelalisib,marginal,lrp_ab,0.52,0.37547496756985127,570
+ctrpv2,Idelalisib,marginal,int_grad,0.66,0.12153359147610214,570
+ctrpv2,Idelalisib,marginal,lime,0.26,0.04780396406287582,570
+ctrpv2,Idelalisib,residualized,shap,0.14,0.03726450089611498,570
+ctrpv2,Idelalisib,residualized,grad_x_input,0.14,0.03743154271010547,570
+ctrpv2,Idelalisib,residualized,lrp_eps,0.1,0.03908909777708765,570
+ctrpv2,Idelalisib,residualized,lrp_ab,0.28,0.02563749513303593,570
+ctrpv2,Idelalisib,residualized,int_grad,0.12,0.037694587125606166,570
+ctrpv2,Idelalisib,residualized,lime,0.08,0.03680001246362505,570
+ctrpv2,chlorambucil,marginal,shap,0.44,0.12739286689820534,631
+ctrpv2,chlorambucil,marginal,grad_x_input,0.5,0.12309757728868062,631
+ctrpv2,chlorambucil,marginal,lrp_eps,0.54,0.12544231171895676,631
+ctrpv2,chlorambucil,marginal,lrp_ab,0.54,0.4290086286531362,631
+ctrpv2,chlorambucil,marginal,int_grad,0.48,0.12360039597172316,631
+ctrpv2,chlorambucil,marginal,lime,0.24,0.042143325889551435,631
+ctrpv2,chlorambucil,residualized,shap,0.12,0.03172056320603315,631
+ctrpv2,chlorambucil,residualized,grad_x_input,0.12,0.03304477693845035,631
+ctrpv2,chlorambucil,residualized,lrp_eps,0.12,0.034303439866611274,631
+ctrpv2,chlorambucil,residualized,lrp_ab,0.28,0.015900076007059578,631
+ctrpv2,chlorambucil,residualized,int_grad,0.12,0.03316997293205615,631
+ctrpv2,chlorambucil,residualized,lime,0.16,0.032087157098902364,631
+ctrpv2,zebularine,marginal,shap,0.38,0.12971055794238265,474
+ctrpv2,zebularine,marginal,grad_x_input,0.68,0.12380416240562994,474
+ctrpv2,zebularine,marginal,lrp_eps,0.86,0.12605839791465576,474
+ctrpv2,zebularine,marginal,lrp_ab,0.54,0.27277939616743097,474
+ctrpv2,zebularine,marginal,int_grad,0.66,0.124161398111186,474
+ctrpv2,zebularine,marginal,lime,0.24,0.05156532397557394,474
+ctrpv2,zebularine,residualized,shap,0.1,0.04402997313709681,474
+ctrpv2,zebularine,residualized,grad_x_input,0.1,0.04462563332389558,474
+ctrpv2,zebularine,residualized,lrp_eps,0.12,0.04320435574204843,474
+ctrpv2,zebularine,residualized,lrp_ab,0.14,0.01691766300320239,474
+ctrpv2,zebularine,residualized,int_grad,0.1,0.04425216393627619,474
+ctrpv2,zebularine,residualized,lime,0.06,0.046893613505038186,474
+ctrpv2,mim1,marginal,shap,0.26,0.12297999667412028,696
+ctrpv2,mim1,marginal,grad_x_input,0.36,0.11738673159994975,696
+ctrpv2,mim1,marginal,lrp_eps,0.4,0.1181801943528608,696
+ctrpv2,mim1,marginal,lrp_ab,0.44,0.23480951706748376,696
+ctrpv2,mim1,marginal,int_grad,0.34,0.11791052586042365,696
+ctrpv2,mim1,marginal,lime,0.16,0.03813561049134559,696
+ctrpv2,mim1,residualized,shap,0.12,0.03105527019537561,696
+ctrpv2,mim1,residualized,grad_x_input,0.12,0.032137769543091964,696
+ctrpv2,mim1,residualized,lrp_eps,0.1,0.02977892322174766,696
+ctrpv2,mim1,residualized,lrp_ab,0.26,0.017155855190789705,696
+ctrpv2,mim1,residualized,int_grad,0.1,0.03207234455743091,696
+ctrpv2,mim1,residualized,lime,0.08,0.030838331037073733,696
+ctrpv2,selumetinib-GDC-0941 (4-1 mol-mol),marginal,shap,0.2,0.11466608962848827,760
+ctrpv2,selumetinib-GDC-0941 (4-1 mol-mol),marginal,grad_x_input,0.22,0.10308323066996784,760
+ctrpv2,selumetinib-GDC-0941 (4-1 mol-mol),marginal,lrp_eps,0.2,0.09924123075294101,760
+ctrpv2,selumetinib-GDC-0941 (4-1 mol-mol),marginal,lrp_ab,0.1,0.3380943293119293,760
+ctrpv2,selumetinib-GDC-0941 (4-1 mol-mol),marginal,int_grad,0.22,0.10478332216244576,760
+ctrpv2,selumetinib-GDC-0941 (4-1 mol-mol),marginal,lime,0.22,0.039017388617118016,760
+ctrpv2,selumetinib-GDC-0941 (4-1 mol-mol),residualized,shap,0.12,0.025003206297777105,760
+ctrpv2,selumetinib-GDC-0941 (4-1 mol-mol),residualized,grad_x_input,0.12,0.02601811320854124,760
+ctrpv2,selumetinib-GDC-0941 (4-1 mol-mol),residualized,lrp_eps,0.12,0.02538379515360846,760
+ctrpv2,selumetinib-GDC-0941 (4-1 mol-mol),residualized,lrp_ab,0.22,0.009491549407962992,760
+ctrpv2,selumetinib-GDC-0941 (4-1 mol-mol),residualized,int_grad,0.14,0.025985933617948136,760
+ctrpv2,selumetinib-GDC-0941 (4-1 mol-mol),residualized,lime,0.24,0.028943813790963654,760

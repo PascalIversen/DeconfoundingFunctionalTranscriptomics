@@ -112,8 +112,7 @@ def welch_anova(arrays: List[np.ndarray]) -> Tuple[float, float]:
     Replaces the classic F-test (``scipy.stats.f_oneway``) for the Arm-2
     `outcome ~ tissue` comparison, whose equal-variance assumption fails badly:
     Levene rejects it for ~half of drugs/targets and the median across-tissue
-    variance ratio is 4.8× (DepMap) / 13.1× (CTRPv2) — see
-    ``playground/anova_assumptions/``. Welch reweights each group by nᵢ/sᵢ² and
+    variance ratio is 4.8× (DepMap) / 13.1× (CTRPv2). Welch reweights each group by nᵢ/sᵢ² and
     adjusts the denominator df, staying valid under heteroscedasticity. (Non-
     normality is the one assumption it does not fix; Kruskal-Wallis is not used
     as a companion — under this same unequal-variance regime it no longer tests
@@ -403,16 +402,16 @@ def pca_by_tissue(X: np.ndarray, T: np.ndarray, n_comps: int = 5,
     PCA on the gene-expression panel *as-is*: sklearn's PCA mean-centers each
     gene internally but does **not** z-score or clip. This is the bulk-RNA-seq
     convention (cf. `DESeq2::plotPCA`, which runs `prcomp(scale.=FALSE)`), in
-    contrast to scanpy's single-cell `sc.pp.scale(max_value=10)` recipe that an
-    earlier version of this function mirrored. The feature panel is already a
-    restricted gene set, so all genes are used (no HVG/top-variance subsetting).
+    contrast to scanpy's single-cell `sc.pp.scale(max_value=10)` recipe. The
+    feature panel is already a restricted gene set, so all genes are used
+    (no HVG/top-variance subsetting).
     High-variance genes — which on this data are disproportionately the
     tissue-identity genes — therefore drive the leading PCs, which is exactly
     what this confounding diagnostic is meant to surface.
 
-    With `center_by_group=True` each tissue's gene means are removed first
-    (notebook cell C2), so any residual PC structure is not a first-moment
-    tissue shift — a stretch diagnostic.
+    With `center_by_group=True` each tissue's gene means are removed first,
+    so any residual PC structure is not a first-moment tissue shift — a
+    stretch diagnostic.
 
     Returns (pcs [N × n_comps], variance_ratio [n_comps], tissue_labels [N]).
     """

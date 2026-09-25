@@ -1,6 +1,6 @@
 """IRM penalty-weight (lambda) sweep on real data.
 
-Pre-empts the referee point "IRM just needs tuning". For a subset of items
+Does IRM's weak deconfounding just need more tuning? For a subset of items
 (drugs / knockout targets) we retrain the IRM model across a grid of penalty
 weights lambda and record the deconfounding metrics the paper judges methods by:
 
@@ -14,8 +14,8 @@ weights lambda and record the deconfounding metrics the paper judges methods by:
 Marginal, Residualized (FWL) and Within-tissue SHAP do not depend on lambda;
 they are recorded once per item (method='marginal'/'residualized'/
 'within_tissue', lambda=NaN) as the reference lines. IRM is recorded at every
-lambda. The IRM annealing (10-epoch warm start) and full-fold penalty are kept
-at the paper's settings; only lambda is swept.
+lambda. The IRM annealing (10-epoch warm start) and per-batch penalty (minimum
+environment size two) are kept at the paper's settings; only lambda is swept.
 
 Reuses the training pipeline (shared.orchestrator.run_cv) verbatim, so the
 numbers are directly comparable to the main results.

@@ -48,10 +48,16 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+# Adversarial baselines live in a sibling "*_extra" dir; load_preds merges them.
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "training"))
+from shared.preds_io import load_preds  # noqa: E402
+
 # Predictors that have their own out-of-fold predictions. `within_tissue` is an
 # attribution-stage method on top of the marginal model and is excluded here
 # (verified identical below). `between_tissue` is a diagnostic, not a method.
-METHODS = ["baseline", "marginal", "residualized", "irm"]
+METHODS = ["baseline", "marginal", "residualized", "irm",
+           "dann", "adae"]
 
 
 def overall_pearson(y: np.ndarray, yhat: np.ndarray) -> float:
@@ -91,7 +97,7 @@ def process(preds_root: Path) -> pd.DataFrame:
             seed = int(sd.name.split("seed")[1].split("_")[0])
             files = sorted(sd.glob("*.npz"))
             for f in files:
-                d = np.load(f, allow_pickle=True)
+                d = load_preds(f)
                 y = d["y_true"].astype(np.float64)
                 T = d["tissue"]
                 n_t = int(len(np.unique(T)))

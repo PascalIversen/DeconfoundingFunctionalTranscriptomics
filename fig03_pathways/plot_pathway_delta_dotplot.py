@@ -10,7 +10,7 @@ y-axis. Dot colour = NES (red promoted, blue demoted); dot AREA is linear in
 -log10(FDR q) (floored at 1e-4); filled+ring = significant (q<0.05), open ring =
 n.s. A left strip + label colour mark the gene-set class (lineage / tissue-context /
 cell-intrinsic) assigned by build_set_classes.py. A small stacked bar BELOW each dot plot
-summarises the per-method demoted/promoted split across ALL 53 HGA tissue
+summarises the per-method demoted/promoted split across ALL 38 HGA tissue
 signatures (sharing the dot-plot's method columns). The colourbar, size legend
 and category swatches are drawn ONCE in a horizontal strip below both panels.
 """
@@ -31,7 +31,7 @@ apply_publication_style(font_size=8)
 
 METHODS = ["residualized", "irm", "within_tissue"]
 MLAB = {"residualized": "Residualized", "irm": "IRM",
-        "within_tissue": "Within-\ntissue"}
+        "within_tissue": "Within-\ntissue", "dann": "DANN", "adae": "AD-AE"}
 DLAB = {"depmap": "DepMap (essentiality)", "ctrpv2": "CTRPv2 (drug response)"}
 C_TISSUE, C_FUNC = "#B5651D", "#9AA0A6"
 C_MICRO = "#E0A458"   # tissue / microenvironment / cancer context (cell-extrinsic)
@@ -561,7 +561,12 @@ if __name__ == "__main__":
     p.add_argument("--turned", action="store_true",
                    help="Transposed landscape layout (methods as 3 rows, gene "
                         "sets along X) optimized for minimal vertical height.")
+    p.add_argument("--include-adv", action="store_true",
+                   help="also plot the DANN/AD-AE columns; off by default so "
+                        "this reproduces the published figure.")
     args = p.parse_args()
+    if args.include_adv:
+        METHODS.extend(["dann", "adae"])
     if args.turned:
         make_turned()
     else:

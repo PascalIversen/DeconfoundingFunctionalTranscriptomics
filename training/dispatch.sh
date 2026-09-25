@@ -84,7 +84,7 @@ while true; do
   for p in "${PIDS[@]}"; do
     kill -0 "$p" 2>/dev/null && ALIVE=$(( ALIVE + 1 ))
   done
-  DONE=$(ls "$OUT_DIR/${DATASET}_seed${SEED}_preds/"*.npz 2>/dev/null | wc -l | tr -d ' ')
+  DONE=$(find "$OUT_DIR/${DATASET}_seed${SEED}_preds" -name '*.npz' 2>/dev/null | wc -l | tr -d ' ' || echo 0)
   TOTAL=$(wc -l < "$ITEMS_FILE" | tr -d ' ')
   ELAPSED=$(( $(date +%s) - START ))
   echo "  [$(date +%H:%M:%S)] alive=$ALIVE  done=$DONE/$TOTAL  elapsed=${ELAPSED}s"
@@ -93,7 +93,7 @@ while true; do
 done
 
 echo "[dispatch] all workers exited. final tally:"
-ls "$OUT_DIR/${DATASET}_seed${SEED}_preds/"*.npz 2>/dev/null | wc -l | xargs -I{} echo "  preds: {}/$(wc -l < "$ITEMS_FILE") items"
+echo "  preds: $(find "$OUT_DIR/${DATASET}_seed${SEED}_preds" -name '*.npz' 2>/dev/null | wc -l | tr -d ' ' || echo 0)/$(wc -l < "$ITEMS_FILE") items"
 for w in "${WORKERS[@]}"; do
   NODE=${w%%:*}; LOG=$DISPATCH_DIR/$NODE.log
   [[ -s "$LOG" ]] && echo "  --- $NODE tail ---" && tail -3 "$LOG"

@@ -35,14 +35,19 @@ METHOD_COLORS = {
     "residualized":  PALETTE["blue_main"],
     "irm":           PALETTE["violet"],
     "within_tissue": PALETTE["teal"],
+    "dann":          PALETTE["red_strong"],
+    "adae":          PALETTE["green_3"],
 }
 METHOD_LABELS = {
     "marginal":      "Marginal",
     "residualized":  "Residualized",
     "irm":           "IRM",
     "within_tissue": "Within-\ntissue",
+    "dann":          "DANN",
+    "adae":          "AD-AE",
 }
-METHOD_ORDER = ["marginal", "residualized", "irm", "within_tissue"]
+METHOD_ORDER = ["marginal", "residualized", "irm", "dann", "adae",
+                "within_tissue"]
 
 
 # ====================================================== rcParams preset

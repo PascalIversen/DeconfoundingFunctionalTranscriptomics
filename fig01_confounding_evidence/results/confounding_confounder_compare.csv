@@ -582,7 +582,6 @@ depmap,OncotreeLineage,expression,NCAPD2,0.12441180045600672,1065
 depmap,OncotreeLineage,expression,NCAPD3,0.2013421490693959,1065
 depmap,OncotreeLineage,expression,NCK2,0.11368697884803002,1065
 depmap,OncotreeLineage,expression,NCOA3,0.13341139097833465,1065
-depmap,OncotreeLineage,expression,NDC80,0.09758704592393029,1065
 depmap,OncotreeLineage,expression,NELFB,0.1131632973467909,1065
 depmap,OncotreeLineage,expression,NENF,0.12887237642930327,1065
 depmap,OncotreeLineage,expression,NET1,0.3100079130935865,1065
@@ -1854,7 +1853,6 @@ depmap,OncotreePrimaryDisease,expression,NCAPD2,0.1645270489507221,1010
 depmap,OncotreePrimaryDisease,expression,NCAPD3,0.2590452315683643,1010
 depmap,OncotreePrimaryDisease,expression,NCK2,0.2054134284729107,1010
 depmap,OncotreePrimaryDisease,expression,NCOA3,0.23846080609690437,1010
-depmap,OncotreePrimaryDisease,expression,NDC80,0.15406951247873826,1010
 depmap,OncotreePrimaryDisease,expression,NELFB,0.1477169752366344,1010
 depmap,OncotreePrimaryDisease,expression,NENF,0.1828234390851096,1010
 depmap,OncotreePrimaryDisease,expression,NET1,0.39032671629753957,1010
@@ -3126,7 +3124,6 @@ depmap,OncotreeSubtype,expression,NCAPD2,0.20831408625276143,910
 depmap,OncotreeSubtype,expression,NCAPD3,0.3076781232056397,910
 depmap,OncotreeSubtype,expression,NCK2,0.284714249516208,910
 depmap,OncotreeSubtype,expression,NCOA3,0.2926427714507078,910
-depmap,OncotreeSubtype,expression,NDC80,0.18973513098443673,910
 depmap,OncotreeSubtype,expression,NELFB,0.1767953198909703,910
 depmap,OncotreeSubtype,expression,NENF,0.2508655620908411,910
 depmap,OncotreeSubtype,expression,NET1,0.4390696067893083,910
@@ -4398,7 +4395,6 @@ depmap,Sex,expression,NCAPD2,0.007976078476927983,1076
 depmap,Sex,expression,NCAPD3,0.00634439755055641,1076
 depmap,Sex,expression,NCK2,5.6676565681011044e-05,1076
 depmap,Sex,expression,NCOA3,0.006518355658837192,1076
-depmap,Sex,expression,NDC80,0.0010924180850564766,1076
 depmap,Sex,expression,NELFB,0.0022606607648260144,1076
 depmap,Sex,expression,NENF,0.0007200102607884266,1076
 depmap,Sex,expression,NET1,7.790750756635525e-05,1076
@@ -5670,7 +5666,6 @@ depmap,PrimaryOrMetastasis,expression,NCAPD2,0.0018167519899459212,985
 depmap,PrimaryOrMetastasis,expression,NCAPD3,0.010474258058723915,985
 depmap,PrimaryOrMetastasis,expression,NCK2,0.0026686524636536355,985
 depmap,PrimaryOrMetastasis,expression,NCOA3,0.006487755773682305,985
-depmap,PrimaryOrMetastasis,expression,NDC80,2.108247953957787e-05,985
 depmap,PrimaryOrMetastasis,expression,NELFB,0.0032651139094519105,985
 depmap,PrimaryOrMetastasis,expression,NENF,0.00595694213026304,985
 depmap,PrimaryOrMetastasis,expression,NET1,0.007892211168820351,985
@@ -6942,7 +6937,6 @@ depmap,GrowthPattern,expression,NCAPD2,0.0067252121392841445,1072
 depmap,GrowthPattern,expression,NCAPD3,0.044796373307711794,1072
 depmap,GrowthPattern,expression,NCK2,0.02720988941747255,1072
 depmap,GrowthPattern,expression,NCOA3,0.0005355723017631119,1072
-depmap,GrowthPattern,expression,NDC80,0.005932775498109548,1072
 depmap,GrowthPattern,expression,NELFB,0.0017673987920864779,1072
 depmap,GrowthPattern,expression,NENF,0.03156849270681436,1072
 depmap,GrowthPattern,expression,NET1,0.009347494261713595,1072
@@ -8214,7 +8208,6 @@ depmap,OnboardedMedia,expression,NCAPD2,0.11780234866466739,902
 depmap,OnboardedMedia,expression,NCAPD3,0.15513076053495564,902
 depmap,OnboardedMedia,expression,NCK2,0.05953711824400558,902
 depmap,OnboardedMedia,expression,NCOA3,0.06435565023525572,902
-depmap,OnboardedMedia,expression,NDC80,0.06423425945586311,902
 depmap,OnboardedMedia,expression,NELFB,0.10946137227268439,902
 depmap,OnboardedMedia,expression,NENF,0.07664108008787672,902
 depmap,OnboardedMedia,expression,NET1,0.0715482850610268,902
@@ -8947,6 +8940,7 @@ ctrpv2,OncotreeLineage,expression,APOE,0.24022019314056345,815
 ctrpv2,OncotreeLineage,expression,APP,0.5777883207654749,815
 ctrpv2,OncotreeLineage,expression,APPBP2,0.16238023782225885,815
 ctrpv2,OncotreeLineage,expression,ARAF,0.1070734532463295,815
+ctrpv2,OncotreeLineage,expression,ARF1,0.09088349007688318,815
 ctrpv2,OncotreeLineage,expression,ARFIP2,0.12324165185799504,815
 ctrpv2,OncotreeLineage,expression,ARHGAP1,0.13394239939111222,815
 ctrpv2,OncotreeLineage,expression,ARHGEF12,0.3049504581194279,815
@@ -9011,6 +9005,7 @@ ctrpv2,OncotreeLineage,expression,BRCA1,0.23865516511440948,815
 ctrpv2,OncotreeLineage,expression,BRD2,0.19352592062496482,815
 ctrpv2,OncotreeLineage,expression,BRD3,0.16163657666011857,815
 ctrpv2,OncotreeLineage,expression,BRD4,0.15928972735866764,815
+ctrpv2,OncotreeLineage,expression,BRDT,0.057402312096527824,815
 ctrpv2,OncotreeLineage,expression,BTK,0.6896296063784538,815
 ctrpv2,OncotreeLineage,expression,BZW2,0.1306749573271806,815
 ctrpv2,OncotreeLineage,expression,C2CD2,0.24727360609301435,815
@@ -9127,6 +9122,7 @@ ctrpv2,OncotreeLineage,expression,CRTAP,0.3437320613009407,815
 ctrpv2,OncotreeLineage,expression,CRYZ,0.24601083855746625,815
 ctrpv2,OncotreeLineage,expression,CSK,0.4464653142134178,815
 ctrpv2,OncotreeLineage,expression,CSNK1A1,0.21404703150402524,815
+ctrpv2,OncotreeLineage,expression,CSNK1D,0.17401340779547542,815
 ctrpv2,OncotreeLineage,expression,CSNK1E,0.16321957690868796,815
 ctrpv2,OncotreeLineage,expression,CSNK2A1,0.07859816025394747,815
 ctrpv2,OncotreeLineage,expression,CSNK2A2,0.08692549959011428,815
@@ -9622,6 +9618,9 @@ ctrpv2,OncotreeLineage,expression,PKIG,0.22038421096165284,815
 ctrpv2,OncotreeLineage,expression,PKM,0.28985116222762586,815
 ctrpv2,OncotreeLineage,expression,PLA2G15,0.21063449641723958,815
 ctrpv2,OncotreeLineage,expression,PLA2G4A,0.19982680292351815,815
+ctrpv2,OncotreeLineage,expression,PLA2G4B,0.0996522330527493,815
+ctrpv2,OncotreeLineage,expression,PLA2G4C,0.14384577352990088,815
+ctrpv2,OncotreeLineage,expression,PLA2G4D,0.07336270226456326,815
 ctrpv2,OncotreeLineage,expression,PLAUR,0.3050155472896609,815
 ctrpv2,OncotreeLineage,expression,PLCB3,0.47080839870023894,815
 ctrpv2,OncotreeLineage,expression,PLD1,0.27500262011623444,815
@@ -9629,6 +9628,7 @@ ctrpv2,OncotreeLineage,expression,PLD2,0.4034542960785863,815
 ctrpv2,OncotreeLineage,expression,PLEKHJ1,0.18644110834573935,815
 ctrpv2,OncotreeLineage,expression,PLEKHM1,0.09288232529755372,815
 ctrpv2,OncotreeLineage,expression,PLK1,0.06555735607547564,815
+ctrpv2,OncotreeLineage,expression,PLK3,0.14547522103474497,815
 ctrpv2,OncotreeLineage,expression,PLOD3,0.4549919041315305,815
 ctrpv2,OncotreeLineage,expression,PLS1,0.4659464748337699,815
 ctrpv2,OncotreeLineage,expression,PLSCR1,0.24107606864183917,815
@@ -9776,6 +9776,7 @@ ctrpv2,OncotreeLineage,expression,RXRG,0.5643052180742423,815
 ctrpv2,OncotreeLineage,expression,S100A13,0.5789551330865265,815
 ctrpv2,OncotreeLineage,expression,S100A4,0.16719037676629667,815
 ctrpv2,OncotreeLineage,expression,S1PR1,0.18854349899334807,815
+ctrpv2,OncotreeLineage,expression,S1PR2,0.28081183387415015,815
 ctrpv2,OncotreeLineage,expression,S1PR3,0.33404023011979894,815
 ctrpv2,OncotreeLineage,expression,SACM1L,0.24548559145284643,815
 ctrpv2,OncotreeLineage,expression,SCAND1,0.08512533841034668,815
@@ -9949,6 +9950,7 @@ ctrpv2,OncotreeLineage,expression,TXNDC9,0.18460599073393574,815
 ctrpv2,OncotreeLineage,expression,TXNL4B,0.12059261319023262,815
 ctrpv2,OncotreeLineage,expression,TXNRD1,0.3740371107761453,815
 ctrpv2,OncotreeLineage,expression,TYMS,0.20286036635751092,815
+ctrpv2,OncotreeLineage,expression,UBA1,0.1685794512929335,815
 ctrpv2,OncotreeLineage,expression,UBE2C,0.11104614123312652,815
 ctrpv2,OncotreeLineage,expression,UBE2J1,0.36590346115941946,815
 ctrpv2,OncotreeLineage,expression,UBE2L6,0.22021896853071501,815
@@ -10487,6 +10489,7 @@ ctrpv2,OncotreePrimaryDisease,expression,APOE,0.26556302631343137,774
 ctrpv2,OncotreePrimaryDisease,expression,APP,0.5872987453859175,774
 ctrpv2,OncotreePrimaryDisease,expression,APPBP2,0.19443754125235416,774
 ctrpv2,OncotreePrimaryDisease,expression,ARAF,0.14707885352345437,774
+ctrpv2,OncotreePrimaryDisease,expression,ARF1,0.10692212594978244,774
 ctrpv2,OncotreePrimaryDisease,expression,ARFIP2,0.14313726026271048,774
 ctrpv2,OncotreePrimaryDisease,expression,ARHGAP1,0.1642207979535945,774
 ctrpv2,OncotreePrimaryDisease,expression,ARHGEF12,0.4019378980938327,774
@@ -10551,6 +10554,7 @@ ctrpv2,OncotreePrimaryDisease,expression,BRCA1,0.27509603469112165,774
 ctrpv2,OncotreePrimaryDisease,expression,BRD2,0.25236896842394707,774
 ctrpv2,OncotreePrimaryDisease,expression,BRD3,0.3572723004205126,774
 ctrpv2,OncotreePrimaryDisease,expression,BRD4,0.23863445707820438,774
+ctrpv2,OncotreePrimaryDisease,expression,BRDT,0.08381364326089108,774
 ctrpv2,OncotreePrimaryDisease,expression,BTK,0.8210116069228693,774
 ctrpv2,OncotreePrimaryDisease,expression,BZW2,0.14431067477990486,774
 ctrpv2,OncotreePrimaryDisease,expression,C2CD2,0.2604617442575958,774
@@ -10667,6 +10671,7 @@ ctrpv2,OncotreePrimaryDisease,expression,CRTAP,0.3980169729465717,774
 ctrpv2,OncotreePrimaryDisease,expression,CRYZ,0.26526517785709125,774
 ctrpv2,OncotreePrimaryDisease,expression,CSK,0.4691755801703566,774
 ctrpv2,OncotreePrimaryDisease,expression,CSNK1A1,0.2975568855865323,774
+ctrpv2,OncotreePrimaryDisease,expression,CSNK1D,0.21582055779325482,774
 ctrpv2,OncotreePrimaryDisease,expression,CSNK1E,0.18707264653071004,774
 ctrpv2,OncotreePrimaryDisease,expression,CSNK2A1,0.14368679047704927,774
 ctrpv2,OncotreePrimaryDisease,expression,CSNK2A2,0.1138419497951616,774
@@ -11162,6 +11167,9 @@ ctrpv2,OncotreePrimaryDisease,expression,PKIG,0.24618456341160194,774
 ctrpv2,OncotreePrimaryDisease,expression,PKM,0.3615532004539405,774
 ctrpv2,OncotreePrimaryDisease,expression,PLA2G15,0.27053765233265936,774
 ctrpv2,OncotreePrimaryDisease,expression,PLA2G4A,0.27857854462982523,774
+ctrpv2,OncotreePrimaryDisease,expression,PLA2G4B,0.14377259622708446,774
+ctrpv2,OncotreePrimaryDisease,expression,PLA2G4C,0.18074464279679112,774
+ctrpv2,OncotreePrimaryDisease,expression,PLA2G4D,0.13345219231503241,774
 ctrpv2,OncotreePrimaryDisease,expression,PLAUR,0.4144556392128268,774
 ctrpv2,OncotreePrimaryDisease,expression,PLCB3,0.5163365550113422,774
 ctrpv2,OncotreePrimaryDisease,expression,PLD1,0.354591188387283,774
@@ -11169,6 +11177,7 @@ ctrpv2,OncotreePrimaryDisease,expression,PLD2,0.4521057959735356,774
 ctrpv2,OncotreePrimaryDisease,expression,PLEKHJ1,0.33821186487798066,774
 ctrpv2,OncotreePrimaryDisease,expression,PLEKHM1,0.1276707097660836,774
 ctrpv2,OncotreePrimaryDisease,expression,PLK1,0.11183431056107168,774
+ctrpv2,OncotreePrimaryDisease,expression,PLK3,0.1788240729418253,774
 ctrpv2,OncotreePrimaryDisease,expression,PLOD3,0.5020093982609576,774
 ctrpv2,OncotreePrimaryDisease,expression,PLS1,0.5081250094729113,774
 ctrpv2,OncotreePrimaryDisease,expression,PLSCR1,0.3223496162364205,774
@@ -11316,6 +11325,7 @@ ctrpv2,OncotreePrimaryDisease,expression,RXRG,0.637369857432523,774
 ctrpv2,OncotreePrimaryDisease,expression,S100A13,0.6166732969710534,774
 ctrpv2,OncotreePrimaryDisease,expression,S100A4,0.2349461294364393,774
 ctrpv2,OncotreePrimaryDisease,expression,S1PR1,0.23346939998580155,774
+ctrpv2,OncotreePrimaryDisease,expression,S1PR2,0.3617333533418689,774
 ctrpv2,OncotreePrimaryDisease,expression,S1PR3,0.4002305323900276,774
 ctrpv2,OncotreePrimaryDisease,expression,SACM1L,0.32030299900555453,774
 ctrpv2,OncotreePrimaryDisease,expression,SCAND1,0.14222642419895765,774
@@ -11489,6 +11499,7 @@ ctrpv2,OncotreePrimaryDisease,expression,TXNDC9,0.20717009183769222,774
 ctrpv2,OncotreePrimaryDisease,expression,TXNL4B,0.1457222916420988,774
 ctrpv2,OncotreePrimaryDisease,expression,TXNRD1,0.41682176963012346,774
 ctrpv2,OncotreePrimaryDisease,expression,TYMS,0.26624396909188563,774
+ctrpv2,OncotreePrimaryDisease,expression,UBA1,0.2518483708422163,774
 ctrpv2,OncotreePrimaryDisease,expression,UBE2C,0.13858905397823304,774
 ctrpv2,OncotreePrimaryDisease,expression,UBE2J1,0.48783402494308975,774
 ctrpv2,OncotreePrimaryDisease,expression,UBE2L6,0.2586047198031056,774
@@ -12027,6 +12038,7 @@ ctrpv2,OncotreeSubtype,expression,APOE,0.29864161113646626,689
 ctrpv2,OncotreeSubtype,expression,APP,0.6893934125418402,689
 ctrpv2,OncotreeSubtype,expression,APPBP2,0.21249413659632072,689
 ctrpv2,OncotreeSubtype,expression,ARAF,0.1890059822485196,689
+ctrpv2,OncotreeSubtype,expression,ARF1,0.16768967573853386,689
 ctrpv2,OncotreeSubtype,expression,ARFIP2,0.16998580321142143,689
 ctrpv2,OncotreeSubtype,expression,ARHGAP1,0.18850822993614832,689
 ctrpv2,OncotreeSubtype,expression,ARHGEF12,0.501759119148898,689
@@ -12091,6 +12103,7 @@ ctrpv2,OncotreeSubtype,expression,BRCA1,0.30616370295854284,689
 ctrpv2,OncotreeSubtype,expression,BRD2,0.2804384585428472,689
 ctrpv2,OncotreeSubtype,expression,BRD3,0.4213091024902011,689
 ctrpv2,OncotreeSubtype,expression,BRD4,0.2766021646841326,689
+ctrpv2,OncotreeSubtype,expression,BRDT,0.09858350953477263,689
 ctrpv2,OncotreeSubtype,expression,BTK,0.8762258831057055,689
 ctrpv2,OncotreeSubtype,expression,BZW2,0.21483414110961527,689
 ctrpv2,OncotreeSubtype,expression,C2CD2,0.2757585286805214,689
@@ -12207,6 +12220,7 @@ ctrpv2,OncotreeSubtype,expression,CRTAP,0.4260048233994917,689
 ctrpv2,OncotreeSubtype,expression,CRYZ,0.29191172233491813,689
 ctrpv2,OncotreeSubtype,expression,CSK,0.5035321453357375,689
 ctrpv2,OncotreeSubtype,expression,CSNK1A1,0.32921261072806685,689
+ctrpv2,OncotreeSubtype,expression,CSNK1D,0.2509663081036176,689
 ctrpv2,OncotreeSubtype,expression,CSNK1E,0.2260192561066067,689
 ctrpv2,OncotreeSubtype,expression,CSNK2A1,0.18607764274881253,689
 ctrpv2,OncotreeSubtype,expression,CSNK2A2,0.17479512176622497,689
@@ -12702,6 +12716,9 @@ ctrpv2,OncotreeSubtype,expression,PKIG,0.35844486087197364,689
 ctrpv2,OncotreeSubtype,expression,PKM,0.4084244676663427,689
 ctrpv2,OncotreeSubtype,expression,PLA2G15,0.29249540332853774,689
 ctrpv2,OncotreeSubtype,expression,PLA2G4A,0.34819792601159866,689
+ctrpv2,OncotreeSubtype,expression,PLA2G4B,0.1700978723654144,689
+ctrpv2,OncotreeSubtype,expression,PLA2G4C,0.21687667409345165,689
+ctrpv2,OncotreeSubtype,expression,PLA2G4D,0.20250558086334142,689
 ctrpv2,OncotreeSubtype,expression,PLAUR,0.4250317990222045,689
 ctrpv2,OncotreeSubtype,expression,PLCB3,0.5472698718801923,689
 ctrpv2,OncotreeSubtype,expression,PLD1,0.4335399260053897,689
@@ -12709,6 +12726,7 @@ ctrpv2,OncotreeSubtype,expression,PLD2,0.4596668654186979,689
 ctrpv2,OncotreeSubtype,expression,PLEKHJ1,0.3864672684560769,689
 ctrpv2,OncotreeSubtype,expression,PLEKHM1,0.16269938875698417,689
 ctrpv2,OncotreeSubtype,expression,PLK1,0.1496615608596841,689
+ctrpv2,OncotreeSubtype,expression,PLK3,0.2163174638915454,689
 ctrpv2,OncotreeSubtype,expression,PLOD3,0.554450094934615,689
 ctrpv2,OncotreeSubtype,expression,PLS1,0.5366372132288727,689
 ctrpv2,OncotreeSubtype,expression,PLSCR1,0.38777279340387655,689
@@ -12856,6 +12874,7 @@ ctrpv2,OncotreeSubtype,expression,RXRG,0.6490672238492232,689
 ctrpv2,OncotreeSubtype,expression,S100A13,0.6553863014705684,689
 ctrpv2,OncotreeSubtype,expression,S100A4,0.29521746732563525,689
 ctrpv2,OncotreeSubtype,expression,S1PR1,0.27163592708336415,689
+ctrpv2,OncotreeSubtype,expression,S1PR2,0.45273006086437095,689
 ctrpv2,OncotreeSubtype,expression,S1PR3,0.44733903934925545,689
 ctrpv2,OncotreeSubtype,expression,SACM1L,0.35498278260376015,689
 ctrpv2,OncotreeSubtype,expression,SCAND1,0.1788573424804053,689
@@ -13029,6 +13048,7 @@ ctrpv2,OncotreeSubtype,expression,TXNDC9,0.22531967561981825,689
 ctrpv2,OncotreeSubtype,expression,TXNL4B,0.1833503006212586,689
 ctrpv2,OncotreeSubtype,expression,TXNRD1,0.4301571670719359,689
 ctrpv2,OncotreeSubtype,expression,TYMS,0.26529969997087355,689
+ctrpv2,OncotreeSubtype,expression,UBA1,0.29601429819809977,689
 ctrpv2,OncotreeSubtype,expression,UBE2C,0.1773585615674389,689
 ctrpv2,OncotreeSubtype,expression,UBE2J1,0.5428905332662695,689
 ctrpv2,OncotreeSubtype,expression,UBE2L6,0.295801166400754,689
@@ -13566,6 +13586,7 @@ ctrpv2,Sex,expression,APOE,0.002274049294762474,818
 ctrpv2,Sex,expression,APP,0.007062692997525031,818
 ctrpv2,Sex,expression,APPBP2,0.009313436475194127,818
 ctrpv2,Sex,expression,ARAF,0.006184070922550479,818
+ctrpv2,Sex,expression,ARF1,0.0051867773196714855,818
 ctrpv2,Sex,expression,ARFIP2,0.003951604574294864,818
 ctrpv2,Sex,expression,ARHGAP1,0.0023696735944119204,818
 ctrpv2,Sex,expression,ARHGEF12,0.007187550429569538,818
@@ -13630,6 +13651,7 @@ ctrpv2,Sex,expression,BRCA1,0.025880253053076566,818
 ctrpv2,Sex,expression,BRD2,0.003876964289180196,818
 ctrpv2,Sex,expression,BRD3,0.0016382373288719894,818
 ctrpv2,Sex,expression,BRD4,0.002542140457022706,818
+ctrpv2,Sex,expression,BRDT,0.0019344293263920723,818
 ctrpv2,Sex,expression,BTK,0.003777335044570837,818
 ctrpv2,Sex,expression,BZW2,0.004524492869272016,818
 ctrpv2,Sex,expression,C2CD2,0.006956717571674009,818
@@ -13746,6 +13768,7 @@ ctrpv2,Sex,expression,CRTAP,0.002815535286029982,818
 ctrpv2,Sex,expression,CRYZ,4.909430914035455e-05,818
 ctrpv2,Sex,expression,CSK,0.0042494234697973525,818
 ctrpv2,Sex,expression,CSNK1A1,0.0005230825933003054,818
+ctrpv2,Sex,expression,CSNK1D,0.0019706059984364636,818
 ctrpv2,Sex,expression,CSNK1E,0.00030058141290104204,818
 ctrpv2,Sex,expression,CSNK2A1,0.0016111969900742546,818
 ctrpv2,Sex,expression,CSNK2A2,0.0037476536344915735,818
@@ -14241,6 +14264,9 @@ ctrpv2,Sex,expression,PKIG,0.00216899044443166,818
 ctrpv2,Sex,expression,PKM,0.0007159111114626698,818
 ctrpv2,Sex,expression,PLA2G15,0.0037548380753204655,818
 ctrpv2,Sex,expression,PLA2G4A,0.019048194156867378,818
+ctrpv2,Sex,expression,PLA2G4B,0.0013558538093842326,818
+ctrpv2,Sex,expression,PLA2G4C,0.0018555297428701604,818
+ctrpv2,Sex,expression,PLA2G4D,0.005024885749668324,818
 ctrpv2,Sex,expression,PLAUR,0.00010760424541566184,818
 ctrpv2,Sex,expression,PLCB3,0.0031544097741222432,818
 ctrpv2,Sex,expression,PLD1,0.00668189436317623,818
@@ -14248,6 +14274,7 @@ ctrpv2,Sex,expression,PLD2,0.0006093937138755538,818
 ctrpv2,Sex,expression,PLEKHJ1,4.169889780316926e-05,818
 ctrpv2,Sex,expression,PLEKHM1,0.0006310797333975492,818
 ctrpv2,Sex,expression,PLK1,0.0009255415938583823,818
+ctrpv2,Sex,expression,PLK3,0.0003204882918420578,818
 ctrpv2,Sex,expression,PLOD3,0.006150471969225789,818
 ctrpv2,Sex,expression,PLS1,0.004726416136262675,818
 ctrpv2,Sex,expression,PLSCR1,0.0039450495446746595,818
@@ -14395,6 +14422,7 @@ ctrpv2,Sex,expression,RXRG,0.006067211907190099,818
 ctrpv2,Sex,expression,S100A13,0.019856390390306757,818
 ctrpv2,Sex,expression,S100A4,0.004601577802727366,818
 ctrpv2,Sex,expression,S1PR1,0.0066405809278754675,818
+ctrpv2,Sex,expression,S1PR2,0.001353992991385,818
 ctrpv2,Sex,expression,S1PR3,0.008843598044229326,818
 ctrpv2,Sex,expression,SACM1L,0.0036883587860364903,818
 ctrpv2,Sex,expression,SCAND1,0.0012336551658343844,818
@@ -14568,6 +14596,7 @@ ctrpv2,Sex,expression,TXNDC9,0.0014430039993348382,818
 ctrpv2,Sex,expression,TXNL4B,0.004369663834035339,818
 ctrpv2,Sex,expression,TXNRD1,0.003482307807873117,818
 ctrpv2,Sex,expression,TYMS,0.004117318372890497,818
+ctrpv2,Sex,expression,UBA1,0.02976950160457128,818
 ctrpv2,Sex,expression,UBE2C,0.0028461735958554557,818
 ctrpv2,Sex,expression,UBE2J1,0.0037202349321227403,818
 ctrpv2,Sex,expression,UBE2L6,0.012147733306430495,818
@@ -15106,6 +15135,7 @@ ctrpv2,PrimaryOrMetastasis,expression,APOE,0.0008801272714946056,751
 ctrpv2,PrimaryOrMetastasis,expression,APP,0.001151214996074295,751
 ctrpv2,PrimaryOrMetastasis,expression,APPBP2,0.004286445310741643,751
 ctrpv2,PrimaryOrMetastasis,expression,ARAF,4.95148402270945e-07,751
+ctrpv2,PrimaryOrMetastasis,expression,ARF1,0.0006958247412035555,751
 ctrpv2,PrimaryOrMetastasis,expression,ARFIP2,0.00474540087156645,751
 ctrpv2,PrimaryOrMetastasis,expression,ARHGAP1,0.00044297784962086595,751
 ctrpv2,PrimaryOrMetastasis,expression,ARHGEF12,0.007992341252227112,751
@@ -15170,6 +15200,7 @@ ctrpv2,PrimaryOrMetastasis,expression,BRCA1,0.0009892069303482048,751
 ctrpv2,PrimaryOrMetastasis,expression,BRD2,0.0008478038884635195,751
 ctrpv2,PrimaryOrMetastasis,expression,BRD3,0.0012635821084713112,751
 ctrpv2,PrimaryOrMetastasis,expression,BRD4,0.001884180230475349,751
+ctrpv2,PrimaryOrMetastasis,expression,BRDT,0.0004598460397614202,751
 ctrpv2,PrimaryOrMetastasis,expression,BTK,0.00670237785336875,751
 ctrpv2,PrimaryOrMetastasis,expression,BZW2,0.01734173999954545,751
 ctrpv2,PrimaryOrMetastasis,expression,C2CD2,0.004000110669172114,751
@@ -15286,6 +15317,7 @@ ctrpv2,PrimaryOrMetastasis,expression,CRTAP,0.005296218535791278,751
 ctrpv2,PrimaryOrMetastasis,expression,CRYZ,5.89158844362653e-05,751
 ctrpv2,PrimaryOrMetastasis,expression,CSK,0.0025235861929209067,751
 ctrpv2,PrimaryOrMetastasis,expression,CSNK1A1,0.0017814159599745453,751
+ctrpv2,PrimaryOrMetastasis,expression,CSNK1D,6.378688912246824e-05,751
 ctrpv2,PrimaryOrMetastasis,expression,CSNK1E,0.002326486421507327,751
 ctrpv2,PrimaryOrMetastasis,expression,CSNK2A1,0.0016711162830965224,751
 ctrpv2,PrimaryOrMetastasis,expression,CSNK2A2,6.192182669315731e-06,751
@@ -15781,6 +15813,9 @@ ctrpv2,PrimaryOrMetastasis,expression,PKIG,3.088227036071016e-05,751
 ctrpv2,PrimaryOrMetastasis,expression,PKM,0.000785050026642117,751
 ctrpv2,PrimaryOrMetastasis,expression,PLA2G15,0.01932616841776007,751
 ctrpv2,PrimaryOrMetastasis,expression,PLA2G4A,0.005768105803426243,751
+ctrpv2,PrimaryOrMetastasis,expression,PLA2G4B,0.0012022285587145957,751
+ctrpv2,PrimaryOrMetastasis,expression,PLA2G4C,0.0005822464212893516,751
+ctrpv2,PrimaryOrMetastasis,expression,PLA2G4D,0.00957309101250523,751
 ctrpv2,PrimaryOrMetastasis,expression,PLAUR,0.009279894112587464,751
 ctrpv2,PrimaryOrMetastasis,expression,PLCB3,0.0009397884698522818,751
 ctrpv2,PrimaryOrMetastasis,expression,PLD1,0.00037461483029909635,751
@@ -15788,6 +15823,7 @@ ctrpv2,PrimaryOrMetastasis,expression,PLD2,0.00186790748509773,751
 ctrpv2,PrimaryOrMetastasis,expression,PLEKHJ1,0.0008302492989077276,751
 ctrpv2,PrimaryOrMetastasis,expression,PLEKHM1,0.0006885169440168908,751
 ctrpv2,PrimaryOrMetastasis,expression,PLK1,6.17541463984748e-05,751
+ctrpv2,PrimaryOrMetastasis,expression,PLK3,0.00654340545208446,751
 ctrpv2,PrimaryOrMetastasis,expression,PLOD3,0.0024473806861795397,751
 ctrpv2,PrimaryOrMetastasis,expression,PLS1,0.028330057863754112,751
 ctrpv2,PrimaryOrMetastasis,expression,PLSCR1,0.0001835356093520566,751
@@ -15935,6 +15971,7 @@ ctrpv2,PrimaryOrMetastasis,expression,RXRG,0.020028279935936397,751
 ctrpv2,PrimaryOrMetastasis,expression,S100A13,0.0017786905356996507,751
 ctrpv2,PrimaryOrMetastasis,expression,S100A4,0.0006757792273370534,751
 ctrpv2,PrimaryOrMetastasis,expression,S1PR1,0.01039100330224332,751
+ctrpv2,PrimaryOrMetastasis,expression,S1PR2,0.00023781469752945738,751
 ctrpv2,PrimaryOrMetastasis,expression,S1PR3,0.03046761218912009,751
 ctrpv2,PrimaryOrMetastasis,expression,SACM1L,0.001051899053512599,751
 ctrpv2,PrimaryOrMetastasis,expression,SCAND1,0.006547220311288572,751
@@ -16108,6 +16145,7 @@ ctrpv2,PrimaryOrMetastasis,expression,TXNDC9,0.0029680901805629713,751
 ctrpv2,PrimaryOrMetastasis,expression,TXNL4B,0.00013736520932684676,751
 ctrpv2,PrimaryOrMetastasis,expression,TXNRD1,0.00151335274469238,751
 ctrpv2,PrimaryOrMetastasis,expression,TYMS,0.0010484000285888712,751
+ctrpv2,PrimaryOrMetastasis,expression,UBA1,0.00026536116252608556,751
 ctrpv2,PrimaryOrMetastasis,expression,UBE2C,0.004246044110115365,751
 ctrpv2,PrimaryOrMetastasis,expression,UBE2J1,0.006551209887972872,751
 ctrpv2,PrimaryOrMetastasis,expression,UBE2L6,0.012254445184701828,751
@@ -16646,6 +16684,7 @@ ctrpv2,GrowthPattern,expression,APOE,0.026366800368363894,815
 ctrpv2,GrowthPattern,expression,APP,0.4231725853328507,815
 ctrpv2,GrowthPattern,expression,APPBP2,0.010673831330939597,815
 ctrpv2,GrowthPattern,expression,ARAF,0.011088539490917242,815
+ctrpv2,GrowthPattern,expression,ARF1,0.0038719549793208826,815
 ctrpv2,GrowthPattern,expression,ARFIP2,0.03668575412757901,815
 ctrpv2,GrowthPattern,expression,ARHGAP1,0.015196062508642852,815
 ctrpv2,GrowthPattern,expression,ARHGEF12,0.16690273135292868,815
@@ -16710,6 +16749,7 @@ ctrpv2,GrowthPattern,expression,BRCA1,0.12497035584975313,815
 ctrpv2,GrowthPattern,expression,BRD2,0.11014659093255916,815
 ctrpv2,GrowthPattern,expression,BRD3,0.006918998402250093,815
 ctrpv2,GrowthPattern,expression,BRD4,0.10528305591537032,815
+ctrpv2,GrowthPattern,expression,BRDT,0.003007293535951058,815
 ctrpv2,GrowthPattern,expression,BTK,0.42746717245787363,815
 ctrpv2,GrowthPattern,expression,BZW2,0.005225426821632934,815
 ctrpv2,GrowthPattern,expression,C2CD2,0.1317405767912619,815
@@ -16826,6 +16866,7 @@ ctrpv2,GrowthPattern,expression,CRTAP,0.16799920054083997,815
 ctrpv2,GrowthPattern,expression,CRYZ,0.08536898318319681,815
 ctrpv2,GrowthPattern,expression,CSK,0.3011235060354966,815
 ctrpv2,GrowthPattern,expression,CSNK1A1,0.14586407616153532,815
+ctrpv2,GrowthPattern,expression,CSNK1D,0.08524810365431307,815
 ctrpv2,GrowthPattern,expression,CSNK1E,0.018871287009484955,815
 ctrpv2,GrowthPattern,expression,CSNK2A1,0.010596203488940971,815
 ctrpv2,GrowthPattern,expression,CSNK2A2,0.014965941026213703,815
@@ -17321,6 +17362,9 @@ ctrpv2,GrowthPattern,expression,PKIG,0.021644774152931655,815
 ctrpv2,GrowthPattern,expression,PKM,0.16317177461647955,815
 ctrpv2,GrowthPattern,expression,PLA2G15,0.0642823135475185,815
 ctrpv2,GrowthPattern,expression,PLA2G4A,0.011321720929584974,815
+ctrpv2,GrowthPattern,expression,PLA2G4B,0.011910011127940219,815
+ctrpv2,GrowthPattern,expression,PLA2G4C,0.04478363234039074,815
+ctrpv2,GrowthPattern,expression,PLA2G4D,0.0065467396351982544,815
 ctrpv2,GrowthPattern,expression,PLAUR,0.17430697676176454,815
 ctrpv2,GrowthPattern,expression,PLCB3,0.2753234225714981,815
 ctrpv2,GrowthPattern,expression,PLD1,0.10831619786499233,815
@@ -17328,6 +17372,7 @@ ctrpv2,GrowthPattern,expression,PLD2,0.28224992270683685,815
 ctrpv2,GrowthPattern,expression,PLEKHJ1,0.11913684242704736,815
 ctrpv2,GrowthPattern,expression,PLEKHM1,0.005643060871344464,815
 ctrpv2,GrowthPattern,expression,PLK1,0.006725046669607565,815
+ctrpv2,GrowthPattern,expression,PLK3,0.020122542975908,815
 ctrpv2,GrowthPattern,expression,PLOD3,0.1838951788550786,815
 ctrpv2,GrowthPattern,expression,PLS1,0.079980887628053,815
 ctrpv2,GrowthPattern,expression,PLSCR1,0.09046284059298808,815
@@ -17475,6 +17520,7 @@ ctrpv2,GrowthPattern,expression,RXRG,0.0008780920161931369,815
 ctrpv2,GrowthPattern,expression,S100A13,0.40500863470130877,815
 ctrpv2,GrowthPattern,expression,S100A4,0.001946771994547829,815
 ctrpv2,GrowthPattern,expression,S1PR1,0.02327314779488657,815
+ctrpv2,GrowthPattern,expression,S1PR2,0.038132226621444686,815
 ctrpv2,GrowthPattern,expression,S1PR3,0.11350677928433488,815
 ctrpv2,GrowthPattern,expression,SACM1L,0.08123318318988215,815
 ctrpv2,GrowthPattern,expression,SCAND1,0.0029482446147951202,815
@@ -17648,6 +17694,7 @@ ctrpv2,GrowthPattern,expression,TXNDC9,0.11157537124979877,815
 ctrpv2,GrowthPattern,expression,TXNL4B,0.03941533297219312,815
 ctrpv2,GrowthPattern,expression,TXNRD1,0.14784799555162131,815
 ctrpv2,GrowthPattern,expression,TYMS,0.06566821464600847,815
+ctrpv2,GrowthPattern,expression,UBA1,0.00016345258028369473,815
 ctrpv2,GrowthPattern,expression,UBE2C,0.023626214625793344,815
 ctrpv2,GrowthPattern,expression,UBE2J1,0.2005667783712211,815
 ctrpv2,GrowthPattern,expression,UBE2L6,0.04005715909454156,815
@@ -18186,6 +18233,7 @@ ctrpv2,OnboardedMedia,expression,APOE,0.03836631850062272,666
 ctrpv2,OnboardedMedia,expression,APP,0.20839889919680926,666
 ctrpv2,OnboardedMedia,expression,APPBP2,0.03897721065988351,666
 ctrpv2,OnboardedMedia,expression,ARAF,0.03518413951327594,666
+ctrpv2,OnboardedMedia,expression,ARF1,0.027990380962006033,666
 ctrpv2,OnboardedMedia,expression,ARFIP2,0.050968296229588185,666
 ctrpv2,OnboardedMedia,expression,ARHGAP1,0.08137832169453958,666
 ctrpv2,OnboardedMedia,expression,ARHGEF12,0.11945795399763494,666
@@ -18250,6 +18298,7 @@ ctrpv2,OnboardedMedia,expression,BRCA1,0.08723264350547812,666
 ctrpv2,OnboardedMedia,expression,BRD2,0.05663393358159087,666
 ctrpv2,OnboardedMedia,expression,BRD3,0.034568050390808215,666
 ctrpv2,OnboardedMedia,expression,BRD4,0.04172293451883449,666
+ctrpv2,OnboardedMedia,expression,BRDT,0.027793006334126052,666
 ctrpv2,OnboardedMedia,expression,BTK,0.26020536813887707,666
 ctrpv2,OnboardedMedia,expression,BZW2,0.03712520997830512,666
 ctrpv2,OnboardedMedia,expression,C2CD2,0.1148929657246129,666
@@ -18366,6 +18415,7 @@ ctrpv2,OnboardedMedia,expression,CRTAP,0.12057773709170898,666
 ctrpv2,OnboardedMedia,expression,CRYZ,0.06977271585747206,666
 ctrpv2,OnboardedMedia,expression,CSK,0.12405563367947536,666
 ctrpv2,OnboardedMedia,expression,CSNK1A1,0.10901741708052318,666
+ctrpv2,OnboardedMedia,expression,CSNK1D,0.0813888472114918,666
 ctrpv2,OnboardedMedia,expression,CSNK1E,0.04027684801776165,666
 ctrpv2,OnboardedMedia,expression,CSNK2A1,0.03806364926727644,666
 ctrpv2,OnboardedMedia,expression,CSNK2A2,0.025795653271763655,666
@@ -18861,6 +18911,9 @@ ctrpv2,OnboardedMedia,expression,PKIG,0.04394372733597371,666
 ctrpv2,OnboardedMedia,expression,PKM,0.12326038155231583,666
 ctrpv2,OnboardedMedia,expression,PLA2G15,0.11543998218742849,666
 ctrpv2,OnboardedMedia,expression,PLA2G4A,0.047823052447128964,666
+ctrpv2,OnboardedMedia,expression,PLA2G4B,0.029521108182575615,666
+ctrpv2,OnboardedMedia,expression,PLA2G4C,0.0707637227372623,666
+ctrpv2,OnboardedMedia,expression,PLA2G4D,0.016816663603665735,666
 ctrpv2,OnboardedMedia,expression,PLAUR,0.08705215201983418,666
 ctrpv2,OnboardedMedia,expression,PLCB3,0.12370983223695012,666
 ctrpv2,OnboardedMedia,expression,PLD1,0.0653735064772306,666
@@ -18868,6 +18921,7 @@ ctrpv2,OnboardedMedia,expression,PLD2,0.1564338703690038,666
 ctrpv2,OnboardedMedia,expression,PLEKHJ1,0.05847708378712784,666
 ctrpv2,OnboardedMedia,expression,PLEKHM1,0.027613957289697046,666
 ctrpv2,OnboardedMedia,expression,PLK1,0.06459425298785924,666
+ctrpv2,OnboardedMedia,expression,PLK3,0.05926644169442089,666
 ctrpv2,OnboardedMedia,expression,PLOD3,0.126746083218473,666
 ctrpv2,OnboardedMedia,expression,PLS1,0.10236883307173754,666
 ctrpv2,OnboardedMedia,expression,PLSCR1,0.04104792059665914,666
@@ -19015,6 +19069,7 @@ ctrpv2,OnboardedMedia,expression,RXRG,0.02746030359464718,666
 ctrpv2,OnboardedMedia,expression,S100A13,0.18034274845264137,666
 ctrpv2,OnboardedMedia,expression,S100A4,0.03337383297389662,666
 ctrpv2,OnboardedMedia,expression,S1PR1,0.03919064413247369,666
+ctrpv2,OnboardedMedia,expression,S1PR2,0.03778317234491465,666
 ctrpv2,OnboardedMedia,expression,S1PR3,0.08951456839748417,666
 ctrpv2,OnboardedMedia,expression,SACM1L,0.036926208484983986,666
 ctrpv2,OnboardedMedia,expression,SCAND1,0.0492658148965509,666
@@ -19188,6 +19243,7 @@ ctrpv2,OnboardedMedia,expression,TXNDC9,0.0710494776950596,666
 ctrpv2,OnboardedMedia,expression,TXNL4B,0.04377796369231938,666
 ctrpv2,OnboardedMedia,expression,TXNRD1,0.1037420625825614,666
 ctrpv2,OnboardedMedia,expression,TYMS,0.05925210431287636,666
+ctrpv2,OnboardedMedia,expression,UBA1,0.06983664986883684,666
 ctrpv2,OnboardedMedia,expression,UBE2C,0.032260074335867785,666
 ctrpv2,OnboardedMedia,expression,UBE2J1,0.09452034321309492,666
 ctrpv2,OnboardedMedia,expression,UBE2L6,0.04883424482917285,666

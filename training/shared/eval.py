@@ -47,6 +47,11 @@ def contamination_at_k(importance: pd.Series,
                        k: int = 50,
                        eta_threshold: float = 0.30) -> float:
     """Fraction of top-K |importance| genes that have η²(X) above threshold."""
+    # A constant importance vector has no top-K: pandas breaks the total tie
+    # by position, which silently returns the first k genes in panel order.
+    finite = importance[np.isfinite(importance)]
+    if finite.empty or float(finite.abs().max()) <= 0.0:
+        return np.nan
     top = set(importance.nlargest(k).index)
     high_eta = set(eta_sq[eta_sq > eta_threshold].index)
     if not top:

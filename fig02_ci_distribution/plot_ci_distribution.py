@@ -35,6 +35,8 @@ from scipy.stats import gaussian_kde
 HERE = Path(__file__).resolve().parent
 
 PALETTE = {
+    "red_strong":     "#B64342",
+    "green_3":        "#8BCF8B",
     "blue_main":      "#0F4D92",
     "teal":           "#42949E",
     "violet":         "#9A4D8E",
@@ -45,14 +47,19 @@ METHOD_COLORS = {
     "residualized":  PALETTE["blue_main"],
     "irm":           PALETTE["violet"],
     "within_tissue": PALETTE["teal"],
+    "dann":          PALETTE["red_strong"],
+    "adae":          PALETTE["green_3"],
 }
 METHOD_LABELS = {
     "marginal":      "Marginal",
     "residualized":  "Residualized",
     "irm":           "IRM",
     "within_tissue": "Within-tissue",
+    "dann":          "DANN",
+    "adae":          "AD-AE",
 }
-METHODS = ["marginal", "residualized", "irm", "within_tissue"]
+METHODS = ["marginal", "residualized", "irm", "within_tissue",
+           "dann", "adae"]
 KS = [10, 50, 100]
 
 
@@ -100,13 +107,17 @@ def _contam_panel(ax, res_dir, ds, title):
     df = pd.read_csv(res_dir / f"{ds}_contamination_at_k.csv")
     chance = float(pd.read_csv(res_dir / f"{ds}_contamination_meta.csv")["chance"].iloc[0])
     x = np.arange(len(KS))
-    w = 0.2
+    # Derive the bar geometry from the method count. Hardcoding a 4-method
+    # layout (w=0.2, centred on j-1.5) makes six methods span 1.2 units and
+    # spill into the neighbouring K group.
+    n = len(METHODS)
+    w = 0.82 / n
     for j, m in enumerate(METHODS):
         sub = df[df["method"] == m]
         means = [sub[sub["K"] == k]["contamination"].mean() for k in KS]
         sems = [sub[sub["K"] == k]["contamination"].std()
                 / np.sqrt(max(1, int((sub["K"] == k).sum()))) for k in KS]
-        ax.bar(x + (j - 1.5) * w, means, w, yerr=sems, capsize=2,
+        ax.bar(x + (j - (n - 1) / 2) * w, means, w * 0.9, yerr=sems, capsize=2,
                color=METHOD_COLORS[m], label=METHOD_LABELS[m],
                error_kw={"lw": 0.7})
     ax.set_xticks(x)
@@ -165,7 +176,7 @@ def _hist_panel_compact(ax, df, xmax=0.25, lw=1.7, bins=50):
     ax.set_xlim(0, xmax)
     ax.set_ylim(0, None)
     ax.set_xticks([0, 0.1, 0.2])
-    ax.set_xlabel(r"tissue $\eta^2_{\mathrm{attr}}$")
+    ax.set_xlabel(r"$\eta^2_{\mathrm{attr}}$")
     ax.set_ylabel(r"# pairs ($\times10^3$)")
     ax.margins(y=0.02)
 
@@ -173,14 +184,15 @@ def _hist_panel_compact(ax, df, xmax=0.25, lw=1.7, bins=50):
 def _contam_panel_compact(ax, res_dir, ds, lw=1.0):
     df = pd.read_csv(res_dir / f"{ds}_contamination_at_k.csv")
     x = np.arange(len(KS))
-    slot = 0.235          # spacing between the 4 method bars
-    bw = 0.205            # bar width (< slot -> a little gap between bars)
+    n = len(METHODS)
+    slot = 0.94 / n       # spacing between method bars, scaled to their number
+    bw = slot * 0.87      # bar width (< slot -> a little gap between bars)
     for j, m in enumerate(METHODS):
         sub = df[df["method"] == m]
         means = [sub[sub["K"] == k]["contamination"].mean() for k in KS]
         sems = [sub[sub["K"] == k]["contamination"].std()
                 / np.sqrt(max(1, int((sub["K"] == k).sum()))) for k in KS]
-        ax.bar(x + (j - 1.5) * slot, means, bw, yerr=sems, capsize=1.5,
+        ax.bar(x + (j - (n - 1) / 2) * slot, means, bw, yerr=sems, capsize=1.5,
                color=METHOD_COLORS[m], linewidth=0, error_kw={"lw": 0.6})
     ax.set_xticks(x)
     ax.set_xticklabels([str(k) for k in KS])

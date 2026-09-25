@@ -33,6 +33,7 @@ import numpy as np
 import pandas as pd
 
 HERE = Path(__file__).resolve().parent
+FOLDSYM = HERE.parent / "well_predicted_subset" / "results" / "fold_symmetric_rwt.csv"
 
 ROW_ORDER = ["baseline", "marginal", "residualized", "irm"]
 ROW_LABELS = {
@@ -45,27 +46,59 @@ DS_LABELS = {"depmap": "DepMap (essentiality)",
              "ctrpv2": "CTRPv2 (drug response)"}
 
 
+def _stats(v: np.ndarray) -> dict:
+    n = len(v)
+    return {
+        "mean": float(np.mean(v)) if n else np.nan,
+        "sd": float(np.std(v, ddof=1)) if n > 1 else np.nan,
+        "sem": float(np.std(v, ddof=1) / np.sqrt(n)) if n > 1 else np.nan,
+        "median": float(np.median(v)) if n else np.nan,
+        "n": n,
+    }
+
+
+def foldsym_wt() -> pd.DataFrame:
+    """Within-tissue r, fold-symmetric convention (well_predicted_subset/
+    fold_symmetric_rwt.py): centres y and yhat within (tissue x fold) groups
+    instead of within tissue, which removes the leave-one-fold-out tissue-mean
+    baseline term identically for every method -- no per-method reconstruction
+    convention needed (residualized's `wt_foldsym` already equals its
+    baseline-stripped `wt_foldsym_stripped`). This is the r_wt Table 1 and
+    Table tab:performance_sd both report."""
+    df = pd.read_csv(FOLDSYM)
+    per_item = (df.groupby(["dataset", "item", "method"])["wt_foldsym"]
+                  .mean().reset_index())
+    out = []
+    for (ds, m), g in per_item.groupby(["dataset", "method"]):
+        rec = {"dataset": ds, "method": m}
+        for k, v in _stats(g["wt_foldsym"].dropna().to_numpy()).items():
+            rec[f"wt_{k}"] = v
+        out.append(rec)
+    return pd.DataFrame(out)
+
+
 def aggregate(df: pd.DataFrame) -> pd.DataFrame:
-    """seed-mean per item, then mean / sem / sd / median across items."""
-    cols = ["pearson", "wt_pearson", "wt_pearson_recon"]
+    """seed-mean per item, then mean / sem / sd / median across items.
+
+    Overall r and the (per-tissue-convention) reconstructed within-tissue r
+    come from per_item_pearson.csv; within-tissue r itself comes from the
+    fold-symmetric convention (see foldsym_wt()), not from this file's
+    wt_pearson column.
+    """
+    cols = ["pearson", "wt_pearson_recon"]
     # 1) average over seeds within each (dataset, item, method)
     per_item = (df.groupby(["dataset", "item", "method"])[cols]
                   .mean().reset_index())
     out = []
     for (ds, m), g in per_item.groupby(["dataset", "method"]):
         rec = {"dataset": ds, "method": m}
-        for col, tag in [("pearson", "overall"), ("wt_pearson", "wt"),
-                         ("wt_pearson_recon", "wtrecon")]:
+        for col, tag in [("pearson", "overall"), ("wt_pearson_recon", "wtrecon")]:
             v = g[col].dropna().to_numpy()
-            n = len(v)
-            rec[f"{tag}_mean"] = float(np.mean(v)) if n else np.nan
-            rec[f"{tag}_sd"] = float(np.std(v, ddof=1)) if n > 1 else np.nan
-            rec[f"{tag}_sem"] = (float(np.std(v, ddof=1) / np.sqrt(n))
-                                 if n > 1 else np.nan)
-            rec[f"{tag}_median"] = float(np.median(v)) if n else np.nan
-            rec[f"{tag}_n"] = n
+            for k, val in _stats(v).items():
+                rec[f"{tag}_{k}"] = val
         out.append(rec)
-    return pd.DataFrame(out)
+    agg = pd.DataFrame(out)
+    return agg.merge(foldsym_wt(), on=["dataset", "method"], how="left")
 
 
 def fmt(mean: float, sem: float) -> str:
@@ -107,18 +140,13 @@ def _table_lines(a: pd.DataFrame, spread: str) -> list:
 def make_tex_sd(agg: pd.DataFrame) -> str:
     """Appendix variant: same table, mean +/- SD instead of SEM."""
     a = agg.set_index(["dataset", "method"])
-    n_items = {ds: int(a.loc[(ds, "marginal"), "overall_n"]) for ds in DS_LABELS}
     lines = _table_lines(a, "sd")
     cap = (
         r"  \caption{\textbf{Predictive accuracy with across-item standard "
-        r"deviation.} Identical to Table~\ref{tab:performance}, but each cell reports "
-        r"mean\,$\pm$\,SD across items instead of the SEM "
-        rf"($n={n_items['depmap']}$ targets for DepMap, $n={n_items['ctrpv2']}$ "
-        r"drugs for CTRPv2; seeds averaged within item first). The SD measures "
-        r"item-to-item heterogeneity in predictability and is much larger than "
-        r"the SEM. Because all methods are evaluated on the same items, "
-        r"differences between methods should be read from the paired SEM in "
-        r"Table~\ref{tab:performance}, not from the overlap of these SD ranges.}"
+        r"deviation (SD).} Identical to Table~\ref{tab:performance}, but each "
+        r"cell reports mean\,$\pm$\,SD across items (drugs/knockout targets) "
+        r"instead of the SEM ($n=200$ targets for DepMap, $n=440$ drugs for "
+        r"CTRPv2; seeds averaged within item first).}"
     )
     lines.append(cap)
     lines.append(r"  \label{tab:performance_sd}")
@@ -128,52 +156,18 @@ def make_tex_sd(agg: pd.DataFrame) -> str:
 
 def make_tex(agg: pd.DataFrame) -> str:
     a = agg.set_index(["dataset", "method"])
-    n_items = {ds: int(a.loc[(ds, "marginal"), "overall_n"]) for ds in DS_LABELS}
     lines = _table_lines(a, "sem")
-    rec = a.loc[("ctrpv2", "residualized"), "wtrecon_mean"]
-    rec_dm = a.loc[("depmap", "residualized"), "wtrecon_mean"]
-    # typical across-item SD of the within-tissue r over the trained predictors
-    wt_sds = [a.loc[(ds, m), "wt_sd"]
-              for ds in ("depmap", "ctrpv2")
-              for m in ROW_ORDER if m != "baseline"]
-    sd_typ = sum(wt_sds) / len(wt_sds)
     cap = (
-        r"  \caption{\textbf{Predictive accuracy: overall vs.\ within-tissue "
-        r"Pearson correlation.} Out-of-fold $r$ between the measured response "
-        r"and the model prediction, as mean\,$\pm$\,SEM across items "
-        rf"($n={n_items['depmap']}$ knockout targets for DepMap, "
-        rf"$n={n_items['ctrpv2']}$ drugs for CTRPv2); each item's value is first "
-        r"averaged over the five seeds, and all methods are evaluated on the "
-        r"same items and folds (paired). The within-tissue $r_{\mathrm{wt}}$ "
-        r"centres $y$ and the prediction within each tissue before correlating, "
-        r"removing the between-tissue (lineage) component. Overall $r$ is "
-        r"inflated by tissue structure: the tissue-mean baseline reaches "
-        r"substantial overall $r$ while carrying no within-tissue signal "
-        r"(its negative $r_{\mathrm{wt}}$ is the leave-one-fold-out "
-        r"anti-correlation of held-out tissue means). Every trained predictor "
-        r"sits far above the baseline in $r_{\mathrm{wt}}$, learning genuine "
-        r"within-tissue signal rather than collapsing to lineage. "
-        r"Residualization attains the highest overall \emph{and} within-tissue "
-        r"$r$ -- consistent with its model being trained directly on the "
-        r"within-tissue (residual) signal -- so deconfounding the data costs no "
-        r"predictive accuracy here; IRM is the weaker predictor on both axes. "
-        r"The tissue-mean baseline predicts the per-tissue mean response only. "
-        r"Within-tissue SHAP re-uses the marginal model "
-        r"($\hat y_{\mathrm{within}}\equiv\hat y_{\mathrm{marginal}}$), so its "
-        r"predictive $r$ is identical to Marginal. For residualization the "
-        r"within-tissue $r_{\mathrm{wt}}$ is evaluated on the deconfounded model "
-        r"output $f(X_{\mathrm{res}})=\hat y_{\mathrm{res}}-\hat "
-        r"y_{\mathrm{baseline}}$; the raw reconstructed prediction adds the "
-        r"leave-out tissue mean back (needed only for overall $r$), whose "
-        r"negative within-tissue correlation would otherwise contaminate "
-        rf"$r_{{\mathrm{{wt}}}}$ (giving a misleading {rec:.2f} on CTRPv2, "
-        rf"{rec_dm:.2f} on DepMap). Within-tissue $r_{{\mathrm{{wt}}}}$ is "
-        rf"heterogeneous across items (SD $\approx$ {sd_typ:.1f}; some items "
-        r"predict well, others near zero), but because all methods are compared "
-        r"on the same items, the small SEM reflects the consistent paired "
-        r"difference rather than low heterogeneity. Full per-item SD and the "
-        r"contaminated value (\texttt{wt\_pearson\_recon}) are in "
-        r"\texttt{performance\_table.csv}.}"
+        r"  \caption{Overall vs.\ within-tissue Pearson "
+        r"correlations between the measured response and the model prediction, "
+        r"as mean\,$\pm$\,SEM across items (knockout targets/drugs). Each "
+        r"item's correlation is first averaged over the five seeds. "
+        r"Within-tissue correlation is undefined for the tissue-mean baseline "
+        r"as it has zero variance by construction. "
+        r"Within-tissue SHAP explains the marginal model, so it has no "
+        r"separate entry. For standard deviations, see "
+        r"Table~\ref{tab:performance_sd}. MSE yields the same ranking (see "
+        r"Table~\ref{tab:performance_mse}).}"
     )
     lines.append(cap)
     lines.append(r"  \label{tab:performance}")

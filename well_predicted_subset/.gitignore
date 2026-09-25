@@ -1,0 +1,6 @@
+# Derived: regenerate with run_all.sh. The filtered *_attr_eta2.csv alone are
+# ~385 MB (a row filter on the 190 MB Fig-2 CSVs, one copy per variant).
+results/*/
+preds/
+shadow/
+*.log

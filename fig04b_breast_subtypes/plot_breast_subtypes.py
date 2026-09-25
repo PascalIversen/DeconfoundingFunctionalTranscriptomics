@@ -14,11 +14,14 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 HERE = Path(__file__).resolve().parent
-METHODS = ["marginal", "residualized", "irm", "within_tissue"]
+METHODS = ["marginal", "residualized", "irm", "within_tissue",
+           "dann", "adae"]
 COLORS = {"marginal": "#9aa0a6", "residualized": "#1f77b4",
-          "irm": "#a51e63", "within_tissue": "#2ca02c"}
+          "irm": "#a51e63", "within_tissue": "#2ca02c",
+          "dann": "#B64342", "adae": "#8BCF8B"}
 LABELS = {"marginal": "Marginal", "residualized": "Residualized",
-          "irm": "IRM", "within_tissue": "Within-tissue"}
+          "irm": "IRM", "within_tissue": "Within-tissue",
+          "dann": "DANN", "adae": "AD-AE"}
 NON_EPI = ["Blood", "Lymph", "Muscle", "Bone", "Soft Tissue",
            "Nervous System", "Brain"]
 MIN_DRUGS_PER_TISSUE = 20

@@ -57,35 +57,27 @@ scikit-learn so no new dependencies are introduced.
   η² bias that high-cardinality confounders (subtype, primary disease) otherwise
   enjoy. The floor is `confounding_confounder_compare_null.csv`; the plot falls
   back to raw η² if that file is absent. The solid line marks `Δη² = 0` (the
-  floor); the dotted line marks the `η² = 0.30` contamination threshold. After
-  debiasing, tissue-level confounders (lineage / primary disease / subtype) still
-  dominate both arms, while sex / metastasis collapse to Δη² ≈ 0.
+  floor); the dotted line marks the `η² = 0.30` contamination threshold.
 
   **Caveat on "Tissue (lineage)" for CTRPv2.** For DepMap this row *is* the
   headline tissue, `load_depmap_crispr` literally renames `OncotreeLineage` to
   `tissue`. For CTRPv2 it is **not** the same column: fig05/fig05b use the
   response `tissue`, while fig05c uses `OncotreeLineage` from the RRID join (so
   all 7 confounders share one source). The two correspond closely but are not
-  identical, on the matched lines, exact label match is only 45% (different
-  vocabularies: Colon↔Bowel, Brain↔CNS/Brain, …) yet the *partitions* agree
-  (adjusted Rand 0.83; homogeneity/completeness 0.93). The real splits are
-  Blood → Lymphoid + Myeloid, and the mesenchymal Soft Tissue / Muscle lines.
+  identical (different vocabularies: Colon↔Bowel, Brain↔CNS/Brain, …; also
+  Blood → Lymphoid + Myeloid, and the mesenchymal Soft Tissue / Muscle lines).
 - **`fig05d_classifier_per_tissue`**, the Arm-1 linear tissue classifier broken
   out **per tissue**: a beeswarm (one point = one tissue) of its accuracy,
   averaged over the same stratified 5-fold CV, for each dataset. The solid bar is
-  the median tissue (DepMap 0.73, CTRPv2 0.62), the dotted bar is chance
-  (1 / #tissues ≈ 0.04). It shows the headline classifier lift is not carried by a
-  couple of easy lineages, almost every tissue is recovered well above chance.
+  the median tissue, the dotted bar is chance (1 / #tissues).
   Driven by a **separate** compute step (see below) so it leaves the six main
   CSVs untouched; sized to half the width of `fig05` (one histogram column).
 - **`fig05e_outcome_significance`**, the Arm-2 significance, broken out
   **per outcome**: a −log10(p) strip (one point = one drug/target's Welch-ANOVA
   p) per dataset, with the solid bar at the median and a dashed bar at each
   dataset's **Bonferroni** cutoff (α/mᵢ). The box reports how many outcomes
-  survive that correction, **DepMap 162/200 (81%)**, **CTRPv2 333/440 (76%)**,
-  down only modestly from the uncorrected 91%, so the tissue → outcome arm holds
-  under the most conservative multiple-testing correction. The plain α=0.05 line
-  is omitted on purpose (at −log10 it sits ~2.6 below the Bonferroni cutoff, too
+  survive that correction. The plain α=0.05 line
+  is omitted on purpose (at −log10 it sits well below the Bonferroni cutoff, too
   close to read); Bonferroni is the significance reported from now on. Reads the
   same `confounding_outcome_eta2.csv` / `confounding_summary.csv` as `fig05`;
   sized like `fig05d`.
@@ -93,24 +85,11 @@ scikit-learn so no new dependencies are introduced.
 ### fig05b PCA: what "other" means
 
 The PCA scatter colours the **10 most populated tissues** per dataset and greys
-out the rest as **"other"**. The split (from the bundled `results/`):
-
-**DepMap**, coloured top-10: Lung, Lymphoid, CNS/Brain, Skin,
-Esophagus/Stomach, Head and Neck, Bowel, Ovary/Fallopian Tube, Breast,
-Pancreas. *"other"* (19 lineages, 389 cells): Soft Tissue, Myeloid, Peripheral
-Nervous System, Biliary Tract, Bladder/Urinary Tract, Uterus, Bone, Kidney,
-Liver, Pleura, Cervix, Eye, Thyroid, Prostate, Ampulla of Vater, Testis,
-Vulva/Vagina, Fibroblast, Adrenal Gland.
-
-**CTRPv2**, coloured top-10: Lung, Blood, Lymph, Colon, Brain, Skin, Breast,
-Pancreas, Ovary, Stomach. *"other"* (13 tissues, 231 cells): Head And Neck,
-Liver, Uterus, Esophagus, Bladder, Kidney, Bone, Nervous System, Muscle, Soft
-Tissue, Thyroid, Prostate, Cervix.
-
-(The two datasets use different tissue label vocabularies, DepMap is
-`Model.csv` `OncotreeLineage`, CTRPv2 is the response `tissue` column, so the
-names differ even where the biology corresponds, e.g. Lymphoid ≈ Lymph,
-CNS/Brain ≈ Brain, Bowel ≈ Colon.)
+out the rest as **"other"**; the exact split is written to `results/confounding_pca.csv`.
+The two datasets use different tissue label vocabularies (DepMap is `Model.csv`
+`OncotreeLineage`, CTRPv2 is the response `tissue` column), so the tissue names
+differ even where the biology corresponds (e.g. Lymphoid ≈ Lymph, CNS/Brain ≈
+Brain, Bowel ≈ Colon).
 
 ## Layout
 
@@ -204,11 +183,9 @@ still render.
 
 - **fig05c group-size filter.** High-cardinality confounders mechanically
   explain more variance, so for the confounder *comparison* only, groups with
-  fewer than `--min-group` (default 5) samples are dropped. Even after this,
-  `OncotreeSubtype` (most categories) sits highest, read the comparison as
-  *which kinds of grouping* carry signal (tissue-level: a lot; demographic /
-  handling: almost none), not as a calibrated ranking between the three
-  Oncotree levels.
+  fewer than `--min-group` (default 5) samples are dropped. Read the comparison
+  as *which kinds of grouping* carry signal, not as a calibrated ranking between
+  the three Oncotree levels.
 - **fig05 panel letters.** The `a`/`b`/`c`/`d` prefixes on the four η² histogram
   titles are gated behind `SHOW_PANEL_LETTERS` (top of `plot_confounding.py`),
   currently `False` (dropped for now). Set it back to `True` to restore them, no

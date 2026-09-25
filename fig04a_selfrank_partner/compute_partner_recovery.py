@@ -24,7 +24,7 @@ from scipy import stats
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 from recovery_utils import (  # noqa: E402
-    OUT, SEEDAVG, METHODS, bh_intersection, load_gmt, curated_partners,
+    OUT, SEEDAVG, METHODS, bh_intersection, load_gmt, curated_partners, load_preds,
     load_chronos_and_tissue, tissue_residualize, string_graph,
     coess_abs_r, auroc, GS)
 
@@ -65,7 +65,7 @@ def main():
     print(f"[{args.label}] {len(targets)} targets, preds={preds}")
     rows = []
     for target in targets:
-        npz = np.load(preds / f"{target}.npz")
+        npz = load_preds(preds / f"{target}.npz")
         gene_cols, imps = importances_from_preds(npz)
         if imps is None:
             continue
@@ -107,7 +107,7 @@ def main():
         piv = df.pivot_table(index="target", columns="method", values=gt)
         for setname, S in [("ALL", set(piv.index)), ("INTER", inter)]:
             base = piv.loc[[i for i in piv.index if i in S]]
-            for m in ["residualized", "within_tissue", "irm"]:
+            for m in [x for x in METHODS if x != "marginal"]:
                 if m not in base or "marginal" not in base:
                     continue
                 sub = base[["marginal", m]].dropna()

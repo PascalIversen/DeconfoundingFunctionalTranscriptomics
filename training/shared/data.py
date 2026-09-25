@@ -416,12 +416,16 @@ def load_ccle_expression(gene_list: str = "panel_ctrpv2",
 
 
 def build_ctrpv2_per_drug(drug: str, response: pd.DataFrame,
-                          expr: pd.DataFrame
+                          expr: pd.DataFrame, return_ids: bool = False
                           ) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
+    """Per-drug design matrix. With `return_ids=True` also returns the
+    cellosaurus IDs in row order (used to key the AD-AE encoder cache)."""
     sub = response[response["drug_name"] == drug].dropna(
         subset=["cellosaurus_id"])
     sub = sub[sub["cellosaurus_id"].isin(expr.index)]
     X = expr.loc[sub["cellosaurus_id"]].values.astype(np.float32)
     y = sub["LN_IC50"].values.astype(np.float32)
     T = sub["tissue"].values.astype(str)
+    if return_ids:
+        return X, y, T, sub["cellosaurus_id"].astype(str).tolist()
     return X, y, T

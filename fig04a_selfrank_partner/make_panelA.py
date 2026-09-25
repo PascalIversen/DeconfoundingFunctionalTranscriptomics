@@ -38,11 +38,17 @@ PALETTE = {
 }
 COL = {"residualized": PALETTE["blue_secondary"],
        "within_tissue": PALETTE["teal"],
-       "irm": PALETTE["violet"]}
+       "irm": PALETTE["violet"],
+       "dann": PALETTE.get("red_strong", "#B64342"),
+       "adae": PALETTE.get("green_3", "#8BCF8B")}
 LAB = {"residualized": "Residualized",
        "within_tissue": "Within-tissue",
-       "irm": "IRM"}
-METHODS3 = ["residualized", "within_tissue", "irm"]
+       "irm": "IRM",
+       "dann": "DANN",
+       "adae": "AD-AE"}
+# Deconfounding methods compared against the marginal baseline, driven by
+# whichever methods the recovery CSVs actually contain.
+DECONF_METHODS = ["residualized", "within_tissue", "irm", "dann", "adae"]
 
 GT_ORDER = ["string", "CORUM", "RANDOM"]
 GT_LAB = {"string": "STRING (1-hop)", "CORUM": "CORUM complexes",
@@ -84,12 +90,12 @@ def make(self_summ, part_summ, outstem, set_filter: str = "INTER"):
 
     gts_used = [g for g in GT_ORDER if g in set(part_summ.ground_truth)]
     keys, p_raw = [], []
-    for m in METHODS3:
+    for m in DECONF_METHODS:
         r = self_summ[self_summ.method == m]
         if len(r):
             keys.append(("self", None, m)); p_raw.append(r["wilcoxon_p"].iloc[0])
     for g in gts_used:
-        for m in METHODS3:
+        for m in DECONF_METHODS:
             r = part_summ[(part_summ.ground_truth == g) & (part_summ.method == m)]
             if len(r):
                 keys.append(("part", g, m)); p_raw.append(r["wilcoxon_p"].iloc[0])
@@ -101,21 +107,23 @@ def make(self_summ, part_summ, outstem, set_filter: str = "INTER"):
         q_arr[finite] = q_finite
     q_by = {k: q_arr[i] for i, k in enumerate(keys)}
 
-    fig_w = 8.6 + 0.7 * max(0, len(gts_used) - 3)
+    fig_w = 8.6 + 0.7 * max(0, len(gts_used) - 3) + 0.45 * max(0, len(DECONF_METHODS) - 3)
     fig = plt.figure(figsize=(fig_w, 4.4))
-    gs = fig.add_gridspec(1, 2, width_ratios=[0.32, 1.0], wspace=0.30)
+    gs = fig.add_gridspec(1, 2,
+                          width_ratios=[0.32 + 0.09 * max(0, len(DECONF_METHODS) - 3), 1.0],
+                          wspace=0.30)
     axS = fig.add_subplot(gs[0, 0])
     axP = fig.add_subplot(gs[0, 1])
 
     # ---- self / target rank: Δ vs Marginal ----
     deltas, dses, ps = [], [], []
-    for m in METHODS3:
+    for m in DECONF_METHODS:
         r = self_summ[self_summ.method == m]
         deltas.append(r["delta"].iloc[0] if len(r) else np.nan)
         dses.append(r["delta_sem"].iloc[0] if (len(r) and "delta_sem" in r.columns) else np.nan)
         ps.append(q_by.get(("self", None, m), np.nan))
-    xs = np.arange(len(METHODS3))
-    axS.bar(xs, deltas, 0.7, color=[COL[m] for m in METHODS3],
+    xs = np.arange(len(DECONF_METHODS))
+    axS.bar(xs, deltas, 0.7, color=[COL[m] for m in DECONF_METHODS],
             yerr=dses, capsize=3.0,
             error_kw={"elinewidth": 1.1, "ecolor": PALETTE["neutral_dark"]})
     axS.axhline(0.0, color=PALETTE["neutral_dark"], lw=0.7, zorder=0)
@@ -128,7 +136,10 @@ def make(self_summ, part_summ, outstem, set_filter: str = "INTER"):
             axS.text(xi, top + 0.004, stars(p), ha="center", va="bottom",
                      fontsize=8, color=PALETTE["neutral_dark"])
     axS.set_xticks(xs)
-    axS.set_xticklabels(["Resid", "Within", "IRM"], fontsize=8)
+    SHORT = {"residualized": "Resid", "within_tissue": "Within",
+             "irm": "IRM", "dann": "DANN", "adae": "AD-AE"}
+    axS.set_xticklabels([SHORT.get(m, m) for m in DECONF_METHODS], fontsize=7.5,
+                        rotation=30, ha="right")
     axS.set_xlabel(f"Self / target rank\nmarg AUROC = {sr_marg:.3f}",
                    fontsize=8.2, labelpad=8)
     axS.set_ylabel("Δ Self-recovery AUROC  (vs Marginal)", fontsize=9)
@@ -136,19 +147,23 @@ def make(self_summ, part_summ, outstem, set_filter: str = "INTER"):
     # ---- partner recovery: Δ vs Marginal, grouped by ground truth ----
     gts = gts_used
     x = np.arange(len(gts))
-    w = 0.26
+    # Scale bar geometry to the method count: a fixed w=0.26 centred on j-1
+    # assumes three methods and makes five span 1.3 units, overflowing into
+    # the neighbouring ground-truth group.
+    nm = len(DECONF_METHODS)
+    w = 0.86 / nm
     marg_per_gt = {g: part_summ[part_summ.ground_truth == g]["marg_mean"].iloc[0]
                    for g in gts}
 
     all_lo, all_hi = 0.0, 0.0
-    for j, m in enumerate(METHODS3):
+    for j, m in enumerate(DECONF_METHODS):
         deltas, dses, ps = [], [], []
         for g in gts:
             r = part_summ[(part_summ.ground_truth == g) & (part_summ.method == m)]
             deltas.append(r["delta"].iloc[0] if len(r) else np.nan)
             dses.append(r["delta_sem"].iloc[0] if (len(r) and "delta_sem" in r.columns) else np.nan)
             ps.append(q_by.get(("part", g, m), np.nan))
-        xs = x + (j - 1) * w
+        xs = x + (j - (nm - 1) / 2) * w
         axP.bar(xs, deltas, w, color=COL[m], label=LAB[m],
                 yerr=dses, capsize=2.5,
                 error_kw={"elinewidth": 1.0, "ecolor": PALETTE["neutral_dark"]})

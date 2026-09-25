@@ -26,10 +26,17 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-METHODS = ["marginal", "residualized", "irm", "within_tissue"]
+METHODS = ["marginal", "residualized", "irm", "within_tissue",
+           "dann", "adae"]
 KS = [10, 50, 100]
 TAU = 0.30
 HERE = Path(__file__).resolve().parent
+
+# Adversarial baselines (DANN / AD-AE) live in a sibling "*_extra" directory so
+# the published prediction bundle stays untouched; load_preds merges them in.
+import sys as _sys
+_sys.path.insert(0, str(HERE.parent / "training"))
+from shared.preds_io import load_preds  # noqa: E402
 
 
 def find_data_root(start: Path) -> Path:
@@ -88,7 +95,7 @@ def ctrpv2_expr_eta2(data, genes, train_dir):
 def contamination_rows(preds_dir, L_set):
     rows = []
     for f in sorted(glob.glob(f"{preds_dir}/*.npz")):
-        d = np.load(f, allow_pickle=True)
+        d = load_preds(f)
         genes = d["gene_cols"]
         item = Path(f).stem
         for m in METHODS:
@@ -122,7 +129,7 @@ def main():
         preds = a.preds_root / f"{ds}_seed{a.seed}_preds"
         if not preds.exists():
             print(f"skip {ds}: {preds} missing"); continue
-        d0 = np.load(sorted(glob.glob(f"{preds}/*.npz"))[0], allow_pickle=True)
+        d0 = load_preds(sorted(glob.glob(f"{preds}/*.npz"))[0])
         genes = list(d0["gene_cols"])
         eta = (depmap_expr_eta2(data, genes) if ds == "depmap"
                else ctrpv2_expr_eta2(data, genes, a.train_dir))

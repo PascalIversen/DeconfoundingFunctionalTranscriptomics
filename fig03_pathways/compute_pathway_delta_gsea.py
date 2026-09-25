@@ -45,8 +45,9 @@ from pathway_utils import importance_from_npz, load_gmt          # noqa: E402
 import gseapy as gp                                              # noqa: E402
 
 GS = HERE / "gene_sets"
-ALL_METHODS = ["marginal", "residualized", "irm", "within_tissue"]
-DECONF = ["residualized", "irm", "within_tissue"]
+ALL_METHODS = ["marginal", "residualized", "irm", "within_tissue",
+               "dann", "adae"]
+DECONF = ["residualized", "irm", "within_tissue", "dann", "adae"]
 N_PERM = 10000
 
 # Human Gene Atlas mixes normal tissues with immortalised cancer lines whose markers
@@ -78,6 +79,11 @@ def aggregate_percentiles(preds_dir: Path) -> tuple:
     files = sorted(preds_dir.glob("*.npz"))
     genes = None
     acc = {m: None for m in ALL_METHODS}
+    # Count items per method, not globally: a method present for only some
+    # items (e.g. a partially-fetched extras bundle) would otherwise have its
+    # mean percentile diluted by the items it is missing from, which looks
+    # like demotion rather than absence.
+    cnt = {m: 0 for m in ALL_METHODS}
     n = 0
     for f in files:
         gene_cols, imps = importance_from_npz(f, ALL_METHODS)
@@ -87,8 +93,14 @@ def aggregate_percentiles(preds_dir: Path) -> tuple:
         for m in ALL_METHODS:
             if m in imps:
                 acc[m] += rankdata(np.nan_to_num(imps[m])) / len(genes)
+                cnt[m] += 1
         n += 1
-    return genes, {m: acc[m] / n for m in ALL_METHODS}, n
+    for m in ALL_METHODS:
+        if cnt[m] and cnt[m] != n:
+            print(f"  note: {m} present for {cnt[m]}/{n} items")
+    return (genes,
+            {m: (acc[m] / cnt[m] if cnt[m] else acc[m]) for m in ALL_METHODS},
+            n)
 
 
 def run_dataset(dataset: str, preds_dir: Path, exclude: set, n_perm: int) -> pd.DataFrame:
@@ -101,6 +113,9 @@ def run_dataset(dataset: str, preds_dir: Path, exclude: set, n_perm: int) -> pd.
     gene_sets = {k: v for k, v in {**hga, **kegg, **hall}.items() if k not in exclude}
     rows = []
     for m in DECONF:
+        if not np.any(pct[m]):
+            print(f"  skip {m}: no attributions found")
+            continue
         delta = pct[m] - pct["marginal"]
         rnk = (pd.DataFrame({"gene": genes, "score": delta})
                .sort_values("score", ascending=False))

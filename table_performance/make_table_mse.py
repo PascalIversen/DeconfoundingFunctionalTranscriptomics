@@ -23,12 +23,14 @@ import pandas as pd
 
 HERE = Path(__file__).resolve().parent
 
-ROW_ORDER = ["baseline", "marginal", "residualized", "irm"]
+ROW_ORDER = ["baseline", "marginal", "residualized", "irm", "dann", "adae"]
 ROW_LABELS = {
     "baseline":     r"Tissue-mean baseline",
     "marginal":     r"Marginal / Within-tissue SHAP",
     "residualized": r"Residualized",
     "irm":          r"IRM",
+    "dann":         r"DANN (gradient reversal)",
+    "adae":         r"AD-AE",
 }
 DS_LABELS = {"depmap": "DepMap (essentiality)",
              "ctrpv2": "CTRPv2 (drug response)"}

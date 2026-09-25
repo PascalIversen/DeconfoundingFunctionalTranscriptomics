@@ -20,12 +20,15 @@ import pandas as pd
 
 HERE = Path(__file__).resolve().parent
 PALETTE = {"blue_main": "#0F4D92", "teal": "#42949E", "violet": "#9A4D8E",
-           "neutral_mid": "#767676"}
+           "neutral_mid": "#767676", "red_strong": "#B64342",
+           "green_3": "#8BCF8B"}
 COL = {"marginal": PALETTE["neutral_mid"], "residualized": PALETTE["blue_main"],
        "irm": PALETTE["violet"], "within_tissue": PALETTE["teal"],
+       "dann": PALETTE["red_strong"], "adae": PALETTE["green_3"],
        "between_tissue": "#111111"}
 LAB = {"marginal": "Marginal", "residualized": "Residualized", "irm": "IRM",
-       "within_tissue": "Within-tissue", "between_tissue": "Tissue-only (ceiling)"}
+       "within_tissue": "Within-tissue", "dann": "DANN", "adae": "AD-AE",
+       "between_tissue": "Tissue-only (ceiling)"}
 M = ["marginal", "residualized", "irm", "within_tissue", "between_tissue"]
 TITLE = {"depmap": "DepMap (essentiality)", "ctrpv2": "CTRPv2 (drug response)"}
 
@@ -60,7 +63,7 @@ def plot(res_dir: Path, out_dir: Path, stem: str):
             s = df[(df.dataset == ds) & (df.method == m)].set_index("tau")
             means = [s.loc[t, "auroc"] for t in taus]
             errs = [s.loc[t, "sem"] for t in taus]
-            ax.bar(x + (j - 2) * w, means, w, yerr=errs, capsize=2,
+            ax.bar(x + (j - (len(M) - 1) / 2) * w, means, w, yerr=errs, capsize=2,
                    color=COL[m], label=LAB[m], error_kw={"lw": 0.7})
         ax.set_xticks(x)
         ax.set_xticklabels(
@@ -84,9 +87,14 @@ def parse_args():
     p.add_argument("--res-dir", type=Path, default=HERE / "results")
     p.add_argument("--out-dir", type=Path, default=HERE / "figures")
     p.add_argument("--stem", default="fig_auroc_tau")
+    p.add_argument("--include-adv", action="store_true",
+                   help="also plot the DANN/AD-AE bars; off by default so "
+                        "this reproduces the published figure.")
     return p.parse_args()
 
 
 if __name__ == "__main__":
     a = parse_args()
+    if a.include_adv:
+        M[3:3] = ["dann", "adae"]  # keep within_tissue/between_tissue last
     plot(a.res_dir, a.out_dir, a.stem)

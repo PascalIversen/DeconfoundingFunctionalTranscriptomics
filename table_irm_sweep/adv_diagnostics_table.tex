@@ -1,0 +1,28 @@
+\begin{table}[t]
+  \centering
+  \footnotesize
+  \begin{tabular}{l cc cc}
+    \toprule
+    & \multicolumn{2}{c}{DepMap} & \multicolumn{2}{c}{CTRPv2} \\
+    \cmidrule(lr){2-3}\cmidrule(lr){4-5}
+    & confounder acc. & chance & confounder acc. & chance \\
+    \midrule
+    DANN, $\lambda=0$ & 0.246 & 0.111 & 0.298 & 0.192 \\
+    DANN, $\lambda=0.1$ & 0.126 & 0.111 & 0.271 & 0.192 \\
+    DANN, $\lambda=1$ & 0.110 & 0.111 & 0.192 & 0.192 \\
+    DANN, $\lambda=10$ & 0.075 & 0.111 & 0.144 & 0.192 \\
+    DANN, $\lambda=100$ & 0.065 & 0.111 & 0.101 & 0.192 \\
+    DANN, $\lambda=1000$ & 0.064 & 0.111 & 0.086 & 0.192 \\
+    \addlinespace
+    AD-AE, $\lambda=0$ & 0.651 & 0.111 & 0.641 & 0.192 \\
+    AD-AE, $\lambda=0.1$ & 0.380 & 0.111 & 0.361 & 0.192 \\
+    AD-AE, $\lambda=1$ & 0.210 & 0.111 & 0.365 & 0.192 \\
+    AD-AE, $\lambda=10$ & 0.162 & 0.111 & 0.303 & 0.192 \\
+    AD-AE, $\lambda=100$ & 0.155 & 0.111 & 0.300 & 0.192 \\
+    AD-AE, $\lambda=1000$ & 0.205 & 0.111 & 0.312 & 0.192 \\
+    \addlinespace
+    \bottomrule
+  \end{tabular}
+  \caption{\textbf{The adversaries were beaten; the attributions were not cleaned.} Held-out accuracy of each method's own confounder predictor (DANN's domain classifier, AD-AE's adversary) at the end of training, against the majority-tissue rate it would achieve by ignoring the representation. DANN reaches chance already at $\lambda=1$; AD-AE's adversary is reduced but stays above chance at every $\lambda$, so a weak effect on the attribution metrics in Table~\ref{tab:adv_sweep} is unambiguous for DANN and cannot fully rule out an undertrained adversary for AD-AE.}
+  \label{tab:adv_diagnostics}
+\end{table}

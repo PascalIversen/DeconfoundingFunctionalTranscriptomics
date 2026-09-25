@@ -19,7 +19,14 @@ import pandas as pd
 from sklearn.metrics import roc_auc_score
 
 HERE = Path(__file__).resolve().parent
-METHODS = ["marginal", "residualized", "irm", "within_tissue", "between_tissue"]
+
+# Adversarial baselines (DANN / AD-AE) live in a sibling "*_extra" directory so
+# the published prediction bundle stays untouched; load_preds merges them in.
+import sys as _sys
+_sys.path.insert(0, str(HERE.parent / "training"))
+from shared.preds_io import load_preds  # noqa: E402
+METHODS = ["marginal", "residualized", "irm", "within_tissue",
+           "between_tissue", "dann", "adae"]
 TAUS = [0.3, 0.4, 0.5, 0.6, 0.7]
 
 
@@ -85,7 +92,7 @@ def main():
         eta = eta2_expr(data, genes, ds, a.train_dir); ok = np.isfinite(eta)
         imps = {m: [] for m in METHODS}
         for f in fs:
-            d = np.load(f, allow_pickle=True)
+            d = load_preds(f)
             for m in METHODS:
                 imps[m].append(np.nanmean(np.abs(d[f"shap_{m}"].astype(np.float32)), 0)
                                if f"shap_{m}" in d.files else None)
