@@ -10,7 +10,9 @@ Nothing here writes outside `well_predicted_subset/`. Reproduce with
 
 `wt_subset.py` reimplements the A.6.1 filter from `results/{ds}_within_tissue_pvals.csv`
 (median one-sided within-tissue-r p over the five seeds, BH-FDR q<0.05 per model) and
-extends it to CTRPv2, which A.6.1 never covered:
+extends it to CTRPv2, which A.6.1 never covered. `{ds}_within_tissue_pvals.csv` ships
+as part of the published predictions bundle; there is no script in this repo that
+regenerates it from scratch.
 
 | variant | definition |
 |---|---|

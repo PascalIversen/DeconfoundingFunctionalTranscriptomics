@@ -67,5 +67,5 @@ with fewer cell lines per tissue, between-tissue variance is estimated with
 more noise and η² is biased upward.
 
 Once both datasets have run, `python make_table_other_explainers.py` pools
-`results/xai_comparison_combined.csv` over both datasets and writes
+`results/xai_comparison_{depmap,ctrpv2}.csv` in memory and writes
 `other_explainers_table.tex`, the rows behind Table `tab:other_explainers`.
